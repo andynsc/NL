@@ -1,0 +1,12 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="save" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="8c572826-bc22-44a5-af61-ef882c3182bd" weightsEnabled="false">
+    <weighted-embedded-action uid="c0c68b55-e5d4-4fe4-b2b8-76f9c5165f06"/>
+    <weighted-embedded-action uid="21ec1c13-eccb-4ad9-88c4-3f2dd777167a"/>
+    <weighted-embedded-action uid="86593197-03e9-4afc-b948-64e9de4216fe"/>
+    <weighted-embedded-action uid="758ad659-920b-4617-8ebc-720c7e4c86c7"/>
+    <weighted-embedded-action uid="f977e61d-6629-4faf-935e-fa072180ef78"/>
+    <weighted-embedded-action uid="a5101b4b-ee76-454c-8891-1bc68a01ee7a"/>
+    <weighted-embedded-action uid="270e2ccf-1d34-4339-93d7-ee5c9e45b19a"/>
+</basic-logical-action-container>

@@ -1,0 +1,114 @@
+<connection-dynatrace interval="30000" name="JPetStore Training App"
+    server-port="0" uid="8d17f5ea-6d31-4db9-a9a7-f25bcc8b2801">
+    <monitor-category name="builtin" short-display-name="builtin">
+        <monitor-category name="host" short-display-name="host">
+            <monitor-category name="cpu" short-display-name="cpu">
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.cpu.system" entity-id=""
+                    entity-types="HOST" format="NUMBER"
+                    name="builtin:host.cpu.system" sampling="0"
+                    short-display-name="CPU system" unit="%">
+                    <description>Average CPU system time over the last period</description>
+                </monitor-dynatrace>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.cpu.user" entity-id=""
+                    entity-types="HOST" format="NUMBER"
+                    name="builtin:host.cpu.user" sampling="0"
+                    short-display-name="CPU user" unit="%">
+                    <description>Average CPU user time over the last period</description>
+                </monitor-dynatrace>
+            </monitor-category>
+            <monitor-category name="mem" short-display-name="mem">
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.mem.total" entity-id=""
+                    entity-types="HOST" format="NUMBER"
+                    name="builtin:host.mem.total" sampling="0"
+                    short-display-name="Memory total" unit="B">
+                    <description>Amount of total memory</description>
+                </monitor-dynatrace>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:host.mem.used" entity-id=""
+                    entity-types="HOST" format="NUMBER"
+                    name="builtin:host.mem.used" sampling="0"
+                    short-display-name="Memory used" unit="B">
+                    <description>Amount of memory used</description>
+                </monitor-dynatrace>
+                <monitor-category name="swap" short-display-name="swap">
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:host.mem.swap.avail"
+                        entity-id="" entity-types="HOST" format="NUMBER"
+                        name="builtin:host.mem.swap.avail" sampling="0"
+                        short-display-name="Swap available" unit="B">
+                        <description>Amount of swap available</description>
+                    </monitor-dynatrace>
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:host.mem.swap.total"
+                        entity-id="" entity-types="HOST" format="NUMBER"
+                        name="builtin:host.mem.swap.total" sampling="0"
+                        short-display-name="Swap total" unit="B">
+                        <description>Amount of total swap for use</description>
+                    </monitor-dynatrace>
+                    <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                        dynatrace-id="builtin:host.mem.swap.used"
+                        entity-id="" entity-types="HOST" format="NUMBER"
+                        name="builtin:host.mem.swap.used" sampling="0"
+                        short-display-name="Swap used" unit="B">
+                        <description>Amount of swap used</description>
+                    </monitor-dynatrace>
+                </monitor-category>
+            </monitor-category>
+        </monitor-category>
+        <monitor-category name="service" short-display-name="service">
+            <monitor-category name="dbconnections" short-display-name="dbconnections">
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:service.dbconnections.failure"
+                    entity-id="" entity-types="SERVICE" format="NUMBER"
+                    name="builtin:service.dbconnections.failure"
+                    sampling="0" short-display-name="Failed connections" unit=""/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:service.dbconnections.failureRate"
+                    entity-id="" entity-types="SERVICE" format="NUMBER"
+                    name="builtin:service.dbconnections.failureRate"
+                    sampling="0"
+                    short-display-name="Connection failure rate" unit="%"/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:service.dbconnections.success"
+                    entity-id="" entity-types="SERVICE" format="NUMBER"
+                    name="builtin:service.dbconnections.success"
+                    sampling="0"
+                    short-display-name="Successful connections" unit=""/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:service.dbconnections.successRate"
+                    entity-id="" entity-types="SERVICE" format="NUMBER"
+                    name="builtin:service.dbconnections.successRate"
+                    sampling="0"
+                    short-display-name="Connection success rate" unit="%"/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:service.dbconnections.total"
+                    entity-id="" entity-types="SERVICE" format="NUMBER"
+                    name="builtin:service.dbconnections.total"
+                    sampling="0"
+                    short-display-name="Total number of connections" unit=""/>
+            </monitor-category>
+            <monitor-category name="requestCount" short-display-name="requestCount">
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:service.requestCount.client"
+                    entity-id="" entity-types="SERVICE" format="NUMBER"
+                    name="builtin:service.requestCount.client"
+                    sampling="0"
+                    short-display-name="Request count - client" unit=""/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:service.requestCount.server"
+                    entity-id="" entity-types="SERVICE" format="NUMBER"
+                    name="builtin:service.requestCount.server"
+                    sampling="0"
+                    short-display-name="Request count - server" unit=""/>
+                <monitor-dynatrace callTime="ON_BENCH" computing="0"
+                    dynatrace-id="builtin:service.requestCount.total"
+                    entity-id="" entity-types="SERVICE" format="NUMBER"
+                    name="builtin:service.requestCount.total"
+                    sampling="0" short-display-name="Request count" unit=""/>
+            </monitor-category>
+        </monitor-category>
+    </monitor-category>
+</connection-dynatrace>

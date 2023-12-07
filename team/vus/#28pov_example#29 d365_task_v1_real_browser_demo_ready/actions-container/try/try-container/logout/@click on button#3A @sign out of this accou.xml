@@ -1,0 +1,25 @@
+<browser-action actionType="BrowserClick" isHit="false"
+    name="Click on button: Sign out of this accou" uid="7cb74ba4-611d-4282-a4e4-e2bb4cfe968c">
+    <description>Click a selector.
+
+Possible parameters are:&#xd;
+- selector (optional): The selector is a string that point to the elements in the page. Several types of selector are supported: text, CSS, XPath...
+	You can specify several selectors by adding multiple "selector" parameters to this action. The targeted element will match any of the selectors (OR operator). If no selector is defined, the click will occur at the point defined in the last previous Mouse Over action.&#xd;
+- force (optional): true or false. Forces the click, even if the target element is obscured by other elements. Default value is "false".&#xd;
+- mouseButton (optional): LEFT, MIDDLE, RIGHT, BACK or FORWARD. Default to LEFT.&#xd;
+- doubleClick (optional): true or false. Performs a double click. Default value is "false".&#xd;
+- modifiers (optional): Modifier keys to press separated by "+" like Control+Shift.&#xd;
+- timeout (optional): Forces the timeout for that action in ms. By default the OpenBrowser defaultTimeout is used.&#xd;
+- frameIndex (optional): Frame index. Takes priority over frameName parameter.&#xd;
+- frameName (optional): Frame name.&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.until (optional): Allowed values are : LOAD, DOMCONTENTLOADED, NETWORKIDLE, COMMIT. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.</description>
+    <custom-action-parameter name="selector" type="TEXT" value="[aria-label=&quot;Sign out of this account&quot;]"/>
+    <custom-action-parameter name="selector" type="TEXT" value="button:text-is(&quot;Sign out&quot;)"/>
+    <custom-action-parameter name="selector" type="TEXT" value="div > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(4)"/>
+    <custom-action-parameter name="waitForNavigation.url" type="TEXT" value=".*"/>
+    <responsePageFileDescription>recorded-responses/res_7cb74ba4-611d-4282-a4e4-e2bb4cfe968c</responsePageFileDescription>
+    <screenshotFileDescription>recorded-screenshots/sc_7cb74ba4-611d-4282-a4e4-e2bb4cfe968c.jpg</screenshotFileDescription>
+    <embedded-action>110d224f-819f-49b3-92af-bb1f594a1916</embedded-action>
+</browser-action>

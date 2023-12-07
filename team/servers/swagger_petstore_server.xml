@@ -1,0 +1,5 @@
+<http-server hostname="${swagger_petstore_server_host}" port="443"
+    ssl="true" uid="swagger_petstore_server"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

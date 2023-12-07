@@ -1,0 +1,23 @@
+<custom-action actionType="Send To Queue" isHit="true"
+    name="queue_-_send msg 2" uid="c4953bb7-2f61-4846-840d-8b1a6eb08c96">
+    <description>Sends a message to a queue.
+
+Possible parameters are:&#xd;
+- queue (required): The JNDI name of the queue.&#xd;
+- messageType (required): Text or Bytes. Default value is "Text".&#xd;
+- textContent (optional): The message content.&#xd;
+- contentFile.path (optional): The path of the content file. Use the variable '${NL-CustomResources}' to access on the Load Generator the synchronized resources located in the 'custom-resources' folder of the project.&#xd;
+- contentFile.charset (optional): The charset of the file.&#xd;
+- contentFile.parse (optional): Whether to parse the file to replace variables. Default value is "false".&#xd;
+- expiration (optional): The expiration time (in ms) before the message becomes obsolete. When set to default value (0) the message does not expire. Default value is "0".&#xd;
+- priority (optional): The priority of the message. Default value is "4".&#xd;
+- persistentDeliveryMode (optional): Whether or not to set DeliveryMode.NON_PERSISTENT.&#xd;
+- properties (optional): You can setup the name, the value and the class (type) of value. Default type is String. The value must follow the pattern name=[class]value separated by '\n'. Example : size=[java.lang.Integer]150. One line per property.&#xd;
+- customDeliveryMode (optional): This integer parameter allows to set a custom delivery mode, as 22 for RELIABLE in TIBCO. When using this parameter, parameter persistentDeliveryMode is ignored. Default value is "true".</description>
+    <custom-action-parameter name="queue" type="TEXT" value="DEV.QUEUE.1"/>
+    <custom-action-parameter name="messageType" type="TEXT" value="Text"/>
+    <custom-action-parameter name="textContent" type="TEXT" value="...Followed by Another :)"/>
+    <custom-action-parameter name="contentFile.path" type="TEXT" value=""/>
+    <custom-action-parameter name="properties" type="TEXT" value="JMSCorrelationID=456"/>
+    <responsePageFileDescription>recorded-responses/res_c4953bb7-2f61-4846-840d-8b1a6eb08c96</responsePageFileDescription>
+</custom-action>

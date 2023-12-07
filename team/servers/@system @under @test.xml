@@ -1,0 +1,5 @@
+<http-server hostname="${training.host}" port="${training.port}"
+    ssl="false" uid="System Under Test"
+    urlrewriting-argument-name="jsessionid" urlrewriting-enabled="true"
+    urlrewriting-path-extension="true"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

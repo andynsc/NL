@@ -1,0 +1,102 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="JPetStore Demo"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28@web#29 @j@petsore @buyers/%resources%/recorded-artifacts/e9aaf885-2bae-4953-8092-395017c930eb.zip"
+    slaProfileEnabled="false" thinkTime="5755"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e9aaf885-2bae-4953-8092-395017c930eb">
+    <embedded-action>2fd93872-4849-467e-81ee-87ba3b663d46</embedded-action>
+    <embedded-action>55c42209-8067-4d54-aae0-2901295d986e</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_207c6616-60a8-4601-89b0-611bb3b2c2fa.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="mememe/jpetstore/shop/viewItem.shtml"
+    path="/jpetstore/shop/viewItem.shtml" postCharset="" postType="1"
+    recordedArtifactZipFileName="team/vus/#28@web#29 @j@petsore @buyers/%resources%/recorded-artifacts/e9aaf885-2bae-4953-8092-395017c930eb.zip"
+    recordedResponseCode="200" responseSize="3837"
+    serverUid="System Under Test" slaProfileEnabled="false"
+    uid="2fd93872-4849-467e-81ee-87ba3b663d46" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cbb82aec-1658-4828-b8da-209aff8770f8.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cbb82aec-1658-4828-b8da-209aff8770f8.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="CurrentPrice"
+        refererUid="c8d85556-7edb-42ba-94a8-bda3e5f8fc1d"
+        regExp="  \$(.*)" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="  $" template="$1$" templateAdv="$1$"
+        uid="a4f199dc-2daf-47f0-95cd-1547942ed498" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="itemId"
+        recordRawValue="EST-4" separator="=" value="EST-4" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="0"
+            matchNumberAdv="0" matchNumberSimple="1"
+            name="nl_extracted_param_1"
+            refererUid="98d35bf4-0764-48e7-ba16-3234ae8cf57d"
+            regExp="itemId=([^&amp;]*?)&quot;"
+            regExpAdv="itemId=([^&amp;]*?)&quot;" setDefaultValue="true"
+            startsWithSimple="" template="$1$" templateAdv="$1$"
+            uid="e2f7003b-4cc2-49d0-8e56-e643dc7e0a24" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <header name="Accept" value="text/html, application/xhtml+xml, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-GB"/>
+    <header name="Cookie" value="JSESSIONID=C3CC2FF31E124B96126D4E5A11C954BB"/>
+    <header name="Host" value="54.211.92.60"/>
+    <header name="Referer" value="http://54.211.92.60/jpetstore/shop/viewProduct.shtml?productId=${nl_extracted_param}"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 22 Oct 2018 12:40:31 GMT&#xd;
+Server: Apache/2.2.34 (Amazon)&#xd;
+Content-Length: 3837&#xd;
+Connection: close&#xd;
+Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorContent="EST-4" extractorOccurence="12"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;11472-1088130660000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="mememe/jpetstore/images/fish3.gif"
+    path="/jpetstore/images/fish3.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/#28@web#29 @j@petsore @buyers/%resources%/recorded-artifacts/e9aaf885-2bae-4953-8092-395017c930eb.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="System Under Test" slaProfileEnabled="false"
+    uid="55c42209-8067-4d54-aae0-2901295d986e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9c018f2c-7cd0-4c33-8bba-8aedd5cadc47.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2632b78e-5059-480f-9406-6fbec21d6b27.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-GB"/>
+    <header name="Cookie" value="JSESSIONID=C3CC2FF31E124B96126D4E5A11C954BB"/>
+    <header name="Host" value="54.211.92.60"/>
+    <header name="Referer" value="http://54.211.92.60/jpetstore/shop/viewItem.shtml?itemId=EST-4"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 22 Oct 2018 12:40:31 GMT&#xd;
+Server: Apache/2.2.34 (Amazon)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"11472-1088130660000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT&#xd;
+Content-Length: 11472&#xd;
+Connection: close&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

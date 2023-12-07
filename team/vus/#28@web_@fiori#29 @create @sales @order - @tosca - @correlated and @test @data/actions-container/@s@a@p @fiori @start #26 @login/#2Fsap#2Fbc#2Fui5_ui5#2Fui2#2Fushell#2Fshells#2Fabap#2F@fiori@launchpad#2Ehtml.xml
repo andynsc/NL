@@ -1,0 +1,51 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28@web_@fiori#29 @create @sales @order - @tosca - @correlated and @test @data/%resources%/recorded-artifacts/212fb525-0a90-4acf-b954-fb59ebf2cf62.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="212fb525-0a90-4acf-b954-fb59ebf2cf62">
+    <embedded-action>d8ad17ca-19fb-46b1-9673-5cdccb7262c4</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    path="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28@web_@fiori#29 @create @sales @order - @tosca - @correlated and @test @data/%resources%/recorded-artifacts/212fb525-0a90-4acf-b954-fb59ebf2cf62.zip"
+    recordedResponseCode="200" responseSize="7241"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="d8ad17ca-19fb-46b1-9673-5cdccb7262c4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0f942c47-dbfb-4c67-b6f2-657800abfac5.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0f942c47-dbfb-4c67-b6f2-657800abfac5.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="cookie" value="_gcl_au=1.1.922398253.1654687505; _biz_uid=e719776114b14d0b90b5ae063e544d90; mf_user=38d4992a44423b07d664d78fc6704cac|; _mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1654687507495-83570; _fbp=fb.1.1654687507534.1321684310; _biz_flagsA=%7B%22Version%22%3A1%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Mkto%22%3A%221%22%7D; _ga=GA1.2.287317646.1647268020; _biz_nA=4; _biz_pendingA=%5B%5D; _ga_489D1QT6C1=GS1.1.1654697648.2.0.1654697648.0; _gid=GA1.2.58883836.1661421542"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 2305&#xd;
+sap-err-id: ICFLOGONREQUIRED&#xd;
+expires: 0&#xd;
+pragma: no-cache, no-store, private&#xd;
+cache-control: no-cache, no-store, private&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 27441.000000&#xd;
+content-encoding: br&#xd;
+set-cookie: sap-usercontext=sap-client=100; path=/; SameSite=None; Secure</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

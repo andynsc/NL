@@ -1,0 +1,14 @@
+GET /api/data/v9.0/tasks(${fw_task_id_param_whole_path})?$select=subject,description,_regardingobjectid_value,actualdurationminutes,prioritycode,scheduledend,statecode,_ownerid_value,_modifiedby_value,statecode,activityid HTTP/1.1
+Prefer: odata.include-annotations="*"
+Accept: application/json
+MSCRM.ReturnNotifications: true
+Content-Type: application/json
+x-ms-app-id: b8ce14bc-5a73-ed11-81ad-0022481b59d5
+x-ms-app-name: msdynce_salestrialhub
+x-ms-client-request-id: 71477b98-c83c-4860-be72-f19c6440eced
+x-ms-client-session-id: 3525fbdd-4b54-46bb-b7b4-12c91deb9dfb
+x-ms-correlation-id: 9bc24e96-c77a-4433-a7a0-a9b8e7bdd474
+x-ms-sw-objectid: 6f97e6e8-51be-4580-9e1c-d9f24c6d98c2
+x-ms-sw-tenantid: 47e57ec4-08fb-4c75-b3a2-8e410c1f1020
+x-ms-user-agent: PowerApps-UCI/1.4.5018-2211.1 (Browser; AppName=msdynce_salestrialhub)
+ClientHost: Browser

@@ -1,0 +1,51 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/bc/personas3/core/script/sap/personas/fw/its/init.js"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28@web_@fiori#29 @create @sales @order - @tosca - @original @transfer/%resources%/recorded-artifacts/b1c93506-4a3e-40f3-ae60-a40f5ebdb659.zip"
+    slaProfileEnabled="false" thinkTime="528"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b1c93506-4a3e-40f3-ae60-a40f5ebdb659">
+    <embedded-action>afe825a6-748e-443f-9854-b675c9cc14ab</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/x-javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/bc/personas3/core/script/sap/personas/fw/its/init.js"
+    path="/sap/bc/personas3/core/script/sap/personas/fw/its/init.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28@web_@fiori#29 @create @sales @order - @tosca - @original @transfer/%resources%/recorded-artifacts/b1c93506-4a3e-40f3-ae60-a40f5ebdb659.zip"
+    recordedResponseCode="200" responseSize="10158"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="afe825a6-748e-443f-9854-b675c9cc14ab" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_871c8791-4d9a-4ddb-b2ec-1accafc8e5b7</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_871c8791-4d9a-4ddb-b2ec-1accafc8e5b7.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="1661433777957"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/gui/sap/its/webgui;~service=3200;~rfcHostName=avm028002.internal.cloudapp.net?%7etransaction=VA01&amp;%7enosplash=1&amp;sap-client=100&amp;sap-language=EN&amp;sap-ui-tech-hint=GUI&amp;sap-ie=edge&amp;sap-theme=sap_belize&amp;sap-target-navmode=explace&amp;sap-touch=0&amp;sap-shell=FLP1.71.20"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="_gcl_au=1.1.922398253.1654687505; _biz_uid=e719776114b14d0b90b5ae063e544d90; mf_user=38d4992a44423b07d664d78fc6704cac|; _mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1654687507495-83570; _fbp=fb.1.1654687507534.1321684310; _biz_flagsA=%7B%22Version%22%3A1%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Mkto%22%3A%221%22%7D; _ga=GA1.2.287317646.1647268020; _biz_nA=4; _biz_pendingA=%5B%5D; _ga_489D1QT6C1=GS1.1.1654697648.2.0.1654697648.0; _gid=GA1.2.58883836.1661421542; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=AjQxMDMBABhNAEEAWABQAEEAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMgAwADgAMgA1ADEAMwAyADIABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjIwODI1MTMyMjM0WjAjBgkqhkiG9w0BCQQxFgQURjHTPZ9rcK1ZPUmrUPM9D3r2VIEwCQYHKoZIzjgEAwQuMCwCFE45bm8CDwZGkkK5ToX1g3MlTF%2fLAhROE7RNhQFM5xAJzKIGBagUkW6zRw%3d%3d; SAP_SESSIONID_S4H_100=fctHGG3JAaguqHgRlhwYIfrB-w0keBHtnbUADTpE36E%3d"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/x-javascript&#xd;
+content-length: 2881&#xd;
+x-from-zip: X&#xd;
+sap-cache-control: +1209600&#xd;
+sap-isc-uagent: 0&#xd;
+cache-control: max-age=1209600&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 29549.000000&#xd;
+content-encoding: br</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

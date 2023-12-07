@@ -1,0 +1,17 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="${swagger_demo_coffeeshop_v2_base_path}/api/Coffees_V2"
+    path="${swagger_demo_coffeeshop_v2_base_path}/api/Coffees_V2"
+    postCharset="" postType="1" recordedResponseCode="200"
+    serverUid="swagger_demo_coffeeshop_v2_server"
+    slaProfileEnabled="false" uid="eba84c9c-ffcb-4336-ba0a-eddcc65faade" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @demo @coffee@shop @v2/%resources%/recorded-responses/res_d35934de-f506-4bec-9421-097c381abc4f</responsePageFileDescription>
+    <header name="Authorization" value=""/>
+    <responseHeaders>HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 146</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

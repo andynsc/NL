@@ -1,0 +1,56 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/status"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28@selenium#29 - @selenium @creating @neoload/%resources%/recorded-artifacts/2ed97454-907b-4b83-89b6-e253908d70b6.zip"
+    slaProfileEnabled="false" thinkTime="249"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="2ed97454-907b-4b83-89b6-e253908d70b6">
+    <embedded-action>3e5cfe7d-46f7-41c4-a4ff-aaed57743519</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/status" path="/status" postType="2"
+    recordedArtifactZipFileName="team/vus/#28@selenium#29 - @selenium @creating @neoload/%resources%/recorded-artifacts/2ed97454-907b-4b83-89b6-e253908d70b6.zip"
+    recordedResponseCode="204" responseSize="0"
+    serverUid="consent.google.com" slaProfileEnabled="false"
+    uid="3e5cfe7d-46f7-41c4-a4ff-aaed57743519" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3e5cfe7d-46f7-41c4-a4ff-aaed57743519.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3ccf8f39-1873-4b71-b2ac-577e7c5f9285.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="false" name="continue"
+        recordRawValue="https://www.google.com" separator="="
+        value="https://www.google.com" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pc"
+        recordRawValue="s" separator="=" value="s" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="timestamp"
+        recordRawValue="1582285154" separator="=" value="1582285154" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="gl"
+        recordRawValue="GB" separator="=" value="GB" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://www.google.com/"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="cookie" value="1P_JAR=2020-02-21-11; NID=198=kGdtHtxBVu6excIS1AOFAzx11NEt2mqcMwwm5o3aBSq1m1zqpPr5rrumfqDEtJeTLYdU47SwatYG9cTQQXXwOOcz_2xpovAUFw3JhpEx1yPmd-tw68276bLFY04t_Q6RJKnewdcL83AEB4SbUCAZDTW98EZ-CNpI2IYXC1BXjYE; CONSENT=WP.283d55"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 204&#xd;
+content-type: text/html; charset=utf-8&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: Mon, 01 Jan 1990 00:00:00 GMT&#xd;
+date: Fri, 21 Feb 2020 11:39:16 GMT&#xd;
+content-security-policy: script-src 'report-sample' 'nonce-QvQV1FSmxpM5q3Ylou0cJA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/ConsentHttp/cspreport;worker-src 'self'&#xd;
+content-security-policy: script-src 'nonce-QvQV1FSmxpM5q3Ylou0cJA' 'self' 'unsafe-eval' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/ConsentHttp/cspreport&#xd;
+server: ESF&#xd;
+Content-Length: 0&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+x-content-type-options: nosniff&#xd;
+alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

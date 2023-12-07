@@ -1,0 +1,146 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/api/invoke"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/6ff5267b-6b45-4b9e-9525-3d23223c8401.zip"
+    slaProfileEnabled="false" thinkTime="2"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6ff5267b-6b45-4b9e-9525-3d23223c8401">
+    <embedded-action>a14851fc-82d1-4cb1-b441-cc347d94d793</embedded-action>
+    <embedded-action>ef7a0aec-ccc9-4b21-b175-3952d681cda3</embedded-action>
+    <embedded-action>01d58c0c-9e14-4bcf-8e97-e6a385d22aa2</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/api/invoke" path="/api/invoke" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/6ff5267b-6b45-4b9e-9525-3d23223c8401.zip"
+    recordedResponseCode="200" responseSize="58386"
+    serverUid="api.powerapps.com" slaProfileEnabled="false"
+    uid="a14851fc-82d1-4cb1-b441-cc347d94d793" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_78e34fa4-6690-460f-8b4d-73a58f518f91</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_78e34fa4-6690-460f-8b4d-73a58f518f91.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="x-ms-client-app-id" value="/providers/Microsoft.PowerApps/apps/msdynce_salestrialhub"/>
+    <header name="referer" value="https://apps.powerapps.com/"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="accept-language" value="en-US"/>
+    <header name="origin" value="https://apps.powerapps.com"/>
+    <header name="x-ms-user-agent" value="PowerApps/3.22114.16 (Web; Player; isReactNative: false)"/>
+    <header name="x-ms-client-tenant-id" value="47e57ec4-08fb-4c75-b3a2-8e410c1f1020"/>
+    <header name="x-ms-path-query" value="/providers/Microsoft.PowerApps/objectIds/6f97e6e8-51be-4580-9e1c-d9f24c6d98c2/features?api-version=2020-06-01"/>
+    <header name="x-ms-client-session-id" value="26c565e4-cc68-4de7-affc-f95ba5c2a2cc"/>
+    <header name="accept" value="*/*"/>
+    <header name="authorization" value="Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjJaUXBKM1VwYmpBWVhZR2FYRUpsOGxWMFRPSSIsImtpZCI6IjJaUXBKM1VwYmpBWVhZR2FYRUpsOGxWMFRPSSJ9.eyJhdWQiOiJodHRwczovL3NlcnZpY2UucG93ZXJhcHBzLmNvbS8iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC80N2U1N2VjNC0wOGZiLTRjNzUtYjNhMi04ZTQxMGMxZjEwMjAvIiwiaWF0IjoxNjcwNTM0NDQ5LCJuYmYiOjE2NzA1MzQ0NDksImV4cCI6MTY3MDUzOTA1MSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhUQUFBQWk4MVNPZUdrendaUVJ5OXBRbXI5ZUxMMFA0SDVQemN1ekRFOXpYemR6N3A0VXFNQlpRN0xodjBrYUl5VGZySFFMcG0zdmVsc0hPbTlGemxjQjNYUGl4RnNkSDA4cHJtR04vMjZUbjE1NFg0PSIsImFsdHNlY2lkIjoiMTpsaXZlLmNvbTowMDAzNDAwMTUwRDIyQzE1IiwiYW1yIjpbInB3ZCJdLCJhcHBpZCI6IjNlNjJmODFlLTU5MGItNDI1Yi05NTMxLWNhZDY2ODM2NTZjZiIsImFwcGlkYWNyIjoiMCIsImVtYWlsIjoibncuamF6ei5uZXRAZ21haWwuY29tIiwiZmFtaWx5X25hbWUiOiJXaGF0ZXZlciIsImdpdmVuX25hbWUiOiJOZWQiLCJpZHAiOiJsaXZlLmNvbSIsImlwYWRkciI6IjE4LjEzMi4yMTEuMjUyIiwibmFtZSI6Ik5lZCBXaGF0ZXZlciIsIm9pZCI6IjZmOTdlNmU4LTUxYmUtNDU4MC05ZTFjLWQ5ZjI0YzZkOThjMiIsInB1aWQiOiIxMDAzMjAwMjU1QjIwNUUyIiwicmgiOiIwLkFVc0F4SDdsUl9zSWRVeXpvbzVCREI4UUlNWW1Va2NPQXJKUGlwQjZseXlfd2RSTEFJYy4iLCJzY3AiOiJ1c2VyX2ltcGVyc29uYXRpb24iLCJzdWIiOiJZY0Y1d1BnYzFlS1RNdXY1bGFyR2oxamlJcWdyTTFONkRHYURMRFlCRE5vIiwidGlkIjoiNDdlNTdlYzQtMDhmYi00Yzc1LWIzYTItOGU0MTBjMWYxMDIwIiwidW5pcXVlX25hbWUiOiJsaXZlLmNvbSNudy5qYXp6Lm5ldEBnbWFpbC5jb20iLCJ1dGkiOiJhN05EdVczN2MwYVRUZ0NQRkNBQUFRIiwidmVyIjoiMS4wIn0.Kn0sMybAvZRvrecZvhOXBGCxdjR1c0BmuKvvD8n326XtBug-qIMuLZpfI-O5qd4cRRRHxiPYZOgnYx-U_xcRFWE2FOUl9DDa6VGji2JE_Vy6oGyRuKaSIqCKf1ZCLKopyW8VpaYCXZ5xAv0ngoTxZ-tUtG_4VxgiHy92Uwx_KAneI9B65UR9eN_Z8JXlGni9wtaodLfxld5Y7p1pvr--E9SH2QNVNu7wec0uRLcJ6VGknv-RoxaTIK3MU3AdHSPJZyiUl_Ef0a6hGPPPQdMJNiu_oEEygzTO0maZ-Yz38Pp-3VkpUMrBFspk7bV7ULdWmTJ_xnpzrEjvunV67IzqxQ"/>
+    <header name="te" value="trailers"/>
+    <header name="x-ms-client-object-id" value="6f97e6e8-51be-4580-9e1c-d9f24c6d98c2"/>
+    <header name="cache-control" value="no-cache, no-store"/>
+    <header name="x-ms-client-request-id" value="ddc6aa20-20ce-4409-ab2f-f7125f0ecd38"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: Content-Encoding,Vary,x-ms-request-id,x-ms-correlation-request-id,x-ms-client-request-id,Date,Content-Length&#xd;
+cache-control: no-store, no-cache&#xd;
+content-encoding: br&#xd;
+vary: Accept-Encoding&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains&#xd;
+x-ms-islandgateway: GA0000001&#xd;
+x-ms-request-id: uksouth:eb52155e-5056-43fe-b874-db552aae02bd&#xd;
+x-ms-correlation-request-id: e04a9402-2ea5-4c95-8740-c9609c5a1968&#xd;
+x-ms-client-request-id: ddc6aa20-20ce-4409-ab2f-f7125f0ecd38&#xd;
+timing-allow-origin: *&#xd;
+x-servicefabric: NoRetry&#xd;
+x-ms-service-request-id: 6c065e5d-0d0e-4323-a27a-e11b52e518d0&#xd;
+x-ms-correlation-id: e04a9402-2ea5-4c95-8740-c9609c5a1968&#xd;
+x-ms-activity-vector: 00.00.00&#xd;
+server-timing: x-ms-igw-upstream-headers;dur=29.2,x-ms-igw-req-overhead;dur=0.1&#xd;
+x-content-type-options: nosniff</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/scripts/me/MeControl/10.22290.5/en-US/meCore.min.js"
+    path="/scripts/me/MeControl/10.22290.5/en-US/meCore.min.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/6ff5267b-6b45-4b9e-9525-3d23223c8401.zip"
+    recordedResponseCode="200" responseSize="100781"
+    serverUid="mem.gfx.ms" slaProfileEnabled="false"
+    uid="ef7a0aec-ccc9-4b21-b175-3952d681cda3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5be7cba3-19bf-470b-afa4-1313f7b4ae4c</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5be7cba3-19bf-470b-afa4-1313f7b4ae4c.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/javascript&#xd;
+content-encoding: br&#xd;
+last-modified: Wed, 02 Nov 2022 22:23:24 GMT&#xd;
+etag: "1d8ef446512a7ad"&#xd;
+x-cache: TCP_HIT&#xd;
+x-content-type-options: nosniff&#xd;
+access-control-allow-origin: *&#xd;
+x-ua-compatible: IE=edge&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+x-azure-ref-originshield: 0W+SQYwAAAACF5YE0PF/ITZfl+g2UU9uPTE9OMjFFREdFMTcxNQBlYWM1ZjQ5Zi1lMDJkLTRmNDEtYjBhNi0yZDUwZjlmY2Y4NGE=&#xd;
+x-azure-ref: 0XVaSYwAAAAD1WpT6mnRNTK0wfI7xbhvdTFRTRURHRTEzMDcAZWFjNWY0OWYtZTAyZC00ZjQxLWIwYTYtMmQ1MGY5ZmNmODRh&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="OPTIONS" name="/api/invoke" path="/api/invoke" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/6ff5267b-6b45-4b9e-9525-3d23223c8401.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.powerapps.com" slaProfileEnabled="false"
+    uid="01d58c0c-9e14-4bcf-8e97-e6a385d22aa2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_17bedb42-993a-479a-80b8-e26ba194f586</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b2110a57-aef9-4878-a55c-a264cfb48d4b.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://apps.powerapps.com/"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://apps.powerapps.com"/>
+    <header name="access-control-request-headers" value="authorization,cache-control,x-ms-client-app-id,x-ms-client-object-id,x-ms-client-request-id,x-ms-client-session-id,x-ms-client-tenant-id,x-ms-pa-origin,x-ms-path-query,x-ms-user-agent"/>
+    <header name="access-control-request-method" value="POST"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 08 Dec 2022 21:25:49 GMT&#xd;
+access-control-allow-headers: authorization,cache-control,x-ms-client-app-id,x-ms-client-object-id,x-ms-client-request-id,x-ms-client-session-id,x-ms-client-tenant-id,x-ms-pa-origin,x-ms-path-query,x-ms-user-agent&#xd;
+access-control-allow-methods: GET,POST,PUT,DELETE,PATCH,OPTIONS,HEAD&#xd;
+access-control-allow-origin: *&#xd;
+access-control-max-age: 3600&#xd;
+Content-Length: 0&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains&#xd;
+x-ms-islandgateway: GA0000001&#xd;
+timing-allow-origin: *&#xd;
+x-servicefabric: NoRetry&#xd;
+x-ms-service-request-id: 1a88205e-ff64-474d-9fc7-fd183e8305da&#xd;
+x-ms-correlation-id: d3e3652b-9adf-4892-9248-4518af4115c3&#xd;
+x-ms-activity-vector: 00.00.00&#xd;
+server-timing: x-ms-igw-upstream-headers;dur=1.1,x-ms-igw-req-overhead;dur=0.1&#xd;
+x-content-type-options: nosniff</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

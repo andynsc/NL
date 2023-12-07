@@ -1,0 +1,13 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="user" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="30f787d5-dd9f-45e5-b1c5-455bfd57e646" weightsEnabled="false">
+    <weighted-embedded-action uid="deaa09c5-7c52-4a28-ae29-fdd86c571bb2"/>
+    <weighted-embedded-action uid="cc9bbc8b-50b3-4d9d-80e9-a9cc69fc1c62"/>
+    <weighted-embedded-action uid="5cd08259-f8ad-4754-8606-ebe26a39a35a"/>
+    <weighted-embedded-action uid="fd51a470-881a-4228-a644-8e08f2eac539"/>
+    <weighted-embedded-action uid="702ff3e7-4bcb-4e49-8d66-bae7cf3e3f84"/>
+    <weighted-embedded-action uid="39ee104f-1d3c-47cb-9276-bb800df16922"/>
+    <weighted-embedded-action uid="287f5ff3-5071-435c-9a55-c56ad4338c6c"/>
+    <weighted-embedded-action uid="95733d6a-1430-4dcf-bfb0-ec0eb9174ef6"/>
+</basic-logical-action-container>

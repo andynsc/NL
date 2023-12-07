@@ -1,0 +1,16 @@
+<custom-action actionType="SapFocus" isHit="false"
+    name="SetFocus GuiTextField (GuiTextField - VBAP-POSNR)" uid="93326bb3-bfac-44fa-bde6-c9f77037ee38">
+    <description>This action simulates a set focus action on an SAP GUI object.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG/txtVBAP-POSNR[0,0]"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="VBAP-POSNR"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiTextField"/>
+    <responsePageFileDescription>recorded-responses/res_0d8ed4f7-c78a-4907-92c6-c6320154bd5b</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/#28@s@a@p_@g@u@i#29 @v@a02/%resources%/recorded-screenshots/sc_d221dec8-9dd0-4b9a-9058-4cbaa4f51cad.jpg</screenshotFileDescription>
+</custom-action>

@@ -1,0 +1,5 @@
+<http-server hostname="ui-gbr.sales.ai.dynamics.com" port="443"
+    ssl="true" uid="ui-gbr.sales.ai.dynamics.com"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

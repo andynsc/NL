@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Employee" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="5fb87974-9067-4c8c-9347-244af3db3d8a" weightsEnabled="false">
+    <weighted-embedded-action uid="5e2aa591-4d74-4828-baf3-ace2437c2b36"/>
+    <weighted-embedded-action uid="a0961ced-d9f9-47f2-a1d3-63990352cfb2"/>
+    <weighted-embedded-action uid="03b75a80-1599-4275-b78a-d22db7e6244e"/>
+</basic-logical-action-container>

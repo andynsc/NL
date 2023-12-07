@@ -1,0 +1,19 @@
+# Project description file
+
+project.name=DemoComprehensive
+project.version=8.8
+project.original.version=8.7
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+product.original.version=9.1.1
+project.workspace=6455102f199743206cc30ec7
+project.test-settings=ca05280a-05e2-4ebc-8c94-a3db2a7beefa
+project.test-settings-name=AN Sample
+project.is-open-test-settings-after-upload=false
+project.id=344d9895-d54b-4006-96bf-bfb65b8f39a8
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+monitor.tls.insecure=false
+team.server.project=/andynsc/NL

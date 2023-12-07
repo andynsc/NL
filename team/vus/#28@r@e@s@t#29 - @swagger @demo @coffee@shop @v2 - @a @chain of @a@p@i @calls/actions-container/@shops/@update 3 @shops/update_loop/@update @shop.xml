@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Update Shop" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="62570ce7-417e-4294-b4fa-fd743880bec0" weightsEnabled="false">
+    <weighted-embedded-action uid="00d75331-350e-4c8c-aab8-3230d8032e90"/>
+</basic-logical-action-container>

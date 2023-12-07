@@ -1,0 +1,23 @@
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="${swagger_petstore_base_path}/pet/${petId}"
+    path="${swagger_petstore_base_path}/pet/${the_new_pet_id}"
+    postCharset="" postType="1" recordedResponseCode="200"
+    recordedResponseTime="249" responseSize="151"
+    serverUid="swagger_petstore_server" slaProfileEnabled="false"
+    uid="0ef8a82a-6509-4d91-aaa3-05ca02901428" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @petstore - @a @chain of @a@p@i @calls/%resources%/recorded-responses/res_cust_e5873f73-a36c-4929-829a-a4fa59074fa0</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @petstore - @a @chain of @a@p@i @calls/%resources%/recorded-requests/req_cust_a2125532-b15f-4083-ae31-017d8113db06.txt</requestContentFileDescription>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Mon, 04 May 2020 14:10:10 GMT
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Content-Type: application/json
+Connection: close
+Server: Jetty(9.2.9.v20150224)</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

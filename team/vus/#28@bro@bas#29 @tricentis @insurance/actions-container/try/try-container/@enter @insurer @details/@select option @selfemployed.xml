@@ -1,0 +1,23 @@
+<browser-action actionType="BrowserSelectOption" isHit="true"
+    name="Select option Selfemployed" uid="b9222b89-be0d-4dba-bfed-f1315bab2631">
+    <description>Select an option from the html select element identified by the selector.
+You can specify several options if the select element has the 'multiple' attribute, or you can specify none to clear the selection.
+
+Possible parameters are:&#xd;
+- selector (required): The selector is a string that point to the elements in the page. Several types of selector are supported: text, CSS, XPath...
+	You can specify several selectors by adding multiple "selector" parameters to this action. The targeted element will match any of the selectors (OR operator).&#xd;
+- options[0].text (optional): Select the option with a matching text. Multiple options can be selected by adding more parameters with a different index.&#xd;
+- options[0].value (optional): Select the option with a matching index. Multiple options can be selected by adding more parameters with a different index.&#xd;
+- options[0].index (optional): Select the option with a matching value. Multiple options can be selected by adding more parameters with a different index.&#xd;
+- timeout (optional): Forces the timeout for that action in ms.&#xd;
+- frameName (optional): Frame name&#xd;
+- waitForNavigation.url (optional): Enables a wait for page navigation after this action has been executed. The URL being navigated to must match this pattern.&#xd;
+- waitForNavigation.timeout (optional): Enables a wait for page navigation after this action has been executed. The navigation must occur within the specified timeout in milliseconds.&#xd;
+- waitForNavigation.until (optional): Enables a wait for page navigation after this action has been executed. The navigation will be considered done when the specified state is reached. Allowed values are : LOAD, DOMCONTENTLOADED, NETWORKIDLE, COMMIT</description>
+    <custom-action-parameter name="selector" type="TEXT" value="[name=&quot;Occupation&quot;]"/>
+    <custom-action-parameter name="selector" type="TEXT" value="#occupation"/>
+    <custom-action-parameter name="selector" type="TEXT" value="section > div:nth-child(9) > select:nth-child(2)"/>
+    <custom-action-parameter name="options[0].text" type="TEXT" value="Selfemployed"/>
+    <responsePageFileDescription>recorded-responses/res_b9222b89-be0d-4dba-bfed-f1315bab2631</responsePageFileDescription>
+    <screenshotFileDescription>recorded-screenshots/sc_b9222b89-be0d-4dba-bfed-f1315bab2631.jpg</screenshotFileDescription>
+</browser-action>

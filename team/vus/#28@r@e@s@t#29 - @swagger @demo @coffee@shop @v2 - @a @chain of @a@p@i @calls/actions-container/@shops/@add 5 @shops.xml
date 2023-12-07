@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Add 5 Shops" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="346fb2b3-5516-4900-8df4-b5c432f45956" weightsEnabled="false">
+    <weighted-embedded-action uid="7466f19a-cdad-4439-a579-88a872778f41"/>
+</basic-logical-action-container>

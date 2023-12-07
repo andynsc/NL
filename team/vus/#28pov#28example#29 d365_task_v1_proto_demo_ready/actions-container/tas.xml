@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="tas" pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="2f2fc085-af96-4b81-87a4-65040cb48135" weightsEnabled="false">
+    <weighted-embedded-action uid="02f9e966-e54b-403c-951b-1a4ee9b77422"/>
+</basic-logical-action-container>

@@ -1,0 +1,25 @@
+POST https://petstore.swagger.io/v2/pet HTTP/1.1
+User-Agent: Jetty/9.3.7.v20160115NeotysEdition.50
+Content-Type: application/json
+X-Dynatrace: SI=NeoLoad;VU=0;SN=(REST) - A Chain of API Calls;PC=;ID=6;NA=Actions.;GR=Default zone;TE=CPVWeatherCrisis-Check-(REST) - A Chain of API Calls-94079-b67b8faa-8d98-4df3-ac04-3d0ac8a202d9
+Host: petstore.swagger.io
+Content-Length: 215
+
+{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "Dragon",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}

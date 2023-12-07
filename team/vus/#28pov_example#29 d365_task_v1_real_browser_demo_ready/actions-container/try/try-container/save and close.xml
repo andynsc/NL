@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="save and close" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="7ee76e12-7b94-45aa-bc58-eac4dbd2002e" weightsEnabled="false">
+    <weighted-embedded-action uid="6089622b-80ee-4b51-a012-1f368bf71b87"/>
+    <weighted-embedded-action uid="472b9240-67f6-4ce0-9951-17e8ef32282e"/>
+    <weighted-embedded-action uid="f4476663-9dfa-4bff-8723-9a5a2560fbdf"/>
+</basic-logical-action-container>

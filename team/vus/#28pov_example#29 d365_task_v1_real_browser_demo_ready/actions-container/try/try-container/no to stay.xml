@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="no to stay" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="e6b2f9ad-4c85-473f-8932-53bc5e9d96d9" weightsEnabled="false">
+    <weighted-embedded-action uid="9edf2905-15b5-412a-96e5-97688dd53820"/>
+    <weighted-embedded-action uid="742ec64c-c119-4a40-a5be-fc3f79d0803d"/>
+</basic-logical-action-container>

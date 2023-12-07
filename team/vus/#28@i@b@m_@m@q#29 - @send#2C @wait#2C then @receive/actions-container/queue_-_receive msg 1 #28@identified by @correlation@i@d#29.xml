@@ -1,0 +1,15 @@
+<custom-action actionType="Receive from Queue" isHit="true"
+    name="queue_-_receive msg 1 (Identified by CorrelationID)" uid="1a952842-a1f7-43e6-931f-8ef9ce5919c1">
+    <description>Receives a message from a queue. Waits until the message is received.
+
+Possible parameters are:&#xd;
+- queue (required): The JNDI queue name.&#xd;
+- timeout (optional): Timeout (in ms) applied to wait a message. 0=none. Default value is "2000".&#xd;
+- jmsSelector (optional): The message selector to extract only the message that respect the selector condition.&#xd;
+- writeMessageInResponse (optional): Whether or not the response should contain the message. Default value is "true".&#xd;
+- failOnTimeout (optional): If set to true, the action fails when timeout is reached. Default value is "true".</description>
+    <custom-action-parameter name="queue" type="TEXT" value="DEV.QUEUE.1"/>
+    <custom-action-parameter name="timeout" type="TEXT" value="2000"/>
+    <custom-action-parameter name="jmsSelector" type="TEXT" value="JMSCorrelationID='123'"/>
+    <responsePageFileDescription>recorded-responses/res_1a952842-a1f7-43e6-931f-8ef9ce5919c1</responsePageFileDescription>
+</custom-action>

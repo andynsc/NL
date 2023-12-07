@@ -1,0 +1,125 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/Collector/3.0/_4"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/e5b593b5-7281-4b1d-97e5-b14a4b403507.zip"
+    slaProfileEnabled="false" thinkTime="646"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e5b593b5-7281-4b1d-97e5-b14a4b403507">
+    <embedded-action>51639c13-1d42-4203-876a-0d68eb961963</embedded-action>
+    <embedded-action>85caac4b-e994-443b-b738-5930451f1379</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Collector/3.0/" path="/Collector/3.0/"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/e5b593b5-7281-4b1d-97e5-b14a4b403507.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="browser.pipe.aria.microsoft.com"
+    slaProfileEnabled="false" uid="51639c13-1d42-4203-876a-0d68eb961963" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c096a781-8044-4913-ae58-3d04383e59b8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a4c18621-2978-4f35-8652-26ea0cdb5314.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="qsp"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="content-type"
+        recordRawValue="application%2Fbond-compact-binary" separator="="
+        value="application/bond-compact-binary" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-id" recordRawValue="NO_AUTH" separator="="
+        value="NO_AUTH" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="sdk-version" recordRawValue="AWT-Web-JS-1.8.9"
+        separator="=" value="AWT-Web-JS-1.8.9" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="content-encoding" recordRawValue="base64" separator="="
+        value="base64" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="x-apikey"
+        recordRawValue="a387cfcf60114a43a7699f9fbb49289e-9bceb9fe-1c06-460f-96c5-6a0b247358bc-7238"
+        separator="="
+        value="a387cfcf60114a43a7699f9fbb49289e-9bceb9fe-1c06-460f-96c5-6a0b247358bc-7238" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-time-epoch-millis" recordRawValue="1670534801198"
+        separator="=" value="1670534801198" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="time-delta-to-apply-millis" recordRawValue="108"
+        separator="=" value="108" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Host" value="browser.pipe.aria.microsoft.com"/>
+    <header name="Origin" value="https://apps.powerapps.com"/>
+    <header name="Referer" value="https://apps.powerapps.com/"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 0&#xd;
+Content-Type: application/json&#xd;
+Server: Microsoft-HTTPAPI/2.0&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+time-delta-millis: 52&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: POST&#xd;
+Access-Control-Allow-Headers: Accept, Content-Type, Content-Encoding, Client-Id&#xd;
+Access-Control-Expose-Headers: kill-tokens, kill-duration-seconds, time-delta-millis&#xd;
+Date: Thu, 08 Dec 2022 21:26:41 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[bQkLAUphMzg3Y2ZjZjYwMTE0YTQzYTc2OTlmOWZiYjQ5Mjg5ZS05YmNlYjlmZS0xYzA2LTQ2MGYtOTZjNS02YTBiMjQ3MzU4YmMtNzIzOAoBSRJhY3RfZGVmYXVsdF9zb3VyY2WpJGM1YzBiOGZlLWI4NGUtNDllNC04MjZlLTRjZjRlYTY0Y2E0MdEG3JyRup5hywgKASkkMDNiZGE3ZGEtNGNmYS00MjA2LWIxYWYtZWY1NzkzMDkzMTczcYaNkbqeYakGY3VzdG9tyQYJYXd0X3N0YXRzzQ0JCRAIVGVuYW50SWQgNWMzYTYxZjQ4ZDdjNDUyMjkxMjc2NWFlNzQ2NWFiNWMWcmVjb3Jkc19yZWNlaXZlZF9jb3VudAMxNzYScmVjb3Jkc19zZW50X2NvdW50AzE3NhBBcHBJbmZvLkxhbmd1YWdlAmVuEVVzZXJJbmZvLkxhbmd1YWdlBWVuLVVTEVVzZXJJbmZvLlRpbWVab25lBiswMDowMBZEZXZpY2VJbmZvLkJyb3dzZXJOYW1lB0ZpcmVmb3gZRGV2aWNlSW5mby5Ccm93c2VyVmVyc2lvbgUxMDcuMBFEZXZpY2VJbmZvLk9zTmFtZQdXaW5kb3dzFERldmljZUluZm8uT3NWZXJzaW9uAjEwDURldmljZUluZm8uSWQkNDQ0YTM3MWYtNWVjYy00OGZhLTk5NmMtM2UyOWI0OTUxZGRjEEV2ZW50SW5mby5Jbml0SWQkNDdmYzJmMzQtZTNkMC00MjMwLWIzMjctZTA4NzIyOWE5ZGI4EkV2ZW50SW5mby5TZXF1ZW5jZQExFEV2ZW50SW5mby5TZGtWZXJzaW9uEEFXVC1XZWItSlMtMS44LjkORXZlbnRJbmZvLk5hbWUJYXd0X3N0YXRzDkV2ZW50SW5mby5UaW1lGDIwMjItMTItMDhUMjE6MjY6NDAuMTk1WgAAAA==]]></textPostContent>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/sw.js" path="/uclient/sw.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/e5b593b5-7281-4b1d-97e5-b14a4b403507.zip"
+    recordedResponseCode="304" responseSize="0"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="85caac4b-e994-443b-b738-5930451f1379" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_040b1906-afc7-4bf7-b0b9-69d380435047</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4024efbc-438d-4b96-9c02-e957b26d9fe2.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="cdn"
+        recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="gcm"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="uci"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="customPage"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="clientHost"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="same-origin"/>
+    <header name="te" value="trailers"/>
+    <header name="if-modified-since" value="Thu, 01 Dec 2022 00:37:18 GMT"/>
+    <header name="if-none-match" value="&quot;073e8101d5d91:0&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5; MSFPC=GUID=7d45a4b5f09449ee85786a3ba6a15dd1&amp;HASH=7d45&amp;LV=202212&amp;V=4&amp;LU=1670534757128; last_commit_time=2022-12-08 21:26:35Z"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="service-worker" value="script"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="serviceworker"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 304&#xd;
+cache-control: public,no-cache&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+accept-ranges: bytes&#xd;
+etag: "073e8101d5d91:0"&#xd;
+x-ms-service-request-id: 4b3b2409-3989-43ba-8a0f-236f8c1da3bf&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+service-worker-allowed: /&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:26:41 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,22 @@
+<browser-action actionType="BrowserClick" isHit="false"
+    name="Click on text input: Subject" uid="1c0cedf4-a959-41f7-adca-3c1aa9722924">
+    <description>Click a selector.
+
+Possible parameters are:&#xd;
+- selector (optional): The selector is a string that point to the elements in the page. Several types of selector are supported: text, CSS, XPath...
+	You can specify several selectors by adding multiple "selector" parameters to this action. The targeted element will match any of the selectors (OR operator). If no selector is defined, the click will occur at the point defined in the last previous Mouse Over action.&#xd;
+- force (optional): true or false. Forces the click, even if the target element is obscured by other elements. Default value is "false".&#xd;
+- mouseButton (optional): LEFT, MIDDLE, RIGHT, BACK or FORWARD. Default to LEFT.&#xd;
+- doubleClick (optional): true or false. Performs a double click. Default value is "false".&#xd;
+- modifiers (optional): Modifier keys to press separated by "+" like Control+Shift.&#xd;
+- timeout (optional): Forces the timeout for that action in ms. By default the OpenBrowser defaultTimeout is used.&#xd;
+- frameIndex (optional): Frame index. Takes priority over frameName parameter.&#xd;
+- frameName (optional): Frame name.&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.until (optional): Allowed values are : LOAD, DOMCONTENTLOADED, NETWORKIDLE, COMMIT. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.</description>
+    <custom-action-parameter name="selector" type="TEXT" value="[aria-label=&quot;Subject&quot;]"/>
+    <custom-action-parameter name="selector" type="TEXT" value="div > input:nth-child(3)"/>
+    <responsePageFileDescription>recorded-responses/res_1c0cedf4-a959-41f7-adca-3c1aa9722924</responsePageFileDescription>
+    <screenshotFileDescription>recorded-screenshots/sc_1c0cedf4-a959-41f7-adca-3c1aa9722924.jpg</screenshotFileDescription>
+</browser-action>

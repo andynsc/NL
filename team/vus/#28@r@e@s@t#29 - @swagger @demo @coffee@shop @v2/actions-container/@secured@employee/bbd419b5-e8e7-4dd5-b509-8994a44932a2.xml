@@ -1,0 +1,16 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="${swagger_demo_coffeeshop_v2_base_path}/api/SecuredEmployee_V2/${id}"
+    path="${swagger_demo_coffeeshop_v2_base_path}/api/SecuredEmployee_V2/${id}"
+    postCharset="" postType="1" recordedResponseCode="200"
+    serverUid="swagger_demo_coffeeshop_v2_server"
+    slaProfileEnabled="false" uid="bbd419b5-e8e7-4dd5-b509-8994a44932a2" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @demo @coffee@shop @v2/%resources%/recorded-responses/res_182f13e4-0cfb-4f4e-ad11-1bb184cbcec3</responsePageFileDescription>
+    <responseHeaders>HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 192</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

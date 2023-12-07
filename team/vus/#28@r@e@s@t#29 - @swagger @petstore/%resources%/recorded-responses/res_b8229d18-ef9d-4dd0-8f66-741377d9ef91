@@ -1,0 +1,33 @@
+[ {
+  "id" : 1,
+  "category" : {
+    "id" : 1,
+    "name" : "name"
+  },
+  "name" : "doggie",
+  "photoUrls" : [ "photoUrls", "photoUrls" ],
+  "tags" : [ {
+    "id" : 6,
+    "name" : "name"
+  }, {
+    "id" : 6,
+    "name" : "name"
+  } ],
+  "status" : "available"
+}, {
+  "id" : 1,
+  "category" : {
+    "id" : 1,
+    "name" : "name"
+  },
+  "name" : "doggie",
+  "photoUrls" : [ "photoUrls", "photoUrls" ],
+  "tags" : [ {
+    "id" : 6,
+    "name" : "name"
+  }, {
+    "id" : 6,
+    "name" : "name"
+  } ],
+  "status" : "available"
+} ]

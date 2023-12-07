@@ -1,0 +1,189 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/apphost/clientsdk"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/303aada2-9e92-4633-8f96-3ab9fe09dbe2.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="303aada2-9e92-4633-8f96-3ab9fe09dbe2">
+    <embedded-action>bcfcff96-431a-474e-9e69-be7584116193</embedded-action>
+    <embedded-action>c8b89879-c0c9-4de3-a921-b8554d532eb4</embedded-action>
+    <embedded-action>562926d3-3918-43af-aacf-fa3ad5466c3f</embedded-action>
+    <embedded-action>715237f7-4535-40bc-839d-096beb06404c</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/apphost/clientsdk" path="/apphost/clientsdk"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/303aada2-9e92-4633-8f96-3ab9fe09dbe2.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="apps.powerapps.com" slaProfileEnabled="false"
+    uid="bcfcff96-431a-474e-9e69-be7584116193" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4c7284c2-a630-4002-87a6-72b039c235c1</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e5677222-31f3-4fe7-9f60-657448e7f7e5.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="version"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Thu, 08 Dec 2022 21:25:34 GMT&#xd;
+access-control-allow-origin: *&#xd;
+location: https://content.powerapps.com/resource/webplayer/hashedresources/d2j5pgip4cr4d/js/PowerAppsHostingSdk.bundle.v1.js&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Headers&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Accept-Encoding&#xd;
+Content-Length: 0&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains&#xd;
+x-ms-islandgateway: GA0000000&#xd;
+service-worker-allowed: /&#xd;
+x-servicefabric: NoRetry&#xd;
+x-ms-service-request-id: 471d59e8-5799-46be-9e21-3800fc194f8e&#xd;
+x-ms-correlation-id: cf286011-2a1c-49db-bbb4-f55f56bf6303&#xd;
+x-ms-activity-vector: 00.00.00&#xd;
+server-timing: x-ms-igw-upstream-headers;dur=1.9,x-ms-igw-req-overhead;dur=0.1&#xd;
+x-content-type-options: nosniff</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="application/x-javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/resource/webplayer/hashedresources/d2j5pgip4cr4d/js/PowerAppsHostingSdk.bundle.v1.js"
+    path="/resource/webplayer/hashedresources/d2j5pgip4cr4d/js/PowerAppsHostingSdk.bundle.v1.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/303aada2-9e92-4633-8f96-3ab9fe09dbe2.zip"
+    recordedResponseCode="200"
+    refererUid="bcfcff96-431a-474e-9e69-be7584116193"
+    responseSize="372547" serverUid="content.powerapps.com"
+    slaProfileEnabled="false" uid="c8b89879-c0c9-4de3-a921-b8554d532eb4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_deed87fd-1a6c-4353-a480-1fa805b00b91</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_deed87fd-1a6c-4353-a480-1fa805b00b91.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="null"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public, max-age=31536000&#xd;
+content-length: 68014&#xd;
+content-type: application/x-javascript&#xd;
+content-encoding: br&#xd;
+vary: Accept-Encoding&#xd;
+server: Kestrel&#xd;
+x-cache: TCP_HIT&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-correlation-id,x-ms-activity-vector,x-ms-service-request-id,x-ms-client-request-id&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains&#xd;
+x-ms-islandgateway: ga000004U&#xd;
+x-ms-static-content: ze000000F&#xd;
+timing-allow-origin: *&#xd;
+x-servicefabric: NoRetry&#xd;
+x-ms-service-request-id: ac87f09d-d38b-490a-a819-e7d3a5a2241b&#xd;
+x-ms-correlation-id: 79bd5507-f43f-4a6a-a7a4-699d320bbde7&#xd;
+x-ms-activity-vector: 00.00.00&#xd;
+server-timing: x-ms-igw-upstream-headers;dur=718.9,x-ms-igw-req-overhead;dur=0.1&#xd;
+x-content-type-options: nosniff&#xd;
+x-azure-ref-originshield: 0xc6QYwAAAAAu2p3D+q9fSqrYUIEfYg/PTE9OMjFFREdFMTcxMwAyMTBmZTdkMC05YWIxLTQ0ZTAtYmFmNS1iMWFhYmUxMWJhMWU=&#xd;
+x-azure-ref: 0UlaSYwAAAACfGmNooG8KQqncoDKAtv4ZTFRTRURHRTEyMTEAMjEwZmU3ZDAtOWFiMS00NGUwLWJhZjUtYjFhYWJlMTFiYTFl&#xd;
+date: Thu, 08 Dec 2022 21:25:38 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/javascript; charset=UTF-8"
+    eTag="W/&quot;8e3038-184e1e98380&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 05 Dec 2022 10:51:28 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/vendors.8fdb5b5029da88cbee78.js"
+    path="/js/vendors.8fdb5b5029da88cbee78.js" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/303aada2-9e92-4633-8f96-3ab9fe09dbe2.zip"
+    recordedResponseCode="200" responseSize="9318456"
+    serverUid="ui-gbr.sales.ai.dynamics.com" slaProfileEnabled="false"
+    uid="562926d3-3918-43af-aacf-fa3ad5466c3f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8fb2cf79-e3ec-4201-8ad4-760cbd5db895</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8fb2cf79-e3ec-4201-8ad4-760cbd5db895.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://ui-gbr.sales.ai.dynamics.com/authentication?loginHint=nw.jazz.net@gmail.com&amp;tenantId=${aadTenantId_param_whole_path_header_text_part}"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 08 Dec 2022 21:25:38 GMT&#xd;
+content-type: application/javascript; charset=UTF-8&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains&#xd;
+reporting-endpoints: crems = https://csp.microsoft.com/report/D365-CI-VivaSales&#xd;
+content-security-policy: base-uri 'none';default-src 'self' 'unsafe-inline' 'unsafe-eval' 'report-sample' data: wss: *.dynamics.com *.dynamics-int.com *.msauth.net *.mcas.ms *.msocdn.com *.skype.com *.skype.net *.microsoftonline.com *.sharepointonline.com *.sharepoint.com *.office.net *.office.com *.msftauth.net *.office365.com *.microsoft.com *.live.com *.azure.net outlook-sdf.office.com *.crmlivetie.com *.powerapps.com cihosting.blob.core.windows.net spoppe-b.azureedge.net fonts.gstatic.com spoprod-a.akamaihd.net;form-action 'none';frame-ancestors 'self' *.dynamics.com *.dynamics-int.com *.msauth.net *.mcas.ms *.msocdn.com *.skype.com *.skype.net *.microsoftonline.com *.sharepointonline.com *.sharepoint.com *.office.net *.office.com *.msftauth.net *.office365.com *.microsoft.com *.live.com *.azure.net outlook-sdf.office.com *.crmlivetie.com *.powerapps.com cihosting.blob.core.windows.net spoppe-b.azureedge.net fonts.gstatic.com spoprod-a.akamaihd.net;worker-src 'self';object-src 'self';report-uri https://csp.microsoft.com/report/D365-CI-VivaSales;report-to crems;upgrade-insecure-requests&#xd;
+cache-control: max-age: 31536000&#xd;
+accept-ranges: bytes&#xd;
+last-modified: Mon, 05 Dec 2022 10:51:28 GMT&#xd;
+etag: W/"8e3038-184e1e98380"&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/javascript; charset=UTF-8"
+    eTag="W/&quot;74f1f-184e1e98380&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Mon, 05 Dec 2022 10:51:28 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/auth.c0aa0780d156e13a3227.js"
+    path="/js/auth.c0aa0780d156e13a3227.js" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/303aada2-9e92-4633-8f96-3ab9fe09dbe2.zip"
+    recordedResponseCode="200" responseSize="479007"
+    serverUid="ui-gbr.sales.ai.dynamics.com" slaProfileEnabled="false"
+    uid="715237f7-4535-40bc-839d-096beb06404c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_32eea0e7-e9d0-40d2-ae76-6b081e22f0a2</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_32eea0e7-e9d0-40d2-ae76-6b081e22f0a2.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://ui-gbr.sales.ai.dynamics.com/authentication?loginHint=nw.jazz.net@gmail.com&amp;tenantId=${aadTenantId_param_whole_path_header_text_part}"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 08 Dec 2022 21:25:38 GMT&#xd;
+content-type: application/javascript; charset=UTF-8&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains&#xd;
+reporting-endpoints: crems = https://csp.microsoft.com/report/D365-CI-VivaSales&#xd;
+content-security-policy: base-uri 'none';default-src 'self' 'unsafe-inline' 'unsafe-eval' 'report-sample' data: wss: *.dynamics.com *.dynamics-int.com *.msauth.net *.mcas.ms *.msocdn.com *.skype.com *.skype.net *.microsoftonline.com *.sharepointonline.com *.sharepoint.com *.office.net *.office.com *.msftauth.net *.office365.com *.microsoft.com *.live.com *.azure.net outlook-sdf.office.com *.crmlivetie.com *.powerapps.com cihosting.blob.core.windows.net spoppe-b.azureedge.net fonts.gstatic.com spoprod-a.akamaihd.net;form-action 'none';frame-ancestors 'self' *.dynamics.com *.dynamics-int.com *.msauth.net *.mcas.ms *.msocdn.com *.skype.com *.skype.net *.microsoftonline.com *.sharepointonline.com *.sharepoint.com *.office.net *.office.com *.msftauth.net *.office365.com *.microsoft.com *.live.com *.azure.net outlook-sdf.office.com *.crmlivetie.com *.powerapps.com cihosting.blob.core.windows.net spoppe-b.azureedge.net fonts.gstatic.com spoprod-a.akamaihd.net;worker-src 'self';object-src 'self';report-uri https://csp.microsoft.com/report/D365-CI-VivaSales;report-to crems;upgrade-insecure-requests&#xd;
+cache-control: max-age: 31536000&#xd;
+accept-ranges: bytes&#xd;
+last-modified: Mon, 05 Dec 2022 10:51:28 GMT&#xd;
+etag: W/"74f1f-184e1e98380"&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,30 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="(Web) Ushahidi Demo - Original">
+    <description>This is a fresh recording, it will need correlation, parameterisation and Validation</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="ba552227-f794-4001-98fd-7d6d78a5abce"/>
+        <weighted-embedded-action uid="7cfb83a4-2e5c-4003-b889-d42b4ae55baf"/>
+        <weighted-embedded-action uid="0a0e75c4-e6f7-4099-91d6-b2a9069f0987"/>
+        <weighted-embedded-action uid="679b5185-806d-4593-bf6e-451344e1b061"/>
+        <weighted-embedded-action uid="6d146ab5-7f2e-4a42-90ae-6b384b413407"/>
+        <weighted-embedded-action uid="581fbd66-af82-4e56-8a25-dc52b25c5a8c"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

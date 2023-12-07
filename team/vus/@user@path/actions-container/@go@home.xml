@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="GoHome" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="e75f70e8-85a9-4213-9d37-64eb21b2d82c" weightsEnabled="false">
+    <weighted-embedded-action uid="b50c00e0-a998-486e-b015-ec1eb55293e5"/>
+    <weighted-embedded-action uid="79e8c07f-9ce5-4af3-a309-14551edb44a0"/>
+    <weighted-embedded-action uid="9a75cf86-7636-48e2-a7fb-b7f8f19cd045"/>
+    <weighted-embedded-action uid="c09698a0-9234-4cfe-88a2-3b4e1e66bcdd"/>
+</basic-logical-action-container>

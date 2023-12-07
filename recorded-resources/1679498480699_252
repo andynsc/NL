@@ -1,0 +1,43 @@
+POST https://enterprise-eudb.activity.windows.com/v3/feeds/me/activities HTTP/1.1
+Content-Length: 1256
+Content-Type: application/json
+X-AFS-CV: Xi9nnIkVh1jX89e0.0.1.0
+X-AFS-Scenario: 16
+
+[
+   {
+      "__schemaVersion" : 1,
+      "activityId" : "99461208-B6B4-9192-08A4-1C1AC5EE6352",
+      "appActivityId" : "ECB32AF3-1440-4086-94E3-5311F97F89C4",
+      "appId" : {
+         "alternateId" : "",
+         "packageId" : "com.squirrel.slack.slack",
+         "windows_win32" : "com.squirrel.slack.slack"
+      },
+      "applicationId" : [
+         {
+            "application" : "com.squirrel.slack.slack",
+            "platform" : "windows_win32"
+         },
+         {
+            "application" : "com.squirrel.slack.slack",
+            "platform" : "packageId"
+         },
+         {
+            "application" : "",
+            "platform" : "alternateId"
+         }
+      ],
+      "endTime" : "2023-03-22T15:21:09.000Z",
+      "groupIds" : "Copy",
+      "lastModifiedOnClient" : "2023-03-22T15:21:09.000Z",
+      "parentActivityId" : "6C3D9D6A-361F-957D-CDF3-BB32C4E95A6A",
+      "payload" : "eyJnZHByVHlwZSI6IlByb2R1Y3RBbmRTZXJ2aWNlVXNhZ2UiLCJjbGlwYm9hcmREYXRhSWQiOiJ7OEQ1ODZBNjktREIxOS00MEUwLTg5REQtNUZDMTgyRTE1RkI5fSJ9",
+      "platformDeviceId" : "u+qWHWeNl5ApwIfZquCpun37xbMsae+F/s80gkkb074=",
+      "priority" : 3,
+      "read" : false,
+      "startTime" : "2023-03-22T15:21:09.000Z",
+      "type" : 16,
+      "userActionState" : 0
+   }
+]

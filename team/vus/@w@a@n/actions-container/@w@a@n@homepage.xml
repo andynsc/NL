@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="WANHomepage" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="4c5b946d-2a74-45f9-8779-7ed283ee7fc4" weightsEnabled="false">
+    <weighted-embedded-action uid="a25bb243-a08c-4f11-96d6-af0fab0eb108"/>
+    <weighted-embedded-action uid="c2475980-1e19-4758-9839-9f9dd71c3e66"/>
+    <weighted-embedded-action uid="cc8cab21-0a26-4e3c-bea7-8f68bbae3960"/>
+</basic-logical-action-container>

@@ -1,0 +1,34 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="(Web) JPetsore Buyers">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+        <weighted-embedded-action uid="cab0e689-44ff-4386-89d4-006b44a036df"/>
+        <weighted-embedded-action uid="50d0d370-3caa-4d93-9a19-90c70224f467"/>
+        <weighted-embedded-action uid="4d939375-7e64-41ae-914c-de0804de080b"/>
+        <weighted-embedded-action uid="8592de94-4c6b-4c01-ab0c-865104da8a53"/>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="55e7fd54-77ff-4432-b92d-b0839f843103"/>
+        <weighted-embedded-action uid="8cd3d08e-f088-419b-b4d7-f26036409353"/>
+        <weighted-embedded-action uid="0ebc4fb1-f206-4b3f-946d-d8c741011ba3"/>
+        <weighted-embedded-action uid="59980113-5f41-4652-a221-d372517572e1"/>
+        <weighted-embedded-action uid="5b1c08de-06aa-4b91-86bd-183600651b5a"/>
+        <weighted-embedded-action uid="db769bf5-fbea-4ce9-9baf-a4c3fd180e91"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+        <weighted-embedded-action uid="de7282a0-3283-4b53-be2d-18724d808ca5"/>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_RANGE_THINK_TIME"
+        thinktimeFactorValue="33" thinktimePolicy="0"
+        thinktimeRangeValue="33" thinktimeValue="${rndThinkime}"/>
+</virtual-user>

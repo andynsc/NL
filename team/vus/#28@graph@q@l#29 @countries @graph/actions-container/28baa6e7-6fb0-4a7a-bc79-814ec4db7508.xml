@@ -1,0 +1,12 @@
+<http-action actionType="1" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="" path="/" postType="1"
+    serverUid="89775e893db5e9d88bb181ab398682.ae.environment.api.powerplatform.com"
+    slaProfileEnabled="false" uid="28baa6e7-6fb0-4a7a-bc79-814ec4db7508" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@graph@q@l#29 @countries @graph/%resources%/recorded-responses/res_28baa6e7-6fb0-4a7a-bc79-814ec4db7508</responsePageFileDescription>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

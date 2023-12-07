@@ -1,0 +1,4 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="GoHome_1" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="b5d28c9d-73fb-4734-9b41-1e920bcf8c96" weightsEnabled="false"/>

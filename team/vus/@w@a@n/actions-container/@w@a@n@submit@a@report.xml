@@ -1,0 +1,32 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="WANSubmitAReport" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="8e92c7d0-2d03-4ba0-8afc-d1e415bb5eb3" weightsEnabled="false">
+    <weighted-embedded-action uid="04a3ec8f-0490-4f75-a66e-31c78dafc558"/>
+    <weighted-embedded-action uid="4f5b3951-604d-4f2c-9e3a-4b8d09a1e1ed"/>
+    <weighted-embedded-action uid="f5cd89a3-ae6d-4397-9120-10db6b233b21"/>
+    <weighted-embedded-action uid="363cfd7e-9d55-4d12-8681-fdbf5d797314"/>
+    <weighted-embedded-action uid="0ee1be63-aee5-498a-b000-2c3168c5dd52"/>
+    <weighted-embedded-action uid="f47de5c2-c7db-4a5f-b310-2cd0c295ebfa"/>
+    <weighted-embedded-action uid="a8737a32-cae8-49ef-b363-2c5e5a6afbb6"/>
+    <weighted-embedded-action uid="efc5235c-3f62-4357-8739-f568b564daa5"/>
+    <weighted-embedded-action uid="a6910dcc-2d4a-423c-b3b3-7b8c9d2200a7"/>
+    <weighted-embedded-action uid="9eeb05d5-aafa-4336-9212-4a408bbfdd8c"/>
+    <weighted-embedded-action uid="51c2cae7-c973-4e9e-bb3b-cbfc5d26ca81"/>
+    <weighted-embedded-action uid="18792176-a5fa-41f0-bf0f-cb9eb9d8f1f3"/>
+    <weighted-embedded-action uid="ca338156-b060-4205-b11d-5a035fdae460"/>
+    <weighted-embedded-action uid="4bbacaa7-1b75-4ada-84c0-65a99d9e04e6"/>
+    <weighted-embedded-action uid="f87cf78f-57b9-47b0-b13b-0faf5a42a55b"/>
+    <weighted-embedded-action uid="4b8410f6-f4a2-4e2f-b8ba-e3d6ec851944"/>
+    <weighted-embedded-action uid="4fb48019-610d-47e6-8c15-8d239548a6f1"/>
+    <weighted-embedded-action uid="dcfe263d-6986-497b-965e-7c31125aae4a"/>
+    <weighted-embedded-action uid="df065a0a-b1e2-4403-91a7-e9379f62a1d5"/>
+    <weighted-embedded-action uid="96e40610-9881-4fe7-beea-12a60107eae5"/>
+    <weighted-embedded-action uid="d021e338-4ceb-40c1-9ab2-bb826d11b841"/>
+    <weighted-embedded-action uid="dbae0861-8ee7-4fa8-a957-02a7caa35ac4"/>
+    <weighted-embedded-action uid="38cbd616-cfd9-41c4-bd1f-647afc396ba5"/>
+    <weighted-embedded-action uid="d6543057-2c7a-40a1-b953-23b4c9cd2761"/>
+    <weighted-embedded-action uid="b8af287a-2cda-498f-9d03-cea489e76c35"/>
+    <weighted-embedded-action uid="05e59f34-66d3-4623-909f-75de6191611a"/>
+    <weighted-embedded-action uid="96f40926-e6c9-4687-87cf-2cc12d298d60"/>
+</basic-logical-action-container>

@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="edit" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="3eaee1d5-9fe8-4a08-aabc-5f57373f416e" weightsEnabled="false">
+    <weighted-embedded-action uid="57afe262-67cf-406b-814c-7b9cfd90e59f"/>
+    <weighted-embedded-action uid="a2ca7eab-f109-483d-8ce9-469d385c6244"/>
+    <weighted-embedded-action uid="2a26d029-e300-496f-85bb-b4d2f6254e43"/>
+    <weighted-embedded-action uid="8d752541-7ff6-4bbc-941f-52d05c64ff1f"/>
+</basic-logical-action-container>

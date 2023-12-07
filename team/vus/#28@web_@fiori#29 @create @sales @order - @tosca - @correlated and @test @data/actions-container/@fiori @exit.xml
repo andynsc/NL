@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Fiori Exit" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="fd953d9c-fe07-4a24-aa12-31619f43b462" weightsEnabled="false">
+    <weighted-embedded-action uid="18cd90cd-460b-449f-83da-3c0dc03d1814"/>
+    <weighted-embedded-action uid="d984d7ca-d194-4147-8b89-b651f367d5cf"/>
+    <weighted-embedded-action uid="d92c9167-a6b7-478a-920b-e18876a02ee2"/>
+</basic-logical-action-container>

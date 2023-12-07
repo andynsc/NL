@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="List Shops" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="9bf944d4-3b82-40c5-a4f9-32af84899c6b" weightsEnabled="false">
+    <weighted-embedded-action uid="318ef6a7-f674-4172-b2d6-036437b34447"/>
+</basic-logical-action-container>

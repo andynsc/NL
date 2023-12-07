@@ -1,0 +1,17 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="${swagger_petstore_base_path}/pet/${petId}"
+    path="${swagger_petstore_base_path}/pet/${petId}" postType="1"
+    serverUid="swagger_petstore_server" slaProfileEnabled="false"
+    uid="f8539e28-6664-4c9f-8c4a-826133013128" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @petstore/%resources%/recorded-responses/res_f8539e28-6664-4c9f-8c4a-826133013128</responsePageFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="name"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="status"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

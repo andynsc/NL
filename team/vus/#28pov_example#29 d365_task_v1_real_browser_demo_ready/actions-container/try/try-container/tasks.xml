@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="tasks" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="14039969-732d-4335-95af-3ca76b3443e0" weightsEnabled="false">
+    <weighted-embedded-action uid="dfc3369e-60b2-4c94-9572-fd18b0860aec"/>
+    <weighted-embedded-action uid="41f82b9b-c500-427c-a873-783ba12395b9"/>
+</basic-logical-action-container>

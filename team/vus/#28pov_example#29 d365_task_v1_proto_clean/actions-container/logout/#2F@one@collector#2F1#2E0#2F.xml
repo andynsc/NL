@@ -1,0 +1,78 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/OneCollector/1.0/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/45b2783d-1c70-4125-9ecd-b3cfd6a01d15.zip"
+    slaProfileEnabled="false" thinkTime="9001"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="45b2783d-1c70-4125-9ecd-b3cfd6a01d15">
+    <embedded-action>90ad7042-9407-4596-94f5-3acdef0a3de4</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/OneCollector/1.0/" path="/OneCollector/1.0/"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/45b2783d-1c70-4125-9ecd-b3cfd6a01d15.zip"
+    recordedResponseCode="403" responseSize="56"
+    serverUid="browser.events.data.microsoft.com"
+    slaProfileEnabled="false" uid="90ad7042-9407-4596-94f5-3acdef0a3de4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_50f3f375-0dc2-444f-9b6d-b850fb44dc05</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_50f3f375-0dc2-444f-9b6d-b850fb44dc05.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="cors"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="false"
+        name="content-type" recordRawValue="application/x-json-stream"
+        separator="=" value="application/x-json-stream" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-id" recordRawValue="NO_AUTH" separator="="
+        value="NO_AUTH" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-version" recordRawValue="1DS-Web-JS-3.2.6"
+        separator="=" value="1DS-Web-JS-3.2.6" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="apikey"
+        recordRawValue="b8ffe739c47a401190627519795ca4d2-044a8309-9d4b-430b-9d47-6e87775cbab6-6888"
+        separator="="
+        value="b8ffe739c47a401190627519795ca4d2-044a8309-9d4b-430b-9d47-6e87775cbab6-6888" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="upload-time" recordRawValue="1670534852975" separator="="
+        value="1670534852975" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="time-delta-to-apply-millis" recordRawValue="4037"
+        separator="=" value="4037" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="w"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="NoResponseBody" recordRawValue="true" separator="="
+        value="true" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Cookie" value="MC1=GUID=7d45a4b5f09449ee85786a3ba6a15dd1&amp;HASH=7d45&amp;LV=202212&amp;V=4&amp;LU=1670534757128; MS0=ff5139947dbf48b880ac7a3f25e12bfb"/>
+    <header name="Host" value="browser.events.data.microsoft.com"/>
+    <header name="Origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="Referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 403 All Events Throttled.&#xd;
+Content-Length: 56&#xd;
+Content-Type: application/json&#xd;
+Server: Microsoft-HTTPAPI/2.0&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+Collector-Error: All Events Throttled.&#xd;
+Access-Control-Allow-Headers: Collector-Error&#xd;
+Access-Control-Allow-Methods: POST&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Access-Control-Allow-Origin: https://org02b42784.crm11.dynamics.com&#xd;
+Access-Control-Expose-Headers: Collector-Error&#xd;
+Date: Thu, 08 Dec 2022 21:27:32 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"name":"Ms.Webi.PageAction","time":"2022-12-08T21:27:31.703Z","ver":"4.0","iKey":"o:b8ffe739c47a401190627519795ca4d2","ext":{"sdk":{"ver":"1DS-Web-JS-3.2.6"},"metadata":{"f":{"flags":{"t":6},"data":{"f":{"timeToAction":{"t":6}}}}}},"data":{"baseData":{"properties":{"version":""}},"ver":"2.1","name":"Ms.Webi.PageAction","time":"2022-12-08T21:27:31.702Z","appId":"JS:MeControl","cV":"HmyFx7MNWizG1EaI.11","flags":2097152,"ext":{"javascript":{"ver":"1.1","libVer":"4.2.3","domain":"org02b42784.crm11.dynamics.com","userConsent":false},"app":{"env":"Prod"}},"data":{"baseData":{"ver":"1.1","pageName":"Initial Collapsed","impressionGuid":"f82647d8-b248-4229-8a34-19f6a85e0721","market":"en-US","pageTags":"{\"metaTags\":{\"authtype\":\"aad\",\"pgpart\":\"officesupport\"},\"config\":{\"ver\":\"10.22290.5\",\"mkt\":\"en-US\",\"ptn\":\"officesupport\",\"gfx\":\"https://amcdn.msftauth.net\",\"dbg\":false,\"aad\":true,\"int\":false,\"pxy\":true,\"msTxt\":false,\"rwd\":true,\"telEvs\":\"PageAction, PageView, ContentUpdate, OutgoingRequest, ClientError, PartnerApiCall, TrackedScenario\",\"instKey\":\"b8ffe739c47a401190627519795ca4d2-044a8309-9d4b-430b-9d47-6e87775cbab6-6888\",\"oneDSUrl\":\"https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.2.6.gbl.min.js\",\"remAcc\":true,\"main\":\"meBoot\",\"wrapperId\":null,\"cdnRegex\":\"^(?:https?:\\\\/\\\\/)?(mem\\\\.gfx\\\\.ms(?!\\\\.)|controls\\\\.account.microsoft?(?:-int|-dev)?(\\\\.com)?(:[0-9]{1,6})|amcdn\\\\.ms(?:ft)?auth\\\\.net(?!\\\\.))\",\"timeoutMs\":30000,\"graphv2\":true,\"graphinfo\":{\"graphclientid\":\"7eadcef8-456d-4611-9480-4fff72b8b9e2\",\"graphscope\":\"user.read\",\"graphcodeurl\":\"https://login.microsoftonline.com/common/oauth2/v2.0/authorize\",\"graphredirecturi\":\"https://amcdn.msftauth.net/me/callgraph\",\"graphphotourl\":\"https://graph.microsoft.com/v1.0/me/photos/96x96/$value\"},\"aadUrl\":\"https://myaccount.microsoft.com\",\"msaUrl\":\"https://account.microsoft.com/\",\"authAppUpsellUrl\":\"\",\"cache\":true,\"cacheRetention\":{\"picRetention\":604800000,\"authAppRetention\":94670856000}},\"url\":\"https://org02b42784.crm11.dynamics.com/main.aspx?appid=**&pagetype=**&etn=**&viewid=**&viewType=**\",\"accts\":\"1-0\"}","contentVer":"2.0","content":"[{\"id\":\"Header Click\",\"cS\":\"Action\"}]"},"baseType":"Ms.Content.PageAction","timeToAction":106502,"cookieEnabled":true,"isJs":true,"isLoggedIn":true,"isManual":true}}}
+{"name":"Ms.Webi.ContentUpdate","time":"2022-12-08T21:27:31.704Z","ver":"4.0","iKey":"o:b8ffe739c47a401190627519795ca4d2","ext":{"sdk":{"ver":"1DS-Web-JS-3.2.6"},"metadata":{"f":{"flags":{"t":6},"data":{"f":{"pageLoadTime":{"t":6}}}}}},"data":{"baseData":{"properties":{"version":""}},"ver":"2.1","name":"Ms.Webi.ContentUpdate","time":"2022-12-08T21:27:31.703Z","appId":"JS:MeControl","cV":"HmyFx7MNWizG1EaI.12","flags":2097152,"ext":{"javascript":{"ver":"1.1","libVer":"4.2.3","domain":"org02b42784.crm11.dynamics.com","userConsent":false},"app":{"env":"Prod"}},"data":{"baseData":{"ver":"1.0","impressionGuid":"f82647d8-b248-4229-8a34-19f6a85e0721","market":"en-US","pageTags":"{\"metaTags\":{\"authtype\":\"aad\",\"pgpart\":\"officesupport\"},\"config\":{\"ver\":\"10.22290.5\",\"mkt\":\"en-US\",\"ptn\":\"officesupport\",\"gfx\":\"https://amcdn.msftauth.net\",\"dbg\":false,\"aad\":true,\"int\":false,\"pxy\":true,\"msTxt\":false,\"rwd\":true,\"telEvs\":\"PageAction, PageView, ContentUpdate, OutgoingRequest, ClientError, PartnerApiCall, TrackedScenario\",\"instKey\":\"b8ffe739c47a401190627519795ca4d2-044a8309-9d4b-430b-9d47-6e87775cbab6-6888\",\"oneDSUrl\":\"https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.2.6.gbl.min.js\",\"remAcc\":true,\"main\":\"meBoot\",\"wrapperId\":null,\"cdnRegex\":\"^(?:https?:\\\\/\\\\/)?(mem\\\\.gfx\\\\.ms(?!\\\\.)|controls\\\\.account.microsoft?(?:-int|-dev)?(\\\\.com)?(:[0-9]{1,6})|amcdn\\\\.ms(?:ft)?auth\\\\.net(?!\\\\.))\",\"timeoutMs\":30000,\"graphv2\":true,\"graphinfo\":{\"graphclientid\":\"7eadcef8-456d-4611-9480-4fff72b8b9e2\",\"graphscope\":\"user.read\",\"graphcodeurl\":\"https://login.microsoftonline.com/common/oauth2/v2.0/authorize\",\"graphredirecturi\":\"https://amcdn.msftauth.net/me/callgraph\",\"graphphotourl\":\"https://graph.microsoft.com/v1.0/me/photos/96x96/$value\"},\"aadUrl\":\"https://myaccount.microsoft.com\",\"msaUrl\":\"https://account.microsoft.com/\",\"authAppUpsellUrl\":\"\",\"cache\":true,\"cacheRetention\":{\"picRetention\":604800000,\"authAppRetention\":94670856000}},\"url\":\"https://org02b42784.crm11.dynamics.com/main.aspx?appid=**&pagetype=**&etn=**&viewid=**&viewType=**\",\"accts\":\"1-0\"}","contentVer":"2.0","content":"[{\"id\":\"Expanded\",\"cS\":\"Application\"}]"},"baseType":"Ms.Content.ContentUpdate","pageLoadTime":106500,"cookieEnabled":true,"isJs":true,"isLoggedIn":true,"isManual":true}}}
+{"name":"Ms.Webi.PageAction","time":"2022-12-08T21:27:32.948Z","ver":"4.0","iKey":"o:b8ffe739c47a401190627519795ca4d2","ext":{"sdk":{"ver":"1DS-Web-JS-3.2.6"},"metadata":{"f":{"flags":{"t":6},"data":{"f":{"timeToAction":{"t":6}}}}}},"data":{"baseData":{"properties":{"version":""}},"ver":"2.1","name":"Ms.Webi.PageAction","time":"2022-12-08T21:27:32.948Z","appId":"JS:MeControl","cV":"HmyFx7MNWizG1EaI.13","flags":2097152,"ext":{"javascript":{"ver":"1.1","libVer":"4.2.3","domain":"org02b42784.crm11.dynamics.com","userConsent":false},"app":{"env":"Prod"}},"data":{"baseData":{"ver":"1.1","pageName":"Expanded","impressionGuid":"f82647d8-b248-4229-8a34-19f6a85e0721","market":"en-US","pageTags":"{\"metaTags\":{\"authtype\":\"aad\",\"pgpart\":\"officesupport\"},\"config\":{\"ver\":\"10.22290.5\",\"mkt\":\"en-US\",\"ptn\":\"officesupport\",\"gfx\":\"https://amcdn.msftauth.net\",\"dbg\":false,\"aad\":true,\"int\":false,\"pxy\":true,\"msTxt\":false,\"rwd\":true,\"telEvs\":\"PageAction, PageView, ContentUpdate, OutgoingRequest, ClientError, PartnerApiCall, TrackedScenario\",\"instKey\":\"b8ffe739c47a401190627519795ca4d2-044a8309-9d4b-430b-9d47-6e87775cbab6-6888\",\"oneDSUrl\":\"https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.2.6.gbl.min.js\",\"remAcc\":true,\"main\":\"meBoot\",\"wrapperId\":null,\"cdnRegex\":\"^(?:https?:\\\\/\\\\/)?(mem\\\\.gfx\\\\.ms(?!\\\\.)|controls\\\\.account.microsoft?(?:-int|-dev)?(\\\\.com)?(:[0-9]{1,6})|amcdn\\\\.ms(?:ft)?auth\\\\.net(?!\\\\.))\",\"timeoutMs\":30000,\"graphv2\":true,\"graphinfo\":{\"graphclientid\":\"7eadcef8-456d-4611-9480-4fff72b8b9e2\",\"graphscope\":\"user.read\",\"graphcodeurl\":\"https://login.microsoftonline.com/common/oauth2/v2.0/authorize\",\"graphredirecturi\":\"https://amcdn.msftauth.net/me/callgraph\",\"graphphotourl\":\"https://graph.microsoft.com/v1.0/me/photos/96x96/$value\"},\"aadUrl\":\"https://myaccount.microsoft.com\",\"msaUrl\":\"https://account.microsoft.com/\",\"authAppUpsellUrl\":\"\",\"cache\":true,\"cacheRetention\":{\"picRetention\":604800000,\"authAppRetention\":94670856000}},\"url\":\"https://org02b42784.crm11.dynamics.com/main.aspx?appid=**&pagetype=**&etn=**&viewid=**&viewType=**\",\"accts\":\"1-0\"}","contentVer":"2.0","content":"[{\"id\":\"Sign Out\",\"cS\":\"Action\"}]"},"baseType":"Ms.Content.PageAction","timeToAction":107749,"cookieEnabled":true,"isJs":true,"isLoggedIn":true,"isManual":true}}}]]></textPostContent>
+</http-action>

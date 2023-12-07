@@ -1,0 +1,14 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Create Sales Documents : Overview" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="d3c99f62-f1df-459b-85f8-b8ce3bd63656" weightsEnabled="false">
+    <weighted-embedded-action uid="470453af-8778-4864-8bb3-4d82a63c6342"/>
+    <weighted-embedded-action uid="dd188d21-809e-4566-a6d7-34ec38d86ee4"/>
+    <weighted-embedded-action uid="4f413986-c75b-4d8a-a303-84b4dd7ce76f"/>
+    <weighted-embedded-action uid="5497e38a-7694-4a8e-a4c1-ad72f153144d"/>
+    <weighted-embedded-action uid="259accc5-0fc2-479f-a993-17ff8a911d05"/>
+    <weighted-embedded-action uid="990cb9da-7be9-4ff7-8d36-8d921de56c2f"/>
+    <weighted-embedded-action uid="bda103f0-a81e-4405-8073-cb51bf0526f2"/>
+    <weighted-embedded-action uid="40f020a9-fcb5-4ce4-885b-2987d3f8c3a4"/>
+    <weighted-embedded-action uid="0683ab95-5c1e-47c2-92d3-dc4344892d81"/>
+</basic-logical-action-container>

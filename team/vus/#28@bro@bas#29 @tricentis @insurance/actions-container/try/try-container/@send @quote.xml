@@ -1,0 +1,19 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Send Quote" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="aac5c98c-f402-4d24-bf52-e4af96c06d41" weightsEnabled="false">
+    <weighted-embedded-action uid="27e39024-f9ec-4f3f-8289-1d3028616146"/>
+    <weighted-embedded-action uid="c25a9ce9-f6bf-4b99-804f-7a63b15594f0"/>
+    <weighted-embedded-action uid="83e08928-60dc-47b8-9303-9dc29dfd0c2d"/>
+    <weighted-embedded-action uid="bb11ec81-559a-4058-b26c-3419e3757c47"/>
+    <weighted-embedded-action uid="c5f41e3d-776f-46ec-9d44-8209ba503250"/>
+    <weighted-embedded-action uid="bafbf984-7486-4005-bf4f-d328a60d5a74"/>
+    <weighted-embedded-action uid="80e3f8f0-a2cc-4207-938d-7770b4d8c204"/>
+    <weighted-embedded-action uid="1ceb51df-7af0-4cc4-bd44-1df07f3c43be"/>
+    <weighted-embedded-action uid="939da450-c85e-4a52-939b-26c0e298128b"/>
+    <weighted-embedded-action uid="48252eae-4c85-4005-9c7d-3859f9955d1d"/>
+    <weighted-embedded-action uid="c9a80b10-3594-43cd-a057-cf3b090abf51"/>
+    <weighted-embedded-action uid="09d82bd4-8f65-41f0-a644-f5a8d895e4de"/>
+    <weighted-embedded-action uid="0f39af0e-b3df-4ae7-9ffe-41dca2ee5dff"/>
+    <weighted-embedded-action uid="2db13c4f-38fd-42b6-a365-18af15e8bdf2"/>
+</basic-logical-action-container>

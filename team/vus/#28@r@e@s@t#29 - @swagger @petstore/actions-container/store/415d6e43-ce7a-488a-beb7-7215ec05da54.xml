@@ -1,0 +1,15 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="${swagger_petstore_base_path}/store/inventory"
+    path="${swagger_petstore_base_path}/store/inventory" postCharset=""
+    postType="1" recordedResponseCode="200"
+    serverUid="swagger_petstore_server" slaProfileEnabled="false"
+    uid="415d6e43-ce7a-488a-beb7-7215ec05da54" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @petstore/%resources%/recorded-responses/res_06a825af-919b-4744-b56b-f1f1a5965c4f</responsePageFileDescription>
+    <responseHeaders>HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 17</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

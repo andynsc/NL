@@ -1,0 +1,135 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/midgard/versionless/fontsandiconspreloader_with-react_9eaa0bdff9186678313f.js"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/48313ecc-87a9-42d2-a08a-5ce65881e1fd.zip"
+    slaProfileEnabled="false" thinkTime="253"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="48313ecc-87a9-42d2-a08a-5ce65881e1fd">
+    <embedded-action>e04818b2-cc76-4a60-89bf-56091b221096</embedded-action>
+    <embedded-action>d433c9d4-e6c3-47ac-be59-6962847a3774</embedded-action>
+    <embedded-action>b7b46779-b2f1-4dc5-a7ae-69e162c3c0ae</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/midgard/versionless/fontsandiconspreloader_with-react_9eaa0bdff9186678313f.js"
+    path="/midgard/versionless/fontsandiconspreloader_with-react_9eaa0bdff9186678313f.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/48313ecc-87a9-42d2-a08a-5ce65881e1fd.zip"
+    recordedResponseCode="200" responseSize="3927"
+    serverUid="res-1.cdn.office.net" slaProfileEnabled="false"
+    uid="e04818b2-cc76-4a60-89bf-56091b221096" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_08aeccf6-4d93-4fbb-8ea5-b6697496de08</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_08aeccf6-4d93-4fbb-8ea5-b6697496de08.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-length: 1468&#xd;
+last-modified: Wed, 23 Nov 2022 13:17:42 GMT&#xd;
+x-ms-request-id: 6f646d11-e01e-002b-243f-ff7f5b000000&#xd;
+content-encoding: br&#xd;
+cache-control: max-age=630720000&#xd;
+date: Thu, 08 Dec 2022 21:26:01 GMT&#xd;
+x-content-type-options: nosniff&#xd;
+timing-allow-origin: *&#xd;
+access-control-expose-headers: date,Akamai-Request-BC&#xd;
+access-control-allow-origin: *&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-type: application/javascript&#xd;
+x-cdn-provider: Akamai</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/midgard/versionless/vendors_embeddedimmersiveprofile_immersiveprofile_with-react_be45d7f21346e05e6527.js"
+    path="/midgard/versionless/vendors_embeddedimmersiveprofile_immersiveprofile_with-react_be45d7f21346e05e6527.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/48313ecc-87a9-42d2-a08a-5ce65881e1fd.zip"
+    recordedResponseCode="200" responseSize="117382"
+    serverUid="res-1.cdn.office.net" slaProfileEnabled="false"
+    uid="d433c9d4-e6c3-47ac-be59-6962847a3774" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_64afb8db-8e17-470a-9b07-941cba8ec022</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_64afb8db-8e17-470a-9b07-941cba8ec022.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-length: 25168&#xd;
+last-modified: Wed, 23 Nov 2022 13:17:53 GMT&#xd;
+x-ms-request-id: a8e447d5-401e-0022-1a3f-ff3a88000000&#xd;
+content-encoding: br&#xd;
+cache-control: max-age=630720000&#xd;
+date: Thu, 08 Dec 2022 21:26:01 GMT&#xd;
+x-content-type-options: nosniff&#xd;
+timing-allow-origin: *&#xd;
+access-control-expose-headers: date,Akamai-Request-BC&#xd;
+access-control-allow-origin: *&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-type: application/javascript&#xd;
+x-cdn-provider: Akamai</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/midgard/versionless/immersiveprofile_with-react_a4e27a8b130482d33282.js"
+    path="/midgard/versionless/immersiveprofile_with-react_a4e27a8b130482d33282.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/48313ecc-87a9-42d2-a08a-5ce65881e1fd.zip"
+    recordedResponseCode="200" responseSize="1044581"
+    serverUid="res-1.cdn.office.net" slaProfileEnabled="false"
+    uid="b7b46779-b2f1-4dc5-a7ae-69e162c3c0ae" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3e0dc855-245c-4bbd-ac23-8eb7d4f09548</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3e0dc855-245c-4bbd-ac23-8eb7d4f09548.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-length: 196030&#xd;
+last-modified: Tue, 29 Nov 2022 16:06:44 GMT&#xd;
+x-ms-request-id: 9e3f6660-501e-0063-7a9d-08626c000000&#xd;
+content-encoding: br&#xd;
+cache-control: max-age=630720000&#xd;
+date: Thu, 08 Dec 2022 21:26:01 GMT&#xd;
+x-content-type-options: nosniff&#xd;
+timing-allow-origin: *&#xd;
+access-control-expose-headers: date,Akamai-Request-BC&#xd;
+access-control-allow-origin: *&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-type: application/javascript&#xd;
+x-cdn-provider: Akamai</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

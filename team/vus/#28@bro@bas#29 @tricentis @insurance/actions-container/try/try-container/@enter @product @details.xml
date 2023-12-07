@@ -1,0 +1,28 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Enter Product Details" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="efacabc1-3fc6-46e5-885a-93b3946afdc5" weightsEnabled="false">
+    <weighted-embedded-action uid="75f9869b-55b9-4d43-bf3e-b4c8f2b41715"/>
+    <weighted-embedded-action uid="3111f25e-12dc-4b47-94e2-61448445dd71"/>
+    <weighted-embedded-action uid="ad02f9bf-a2e4-4ae3-a06e-f9738a4486a1"/>
+    <weighted-embedded-action uid="1810c0b4-ff13-4ac6-adaa-fb8fc11bbd29"/>
+    <weighted-embedded-action uid="e67a7024-74a6-4859-b8c9-4c7b0e3b6bd2"/>
+    <weighted-embedded-action uid="675929e2-a512-4298-8333-dca8a68e2939"/>
+    <weighted-embedded-action uid="522257e8-ab7a-4778-9f9e-b91eba4cf32c"/>
+    <weighted-embedded-action uid="081215c1-cb64-4837-8328-77167325270b"/>
+    <weighted-embedded-action uid="f11b2171-7951-4815-9e66-fe2f44cdc19d"/>
+    <weighted-embedded-action uid="169eaeba-4d7f-4fe4-8820-70f9f7d13276"/>
+    <weighted-embedded-action uid="419268f0-dfde-4fcb-9c5d-d1cdea85c337"/>
+    <weighted-embedded-action uid="553e3772-08f0-44a5-b83d-cdd1c5057b96"/>
+    <weighted-embedded-action uid="e5935fda-153b-415f-a207-1be0ff8d3948"/>
+    <weighted-embedded-action uid="312f2ae9-4bd4-44de-93ee-86a70b94e95c"/>
+    <weighted-embedded-action uid="53b191d7-0a11-475d-88fc-cb8402fbf16c"/>
+    <weighted-embedded-action uid="50525148-4b71-43c4-a0fc-9f05b4da358a"/>
+    <weighted-embedded-action uid="2579f0bf-8bf9-4fe1-bfd0-412574e2d446"/>
+    <weighted-embedded-action uid="db9b4a9c-c609-476f-8478-c6e90066637e"/>
+    <weighted-embedded-action uid="6fc1ef85-90d3-43b2-ad04-4c13fa888ed7"/>
+    <weighted-embedded-action uid="d8c4b92a-6c5d-46d1-8320-76b94db1ace9"/>
+    <weighted-embedded-action uid="07686335-9b06-43b5-8bcd-89629e6967f1"/>
+    <weighted-embedded-action uid="87288509-aa02-42d6-81b3-3b684d84cfa0"/>
+    <weighted-embedded-action uid="2528490e-2936-4612-90b7-f65139d29927"/>
+</basic-logical-action-container>

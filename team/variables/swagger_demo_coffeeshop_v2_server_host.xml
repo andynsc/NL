@@ -1,0 +1,1 @@
+<variable-constant constantValue="webservice.toscacloud.com" name="swagger_demo_coffeeshop_v2_server_host" order="1" policy="4" range="2" uid="5ee40838-983b-4ab4-85f8-00b977d13e0c" whenOutOfValues="CYCLE_VALUES"/>

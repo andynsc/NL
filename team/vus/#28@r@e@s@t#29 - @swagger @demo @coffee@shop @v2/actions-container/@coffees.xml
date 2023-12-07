@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Coffees" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="d214bc4a-5e99-4f1b-9c85-e7a719d71023" weightsEnabled="false">
+    <weighted-embedded-action uid="57e3a11a-867b-4737-bbf8-ad434fbd48f8"/>
+    <weighted-embedded-action uid="5d794144-cbb8-444a-929e-0adc8dbceee7"/>
+    <weighted-embedded-action uid="eba84c9c-ffcb-4336-ba0a-eddcc65faade"/>
+    <weighted-embedded-action uid="4a92c360-0e14-4197-b040-b2174fc99298"/>
+    <weighted-embedded-action uid="e3cc339f-a501-4f49-a953-3c1dacfb5f4a"/>
+</basic-logical-action-container>

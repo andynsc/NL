@@ -1,0 +1,20 @@
+<custom-action actionType="SapSetText" isHit="false"
+    name="SetText GuiCTextField (Order)" uid="39bf6325-316d-4eac-bb10-e932dc172f03">
+    <description>This action simulates a set text action in an SAP text field.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- value (optional): The text value&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/ctxtVBAK-VBELN"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="VBAK-VBELN"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiCTextField"/>
+    <custom-action-parameter name="value" type="TEXT" value="${consumeOrder}"/>
+    <responsePageFileDescription>recorded-responses/res_ab83d774-fb0b-4119-9c72-9eebd45e77ae</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/#28@s@a@p_@g@u@i#29 @v@a02/%resources%/recorded-screenshots/sc_ab83d774-fb0b-4119-9c72-9eebd45e77ae.jpg</screenshotFileDescription>
+</custom-action>

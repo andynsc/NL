@@ -1,0 +1,5 @@
+<http-server hostname="${tricentis.demo.swagger_server_host}" port="80"
+    ssl="false" uid="tricentis.demo.swagger_server"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

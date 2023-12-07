@@ -1,0 +1,13 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="logout" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="e14827e8-bb16-424c-a10e-13c7e2e2140c" weightsEnabled="false">
+    <weighted-embedded-action uid="cb7dcc9a-cbb1-4dd3-a482-18a8b3abcbf7"/>
+    <weighted-embedded-action uid="fbf55b35-e8ca-483c-ba38-c1b75c26b58d"/>
+    <weighted-embedded-action uid="27ed2f65-d632-4ac9-add7-9f07cbe4cb3b"/>
+    <weighted-embedded-action uid="a0c953d8-50c9-498d-9703-1991b4228163"/>
+    <weighted-embedded-action uid="d31f21a5-5615-4fea-9633-1e6e16f74ded"/>
+    <weighted-embedded-action uid="f7158278-93b7-4a8e-9322-2286264cf3d7"/>
+    <weighted-embedded-action uid="52f4069a-7954-4731-8d05-4ab97b5e17c5"/>
+    <weighted-embedded-action uid="725fa4b2-0abe-4a21-a1f1-8c7a24545143"/>
+</basic-logical-action-container>

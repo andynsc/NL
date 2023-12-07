@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="delete item" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="4b5a3249-d1c8-43b8-b3f9-d8db56f86a7f" weightsEnabled="false">
+    <weighted-embedded-action uid="feafb61c-f84a-42fe-bcd9-b6dda2af8488"/>
+    <weighted-embedded-action uid="b5083648-fe99-4d35-b809-59d121057eb6"/>
+    <weighted-embedded-action uid="93326bb3-bfac-44fa-bde6-c9f77037ee38"/>
+    <weighted-embedded-action uid="6bb3f598-cbdc-4445-a8d7-ad5134df737b"/>
+    <weighted-embedded-action uid="d0f2500f-1be3-498e-bf81-ff700f484e28"/>
+    <weighted-embedded-action uid="b1913e26-88e4-47e4-a0b3-5a56c0f87ee6"/>
+</basic-logical-action-container>

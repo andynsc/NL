@@ -1,0 +1,48 @@
+<websocket-channel-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="websocket_channel"
+    path="/SAP/BC/APC/SAP/WEBGUI_SERVICES" postType="6"
+    pushType="WEBSOCKET" recordedResponseCode="101" responseSize="0"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="dd8424eb-c000-4376-86da-a091cf70028c" useKeepAlive="false">
+    <response-matching extractionMethod="REGEXP_ONLY" regexp="" template="$1$"/>
+    <responsePageFileDescription>team/vus/#28@web_@fiori#29 @create @sales @order - @tosca - @original @transfer/%resources%/recorded-responses/res_8e2b9cf2-a706-4e0d-8771-6fa950734d51</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/#28@web_@fiori#29 @create @sales @order - @tosca - @original @transfer/%resources%/recorded-requests/req_8e2b9cf2-a706-4e0d-8771-6fa950734d51.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="window_id"
+        recordRawValue="000D3A44DFA11EDD898F20ACF991FDB5" separator="="
+        value="000D3A44DFA11EDD898F20ACF991FDB5" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="session_id"
+        recordRawValue="000D3A44DFA11EDD898F20ACF991FDB5" separator="="
+        value="000D3A44DFA11EDD898F20ACF991FDB5" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pr_session_id"
+        recordRawValue="000D3A44DFA11EDD898F20ACF991DDB5" separator="="
+        value="000D3A44DFA11EDD898F20ACF991DDB5" valueMode="USE_VALUE"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Upgrade"/>
+    <header name="Cookie" value="_gcl_au=1.1.922398253.1654687505; _biz_uid=e719776114b14d0b90b5ae063e544d90; mf_user=38d4992a44423b07d664d78fc6704cac|; _mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1654687507495-83570; _fbp=fb.1.1654687507534.1321684310; _biz_flagsA=%7B%22Version%22%3A1%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Mkto%22%3A%221%22%7D; _ga=GA1.2.287317646.1647268020; _biz_nA=4; _biz_pendingA=%5B%5D; _ga_489D1QT6C1=GS1.1.1654697648.2.0.1654697648.0; _gid=GA1.2.58883836.1661421542; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=AjQxMDMBABhNAEEAWABQAEEAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMgAwADgAMgA1ADEAMwAyADIABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjIwODI1MTMyMjM0WjAjBgkqhkiG9w0BCQQxFgQURjHTPZ9rcK1ZPUmrUPM9D3r2VIEwCQYHKoZIzjgEAwQuMCwCFE45bm8CDwZGkkK5ToX1g3MlTF%2fLAhROE7RNhQFM5xAJzKIGBagUkW6zRw%3d%3d; SAP_SESSIONID_S4H_100=fctHGG3JAaguqHgRlhwYIfrB-w0keBHtnbUADTpE36E%3d"/>
+    <header name="Host" value="sapdemo21.tricentis.com:44301"/>
+    <header name="Origin" value="https://sapdemo21.tricentis.com:44301"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="Sec-WebSocket-Extensions" value="permessage-deflate; client_max_window_bits"/>
+    <header name="Sec-WebSocket-Key" value="muxmtvaPXuCqn6nrrlCLaQ=="/>
+    <header name="Sec-WebSocket-Protocol" value="v10.pcp.sap.com"/>
+    <header name="Sec-WebSocket-Version" value="13"/>
+    <header name="Upgrade" value="websocket"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 101 Switching Protocols&#xd;
+sec-websocket-accept: 8338/VOwb1/G3TZRyXOetftf668=&#xd;
+upgrade: WebSocket&#xd;
+connection: Upgrade&#xd;
+sec-websocket-protocol: v10.pcp.sap.com&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 5463.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <push-handler filecount="0"
+        filename="team/vus/#28@web_@fiori#29 @create @sales @order - @tosca - @original @transfer/%resources%/recorded-responses/websocket_376c8d0c-bb42-4b64-97af-972f325812eb.dat" pushType="WEBSOCKET">
+        <result-handler responseSource="MESSAGE" type="REGEXP"/>
+    </push-handler>
+</websocket-channel-action>

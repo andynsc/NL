@@ -1,0 +1,30 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="(IBM_MQ) - Send, Wait, then Receive">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+        <weighted-embedded-action uid="db3fefdc-c2e2-462e-80d8-39d0fa82489f"/>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="e4b8601d-c13f-4217-a272-69245fe50459"/>
+        <weighted-embedded-action uid="c4953bb7-2f61-4846-840d-8b1a6eb08c96"/>
+        <weighted-embedded-action uid="697059a5-945b-4e1d-be6d-febe5848ffc1"/>
+        <weighted-embedded-action uid="54840dea-0f31-4b45-a585-5dbc4459cbc1"/>
+        <weighted-embedded-action uid="1a952842-a1f7-43e6-931f-8ef9ce5919c1"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+        <weighted-embedded-action uid="bb7353bc-d5fb-43ab-b615-6d7a011719c0"/>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

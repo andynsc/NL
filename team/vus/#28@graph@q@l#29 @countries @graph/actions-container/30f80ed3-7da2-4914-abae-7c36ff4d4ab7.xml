@@ -1,0 +1,16 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="" path="/graphql/" postType="1"
+    serverUid="countries.trevorblades.com" slaProfileEnabled="false"
+    uid="30f80ed3-7da2-4914-abae-7c36ff4d4ab7" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@graph@q@l#29 @countries @graph/%resources%/recorded-responses/res_30f80ed3-7da2-4914-abae-7c36ff4d4ab7</responsePageFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="query"
+        recordRawValue="" separator="="
+        value="query ExampleQuery {&#xa;  continents {&#xa;    code&#xa;  }}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="operationName"
+        recordRawValue="" separator="=" value="ExampleQuery" valueMode="USE_VALUE"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

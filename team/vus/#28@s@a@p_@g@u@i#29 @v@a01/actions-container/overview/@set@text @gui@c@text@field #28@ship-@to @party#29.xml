@@ -1,0 +1,20 @@
+<custom-action actionType="SapSetText" isHit="false"
+    name="SetText GuiCTextField (Ship-To Party)" uid="56712244-4b4d-450c-a62b-a9ea17457ca5">
+    <description>This action simulates a set text action in an SAP text field.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- value (optional): The text value&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/subSUBSCREEN_HEADER:SAPMV45A:4021/subPART-SUB:SAPMV45A:4701/ctxtKUWEV-KUNNR"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="KUWEV-KUNNR"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiCTextField"/>
+    <custom-action-parameter name="value" type="TEXT" value="${order.ShipToParty}"/>
+    <responsePageFileDescription>recorded-responses/res_8f71bcc1-ffe0-4ee5-9bb1-9c5a4e6ed4f4</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/#28@s@a@p_@g@u@i#29 @v@a01/%resources%/recorded-screenshots/sc_8f71bcc1-ffe0-4ee5-9bb1-9c5a4e6ed4f4.jpg</screenshotFileDescription>
+</custom-action>

@@ -1,0 +1,42 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/prod/third_party_cookie_check_start.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/9a0609b0-a13f-4dfd-a7dc-3f64b07666fb.zip"
+    slaProfileEnabled="false" thinkTime="147"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9a0609b0-a13f-4dfd-a7dc-3f64b07666fb">
+    <embedded-action>0e9fa7fc-e81d-45d6-bf4a-e0da2df8b345</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/xml"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/prod/third_party_cookie_check_start.html"
+    path="/prod/third_party_cookie_check_start.html" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/9a0609b0-a13f-4dfd-a7dc-3f64b07666fb.zip"
+    recordedResponseCode="409" responseSize="248"
+    serverUid="cihosting.blob.core.windows.net"
+    slaProfileEnabled="false" uid="0e9fa7fc-e81d-45d6-bf4a-e0da2df8b345" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_930183f8-ec95-4c0f-9d05-7e0a53f13363.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_930183f8-ec95-4c0f-9d05-7e0a53f13363.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="cihosting.blob.core.windows.net"/>
+    <header name="Referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="Sec-Fetch-Dest" value="iframe"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 409 Public access is not permitted on this storage account.&#xd;
+Content-Length: 248&#xd;
+Content-Type: application/xml&#xd;
+Server: Microsoft-HTTPAPI/2.0&#xd;
+x-ms-request-id: 9380a53b-801e-0035-384b-0be648000000&#xd;
+Date: Thu, 08 Dec 2022 21:25:38 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

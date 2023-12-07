@@ -1,0 +1,22 @@
+<browser-action actionType="BrowserClick" isHit="true"
+    name="Click on select: Country" uid="a1fe3e06-bcc4-4e3a-9148-891ed2d0e644">
+    <description>Click a selector.
+
+Possible parameters are:&#xd;
+- selector (optional): The selector is a string that point to the elements in the page. Several types of selector are supported: text, CSS, XPath...
+	You can specify several selectors by adding multiple "selector" parameters to this action. The targeted element will match any of the selectors (OR operator). If no selector is defined, the click will occur at the point defined in the last previous Mouse Over action.&#xd;
+- force (optional): Forces the click, even if the target element is obscured by other elements Default value is "false".&#xd;
+- mouseButton (optional): LEFT, MIDDLE, RIGHT, BACK or FORWARD. Default to LEFT.&#xd;
+- doubleClick (optional): Performs a double click. Default value is "false".&#xd;
+- modifiers (optional): Modifier keys to press separated by "+" like Control+Shift.&#xd;
+- timeout (optional): Forces the timeout for that action in ms.&#xd;
+- frameName (optional): Frame name&#xd;
+- waitForNavigation.url (optional): Enables a wait for page navigation after this action has been executed. The URL being navigated to must match this pattern.&#xd;
+- waitForNavigation.timeout (optional): Enables a wait for page navigation after this action has been executed. The navigation must occur within the specified timeout in milliseconds.&#xd;
+- waitForNavigation.until (optional): Enables a wait for page navigation after this action has been executed. The navigation will be considered done when the specified state is reached. Allowed values are : LOAD, DOMCONTENTLOADED, NETWORKIDLE, COMMIT</description>
+    <custom-action-parameter name="selector" type="TEXT" value="[name=&quot;Country&quot;]"/>
+    <custom-action-parameter name="selector" type="TEXT" value="#country"/>
+    <custom-action-parameter name="selector" type="TEXT" value="div > section:nth-child(2) > div:nth-child(6) > select:nth-child(2)"/>
+    <responsePageFileDescription>recorded-responses/res_a1fe3e06-bcc4-4e3a-9148-891ed2d0e644</responsePageFileDescription>
+    <screenshotFileDescription>recorded-screenshots/sc_a1fe3e06-bcc4-4e3a-9148-891ed2d0e644.jpg</screenshotFileDescription>
+</browser-action>

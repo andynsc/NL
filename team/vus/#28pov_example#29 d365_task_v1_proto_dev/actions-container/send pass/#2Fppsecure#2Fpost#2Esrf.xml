@@ -1,0 +1,359 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/ppsecure/post.srf"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/f03b119f-95b7-479e-95f2-adcb808f4b7e.zip"
+    slaProfileEnabled="false" thinkTime="10085"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f03b119f-95b7-479e-95f2-adcb808f4b7e">
+    <embedded-action>a2dd1273-00c2-456d-a600-a13bd034ffea</embedded-action>
+    <embedded-action>246ef03f-1c03-4615-8090-f3e43ed74edc</embedded-action>
+    <embedded-action>6210e43c-cb71-4f9b-a834-59815bf71025</embedded-action>
+    <embedded-action>837a3385-3ec7-4129-8f3a-5a5aaa928301</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/ppsecure/post.srf" path="/ppsecure/post.srf"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/f03b119f-95b7-479e-95f2-adcb808f4b7e.zip"
+    recordedResponseCode="200" responseSize="14156"
+    serverUid="login.live.com" slaProfileEnabled="false"
+    uid="a2dd1273-00c2-456d-a600-a13bd034ffea" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[aTEzPTAmbG9naW49bncuamF6ei5uZXQlNDBnbWFpbC5jb20mbG9naW5mbXQ9bncuamF6ei5uZXQlNDBnbWFpbC5jb20mdHlwZT0xMSZMb2dpbk9wdGlvbnM9MyZscnQ9JmxydFBhcnRpdGlvbj0maGlzUmVnaW9uPSZoaXNTY2FsZVVuaXQ9JnBhc3N3ZD1OZW90eXMxNyUyMSZwcz0yJnBzUk5HQ0RlZmF1bHRUeXBlPSZwc1JOR0NFbnRyb3B5PSZwc1JOR0NTTEs9JmNhbmFyeT0mY3R4PSZocGdyZXF1ZXN0aWQ9JlBQRlQ9RFRCOWlyOEVkWlYweSUyMWxheWV4QUdodDBSNkRkRXJoSzdUKklpWG4xMHgybHlORWV5bHhxb2p1NmVFdmdwd1lhVHBYaHl1Q0FoWG1EQTBWZlRrNTQ2ViUyMUZxU21oMkM4TnlVUld1Mk5FWFRlMmY5a1lrNHhPZ1l1RmtPT3N1R3o3Y0xsUUFPZklQbWVGbXNYTHRBTm0qeUtVQW83NjYzSzJuQU93aG5JJTIxTlRrblI0JTIxJTIxZVhDYVQ0V09ZajZKMHNkMXVzWDduUEpqZmVTWjZJOWNLNXd5RThZJTI0JlBQU1g9UGFzJk5ld1VzZXI9MSZGb3VuZE1TQXM9JmZzcG9zdD0wJmkyMT0wJkNvb2tpZURpc2Nsb3N1cmU9MCZJc0ZpZG9TdXBwb3J0ZWQ9MCZpc1NpZ251cFBvc3Q9MCZpc1JlY292ZXJ5QXR0ZW1wdFBvc3Q9MCZpMTk9MTA1MjY=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_cbdbafcd-1500-4153-9c59-2b5351362f77.0.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cbdbafcd-1500-4153-9c59-2b5351362f77.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="'"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="sft_ppft"
+        refererUid="95935bcc-2787-410e-a05c-c0c0415e55b5"
+        regExp="sFT:'(.*?)'" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="sFT:'" template="$1$" templateAdv="$1$"
+        uid="7960fdcf-c8b2-4c1e-a127-6c8b281a7f41" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="fw_sFT_PPFT_param_whole" regExp="sFT:'(.*?)'"
+        regExpAdv="sFT:'(.*?)'" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="9e51e8a4-ee37-4d1a-8ce4-1cc3c821a4f9" xpath=""/>
+    <parameter encodeName="true" encodeValue="true" name="i13"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="login"
+        recordRawValue="nw.jazz.net%40gmail.com" separator="="
+        value="nw.jazz.net@gmail.com" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="loginfmt"
+        recordRawValue="nw.jazz.net%40gmail.com" separator="="
+        value="nw.jazz.net@gmail.com" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="11" separator="=" value="11" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="LoginOptions"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="lrt"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="lrtPartition"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="hisRegion"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="hisScaleUnit"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="passwd"
+        recordRawValue="Neotys17%21" separator="=" value="Neotys17!" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ps"
+        recordRawValue="2" separator="=" value="2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="psRNGCDefaultType" recordRawValue="" separator="="
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="psRNGCEntropy"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="psRNGCSLK"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="canary"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ctx"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="hpgrequestid"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="PPFT"
+        recordRawValue="DTB9ir8EdZV0y%21layexAGht0R6DdErhK7T*IiXn10x2lyNEeylxqoju6eEvgpwYaTpXhyuCAhXmDA0VfTk546V%21FqSmh2C8NyURWu2NEXTe2f9kYk4xOgYuFkOOsuGz7cLlQAOfIPmeFmsXLtANm*yKUAo7663K2nAOwhnI%21NTknR4%21%21eXCaT4WOYj6J0sd1usX7nPJjfeSZ6I9cK5wyE8Y%24"
+        separator="=" value="${fw_PPFT_param_whole}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="PPSX"
+        recordRawValue="Pas" separator="=" value="Pas" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="NewUser"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="FoundMSAs"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="fspost"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="i21"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="CookieDisclosure" recordRawValue="0" separator="="
+        value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="IsFidoSupported" recordRawValue="0" separator="="
+        value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="isSignupPost"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="isRecoveryAttemptPost" recordRawValue="0" separator="="
+        value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="i19"
+        recordRawValue="10526" separator="=" value="10526" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="username" recordRawValue="nw.jazz.net%40gmail.com"
+        separator="=" value="nw.jazz.net@gmail.com" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client_id"
+        recordRawValue="51483342-085c-4d86-bf88-cf50c7252078"
+        separator="=" value="${fw_client_id_param_whole_header_1}" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="cobrandid"
+        recordRawValue="82834d41-5e42-4877-820c-9ef4f8bd3687"
+        separator="=" value="${fw_cobrandid_param_header}" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="contextid" recordRawValue="0A0D789D387B3E83" separator="="
+        value="${fw_contextid_param_whole_header}" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="opid"
+        recordRawValue="B49986107BC4EADA" separator="="
+        value="${fw_opid_param_whole_header}" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bk"
+        recordRawValue="1670534700" separator="="
+        value="${fw_bk_param_part_header_text_part}" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="uaid"
+        recordRawValue="43943f4dca4041d483277924564f26c2" separator="="
+        value="${fw_uaid_param_header_text}" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="pid"
+        recordRawValue="15216" separator="="
+        value="${fw_pid_param_whole_header}" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="uaid=${fw_uaid_param_header_text}; MSPRequ=id=N&amp;lt=${fw_bk_param_part_header_text_part}&amp;co=0; MSCC=18.132.211.252-UK; MSPOK=$uuid-0c33745c-67cc-40e9-ab37-10b84afcd788; OParams=11O.DfIneLF3KZeDh3U4yuktqjfoudowO*Psip0F*X2deUFhSFUGYC5FJsaMoMeQSbIA8hDYV*8z9mNla9HGm9yI6CCWUqjiCOQ4B0o2sculjj6W01soEP60vBzKdkmbJK*b0lqs2gX*9t2iG!vE1B6Sx7wsN7pqOvHaY1iux8rMt09D9Fhe9haYQVZygrnQxXnE257Rre1Q5g8VEDl1j1pnefbLTCiEPODV2Zz8aJy795axrCOlFkiWnK8ixA!tIdxu1t57zGjMChmv98ODgaQcmuyeQKNDKLJiov!HpVUMBRJd!gPeXGUYR04lnyw1nxhxj8oHdcRI6swu8xpQPv*c0DVSE*tQxiHdn9A1hdsj31CH6l8bKtXu2fYYZx3*3gjZ*!c7Cxd5MKnEXJivMtPlzDcOG6Nke3QVGqp9pN8m4Y80C*zLfX2kToDj0fIRet1IlrANgqQ7g5vtDG7JEIoK52KfnOScukwKtIfT4YL42loY2*KInjEkECLWaxXqrIvU*818uXbZuOW6lHwS6gXIab6DCR2gSZEpn1dz9LrG!al!6ERlnZ2TG8BZQxT05OpClPmTBrenBpjCT4GRkHFqpCtMo72zhqjPoE!9rBGpOklGryaGKwc7*5xpN0Y842WQASGWEI!m5TdGeZJCoYeb89FXTMrYauroLihdINhz7oeIH4uCYu2TdOQp0YR5v2*9vzyeLCO0SC2F8A6bwnW8AbFD8PTslsrC!lXKEnMj!1ne7CBQWcmPqsGO65cQ23chyJfb0YGd4C9nF8wL3r25Yh7QhT4Ro3wy2eoUnDbYoFYrxN9DJglKzTTrv6TRQQ9uvoNF9ILL*Y0yDH36gpRo3sVOKWWC6iLmbb!1jgmLADOtvc0ZUHdRI!S5if7LeSM96aPf76c0!eftfgMsGyWyk9gM7UmSFO*9n8gZTmPZoptlaa*lHn!PAW1rAXVbq89Jf7171LJ77nuLrQ26AGrVu3mP6IYahSOV55l71kkzIqPuSxmtM1zQRbf6m946ZqTIT3XfiBsQAhaT1db5FgH!DpqDT3OZv3459U!zG5tdGT!JRCbo1iq7HtShxaKyxdoPGUHGHh4QqpdnXV8LGsUu8TBZgAgIBPJs5z!ZfWpKeR0sigJJwXn0yAHg4BDINPf9HZMc7HWjGidszJiXGrPUtc0hQ6XpQgbQSZrmGipjtdPIBx*4U56fpX1hO4bAfyj6nCLti7Cb2JhkFXstLKbZrRcGmmLfqntsnD2irMnxRtY8Hp4XmwtBxRKV!MPNCTgO4Eui*Jz1AAXdazGIf7eELc!PBej8Qi2c6QK3rC!GGxW3A3*78UQ8Sdn*9TgZIhEW!S9GnwITe!JJZ83F0ggPdOsR3XyOcEjvti*GzI1OjopzHpswmkwmHljOzMNZ0bNKdUbP5HhV4uZvFMZblUrfzM0kSsOwaIoVZQRo7PW!bsOoaWXbSk!uGBOaXJ5TAQE3Q3QmYn1inIwETEJBp4OUzLzPj0bw*uLvO*BEPZiToBQk60cCGRcZ!blOA9tHtyWnH48brshXRDflyQd1zhWnoEf3vlGYceAQZUN2GHQC2oPJwdFeX88gLDl!*yLO6ABySGh0e9iYXfwVlwSoJoieYua6hFUWflRmEeAh2m9Y8eGWItKWYMY*8OokSh4XP*8UZ8F*u5PUL8ZIaLq7FXsFEpGN2QmoRhFJEvLxV5LdkE9jXTHXAGuBOnygLaj5L5UpTWlkgFuuNZ7jxn9ft!gv9SbGGYHORLTp5!W5Fx*pQ3V9g5SosSCknnIGBoy748mUybGFXeoO9eHsJ5GVi5G54CE5OMypIHljSGFManlmRp5Z17iSLXQKyMiTZfJO0NpsYDhTulba1wklf4hZPHY3gb9Tx2v9*GoLTKhRcq1lvSpZCzw4!pxyzFfbdYwOva068Q$$; wlidperf=FR=L&amp;ST=1670534712073"/>
+    <header name="Host" value="login.live.com"/>
+    <header name="Origin" value="https://login.live.com"/>
+    <header name="Referer" value="https://login.live.com/oauth20_authorize.srf?response_type=code&amp;client_id=${fw_client_id_param_whole_header_1}&amp;scope=openid+profile+email+offline_access&amp;response_mode=form_post&amp;redirect_uri=https%3a%2f%2flogin.microsoftonline.com%2fcommon%2ffederation%2foauth2msa&amp;state=${fw_state_param_whole_header_text_part_2_1}&amp;estsfed=1&amp;uaid=${fw_uaid_param_header_text}&amp;cobrandid=${fw_cobrandid_param_header}&amp;fci=${fw_client_id_param_whole_header_4}&amp;username=nw.jazz.net%40gmail.com&amp;login_hint=nw.jazz.net%40gmail.com"/>
+    <header name="Sec-Fetch-Dest" value="document"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+Expires: Thu, 08 Dec 2022 21:24:12 GMT&#xd;
+Vary: Accept-Encoding&#xd;
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"&#xd;
+X-DNS-Prefetch-Control: on&#xd;
+Link: &lt;https://logincdn.msftauth.net&gt;; rel=preconnect; crossorigin&#xd;
+Link: &lt;https://acctcdn.msauth.net&gt;; rel=preconnect; crossorigin&#xd;
+Link: &lt;https://acctcdn.msftauth.net&gt;; rel=preconnect; crossorigin&#xd;
+Link: &lt;https://acctcdn.msauth.net/&gt;; rel=dns-prefetch&#xd;
+Link: &lt;https://acctcdn.msftauth.net/&gt;; rel=dns-prefetch&#xd;
+Link: &lt;https://acctcdnmsftuswe2.azureedge.net/&gt;; rel=dns-prefetch&#xd;
+Link: &lt;https://acctcdnvzeuno.azureedge.net/&gt;; rel=dns-prefetch&#xd;
+Link: &lt;https://logincdn.msauth.net/&gt;; rel=dns-prefetch&#xd;
+Link: &lt;https://logincdn.msftauth.net/&gt;; rel=dns-prefetch&#xd;
+Link: &lt;https://lgincdnvzeuno.azureedge.net/&gt;; rel=dns-prefetch&#xd;
+Link: &lt;https://lgincdnmsftuswe2.azureedge.net/&gt;; rel=dns-prefetch&#xd;
+Referrer-Policy: strict-origin-when-cross-origin&#xd;
+x-ms-route-info: R3_BL2&#xd;
+x-ms-request-id: d3e52794-8987-43dd-86b6-5143d4570486&#xd;
+PPServer: PPV: 30 H: BL02EPF0000683F V: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+Set-Cookie: MSPOK= ; expires=Thu, 30-Oct-1980 16:00:00 GMT; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: __Host-MSAAUTH=-CdFKYebA3yYzzG68DDEYOeN2eWN5Uc5cDIONVEQMzTQN8V1sXo!3CD5paDK6Hzx4TEMeaG66sB!!GCd!zxTvnaP5LYaAnXLtBuWyzLLMB5kJsh8WuNnu26JiMkEx98lOdWqsh0Ub5cavqFjR22m2nXaD3nM2wL4yYNUjaibp74cWFLFOtW1PfPY5UXa7t61Npz5xfHTfyCba69mE1ScDeIjBqNaaDKJNUTMizLLCBWS5O7TDufyHlrG51D9y36T5Tg$$; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: __Host-MSAAUTHP=; expires=Thu, 30-Oct-1980 16:00:00 GMT; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: PPLState=1; domain=.live.com; Secure; path=/; SameSite=None&#xd;
+Set-Cookie: MSPShared= ; expires=Thu, 30-Oct-1980 16:00:00 GMT; domain=login.live.com; Secure; path=/; SameSite=None&#xd;
+Set-Cookie: MSPPre= ; domain=login.live.com; path=/; Expires=Thu, 30-Oct-1980 16:00:00 GMT; Secure; SameSite=None&#xd;
+Set-Cookie: MSPCID= ; HTTPOnly; domain=login.live.com; path=/; Expires=Thu, 30-Oct-1980 16:00:00 GMT; Secure; SameSite=None&#xd;
+Set-Cookie: pres=; expires=Thu, 30-Oct-1980 16:00:00 GMT; domain=.live.com; Secure; path=/; SameSite=None&#xd;
+Set-Cookie: LOpt= ; expires=Thu, 30-Oct-1980 16:00:00 GMT; domain=login.live.com; Secure; path=/; SameSite=None&#xd;
+Set-Cookie: MSPOK=$uuid-0c33745c-67cc-40e9-ab37-10b84afcd788$uuid-4d1158cf-5e0a-4a3d-85ba-ad96eadfb035; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: OParams=11O.DfTASvbaUfoEmAdM9KFkddumwzj4W6eu7giSRSagBlwFb!qUfsTcz5aP611xlwc6ff5hGVvmv0cBpLM*5ywX6FmtHaZEl6IThHYEvir48jHPC6Ms3MELlEWNWdocskmqVRJlYRH4gqmkj9ex66D0hNGTPrc9Bzixix4WFusExcAZOUeSWSry5iIL1o88Ni*vxp*A5Mkf!kvPCO8ZlYnqchQ905qZw8iyOWdUQ1E9s3IY24ELIWhMI8d2Q*DlttcU7cLE!WrrwvmV0TNNYnTW92QQ3KbhUtChnQRuPPJMumFgkVQ4oHVtAAIHdM87UoxEqlaPQCq*DrZXe6*vuPya!u!9OSzdJq23cr38GWUvSTNS7kASltoVInitKYceTecudRVreoYMvEyjLWtzhI32HFMF*QKTjL0IfGSL0iTeEY5eOQi9wsRW3cRFqQWiU3R!2KPcVMcdxyIzJCYizjkmkRqVkrYuDu4N4K8oanTEAkf6KNav7U!S1DQvoyHVg*djfxoLZ*ENdCa1I7uzg6MEb68Cr4xBkKsftMsvmGi0GtwB*InfXMlP7vMSsNHZNLMOZL0z*pm5!hT4tpEATgotEvJJahRwyUgutpoyub7oB2pnGJwu8CW3KXzE1qqpyc*ROpugNmMVAbl8gkNp3!RtkJzTgGzAWYWci8up3ntJNH*0hLY75ysu9o6JYyM8sGpt*w6n!gkjSpBapQZj3Q8DSWOE0LuLYjXf5eUetM4Io5bSlDtvy74aveMzjUKM67nDbp3NDCipJSqFC3I1WW5Ifr85iU!mjFioQ*Yde9EfIyVy1v0Hd!yYoxjPoKKMkmmY!MTRuCGrT8FsYVhF1hLEshYFooyFihez9XcVL11vHraEILKZgYpaWayJwaEruDVxk*pJkA0TAwebC5H6eYsyZnVT0d6U!gpVOtxjGxrN3lfXFKeAoOG5jdknj7mcpg56TgpIUvQNrdcTUovynwlhNOI6yWjFtp4PYFwzKGkaje0jkwhwib7AcNvhkNK2Ybnx9TxSmo1aJmf7pUOYcZ8R3SOrXDP0H8tgBDTYcphCPI!Z1I1zFnc6koiL*eZTLnx5uobN6lCghXN0lQAVS8fmT8EsUznCzh8Ll6mUbNU9XcXxAga81rQUeJniXNyXWNQ5yaOTg9WtQJsMU9RCXIvKtHeiObPxaqrJW**dUR65Q5nxNszOPZL0NblSLGfx!w22kttfGMs!*va4uz4JUP8lBXITIQrPNUnkRHCOe9pskSZ!szL8ChWniLLmUGFO2Af*HA422VvSUt12cdq4YD9HceeU*bc6jVdGR5PQYOkGbpim1ahe0uZG10L8ROIJkZY3bzxU6Vniw*4RVu4aYdZo9oBetmm7ZI5lQsrdw6JWb6mFJ42GHp5YYzsAVJ5yBodMHxLsBeZI45X47INvuwhdOqeIrBfwfQUewKxCSWAPzFuZrlgb7YYsuyl7HV1Dp0HgGdV*eh6DBwRvy7YfjUDQFORdkz7N!RRcIPL21HpimavUXWAh1t0KnERkSCc0GpnV*dlYAI8Gn!Mt6NPV6C192FdBL47U6O1r1GLlrBq0BG8om4FXgc6eN4b8M4XldHT12wtgzQHA*Kf3Fi4MUQ4ZuObJDKdUjwIQgnmKptyUVvbt7ImkuZ7evItfB8Bim9bDtSo9yp6oiv3ZElK5*T0VU!PM49NXbMURdLlhCJcMm*M3OCDEMe3LJhlTqjwcgDsPp!vPftGdx5AIa9BI9JHDuWNcCBh0zvOXVkPfmDPu3cTRN8sqbUwP5oEzFSnScag3zcI!PQXCf*sKrSNjNsFUKOO*GgvJL5r3X2NEO9qUYABibHAtA5FU4lT3sijsX4lsb!bR7ZlGMfCOxMr08Ov6YlPe1XHtcKo6zvA3fAXzcCxiSL508C*Uz!wVS*vN5*c!5agZtvYT8Ygyy5VNCo*bjkzDkOnWcG3n7tVZfK5LmskTacQZuvSOTbtTtc6p7A9463j7t8zNSnCSbLdIS3yw0*aQ1KrIQh9se3SMuRRymrT!aLkBWg*1Zd0DyMCNTl0EzMdyiv!wZDDS6RYV6UWiSi2qXPfbZl!hkaJXOnKy3u12zcedxUfF0zfc8Z11chMQuE2u9DbbisrlVjou8vX8TM4zcFVbGTIJugUMI*SjjKZtp*IkcMPMLOU7Kam*22Y8Znc1oEDBsCDgkgv4wtS7CjDay58WanCR!dClUXzFyTrz; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Date: Thu, 08 Dec 2022 21:25:11 GMT&#xd;
+Content-Length: 5811</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/OneCollector/1.0/" path="/OneCollector/1.0/"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/f03b119f-95b7-479e-95f2-adcb808f4b7e.zip"
+    recordedResponseCode="204" responseSize="0"
+    serverUid="browser.events.data.microsoft.com"
+    slaProfileEnabled="false" uid="246ef03f-1c03-4615-8090-f3e43ed74edc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0927e98f-969e-40fa-bc3f-f94477330195</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d154e6c4-fd11-4cfc-b0cd-47f62454aee5.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="cors"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="false"
+        name="content-type" recordRawValue="application/x-json-stream"
+        separator="=" value="application/x-json-stream" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-id" recordRawValue="NO_AUTH" separator="="
+        value="NO_AUTH" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-version" recordRawValue="1DS-Web-JS-3.2.6"
+        separator="=" value="1DS-Web-JS-3.2.6" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="apikey"
+        recordRawValue="69adc3c768bd4dc08c19416121249fcc-66f1668a-797b-4249-95e3-6c6651768c28-7293"
+        separator="="
+        value="69adc3c768bd4dc08c19416121249fcc-66f1668a-797b-4249-95e3-6c6651768c28-7293" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="upload-time" recordRawValue="1670534712285" separator="="
+        value="1670534712285" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="time-delta-to-apply-millis"
+        recordRawValue="use-collector-delta" separator="="
+        value="use-collector-delta" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="w"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="NoResponseBody" recordRawValue="true" separator="="
+        value="true" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Host" value="browser.events.data.microsoft.com"/>
+    <header name="Origin" value="https://login.live.com"/>
+    <header name="Referer" value="https://login.live.com/"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 204 No Content&#xd;
+Content-Length: 0&#xd;
+Server: Microsoft-HTTPAPI/2.0&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+P3P: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"&#xd;
+Set-Cookie: MC1=GUID=afa342a5f6c64c369ea25be968f53188&amp;HASH=afa3&amp;LV=202212&amp;V=4&amp;LU=1670534712314; Domain=.microsoft.com; Expires=Fri, 08 Dec 2023 21:25:12 GMT; Path=/;Secure; SameSite=None&#xd;
+Set-Cookie: MS0=ca791dae447f4e13af54600647263f2d; Domain=.microsoft.com; Expires=Thu, 08 Dec 2022 21:55:12 GMT; Path=/;Secure; SameSite=None&#xd;
+time-delta-millis: 29&#xd;
+Access-Control-Allow-Headers: P3P,Set-Cookie,time-delta-millis&#xd;
+Access-Control-Allow-Methods: POST&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Access-Control-Allow-Origin: https://login.live.com&#xd;
+Access-Control-Expose-Headers: time-delta-millis&#xd;
+Date: Thu, 08 Dec 2022 21:25:12 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"name":"IDUX_MSAClientTelemetryEvent_WebWatson","time":"2022-12-08T21:25:12.283Z","ver":"4.0","iKey":"o:69adc3c768bd4dc08c19416121249fcc","ext":{"app":{"ver":"16.0.29619.5","name":"IDUX_MSAClientTelemetryEvent_WebWatson","sesId":"${fw_uaid_param_header_text}","userId":"p: ","env":"PROD"},"cloud":{"role":"-","roleInstance":"BL02EPF00006707","roleVer":"16.0.29619.5"},"sdk":{"ver":"1DS-Web-JS-3.2.6"},"metadata":{"f":{"viewId":{"t":6}}}},"data":{"baseData":{"properties":{"version":""}},"viewId":2,"Data":"{\"pltMetrics\":{\"apiTimingInfo\":[],\"isPlt1\":false,\"plt\":1070,\"timing\":{\"navigationStart\":${fw_bk_param_part_header_text_part}469,\"unloadEventStart\":0,\"unloadEventEnd\":0,\"redirectStart\":0,\"redirectEnd\":0,\"fetchStart\":${fw_bk_param_part_header_text_part}477,\"domainLookupStart\":${fw_bk_param_part_header_text_part}477,\"domainLookupEnd\":${fw_bk_param_part_header_text_part}477,\"connectStart\":${fw_bk_param_part_header_text_part}477,\"connectEnd\":${fw_bk_param_part_header_text_part}477,\"secureConnectionStart\":${fw_bk_param_part_header_text_part}477,\"requestStart\":${fw_bk_param_part_header_text_part}480,\"responseStart\":${fw_bk_param_part_header_text_part}614,\"responseEnd\":${fw_bk_param_part_header_text_part}614,\"domLoading\":${fw_bk_param_part_header_text_part}649,\"domInteractive\":1670534701188,\"domContentLoadedEventStart\":1670534701188,\"domContentLoadedEventEnd\":1670534701192,\"domComplete\":1670534701430,\"loadEventStart\":1670534701430,\"loadEventEnd\":1670534701547},\"pltOverallTransferBucket\":null,\"dns\":0,\"tcp\":0,\"pageSource\":\"LPerf\"},\"ClientEvents\":[{\"ID\":11009,\"EventTime\":1670534712078,\"Value\":\"Submit\",\"DataViewID\":\"2\"}]}","ServerPageID":"33","PageName":"i5030","ServiceID":"2"}}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    eTag="0x8DA49D5D51E47E0" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 09 Jun 2022 05:06:37 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/16.000/content/js/ConvergedKmsiStrings.en_tqG0-t8X5zYharreBCOBIw2.js"
+    path="/16.000/content/js/ConvergedKmsiStrings.en_tqG0-t8X5zYharreBCOBIw2.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/f03b119f-95b7-479e-95f2-adcb808f4b7e.zip"
+    recordedResponseCode="200" responseSize="1789"
+    serverUid="logincdn.msftauth.net" slaProfileEnabled="false"
+    uid="6210e43c-cb71-4f9b-a834-59815bf71025" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b4050c8b-03cc-49a5-8ef3-191f6b2ed4b2</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b4050c8b-03cc-49a5-8ef3-191f6b2ed4b2.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://login.live.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://login.live.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-encoding: gzip&#xd;
+accept-ranges: bytes&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding&#xd;
+age: 15405410&#xd;
+cache-control: public, max-age=31536000&#xd;
+content-md5: baizt5i3XYT3qiDODFlrJQ==&#xd;
+content-type: application/x-javascript&#xd;
+date: Thu, 08 Dec 2022 21:25:12 GMT&#xd;
+etag: 0x8DA49D5D51E47E0&#xd;
+last-modified: Thu, 09 Jun 2022 05:06:37 GMT&#xd;
+server: ECAcc (lhd/359D)&#xd;
+vary: Accept-Encoding&#xd;
+x-cache: HIT&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 991c5dc0-101e-008b-032f-7ff28f000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-length: 867</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    eTag="0x8DABC4C7EC11772" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 01 Nov 2022 21:03:15 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/shared/1.0/content/js/ConvergedKmsi_Core_V8trr9vFAKIVUp3Yf00pvw2.js"
+    path="/shared/1.0/content/js/ConvergedKmsi_Core_V8trr9vFAKIVUp3Yf00pvw2.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/f03b119f-95b7-479e-95f2-adcb808f4b7e.zip"
+    recordedResponseCode="200" responseSize="260094"
+    serverUid="logincdn.msftauth.net" slaProfileEnabled="false"
+    uid="837a3385-3ec7-4129-8f3a-5a5aaa928301" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d881704f-8141-4601-87e5-e5da64ad99dc</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d881704f-8141-4601-87e5-e5da64ad99dc.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://login.live.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://login.live.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-encoding: gzip&#xd;
+accept-ranges: bytes&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding&#xd;
+age: 3062691&#xd;
+cache-control: public, max-age=31536000&#xd;
+content-md5: tpbXVJuAj9cm7Z4RNppECw==&#xd;
+content-type: application/x-javascript&#xd;
+date: Thu, 08 Dec 2022 21:25:12 GMT&#xd;
+etag: 0x8DABC4C7EC11772&#xd;
+last-modified: Tue, 01 Nov 2022 21:03:15 GMT&#xd;
+server: ECAcc (lhd/35C1)&#xd;
+vary: Accept-Encoding&#xd;
+x-cache: HIT&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 4d3e637c-f01e-0012-5770-ef6cc0000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-length: 78720</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

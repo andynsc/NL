@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="mark complete" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="807d4005-6b94-48c0-b5e9-dee6f4edadee" weightsEnabled="false">
+    <weighted-embedded-action uid="12152272-577d-4d80-a98a-c4db08a91a78"/>
+    <weighted-embedded-action uid="3e8c9a33-fe73-4e29-accc-556c028998b4"/>
+</basic-logical-action-container>

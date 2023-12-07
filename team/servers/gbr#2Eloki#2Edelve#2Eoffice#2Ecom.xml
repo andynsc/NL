@@ -1,0 +1,4 @@
+<http-server hostname="gbr.loki.delve.office.com" port="443" ssl="true"
+    uid="gbr.loki.delve.office.com" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

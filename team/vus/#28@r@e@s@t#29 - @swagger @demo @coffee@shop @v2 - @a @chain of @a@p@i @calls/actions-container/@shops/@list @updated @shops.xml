@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="List Updated Shops" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="0f66741a-8b3d-4542-b258-e4353ba50192" weightsEnabled="false">
+    <weighted-embedded-action uid="2a8c0f69-33ab-4632-af98-316af43bafc7"/>
+</basic-logical-action-container>

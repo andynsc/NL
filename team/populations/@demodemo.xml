@@ -1,0 +1,36 @@
+<population uid="Demodemo">
+    <split cache="1" factor="50.0" virtualUserUid="NoWAN">
+        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
+            connections="6" cookies="true" http2="true" name="browser.recorded"/>
+        <wan-emulation-profile
+            averageDownloadBandwidth="bandwidth.unlimited"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="bandwidth.unlimited"
+            averageUploadLatency="0ms" averageUploadPacketLoss="0%"
+            downloadBandwidth="bandwidth.unlimited"
+            downloadLatency="0ms" downloadPacketLoss="0%"
+            isRadio="false" name="bandwidth.unlimited"
+            poorDownloadBandwidth="bandwidth.unlimited"
+            poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
+            poorUploadBandwidth="bandwidth.unlimited"
+            poorUploadLatency="0ms" poorUploadPacketLoss="0%"
+            signalStrength="GOOD" uploadBandwidth="bandwidth.unlimited"
+            uploadLatency="0ms" uploadPacketLoss="0%"/>
+    </split>
+    <split cache="1" factor="50.0" virtualUserUid="WAN">
+        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
+            connections="6" cookies="true" http2="true" name="browser.recorded"/>
+        <wan-emulation-profile averageDownloadBandwidth="28Kbps"
+            averageDownloadLatency="400ms"
+            averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="24Kbps" averageUploadLatency="440ms"
+            averageUploadPacketLoss="0%" downloadBandwidth="56Kbps"
+            downloadLatency="350ms" downloadPacketLoss="0%"
+            isRadio="false" name="56K Modem"
+            poorDownloadBandwidth="14bps" poorDownloadLatency="400ms"
+            poorDownloadPacketLoss="0%" poorUploadBandwidth="12Kbps"
+            poorUploadLatency="440ms" poorUploadPacketLoss="0%"
+            signalStrength="GOOD" uploadBandwidth="48Kbps"
+            uploadLatency="370ms" uploadPacketLoss="0%"/>
+    </split>
+</population>

@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="WANClickSubmit" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="f752ee95-3b28-4899-8e2c-9d57afd6a402" weightsEnabled="false">
+    <weighted-embedded-action uid="46847940-ec28-4d6f-a7f1-35439a0cf7e4"/>
+    <weighted-embedded-action uid="1ea8b3a7-fbd1-4cac-9087-2df828d09879"/>
+    <weighted-embedded-action uid="5e6ad760-1595-4cbc-be86-982caaea593f"/>
+    <weighted-embedded-action uid="cd2e40d8-1cd3-4b56-81e8-70e3b554cc41"/>
+    <weighted-embedded-action uid="4f9da4e3-b04b-43eb-860d-b234db4eab4b"/>
+</basic-logical-action-container>

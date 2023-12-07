@@ -1,0 +1,32 @@
+<custom-action actionType="Send And Receive" isHit="true"
+    name="queue_-_send_and_receive" uid="0db635a7-d153-42c6-86c6-c705b7bd2bfd">
+    <description>Sends a message and waits for a response.
+
+Possible parameters are:&#xd;
+- sendQueue (required): The JNDI name of the sending queue.&#xd;
+- receiveQueue (optional): The JNDI name of the receiving queue. If not provided, the sending queue is used for receiving.&#xd;
+- correlationID (optional): The ID used to correlate messages. Value needed when parameter useRequestIdAsCorrelationId is set to false.&#xd;
+- messageType (required): Text or Bytes. Default value is "Text".&#xd;
+- textContent (optional): The message content.&#xd;
+- contentFile.path (optional): The path of the content file. Use the variable '${NL-CustomResources}' to access on the Load Generator the synchronized resources located in the 'custom-resources' folder of the project.&#xd;
+- contentFile.charset (optional): The charset of the file.&#xd;
+- contentFile.parse (optional): Whether to parse the file to replace variables. Default value is "false".&#xd;
+- expiration (optional): The expiration time (in ms) before the message becomes obsolete. When set to default value (0) the message does not expire. Default value is "0".&#xd;
+- priority (optional): The priority of the message. Default value is "4".&#xd;
+- persistentDeliveryMode (optional): Whether or not to set DeliveryMode.NON_PERSISTENT Default value is "true".&#xd;
+- properties (optional): You can setup the name, the value and the class (type) of value. Default type is String. The value must follow the pattern name=[class]value separated by '\n'. Example : size=[java.lang.Integer]150. One line per property.&#xd;
+- useRequestIdAsCorrelationId (optional): If set to true, the JMSMessageID request will be used for correlation, otherwise the JMSCorrelationID request will be used. Default value is "false".&#xd;
+- useResponseIdAsCorrelationId (optional): If set to true, the JMSMessageID response  will be used for correlation, otherwise the JMSCorrelationID response will be used. Default value is "false".&#xd;
+- timeout (optional): Timeout (in ms) applied to wait a message. 0=none. Default value is "2000".&#xd;
+- jmsSelector (optional): The message selector to extract only the message that respect the selector condition.&#xd;
+- writeMessageInResponse (optional): Whether or not the response should contain the message. Default value is "true".&#xd;
+- failOnTimeout (optional): If set to true, the action fails when timeout is reached. Default value is "true".</description>
+    <custom-action-parameter name="sendQueue" type="TEXT" value="DEV.QUEUE.1"/>
+    <custom-action-parameter name="receiveQueue" type="TEXT" value="DEV.QUEUE.1"/>
+    <custom-action-parameter name="correlationID" type="TEXT" value="Any_bit_of_text"/>
+    <custom-action-parameter name="messageType" type="TEXT" value="Text"/>
+    <custom-action-parameter name="textContent" type="TEXT" value="HelloWorld"/>
+    <custom-action-parameter name="contentFile.path" type="TEXT" value=""/>
+    <custom-action-parameter name="timeout" type="TEXT" value="2000"/>
+    <responsePageFileDescription>recorded-responses/res_27611df1-8293-48fd-a1cb-64844f72479a</responsePageFileDescription>
+</custom-action>

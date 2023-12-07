@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Send Report" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="679b5185-806d-4593-bf6e-451344e1b061" weightsEnabled="false">
+    <weighted-embedded-action uid="0a7b2c04-8d6a-46e7-a314-95a773336780"/>
+</basic-logical-action-container>

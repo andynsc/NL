@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Add Shop" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="b5ed78ad-874d-4256-8c6b-38b4059da4c8" weightsEnabled="false">
+    <weighted-embedded-action uid="4d7a60c5-2837-4ab0-a808-b3a6f54a3475"/>
+</basic-logical-action-container>

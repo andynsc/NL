@@ -1,0 +1,20 @@
+POST https://ws-demo-env:9443/BlueBankFrontOffice/services/BlueBankFrontOffice HTTP/1.1
+User-Agent: Jetty/9.3.7.v20160115NeotysEdition.47
+SOAPAction: ""
+Content-Type: text/xml; charset=utf-8
+Host: ws-demo-env:9443
+Content-Length: 543
+
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <createAccount xmlns="http://bluebank">
+   <FirstName>Neo</FirstName>
+   <LastName>Load</LastName>
+   <StreetAddress>Here and There</StreetAddress>
+   <ZipCode>12345</ZipCode>
+   <City>Gemenos</City>
+   <State>Positive</State>
+   <Country>France</Country>
+  </createAccount>
+ </soapenv:Body>
+</soapenv:Envelope>

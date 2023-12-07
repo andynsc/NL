@@ -1,0 +1,13 @@
+<browser-action actionType="BrowserNavigate" isHit="false"
+    name="Navigate to https://org02...nOverride=true" uid="9252cee1-9d58-435d-80ba-bf1d72add1d8">
+    <description>Navigate to an url.
+
+Possible parameters are:&#xd;
+- url (required): URL to visit. The URL should include scheme, for example "https://".&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.until (optional): Allowed values are : LOAD, DOMCONTENTLOADED, NETWORKIDLE, COMMIT. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://org02b42784.crm11.dynamics.com/main.aspx?appid=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;pagetype=dashboard&amp;id=eaa6e6bb-4712-ec11-b6e7-00224820f09b&amp;type=system&amp;_canOverride=true"/>
+    <responsePageFileDescription>recorded-responses/res_9252cee1-9d58-435d-80ba-bf1d72add1d8</responsePageFileDescription>
+    <embedded-action>d0aadb0a-bcdb-4b98-9ee2-a5b0261af87b</embedded-action>
+</browser-action>

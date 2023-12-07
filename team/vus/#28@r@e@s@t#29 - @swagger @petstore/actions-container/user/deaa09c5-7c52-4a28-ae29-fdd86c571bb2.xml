@@ -1,0 +1,15 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="${swagger_petstore_base_path}/user/createWithArray"
+    path="${swagger_petstore_base_path}/user/createWithArray"
+    postType="4" serverUid="swagger_petstore_server"
+    slaProfileEnabled="false" uid="deaa09c5-7c52-4a28-ae29-fdd86c571bb2" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @petstore/%resources%/recorded-responses/res_deaa09c5-7c52-4a28-ae29-fdd86c571bb2</responsePageFileDescription>
+    <header name="Content-Type" value="application/json"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[Encoded(Base64):WyB7DQogICJpZCIgOiA1LA0KICAidXNlcm5hbWUiIDogInVzZXJuYW1lIiwNCiAgImZpcnN0TmFtZSIgOiAiZmlyc3ROYW1lIiwNCiAgImxhc3ROYW1lIiA6ICJsYXN0TmFtZSIsDQogICJlbWFpbCIgOiAiZW1haWwiLA0KICAicGFzc3dvcmQiIDogInBhc3N3b3JkIiwNCiAgInBob25lIiA6ICJwaG9uZSIsDQogICJ1c2VyU3RhdHVzIiA6IDMNCn0sIHsNCiAgImlkIiA6IDUsDQogICJ1c2VybmFtZSIgOiAidXNlcm5hbWUiLA0KICAiZmlyc3ROYW1lIiA6ICJmaXJzdE5hbWUiLA0KICAibGFzdE5hbWUiIDogImxhc3ROYW1lIiwNCiAgImVtYWlsIiA6ICJlbWFpbCIsDQogICJwYXNzd29yZCIgOiAicGFzc3dvcmQiLA0KICAicGhvbmUiIDogInBob25lIiwNCiAgInVzZXJTdGF0dXMiIDogMw0KfSBd]]></textPostContent>
+</http-action>

@@ -1,0 +1,25 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="PUT"
+    name="${swagger_demo_coffeeshop_v2_base_path}/api/SecuredEmployee_V2"
+    path="${swagger_demo_coffeeshop_v2_base_path}/api/SecuredEmployee_V2"
+    postCharset="" postType="1" recordedResponseCode="200"
+    serverUid="swagger_demo_coffeeshop_v2_server"
+    slaProfileEnabled="false" uid="3dae38b8-71dd-4691-bd0b-30ed35c6ec43" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @demo @coffee@shop @v2/%resources%/recorded-responses/res_69fe6282-e3f5-4eab-9e45-168c058e0062</responsePageFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="Address"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="FirstName"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="Id"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="LastName"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 192</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

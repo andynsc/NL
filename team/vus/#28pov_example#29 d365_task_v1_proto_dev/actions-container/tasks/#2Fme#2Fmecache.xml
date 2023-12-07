@@ -1,0 +1,51 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/me/mecache"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/85b713c4-2223-42c8-bb20-b3021c4a51a7.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="85b713c4-2223-42c8-bb20-b3021c4a51a7">
+    <embedded-action>14894ae8-7d85-4c21-8784-1cc199e042a9</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/me/mecache" path="/me/mecache" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/85b713c4-2223-42c8-bb20-b3021c4a51a7.zip"
+    recordedResponseCode="401" responseSize="739" serverUid="mem.gfx.ms"
+    slaProfileEnabled="false" uid="14894ae8-7d85-4c21-8784-1cc199e042a9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bfb31cf4-ae59-43db-9c29-2b800452427c.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bfb31cf4-ae59-43db-9c29-2b800452427c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="partner"
+        recordRawValue="officesupport" separator="="
+        value="officesupport" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="wreply"
+        recordRawValue="https%3A%2F%2Forg02b42784.crm11.dynamics.com%2Fmain.aspx%3Fappid%3Db8ce14bc-5a73-ed11-81ad-0022481b59d5%26pagetype%3Dentitylist%26etn%3Dtask%26viewid%3D6cf285aa-eb20-4277-925a-3e9735411ff0%26viewType%3D1039"
+        separator="="
+        value="https://org02b42784.crm11.dynamics.com/main.aspx?appid=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;pagetype=entitylist&amp;etn=task&amp;viewid=6cf285aa-eb20-4277-925a-3e9735411ff0&amp;viewType=1039" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="iframe"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 401&#xd;
+cache-control: public, no-transform, max-age=43200&#xd;
+content-length: 739&#xd;
+content-type: text/html; charset=utf-8&#xd;
+expires: Fri, 09 Dec 2022 09:25:53 GMT&#xd;
+x-cache: TCP_MISS&#xd;
+set-cookie: MS-CV=F4DD0UGOXEa958h/.0; expires=Thu, 08-Dec-2022 21:55:53 GMT; path=/; secure&#xd;
+x-content-type-options: nosniff&#xd;
+x-ua-compatible: IE=edge&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+x-azure-ref: 0YVaSYwAAAAByjDr0IfM0R5Wp/fbYe82/TE9OMjFFREdFMTYxNABlYWM1ZjQ5Zi1lMDJkLTRmNDEtYjBhNi0yZDUwZjlmY2Y4NGE=&#xd;
+date: Thu, 08 Dec 2022 21:25:52 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

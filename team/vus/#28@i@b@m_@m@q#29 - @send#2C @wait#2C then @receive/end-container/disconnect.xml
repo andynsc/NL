@@ -1,0 +1,8 @@
+<custom-action actionType="Disconnect" isHit="true" name="disconnect" uid="bb7353bc-d5fb-43ab-b615-6d7a011719c0">
+    <description>Disconnects from a topic or a queue.
+
+Possible parameters are:&#xd;
+- destination (required): The JNDI name of the (topic or queue) destination.</description>
+    <custom-action-parameter name="destination" type="TEXT" value="DEV.QUEUE.1"/>
+    <responsePageFileDescription>recorded-responses/res_e66570c7-3b3d-4fcd-a298-880d5e70e8cc</responsePageFileDescription>
+</custom-action>

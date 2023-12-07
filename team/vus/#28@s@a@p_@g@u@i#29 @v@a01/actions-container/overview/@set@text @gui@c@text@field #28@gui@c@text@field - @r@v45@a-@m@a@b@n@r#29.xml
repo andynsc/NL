@@ -1,0 +1,20 @@
+<custom-action actionType="SapSetText" isHit="false"
+    name="SetText GuiCTextField (GuiCTextField - RV45A-MABNR)" uid="d2849426-01b1-4505-b5f1-ae44b273e119">
+    <description>This action simulates a set text action in an SAP text field.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- value (optional): The text value&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG/ctxtRV45A-MABNR[1,0]"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="RV45A-MABNR"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiCTextField"/>
+    <custom-action-parameter name="value" type="TEXT" value="${order.Material}"/>
+    <responsePageFileDescription>recorded-responses/res_abd99d74-b0f6-48f9-92cc-f09a45850bd4</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/#28@s@a@p_@g@u@i#29 @v@a01/%resources%/recorded-screenshots/sc_abd99d74-b0f6-48f9-92cc-f09a45850bd4.jpg</screenshotFileDescription>
+</custom-action>

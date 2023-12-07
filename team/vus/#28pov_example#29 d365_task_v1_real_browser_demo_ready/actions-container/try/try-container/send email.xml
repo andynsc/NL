@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="send email" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="1f031e96-7fe2-4e2a-a201-62ea04c278db" weightsEnabled="false">
+    <weighted-embedded-action uid="33825a70-607e-4fa0-bb0a-4e170a18b4a2"/>
+    <weighted-embedded-action uid="f9771932-5184-4497-b0a1-6999c766f4be"/>
+    <weighted-embedded-action uid="102a66f8-9654-46e5-be52-63b13e5ab0d7"/>
+    <weighted-embedded-action uid="e032f63f-fa1d-4133-a44b-41c9ea6627da"/>
+    <weighted-embedded-action uid="291cd9d3-f5bb-4afe-bb0e-022d6d8b0bad"/>
+    <weighted-embedded-action uid="a633a164-1a73-4d17-930d-6a1cb5c587ed"/>
+</basic-logical-action-container>

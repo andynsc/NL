@@ -1,0 +1,12 @@
+<browser-action actionType="BrowserClose" isHit="true"
+    name="Close browser" uid="ad074598-73c1-4cb4-bb2c-c691777e15c4">
+    <description>Close the browser.
+
+This action is useful for avoiding stacking browser instances on a single VU. The recommended configurations are : 
+- If the OpenBrowser action is in the INIT container, put the CloseBrowser action in the END container.
+- If the OpenBrowser action is at the beginning of the ACTIONS container, put the CloseBrowser action at end of the ACTIONS container.
+
+Possible parameters are:&#xd;
+- ignoreErrors (optional): true of false to ignore close errors. Default value is "false".</description>
+    <responsePageFileDescription>recorded-responses/res_ad074598-73c1-4cb4-bb2c-c691777e15c4</responsePageFileDescription>
+</browser-action>

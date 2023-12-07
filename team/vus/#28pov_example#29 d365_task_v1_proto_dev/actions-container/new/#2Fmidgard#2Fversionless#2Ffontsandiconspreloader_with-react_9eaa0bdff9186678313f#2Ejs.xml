@@ -1,0 +1,138 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/midgard/versionless/fontsandiconspreloader_with-react_9eaa0bdff9186678313f.js"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d1e99378-583d-4a45-9197-bc815a83e024.zip"
+    slaProfileEnabled="false" thinkTime="253"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d1e99378-583d-4a45-9197-bc815a83e024">
+    <embedded-action>2691e274-fba7-4f81-85a2-0aeff7dabf17</embedded-action>
+    <embedded-action>2b1484fd-c627-4dda-95ef-2136f9214ca0</embedded-action>
+    <embedded-action>8d5b90c9-41df-4a20-98da-558acf44eaba</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 23 Nov 2022 13:17:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/midgard/versionless/fontsandiconspreloader_with-react_9eaa0bdff9186678313f.js"
+    path="/midgard/versionless/fontsandiconspreloader_with-react_9eaa0bdff9186678313f.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d1e99378-583d-4a45-9197-bc815a83e024.zip"
+    recordedResponseCode="200" responseSize="3927"
+    serverUid="res-1.cdn.office.net" slaProfileEnabled="false"
+    uid="2691e274-fba7-4f81-85a2-0aeff7dabf17" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7d576df6-7331-4b39-b525-d88a8cc75315</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7d576df6-7331-4b39-b525-d88a8cc75315.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-length: 1468&#xd;
+last-modified: Wed, 23 Nov 2022 13:17:42 GMT&#xd;
+x-ms-request-id: 6f646d11-e01e-002b-243f-ff7f5b000000&#xd;
+content-encoding: br&#xd;
+cache-control: max-age=630720000&#xd;
+date: Thu, 08 Dec 2022 21:26:01 GMT&#xd;
+x-content-type-options: nosniff&#xd;
+timing-allow-origin: *&#xd;
+access-control-expose-headers: date,Akamai-Request-BC&#xd;
+access-control-allow-origin: *&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-type: application/javascript&#xd;
+x-cdn-provider: Akamai</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 23 Nov 2022 13:17:53 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/midgard/versionless/vendors_embeddedimmersiveprofile_immersiveprofile_with-react_be45d7f21346e05e6527.js"
+    path="/midgard/versionless/vendors_embeddedimmersiveprofile_immersiveprofile_with-react_be45d7f21346e05e6527.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d1e99378-583d-4a45-9197-bc815a83e024.zip"
+    recordedResponseCode="200" responseSize="117382"
+    serverUid="res-1.cdn.office.net" slaProfileEnabled="false"
+    uid="2b1484fd-c627-4dda-95ef-2136f9214ca0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_452c895f-e731-4202-9321-8526d11f8ff6</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_452c895f-e731-4202-9321-8526d11f8ff6.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-length: 25168&#xd;
+last-modified: Wed, 23 Nov 2022 13:17:53 GMT&#xd;
+x-ms-request-id: a8e447d5-401e-0022-1a3f-ff3a88000000&#xd;
+content-encoding: br&#xd;
+cache-control: max-age=630720000&#xd;
+date: Thu, 08 Dec 2022 21:26:01 GMT&#xd;
+x-content-type-options: nosniff&#xd;
+timing-allow-origin: *&#xd;
+access-control-expose-headers: date,Akamai-Request-BC&#xd;
+access-control-allow-origin: *&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-type: application/javascript&#xd;
+x-cdn-provider: Akamai</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 29 Nov 2022 16:06:44 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/midgard/versionless/immersiveprofile_with-react_a4e27a8b130482d33282.js"
+    path="/midgard/versionless/immersiveprofile_with-react_a4e27a8b130482d33282.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d1e99378-583d-4a45-9197-bc815a83e024.zip"
+    recordedResponseCode="200" responseSize="1044581"
+    serverUid="res-1.cdn.office.net" slaProfileEnabled="false"
+    uid="8d5b90c9-41df-4a20-98da-558acf44eaba" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f7cff27f-a875-4486-96bb-5e12d6377a66</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f7cff27f-a875-4486-96bb-5e12d6377a66.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-length: 196030&#xd;
+last-modified: Tue, 29 Nov 2022 16:06:44 GMT&#xd;
+x-ms-request-id: 9e3f6660-501e-0063-7a9d-08626c000000&#xd;
+content-encoding: br&#xd;
+cache-control: max-age=630720000&#xd;
+date: Thu, 08 Dec 2022 21:26:01 GMT&#xd;
+x-content-type-options: nosniff&#xd;
+timing-allow-origin: *&#xd;
+access-control-expose-headers: date,Akamai-Request-BC&#xd;
+access-control-allow-origin: *&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-type: application/javascript&#xd;
+x-cdn-provider: Akamai</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

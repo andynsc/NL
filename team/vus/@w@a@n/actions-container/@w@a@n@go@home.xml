@@ -1,0 +1,12 @@
+<basic-logical-action-container element-number="1" execution-type="1"
+    name="WANGoHome" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="f24a4383-b159-49ec-bbd8-13f1ff84ce0b" weightsEnabled="false">
+    <weighted-embedded-action uid="a42b49de-d010-4aed-9451-d4660bbc4ef3"/>
+    <weighted-embedded-action uid="9ecbe61f-6e2d-4e92-b10c-2eb0691a8b92"/>
+    <weighted-embedded-action uid="7bcc09a5-3a5d-4568-83d2-aab70c60e273"/>
+    <weighted-embedded-action uid="2d6f8f36-3bec-4c05-a80c-c184e4306018"/>
+    <weighted-embedded-action uid="2999e34c-abad-4371-acb1-28015b145c2c"/>
+    <weighted-embedded-action uid="ab73ef2b-b649-46c1-a9c5-87118e065157"/>
+    <weighted-embedded-action uid="2885247c-04a1-4546-9091-1bacbc486c60"/>
+</basic-logical-action-container>

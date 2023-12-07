@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="start FF and got 365" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="a49f6433-4014-4045-aabe-77ef308680fa" weightsEnabled="false">
+    <weighted-embedded-action uid="8508abb4-2b6d-4f8a-8744-e27548bf8293"/>
+    <weighted-embedded-action uid="cf5882ba-f1e2-4358-9f25-c8bebb49c0f9"/>
+    <weighted-embedded-action uid="3e0ab820-97d9-4e3d-9c54-ed0c353d7951"/>
+    <weighted-embedded-action uid="7c914455-6857-4a48-9be2-70cbfdbd012f"/>
+</basic-logical-action-container>

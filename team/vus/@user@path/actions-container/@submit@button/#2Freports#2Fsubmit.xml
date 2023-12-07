@@ -1,0 +1,226 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/reports/submit"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/3bf91345-66c0-42ef-bd18-016a8a6764b8.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3bf91345-66c0-42ef-bd18-016a8a6764b8">
+    <embedded-action>80c71dc3-49aa-4a9a-a0f7-c3c44295e863</embedded-action>
+    <embedded-action>fe5fa388-e878-4884-8732-3a9d3d368ac0</embedded-action>
+    <embedded-action>b6f0339a-8e7d-4442-b8ec-899b789d02e5</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_3bf91345-66c0-42ef-bd18-016a8a6764b8.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/reports/submit" path="/reports/submit"
+    postCharset="iso-8859-1" postType="3"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/3bf91345-66c0-42ef-bd18-016a8a6764b8.zip"
+    recordedResponseCode="302" responseSize="136"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="80c71dc3-49aa-4a9a-a0f7-c3c44295e863" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[LS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5bG84N2VWbjdJd0lBd2ZIRw0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJmb3JtX2F1dGhfdG9rZW4iDQoNCmUzYzExMTZlZTBiYzVjN2FlMDhjMGM3YTQ0MjJkZjg1NGQ3MGRlY2I4ZDliMzU5MDhjNjc1ZGE5MTEzNWQ5YTINCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeWxvODdlVm43SXdJQXdmSEcNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0ibGF0aXR1ZGUiDQoNCjQzLjI4MDgzMjk5ODk0NDE1DQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImxvbmdpdHVkZSINCg0KNS42MTQxMjA5NTUxMDk0OTINCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeWxvODdlVm43SXdJQXdmSEcNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iY291bnRyeV9uYW1lIg0KDQpGcmFuY2UNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeWxvODdlVm43SXdJQXdmSEcNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iaW5jaWRlbnRfem9vbSINCg0KMTINCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeWxvODdlVm43SXdJQXdmSEcNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iZm9ybV9pZCINCg0KDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImluY2lkZW50X3RpdGxlIg0KDQpTdW5ueSBhbmQgd2FybQ0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5bG84N2VWbjdJd0lBd2ZIRw0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJpbmNpZGVudF9kZXNjcmlwdGlvbiINCg0KV2FybSBhbmQgc3RpbGwNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeWxvODdlVm43SXdJQXdmSEcNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iaW5jaWRlbnRfZGF0ZSINCg0KMDQvMTMvMjAyMw0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5bG84N2VWbjdJd0lBd2ZIRw0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJpbmNpZGVudF9ob3VyIg0KDQowMg0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5bG84N2VWbjdJd0lBd2ZIRw0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJpbmNpZGVudF9taW51dGUiDQoNCjI1DQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImluY2lkZW50X2FtcG0iDQoNCnBtDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImluY2lkZW50X2NhdGVnb3J5W10iDQoNCjYNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeWxvODdlVm43SXdJQXdmSEcNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0icGVyc29uX2ZpcnN0Ig0KDQoNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeWxvODdlVm43SXdJQXdmSEcNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0icGVyc29uX2xhc3QiDQoNCg0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5bG84N2VWbjdJd0lBd2ZIRw0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJwZXJzb25fZW1haWwiDQoNCg0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5bG84N2VWbjdJd0lBd2ZIRw0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJnZW9tZXRyeV9sYWJlbCINCg0KDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9Imdlb21ldHJ5X2NvbW1lbnQiDQoNCg0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5bG84N2VWbjdJd0lBd2ZIRw0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJnZW9tZXRyeV9jb2xvciINCg0KDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9Imdlb21ldHJ5X3N0cm9rZXdpZHRoIg0KDQowLjUNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeWxvODdlVm43SXdJQXdmSEcNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iZ2VvbWV0cnlfbGF0Ig0KDQoNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeWxvODdlVm43SXdJQXdmSEcNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iZ2VvbWV0cnlfbG9uIg0KDQoNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeWxvODdlVm43SXdJQXdmSEcNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iT3BlbkxheWVyc19Db250cm9sX0xheWVyU3dpdGNoZXJfMjFfYmFzZUxheWVycyINCg0KT1NNIE1hcG5paw0KLS0tLS0tV2ViS2l0Rm9ybUJvdW5kYXJ5bG84N2VWbjdJd0lBd2ZIRw0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJFZGl0YWJsZSINCg0KRWRpdGFibGUNCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeWxvODdlVm43SXdJQXdmSEcNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0ibG9jYXRpb25fZmluZCINCg0KDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImxvY2F0aW9uX25hbWUiDQoNCkF1YmFnbmUsIEZSDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImluY2lkZW50X25ld3NbXSINCg0KDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9Im5ld3NfaWQiDQoNCjENCi0tLS0tLVdlYktpdEZvcm1Cb3VuZGFyeWxvODdlVm43SXdJQXdmSEcNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iaW5jaWRlbnRfdmlkZW9bXSINCg0KDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9InZpZGVvX2lkIg0KDQoxDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9ImluY2lkZW50X3Bob3RvW10iOyBmaWxlbmFtZT0iIg0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0NCg0KDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9InBob3RvX2lkIg0KDQoxDQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9InN1Ym1pdCINCg0KU3VibWl0DQotLS0tLS1XZWJLaXRGb3JtQm91bmRhcnlsbzg3ZVZuN0l3SUF3ZkhHLS0NCg==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_80c71dc3-49aa-4a9a-a0f7-c3c44295e863.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_80c71dc3-49aa-4a9a-a0f7-c3c44295e863.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9,vi;q=0.8"/>
+    <header name="Cache-Control" value="max-age=0"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="multipart/form-data; boundary=----WebKitFormBoundarylo87eVn7IwIAwfHG"/>
+    <header name="Cookie" value="rxVisitor=1673386999266TMK1J9EU3FS70K91IITLI0OT0159BV8P; lng=en; _ga=GA1.2.100322195.1674161284; _gid=GA1.2.387479527.1681332270; _ga_WZ89N6ZSFK=GS1.1.1681394240.2.0.1681394240.0.0.0; ushahidi=8pii917jeuhvi8qv4dncd9ecl0; dtCookie=v_4_srv_6_sn_6D8C7BACBC58E337A6281894D6FB74F8_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; dtPC=6$195912553_997h-vLUVRAVRRLUHKCRGFRATHVBWWLNALIUER-0e0; rxvt=1681397745470|1681395883710; dtLatC=1; dtSa=true%7CC%7C-1%7CSubmit%7C-%7C1681395946011%7C195912553_997%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Freports%2Fsubmit%7C%7C%7C%7C"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Origin" value="https://ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/reports/submit"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;112&quot;, &quot;Google Chrome&quot;;v=&quot;112&quot;, &quot;Not:A-Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="document"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 302 Found&#xd;
+Date: Thu, 13 Apr 2023 14:26:22 GMT&#xd;
+Server: Apache&#xd;
+Expires: Thu, 19 Nov 1981 08:52:00 GMT&#xd;
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=8pii917jeuhvi8qv4dncd9ecl0; expires=Thu, 13-Apr-2023 16:26:22 GMT; Max-Age=7200; path=/; httponly&#xd;
+Location: https://ushahidi.apps.neotys.com/reports/thanks&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Timing-Allow-Origin: *&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="-972637099", dtTao;desc="1"&#xd;
+Content-Length: 136&#xd;
+Keep-Alive: timeout=5, max=98&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: text/html; charset=UTF-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <multiparts>
+        <multipart-string name="form_auth_token" recordRawValue=""
+            value="e3c1116ee0bc5c7ae08c0c7a4422df854d70decb8d9b35908c675da91135d9a2" valueMode="USE_EXTRACT">
+            <variable-extractor assertionOnNoMatch="true"
+                defaultValue="&lt;NOT FOUND>" displayMode="1"
+                endsWithSimple="" extractFromVarNameAdv=""
+                extractFromVarNameSimple="" extractType="0"
+                extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+                matchNumberAdv="1" matchNumberSimple="1"
+                name="nl_extracted_param"
+                refererUid="f553d96b-b4a7-46ba-b55c-c2496223f331"
+                regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']form_auth_token[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+                regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']form_auth_token[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+                setDefaultValue="true" startsWithSimple=""
+                template="$1$" templateAdv="$1$"
+                uid="90e05105-c1d1-42ed-966d-da37efc7a9dc" xpath="">
+                <variable-extractor-group extract="true" occurs="1"
+                    pattern="" type="4"/>
+            </variable-extractor>
+        </multipart-string>
+        <multipart-string name="latitude" recordRawValue=""
+            value="43.28083299894415" valueMode="USE_VALUE"/>
+        <multipart-string name="longitude" recordRawValue=""
+            value="5.614120955109492" valueMode="USE_VALUE"/>
+        <multipart-string name="country_name" recordRawValue=""
+            value="France" valueMode="USE_VALUE"/>
+        <multipart-string name="incident_zoom" recordRawValue=""
+            value="12" valueMode="USE_VALUE"/>
+        <multipart-string name="form_id" recordRawValue="" value="" valueMode="USE_VALUE"/>
+        <multipart-string name="incident_title" recordRawValue=""
+            value="Sunny and warm" valueMode="USE_VALUE"/>
+        <multipart-string name="incident_description" recordRawValue=""
+            value="Warm and still" valueMode="USE_VALUE"/>
+        <multipart-string name="incident_date" recordRawValue=""
+            value="04/13/2023" valueMode="USE_VALUE"/>
+        <multipart-string name="incident_hour" recordRawValue=""
+            value="02" valueMode="USE_VALUE"/>
+        <multipart-string name="incident_minute" recordRawValue=""
+            value="25" valueMode="USE_VALUE"/>
+        <multipart-string name="incident_ampm" recordRawValue=""
+            value="pm" valueMode="USE_VALUE"/>
+        <multipart-string name="incident_category[]" recordRawValue=""
+            value="6" valueMode="USE_VALUE"/>
+        <multipart-string name="person_first" recordRawValue="" value="" valueMode="USE_VALUE"/>
+        <multipart-string name="person_last" recordRawValue="" value="" valueMode="USE_VALUE"/>
+        <multipart-string name="person_email" recordRawValue="" value="" valueMode="USE_VALUE"/>
+        <multipart-string name="geometry_label" recordRawValue=""
+            value="" valueMode="USE_VALUE"/>
+        <multipart-string name="geometry_comment" recordRawValue=""
+            value="" valueMode="USE_VALUE"/>
+        <multipart-string name="geometry_color" recordRawValue=""
+            value="" valueMode="USE_VALUE"/>
+        <multipart-string name="geometry_strokewidth" recordRawValue=""
+            value="0.5" valueMode="USE_VALUE"/>
+        <multipart-string name="geometry_lat" recordRawValue="" value="" valueMode="USE_VALUE"/>
+        <multipart-string name="geometry_lon" recordRawValue="" value="" valueMode="USE_VALUE"/>
+        <multipart-string
+            name="OpenLayers_Control_LayerSwitcher_21_baseLayers"
+            recordRawValue="" value="OSM Mapnik" valueMode="USE_VALUE"/>
+        <multipart-string name="Editable" recordRawValue=""
+            value="Editable" valueMode="USE_VALUE"/>
+        <multipart-string name="location_find" recordRawValue=""
+            value="" valueMode="USE_VALUE"/>
+        <multipart-string name="location_name" recordRawValue=""
+            value="Aubagne, FR" valueMode="USE_VALUE"/>
+        <multipart-string name="incident_news[]" recordRawValue=""
+            value="" valueMode="USE_VALUE"/>
+        <multipart-string name="news_id" recordRawValue="" value="1" valueMode="USE_VALUE"/>
+        <multipart-string name="incident_video[]" recordRawValue=""
+            value="" valueMode="USE_VALUE"/>
+        <multipart-string name="video_id" recordRawValue="" value="1" valueMode="USE_VALUE"/>
+        <multipart-file attachedFilename="recorded-resources/filepart.4"
+            contentType="application/octet-stream" filename="" name="incident_photo[]"/>
+        <multipart-string name="photo_id" recordRawValue="" value="1" valueMode="USE_VALUE"/>
+        <multipart-string name="submit" recordRawValue="" value="Submit" valueMode="USE_VALUE"/>
+    </multiparts>
+</http-action>
+<http-action actionType="2" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/reports/thanks" path="/reports/thanks"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/3bf91345-66c0-42ef-bd18-016a8a6764b8.zip"
+    recordedResponseCode="200"
+    refererUid="80c71dc3-49aa-4a9a-a0f7-c3c44295e863"
+    responseSize="13485" serverUid="ushahidi.apps.neotys.com"
+    slaProfileEnabled="false" uid="fe5fa388-e878-4884-8732-3a9d3d368ac0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fe5fa388-e878-4884-8732-3a9d3d368ac0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fe5fa388-e878-4884-8732-3a9d3d368ac0.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9,vi;q=0.8"/>
+    <header name="Cache-Control" value="max-age=0"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="rxVisitor=1673386999266TMK1J9EU3FS70K91IITLI0OT0159BV8P; lng=en; _ga=GA1.2.100322195.1674161284; _gid=GA1.2.387479527.1681332270; _ga_WZ89N6ZSFK=GS1.1.1681394240.2.0.1681394240.0.0.0; ushahidi=8pii917jeuhvi8qv4dncd9ecl0; dtCookie=v_4_srv_6_sn_6D8C7BACBC58E337A6281894D6FB74F8_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; dtPC=6$195912553_997h-vLUVRAVRRLUHKCRGFRATHVBWWLNALIUER-0e0; rxvt=1681397745470|1681395883710; dtLatC=1; dtSa=true%7CC%7C-1%7CSubmit%7C-%7C1681395946011%7C195912553_997%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Freports%2Fsubmit%7C%7C%7C%7C"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/reports/submit"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;112&quot;, &quot;Google Chrome&quot;;v=&quot;112&quot;, &quot;Not:A-Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="document"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 Apr 2023 14:26:22 GMT&#xd;
+Server: Apache&#xd;
+Expires: Thu, 19 Nov 1981 08:52:00 GMT&#xd;
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=8pii917jeuhvi8qv4dncd9ecl0; expires=Thu, 13-Apr-2023 16:26:22 GMT; Max-Age=7200; path=/; httponly&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="1956214503"&#xd;
+Keep-Alive: timeout=5, max=97&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=UTF-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/scheduler" path="/scheduler" postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/3bf91345-66c0-42ef-bd18-016a8a6764b8.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="b6f0339a-8e7d-4442-b8ec-899b789d02e5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b6f0339a-8e7d-4442-b8ec-899b789d02e5.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b6f0339a-8e7d-4442-b8ec-899b789d02e5.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9,vi;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="rxVisitor=1673386999266TMK1J9EU3FS70K91IITLI0OT0159BV8P; lng=en; _ga=GA1.2.100322195.1674161284; _gid=GA1.2.387479527.1681332270; _ga_WZ89N6ZSFK=GS1.1.1681394240.2.0.1681394240.0.0.0; ushahidi=8pii917jeuhvi8qv4dncd9ecl0; dtCookie=v_4_srv_6_sn_6D8C7BACBC58E337A6281894D6FB74F8_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; dtLatC=2; dtSa=-; rxvt=1681397746441|1681395883710; dtPC=6$195946360_101h-vLUVRAVRRLUHKCRGFRATHVBWWLNALIUER-0e0"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/reports/thanks"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;112&quot;, &quot;Google Chrome&quot;;v=&quot;112&quot;, &quot;Not:A-Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 Apr 2023 14:26:22 GMT&#xd;
+Server: Apache&#xd;
+Expires: Wed, 11 Nov 1998 11:11:11 GMT&#xd;
+Cache-Control: must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=8pii917jeuhvi8qv4dncd9ecl0; expires=Thu, 13-Apr-2023 16:26:22 GMT; Max-Age=7200; path=/; httponly&#xd;
+Content-Length: 49&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="-1997198325"&#xd;
+Keep-Alive: timeout=5, max=96&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

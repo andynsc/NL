@@ -1,0 +1,55 @@
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="${swagger_petstore_base_path}/pet"
+    path="${swagger_petstore_base_path}/pet" postCharset="" postType="4"
+    recordedResponseCode="200" recordedResponseTime="607"
+    responseSize="151" serverUid="swagger_petstore_server"
+    slaProfileEnabled="false" uid="1e1fe0c3-5681-4302-9214-5ec6b209d3af" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @petstore - @a @chain of @a@p@i @calls/%resources%/recorded-responses/res_cust_c3767d75-1d97-4c18-a439-517ef77d40b3</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @petstore - @a @chain of @a@p@i @calls/%resources%/recorded-requests/req_cust_c6ec880d-9fd8-4854-8886-dacf30e2761e.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple=",&quot;category&quot;:{"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="the_new_pet_id"
+        refererUid="c6ec880d-9fd8-4854-8886-dacf30e2761e"
+        regExp="\{&quot;id&quot;:(.*?),&quot;category&quot;:\{"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="{&quot;id&quot;:" template="$1$"
+        templateAdv="$1$" uid="e1d14bbc-d049-47ae-ba09-7a41505da7a9" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Content-Type" value="application/json"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Date: Mon, 04 May 2020 14:10:10 GMT
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Content-Type: application/json
+Connection: close
+Server: Jetty(9.2.9.v20150224)</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "Dragon",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}]]></textPostContent>
+</http-action>

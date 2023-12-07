@@ -1,0 +1,16 @@
+<custom-action actionType="SapFocus" isHit="false"
+    name="SetFocus GuiCTextField (Distribution Channel)" uid="055d1106-2742-4bc1-bfc7-61ba022edaee">
+    <description>This action simulates a set focus action on an SAP GUI object.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/ctxtVBAK-VTWEG"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="VBAK-VTWEG"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiCTextField"/>
+    <responsePageFileDescription>recorded-responses/res_8d722541-e569-4f19-9a30-806d0c9ea695</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/#28@s@a@p_@g@u@i#29 @v@a01/%resources%/recorded-screenshots/sc_8d722541-e569-4f19-9a30-806d0c9ea695.jpg</screenshotFileDescription>
+</custom-action>

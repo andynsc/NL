@@ -1,0 +1,13 @@
+<browser-action actionType="BrowserNavigate" isHit="true"
+    name="Navigate to http://sample...om/101/app.php" uid="3fbcc083-ce37-4886-8d25-1a28a4760e04">
+    <description>Navigate to an url.
+
+Possible parameters are:&#xd;
+- url (required): URL to visit. The URL should include scheme, for example "https://".&#xd;
+- waitForNavigation.url (optional): Enables a wait for page navigation after this action has been executed. The URL being navigated to must match this pattern.&#xd;
+- waitForNavigation.timeout (optional): Enables a wait for page navigation after this action has been executed. The navigation must occur within the specified timeout in milliseconds.&#xd;
+- waitForNavigation.until (optional): Enables a wait for page navigation after this action has been executed. The navigation will be considered done when the specified state is reached. Allowed values are : LOAD, DOMCONTENTLOADED, NETWORKIDLE, COMMIT</description>
+    <custom-action-parameter name="url" type="TEXT" value="http://sampleapp.tricentis.com/101/app.php"/>
+    <responsePageFileDescription>recorded-responses/res_3fbcc083-ce37-4886-8d25-1a28a4760e04</responsePageFileDescription>
+    <embedded-action>e695245d-6cc1-47a5-99e1-e5e1e03f815a</embedded-action>
+</browser-action>

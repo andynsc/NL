@@ -1,0 +1,226 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/ppsecure/post.srf"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/4d7475be-4547-4a6e-9507-dfe8ccb754df.zip"
+    slaProfileEnabled="false" thinkTime="7687"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="4d7475be-4547-4a6e-9507-dfe8ccb754df">
+    <embedded-action>b066b00c-6dbe-479b-9a44-7843c5db7da0</embedded-action>
+    <embedded-action>39129f0d-019e-4ad3-9164-6345394faacd</embedded-action>
+    <embedded-action>4cb65ae0-de23-4715-8ecf-434bc8cd8486</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/ppsecure/post.srf" path="/ppsecure/post.srf"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/4d7475be-4547-4a6e-9507-dfe8ccb754df.zip"
+    recordedResponseCode="200" responseSize="2076"
+    serverUid="login.live.com" slaProfileEnabled="false"
+    uid="b066b00c-6dbe-479b-9a44-7843c5db7da0" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[TG9naW5PcHRpb25zPTMmdHlwZT0yOCZjdHg9JmhwZ3JlcXVlc3RpZD0mUFBGVD1EVUZucmxlUjV6NWVlZXgzTDVKR2VsRU4qV2FtUGgqQkVtQSpGazdlczYzVmNHenA0ak1BNG02cXBaVXlydzlCSTRrVlQzNmRTcEhMQUhleDkza2dQazNvZWFjUThESzQlMjE4QXV6UUhoVGp5cGVEQ09DUW5pNlNnQWZoWUJMMFE0KmxKS044NmJNbXR3a1YzdUdYYWVnYU1tSHJLS0VFbk8yT05Gd3B4UmxoV1NFRFMxQkdSNzl2V1oxZ2FqTWJHUXpXNjdGc1RUbm1aTUdrSE95R2xSS2pjJTI0JmkxOT03NTcy]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_ff4cf5a9-7a70-410f-a764-79b04ec085a9.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ff4cf5a9-7a70-410f-a764-79b04ec085a9.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="LoginOptions"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="28" separator="=" value="28" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ctx"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="hpgrequestid"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="PPFT"
+        recordRawValue="DUFnrleR5z5eeex3L5JGelEN*WamPh*BEmA*Fk7es63VcGzp4jMA4m6qpZUyrw9BI4kVT36dSpHLAHex93kgPk3oeacQ8DK4%218AuzQHhTjypeDCOCQni6SgAfhYBL0Q4*lJKN86bMmtwkV3uGXaegaMmHrKKEEnO2ONFwpxRlhWSEDS1BGR79vWZ1gajMbGQzW67FsTTnmZMGkHOyGlRKjc%24"
+        separator="="
+        value="DUFnrleR5z5eeex3L5JGelEN*WamPh*BEmA*Fk7es63VcGzp4jMA4m6qpZUyrw9BI4kVT36dSpHLAHex93kgPk3oeacQ8DK4!8AuzQHhTjypeDCOCQni6SgAfhYBL0Q4*lJKN86bMmtwkV3uGXaegaMmHrKKEEnO2ONFwpxRlhWSEDS1BGR79vWZ1gajMbGQzW67FsTTnmZMGkHOyGlRKjc$" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="i19"
+        recordRawValue="7572" separator="=" value="7572" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="username" recordRawValue="nw.jazz.net%40gmail.com"
+        separator="=" value="nw.jazz.net@gmail.com" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client_id"
+        recordRawValue="51483342-085c-4d86-bf88-cf50c7252078"
+        separator="=" value="51483342-085c-4d86-bf88-cf50c7252078" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="cobrandid"
+        recordRawValue="82834d41-5e42-4877-820c-9ef4f8bd3687"
+        separator="=" value="82834d41-5e42-4877-820c-9ef4f8bd3687" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="uaid"
+        recordRawValue="43943f4dca4041d483277924564f26c2" separator="="
+        value="43943f4dca4041d483277924564f26c2" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="pid"
+        recordRawValue="15216" separator="=" value="15216" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="opid"
+        recordRawValue="B49986107BC4EADA" separator="="
+        value="B49986107BC4EADA" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="route"
+        recordRawValue="R3_BL2" separator="=" value="R3_BL2" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="uaid=43943f4dca4041d483277924564f26c2; MSPRequ=id=N&amp;lt=1670534700&amp;co=0; MSCC=18.132.211.252-UK; OParams=11O.DfTASvbaUfoEmAdM9KFkddumwzj4W6eu7giSRSagBlwFb!qUfsTcz5aP611xlwc6ff5hGVvmv0cBpLM*5ywX6FmtHaZEl6IThHYEvir48jHPC6Ms3MELlEWNWdocskmqVRJlYRH4gqmkj9ex66D0hNGTPrc9Bzixix4WFusExcAZOUeSWSry5iIL1o88Ni*vxp*A5Mkf!kvPCO8ZlYnqchQ905qZw8iyOWdUQ1E9s3IY24ELIWhMI8d2Q*DlttcU7cLE!WrrwvmV0TNNYnTW92QQ3KbhUtChnQRuPPJMumFgkVQ4oHVtAAIHdM87UoxEqlaPQCq*DrZXe6*vuPya!u!9OSzdJq23cr38GWUvSTNS7kASltoVInitKYceTecudRVreoYMvEyjLWtzhI32HFMF*QKTjL0IfGSL0iTeEY5eOQi9wsRW3cRFqQWiU3R!2KPcVMcdxyIzJCYizjkmkRqVkrYuDu4N4K8oanTEAkf6KNav7U!S1DQvoyHVg*djfxoLZ*ENdCa1I7uzg6MEb68Cr4xBkKsftMsvmGi0GtwB*InfXMlP7vMSsNHZNLMOZL0z*pm5!hT4tpEATgotEvJJahRwyUgutpoyub7oB2pnGJwu8CW3KXzE1qqpyc*ROpugNmMVAbl8gkNp3!RtkJzTgGzAWYWci8up3ntJNH*0hLY75ysu9o6JYyM8sGpt*w6n!gkjSpBapQZj3Q8DSWOE0LuLYjXf5eUetM4Io5bSlDtvy74aveMzjUKM67nDbp3NDCipJSqFC3I1WW5Ifr85iU!mjFioQ*Yde9EfIyVy1v0Hd!yYoxjPoKKMkmmY!MTRuCGrT8FsYVhF1hLEshYFooyFihez9XcVL11vHraEILKZgYpaWayJwaEruDVxk*pJkA0TAwebC5H6eYsyZnVT0d6U!gpVOtxjGxrN3lfXFKeAoOG5jdknj7mcpg56TgpIUvQNrdcTUovynwlhNOI6yWjFtp4PYFwzKGkaje0jkwhwib7AcNvhkNK2Ybnx9TxSmo1aJmf7pUOYcZ8R3SOrXDP0H8tgBDTYcphCPI!Z1I1zFnc6koiL*eZTLnx5uobN6lCghXN0lQAVS8fmT8EsUznCzh8Ll6mUbNU9XcXxAga81rQUeJniXNyXWNQ5yaOTg9WtQJsMU9RCXIvKtHeiObPxaqrJW**dUR65Q5nxNszOPZL0NblSLGfx!w22kttfGMs!*va4uz4JUP8lBXITIQrPNUnkRHCOe9pskSZ!szL8ChWniLLmUGFO2Af*HA422VvSUt12cdq4YD9HceeU*bc6jVdGR5PQYOkGbpim1ahe0uZG10L8ROIJkZY3bzxU6Vniw*4RVu4aYdZo9oBetmm7ZI5lQsrdw6JWb6mFJ42GHp5YYzsAVJ5yBodMHxLsBeZI45X47INvuwhdOqeIrBfwfQUewKxCSWAPzFuZrlgb7YYsuyl7HV1Dp0HgGdV*eh6DBwRvy7YfjUDQFORdkz7N!RRcIPL21HpimavUXWAh1t0KnERkSCc0GpnV*dlYAI8Gn!Mt6NPV6C192FdBL47U6O1r1GLlrBq0BG8om4FXgc6eN4b8M4XldHT12wtgzQHA*Kf3Fi4MUQ4ZuObJDKdUjwIQgnmKptyUVvbt7ImkuZ7evItfB8Bim9bDtSo9yp6oiv3ZElK5*T0VU!PM49NXbMURdLlhCJcMm*M3OCDEMe3LJhlTqjwcgDsPp!vPftGdx5AIa9BI9JHDuWNcCBh0zvOXVkPfmDPu3cTRN8sqbUwP5oEzFSnScag3zcI!PQXCf*sKrSNjNsFUKOO*GgvJL5r3X2NEO9qUYABibHAtA5FU4lT3sijsX4lsb!bR7ZlGMfCOxMr08Ov6YlPe1XHtcKo6zvA3fAXzcCxiSL508C*Uz!wVS*vN5*c!5agZtvYT8Ygyy5VNCo*bjkzDkOnWcG3n7tVZfK5LmskTacQZuvSOTbtTtc6p7A9463j7t8zNSnCSbLdIS3yw0*aQ1KrIQh9se3SMuRRymrT!aLkBWg*1Zd0DyMCNTl0EzMdyiv!wZDDS6RYV6UWiSi2qXPfbZl!hkaJXOnKy3u12zcedxUfF0zfc8Z11chMQuE2u9DbbisrlVjou8vX8TM4zcFVbGTIJugUMI*SjjKZtp*IkcMPMLOU7Kam*22Y8Znc1oEDBsCDgkgv4wtS7CjDay58WanCR!dClUXzFyTrz; wlidperf=FR=L&amp;ST=1670534712073; __Host-MSAAUTH=-CdFKYebA3yYzzG68DDEYOeN2eWN5Uc5cDIONVEQMzTQN8V1sXo!3CD5paDK6Hzx4TEMeaG66sB!!GCd!zxTvnaP5LYaAnXLtBuWyzLLMB5kJsh8WuNnu26JiMkEx98lOdWqsh0Ub5cavqFjR22m2nXaD3nM2wL4yYNUjaibp74cWFLFOtW1PfPY5UXa7t61Npz5xfHTfyCba69mE1ScDeIjBqNaaDKJNUTMizLLCBWS5O7TDufyHlrG51D9y36T5Tg$$; PPLState=1; MSPOK=$uuid-0c33745c-67cc-40e9-ab37-10b84afcd788$uuid-4d1158cf-5e0a-4a3d-85ba-ad96eadfb035"/>
+    <header name="Host" value="login.live.com"/>
+    <header name="Origin" value="https://login.live.com"/>
+    <header name="Referer" value="https://login.live.com/ppsecure/post.srf?username=nw.jazz.net%40gmail.com&amp;client_id=51483342-085c-4d86-bf88-cf50c7252078&amp;cobrandid=82834d41-5e42-4877-820c-9ef4f8bd3687&amp;contextid=0A0D789D387B3E83&amp;opid=B49986107BC4EADA&amp;bk=1670534700&amp;uaid=43943f4dca4041d483277924564f26c2&amp;pid=15216"/>
+    <header name="Sec-Fetch-Dest" value="document"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+Expires: Thu, 08 Dec 2022 21:24:20 GMT&#xd;
+Vary: Accept-Encoding&#xd;
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"&#xd;
+Referrer-Policy: strict-origin-when-cross-origin&#xd;
+x-ms-route-info: R3_BL2&#xd;
+x-ms-request-id: aa49e1fa-a3c0-47f5-a5af-6ac4f9240508&#xd;
+PPServer: PPV: 30 H: BL02PF47F821D39 V: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+Set-Cookie: MSPOK=$uuid-0c33745c-67cc-40e9-ab37-10b84afcd788; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: __Host-MSAAUTH=-CZU01xt78L6!ZJnNd*zk8VQCAJghoWJP9UNFO28BZy8hvfjQNErAvEkLNtE!z9WnoxtLL5CUZgEbDfj7SCj5LREa!uu7qiY*CCS5rAgtpOEaug!wpeZNCde*rudorgaKIBsZkbdZtiJOnyOHtqO5z9fAcGuTEKqIEWeCUXBt*34PjSWR4EWpxszNjk8d27NG2YZVrFQjpBf5JC3TsL6i4PkK6Yqjpt3HpSf!NFsfLhA6QCKzjeHYdcwwfVnzBiM5TQ$$; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: __Host-MSAAUTHP=; expires=Thu, 30-Oct-1980 16:00:00 GMT; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: PPLState=1; domain=.live.com; Secure; path=/; SameSite=None&#xd;
+Set-Cookie: MSPShared= ; expires=Thu, 30-Oct-1980 16:00:00 GMT; domain=login.live.com; Secure; path=/; SameSite=None&#xd;
+Set-Cookie: MSPPre=nw.jazz.net%40gmail.com%7c1298a2f45945d7e6%7c%7c; domain=login.live.com; path=/; Secure; SameSite=None&#xd;
+Set-Cookie: MSPCID=1298a2f45945d7e6; HTTPOnly; domain=login.live.com; path=/; Secure; SameSite=None&#xd;
+Set-Cookie: MSPAuth=Disabled; domain=.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: MSPProf=Disabled; domain=.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: NAP=V=1.9&amp;E=1b5e&amp;C=lECddnEGKU4wB7rW1EDRU378ZQGtlJFM2vvsxDs6LWxLYWr73kIoPQ&amp;W=1; HTTPOnly; domain=.live.com; path=/; Secure; SameSite=None&#xd;
+Set-Cookie: ANON=A=63F743D7F6222526E7CC10EFFFFFFFFF&amp;E=1bb8&amp;W=1; HTTPOnly; domain=.live.com; path=/; Secure; SameSite=None&#xd;
+Set-Cookie: pres=; expires=Thu, 30-Oct-1980 16:00:00 GMT; domain=.live.com; Secure; path=/; SameSite=None&#xd;
+Set-Cookie: LOpt= ; expires=Thu, 30-Oct-1980 16:00:00 GMT; domain=login.live.com; Secure; path=/; SameSite=None&#xd;
+Set-Cookie: WLSSC=EgApAgMAAAAMgAAADQABFt/nN7vxZrcjMp/A/X63AAt2IOxJjBb+POhE7MsvB8WhvXk+uHdIfQWm/qZs1pJ1+CyIZyoQZJHQ4wqEnBNQl3FuQ659fUk+Zj49NnWrM9h6ES01dYrfuvsP0kc8zQ4tB+PVACEhNkZhKbcyCBHmRs/PL4PBU2SeVb1cWqSpQAlLB6MRM26VcEga9xmeYJdGMYnFy5/FGnjAv0L0jiV3tD3Sr4xmE7sMPoPhx4d/2/0owaRyxt8AX56682UGNzFeGHivAHnQFfyJ481u1Cn5xAoDhjsKhTK9mD9S3yBnT2eXwSPtM32kxba/AEZBXOLez+quCrv1CVGFrzD82VaDuhgBfgAYAQFAAwAVLNJQQFaSYzhWkmMQJwAAChCggAAWAG53LmphenoubmV0QGdtYWlsLmNvbQBbAAAibncuamF6ei5uZXQlZ21haWwuY29tQHBhc3Nwb3J0LmNvbQAAAAJVSwAAAAAAAAgJAgAAjZtVQAAGQQADTmVkAAhXaGF0ZXZlcgAAAAAAAAAAAAAAAAAAAAEAAFlF1+YSmKL0AABAVpJjOP0IZAAAAAAAAAAAAAAAAA8AMTguMTMyLjIxMS4yNTIABAEAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAAPolR5cXcwgTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAA==; domain=.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: SDIDC=CeV9ilyJ3jx9dJy9tQ5BsbAyzoDq9t*rHhh2WunASvbqlI19pFrFs9y!gVlSewulrkqNgEqibQD9Mehdo0iEcXVxgrxnS21Q1Th2QV61w!41IiWVkwnyTaUCiPWBPhAeBYxqsMShX*46VCNmVTvtYrA$; expires=Tue, 02-Jan-2024 21:25:20 GMT; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: MSPOAuthVis=; expires=Thu, 30-Oct-1980 16:00:00 GMT; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: JSH=3$nw.jazz.net%40gmail.com$Ned$Whatever$$2$0$0$10900723179064947479; domain=login.live.com; path=/; Secure; SameSite=None&#xd;
+Set-Cookie: __Host-MSAAUTH=-CSueVasH!NFHGxLQDfQqtOd4BNI48gJnEOy7bK7*ZNMQtNv!tpVhY8ZGiG7pB!mUNUT8v*NwbItrnh80!hwNKPcJBhnc4ygv!KLiN8xmZcFgXphsTCF6sXLBTMkiP3vwKGLbx!MYMInqtKsRCXNL1Yg8HnDAdmCSziEwhJxmUZpG3iT0oFJWpZlwtTFhccK*Xq*oe!ZEgCwkX6U4FpWDNO7p9ShrSS3r9rB6t!zgECNPF0dLbK7q!HeA!CdUrcgMhA$$; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: __Host-MSAAUTHP=; expires=Thu, 30-Oct-1980 16:00:00 GMT; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: PPLState=1; domain=.live.com; Secure; path=/; SameSite=None&#xd;
+Set-Cookie: MSPShared= ; expires=Thu, 30-Oct-1980 16:00:00 GMT; domain=login.live.com; Secure; path=/; SameSite=None&#xd;
+Set-Cookie: MSPPre=nw.jazz.net%40gmail.com%7c1298a2f45945d7e6%7c%7c; domain=login.live.com; path=/; Secure; SameSite=None&#xd;
+Set-Cookie: MSPCID=1298a2f45945d7e6; HTTPOnly; domain=login.live.com; path=/; Secure; SameSite=None&#xd;
+Set-Cookie: MSPAuth=Disabled; domain=.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: MSPProf=Disabled; domain=.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: NAP=V=1.9&amp;E=1b5e&amp;C=lECddnEGKU4wB7rW1EDRU378ZQGtlJFM2vvsxDs6LWxLYWr73kIoPQ&amp;W=1; HTTPOnly; domain=.live.com; path=/; Secure; SameSite=None&#xd;
+Set-Cookie: ANON=A=63F743D7F6222526E7CC10EFFFFFFFFF&amp;E=1bb8&amp;W=1; HTTPOnly; domain=.live.com; path=/; Secure; SameSite=None&#xd;
+Set-Cookie: pres=; expires=Thu, 30-Oct-1980 16:00:00 GMT; domain=.live.com; Secure; path=/; SameSite=None&#xd;
+Set-Cookie: LOpt= ; expires=Thu, 30-Oct-1980 16:00:00 GMT; domain=login.live.com; Secure; path=/; SameSite=None&#xd;
+Set-Cookie: WLSSC=EgApAgMAAAAMgAAADQABFt/nN7vxZrcjMp/A/X63AAt2IOxJjBb+POhE7MsvB8WhvXk+uHdIfQWm/qZs1pJ1+CyIZyoQZJHQ4wqEnBNQl3FuQ659fUk+Zj49NnWrM9h6ES01dYrfuvsP0kc8zQ4tB+PVACEhNkZhKbcyCBHmRs/PL4PBU2SeVb1cWqSpQAlLB6MRM26VcEga9xmeYJdGMYnFy5/FGnjAv0L0jiV3tD3Sr4xmE7sMPoPhx4d/2/0owaRyxt8AX56682UGNzFeGHivAHnQFfyJ481u1Cn5xAoDhjsKhTK9mD9S3yBnT2eXwSPtM32kxba/AEZBXOLez+quCrv1CVGFrzD82VaDuhgBfgAYAQFAAwAVLNJQQFaSYzhWkmMQJwAAChCggAAWAG53LmphenoubmV0QGdtYWlsLmNvbQBbAAAibncuamF6ei5uZXQlZ21haWwuY29tQHBhc3Nwb3J0LmNvbQAAAAJVSwAAAAAAAAgJAgAAjZtVQAAGQQADTmVkAAhXaGF0ZXZlcgAAAAAAAAAAAAAAAAAAAAEAAFlF1+YSmKL0AABAVpJjOP0IZAAAAAAAAAAAAAAAAA8AMTguMTMyLjIxMS4yNTIABAEAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAAPolR5cXcwgTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAA==; domain=.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: SDIDC=Ce1mkoReObUW9cW5vPl!zx2TLSHSIqdgHcwSEWgOncMnea7E8zgJUR1BdmmKDyCtO0J6wvAgFjUtT6lcHOqtL6fB*SAXwvUQDsvvXr1FWInQM4RgVztbcAqutSJJz0ZaSM6Z3WwfKnDea8Bg5m!TykU$; expires=Tue, 02-Jan-2024 21:25:20 GMT; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: MSPOAuthVis=; expires=Thu, 30-Oct-1980 16:00:00 GMT; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: JSH=3$nw.jazz.net%40gmail.com$Ned$Whatever$$2$0$0$10900723179064947479; domain=login.live.com; path=/; Secure; SameSite=None&#xd;
+Set-Cookie: OParams=11O.DTaxI61SBDVRKc2eSdTNJ7q8oOn8sYMTixFaYSkPznJfu2T1J627tFZ3kGtX44cuYxEFHpJ91ZX2ZFJHzjXc91S8dUXhOF3lr3B7t0AqSbF3CUCQY0YZ5fmgwwvo5hGqH9S5y4jwuVJ*RzEGHd8R0qBnR0T9Rw7yJqOjF1NixLEfaYs6dutjaFy4VCztun!WLntTNDfovG1ueACtDKpEo6a96wOH!f2xXKdmviCPA!dpfOf*U4HOAFW1s6OzdSSeU83*cRUlmnZMYOJzMt!yWi4rphBR92!1SDqIGYUoQkPJDvVrgdHCoAZBKk06Ba1*gy!rmJ8a5zAtGzkXhEEM0me*QdaDmN6dgbDqdVwaNjp4xf7lfgUkF*bo0mVL3qBr5jcVo7!zcK8BKXv68BKSJuZwLN!K2bO*jbUU8Hkb8kR4xAulGRNBf*j3z4QmxJbbyE72rdZt7JqimJHFtBUH*cgzaFnw284E2sy1zr7d8ziMbKjzQx!3aIMR3VS71SszBvacm7Z!FBKCfl393c6lfJ1xBlc5BbmNwb6V6CunL9Jphs2teKJOsIHeJbwheCvx2LGNYvhaANrcd4hV9UbB3OlQECz7CdYCScBgY*JlvwbWE414V1xiHKZDqVXfGLz*KPwqTmtRmOd7C*lwBojLq23B22PTV4SBeAH7lCjP*FOISYo5*SiPRNVRQTzO7zpAjhGjJk1FK133tzHtydFXbnoasZLIFbk2f62CkdD02ylc8meOK!aPQQB91IEyyhqfiBvKEFrcDzjPV2pghXhN*mM*LnvkfI!hH0iGrMI!uwGF*4pH78mhutHcAjPxKaKwWLbFDmvpkpj1F638dEinJG4YnmGm6Uo73bSt9Ig64WlRvIbjrQ0ecNccvOjxKK5tOrnDphxQHRFjNAiaV3Wa7dItlkRS2fYMw3vQHbQAsYxiuROjCx5wkzY!w*LJxWKRAOUimevQLDSmbNas2MKPx70TvCM37Uq0!YCYj7*2TosyIu68Hynibn!*sDWaVzj7Uj*7gWTUnr5qIH!Vc*3k*4k7tsb4EwiRf!yKTr26Uq6Ki7lKaz!eQU3jKn1Yfbbyt9d2bYrOEeVVtYgjxqOm9Riaxm5HjB*maBoawdti83*OFE!sDl7GHXDpKFfiEZkyFJqCiL2QzankAP13MiAf8eH*8du0p4Q*W79LOX*!V3eNZcoYUZ4LugCiD8EakCRLO9yO3i4uTrIzZ4TotZrXCylmj5yiX7gfIFTlO6!RSPGRgMY3abXJcf*Z*wPClNPm!986Q7LLQnsPvf1Te6!pE0QscQU1JiGi8f2*ElRrDMB6RHQZk4e990RUVgZZ5INGfmXHIclm81MEMhBjU0ZDNstxK33NVQPazblUMEnFj3uLHAgIjNbrgccpegl5pfYvlLX7OFqnnEnmtJ8KE4VKQM*yM7hJUUQG64tOtWOcFIeSihrxMvHC6!v9uK55q0MKQ4n7eePFUwMlI6bo7V1DM3yrfYQ2wUIL3FYNJteCArBmP2b8ruheUsOTWpwmJbUgQUAB9Fotva90E31oR1UwXtQ1lQdV0bRDRfzNDyXrExHVQGAdIGwu39w6XacWwYwW32sjVlOxZHOrYleGjhck2OJQhA1t2Lqshsn43hoMKHjuN6qAF4TJWcQoi4dOrzGK*Gpibmq7kRMWkVtgjAQYzB!vhdeEKtO*JpExWrImb6Zii2b8*EIg!QBhMc!UkzIZa4uyw!p4IdSoFMRn6aFpMI90fMPhqP9KLPX9CfEgUOFKHWUe2SiCtQqpiL0mCa4Ewpo2xgFoEPUN0y9YHeTgRxbcOycn4SDyVmFE0Lu!NtTU6Q9eJipgLiemcwktz1pY3x*S3I0a*bpJE1G5XZrvJAfRBI6*KFlybZo!DpVwXMOlsNCrVCf5CwOqtfgDKwwe29oA2RLrz*L9jEVlwlW7HcWPuNJloZ9pf9oPa8SxMh5!R8Z8iq7RUhad6!B1bYLbRNL26wsffbDov8Ki4nrNWO7j6mkYR8WI54nJKSON*kLxzDZBpzUO*XvY8WYkgVlR8lXmqJDgtZvMtUeQOiauqPqBfDGvVHRdvPYyW3fYbhhBDzYLINbe4dwpu0gij5GHjj0i9HCfaZsID0M2ABDcN7ksQaTY!DkD4Se3Jjn!GNPqUArrw9hwxfhCzRLeLHr!7JhNoi3fPgQLOMuosjurX2dwdJNxDSLzYQymc9iJw7wI; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: MSPBack=0; domain=login.live.com; Secure; path=/; SameSite=None&#xd;
+Date: Thu, 08 Dec 2022 21:25:19 GMT&#xd;
+Content-Length: 1558</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/OneCollector/1.0/" path="/OneCollector/1.0/"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/4d7475be-4547-4a6e-9507-dfe8ccb754df.zip"
+    recordedResponseCode="204" responseSize="0"
+    serverUid="browser.events.data.microsoft.com"
+    slaProfileEnabled="false" uid="39129f0d-019e-4ad3-9164-6345394faacd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0f9a7191-017d-41cd-b739-a29f3e21f787</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9cd2f16f-2082-47ae-90ab-30e417e29548.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="cors"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="false"
+        name="content-type" recordRawValue="application/x-json-stream"
+        separator="=" value="application/x-json-stream" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-id" recordRawValue="NO_AUTH" separator="="
+        value="NO_AUTH" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-version" recordRawValue="1DS-Web-JS-3.2.6"
+        separator="=" value="1DS-Web-JS-3.2.6" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="apikey"
+        recordRawValue="69adc3c768bd4dc08c19416121249fcc-66f1668a-797b-4249-95e3-6c6651768c28-7293"
+        separator="="
+        value="69adc3c768bd4dc08c19416121249fcc-66f1668a-797b-4249-95e3-6c6651768c28-7293" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="upload-time" recordRawValue="1670534720322" separator="="
+        value="1670534720322" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="time-delta-to-apply-millis"
+        recordRawValue="use-collector-delta" separator="="
+        value="use-collector-delta" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="w"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="NoResponseBody" recordRawValue="true" separator="="
+        value="true" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Cookie" value="MC1=GUID=afa342a5f6c64c369ea25be968f53188&amp;HASH=afa3&amp;LV=202212&amp;V=4&amp;LU=1670534712314; MS0=ca791dae447f4e13af54600647263f2d"/>
+    <header name="Host" value="browser.events.data.microsoft.com"/>
+    <header name="Origin" value="https://login.live.com"/>
+    <header name="Referer" value="https://login.live.com/"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 204 No Content&#xd;
+Content-Length: 0&#xd;
+Server: Microsoft-HTTPAPI/2.0&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+time-delta-millis: 39&#xd;
+Access-Control-Allow-Headers: time-delta-millis&#xd;
+Access-Control-Allow-Methods: POST&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Access-Control-Allow-Origin: https://login.live.com&#xd;
+Access-Control-Expose-Headers: time-delta-millis&#xd;
+Date: Thu, 08 Dec 2022 21:25:19 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"name":"IDUX_MSAClientTelemetryEvent_WebWatson","time":"2022-12-08T21:25:20.319Z","ver":"4.0","iKey":"o:69adc3c768bd4dc08c19416121249fcc","ext":{"app":{"ver":"16.0.29619.5","name":"IDUX_MSAClientTelemetryEvent_WebWatson","sesId":"43943f4dca4041d483277924564f26c2","userId":"p: undefined","env":"PROD"},"cloud":{"role":"-","roleInstance":"BL02EPF0000683F","roleVer":"16.0.29619.5"},"sdk":{"ver":"1DS-Web-JS-3.2.6"},"metadata":{"f":{"viewId":{"t":6}}}},"data":{"baseData":{"properties":{"version":""}},"viewId":20,"Data":"{\"pltMetrics\":{\"apiTimingInfo\":[],\"isPlt1\":true,\"plt\":418,\"timing\":{\"navigationStart\":1670534712077,\"unloadEventStart\":1670534712280,\"unloadEventEnd\":1670534712290,\"redirectStart\":0,\"redirectEnd\":0,\"fetchStart\":1670534712080,\"domainLookupStart\":1670534712080,\"domainLookupEnd\":1670534712080,\"connectStart\":1670534712080,\"connectEnd\":1670534712080,\"secureConnectionStart\":1670534712080,\"requestStart\":1670534712090,\"responseStart\":1670534712265,\"responseEnd\":1670534712265,\"domLoading\":1670534712279,\"domInteractive\":1670534712363,\"domContentLoadedEventStart\":1670534712365,\"domContentLoadedEventEnd\":1670534712366,\"domComplete\":1670534712434,\"loadEventStart\":1670534712434,\"loadEventEnd\":1670534712498},\"pltOverallTransferBucket\":null,\"dns\":0,\"tcp\":0,\"pageSource\":\"LPerf\"}}","ServerPageID":"93","PageName":"i5245","ServiceID":"2"}}]]></textPostContent>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/4d7475be-4547-4a6e-9507-dfe8ccb754df.zip"
+    recordedResponseCode="404" responseSize="0"
+    serverUid="login.live.com" slaProfileEnabled="false"
+    uid="4cb65ae0-de23-4715-8ecf-434bc8cd8486" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_aac22381-4d07-4ab2-b8da-ea837b88c149</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_df372d12-2166-4aa4-871b-16de1102371a.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="uaid=43943f4dca4041d483277924564f26c2; MSPRequ=id=N&amp;lt=1670534700&amp;co=0; MSCC=18.132.211.252-UK; OParams=11O.DTaxI61SBDVRKc2eSdTNJ7q8oOn8sYMTixFaYSkPznJfu2T1J627tFZ3kGtX44cuYxEFHpJ91ZX2ZFJHzjXc91S8dUXhOF3lr3B7t0AqSbF3CUCQY0YZ5fmgwwvo5hGqH9S5y4jwuVJ*RzEGHd8R0qBnR0T9Rw7yJqOjF1NixLEfaYs6dutjaFy4VCztun!WLntTNDfovG1ueACtDKpEo6a96wOH!f2xXKdmviCPA!dpfOf*U4HOAFW1s6OzdSSeU83*cRUlmnZMYOJzMt!yWi4rphBR92!1SDqIGYUoQkPJDvVrgdHCoAZBKk06Ba1*gy!rmJ8a5zAtGzkXhEEM0me*QdaDmN6dgbDqdVwaNjp4xf7lfgUkF*bo0mVL3qBr5jcVo7!zcK8BKXv68BKSJuZwLN!K2bO*jbUU8Hkb8kR4xAulGRNBf*j3z4QmxJbbyE72rdZt7JqimJHFtBUH*cgzaFnw284E2sy1zr7d8ziMbKjzQx!3aIMR3VS71SszBvacm7Z!FBKCfl393c6lfJ1xBlc5BbmNwb6V6CunL9Jphs2teKJOsIHeJbwheCvx2LGNYvhaANrcd4hV9UbB3OlQECz7CdYCScBgY*JlvwbWE414V1xiHKZDqVXfGLz*KPwqTmtRmOd7C*lwBojLq23B22PTV4SBeAH7lCjP*FOISYo5*SiPRNVRQTzO7zpAjhGjJk1FK133tzHtydFXbnoasZLIFbk2f62CkdD02ylc8meOK!aPQQB91IEyyhqfiBvKEFrcDzjPV2pghXhN*mM*LnvkfI!hH0iGrMI!uwGF*4pH78mhutHcAjPxKaKwWLbFDmvpkpj1F638dEinJG4YnmGm6Uo73bSt9Ig64WlRvIbjrQ0ecNccvOjxKK5tOrnDphxQHRFjNAiaV3Wa7dItlkRS2fYMw3vQHbQAsYxiuROjCx5wkzY!w*LJxWKRAOUimevQLDSmbNas2MKPx70TvCM37Uq0!YCYj7*2TosyIu68Hynibn!*sDWaVzj7Uj*7gWTUnr5qIH!Vc*3k*4k7tsb4EwiRf!yKTr26Uq6Ki7lKaz!eQU3jKn1Yfbbyt9d2bYrOEeVVtYgjxqOm9Riaxm5HjB*maBoawdti83*OFE!sDl7GHXDpKFfiEZkyFJqCiL2QzankAP13MiAf8eH*8du0p4Q*W79LOX*!V3eNZcoYUZ4LugCiD8EakCRLO9yO3i4uTrIzZ4TotZrXCylmj5yiX7gfIFTlO6!RSPGRgMY3abXJcf*Z*wPClNPm!986Q7LLQnsPvf1Te6!pE0QscQU1JiGi8f2*ElRrDMB6RHQZk4e990RUVgZZ5INGfmXHIclm81MEMhBjU0ZDNstxK33NVQPazblUMEnFj3uLHAgIjNbrgccpegl5pfYvlLX7OFqnnEnmtJ8KE4VKQM*yM7hJUUQG64tOtWOcFIeSihrxMvHC6!v9uK55q0MKQ4n7eePFUwMlI6bo7V1DM3yrfYQ2wUIL3FYNJteCArBmP2b8ruheUsOTWpwmJbUgQUAB9Fotva90E31oR1UwXtQ1lQdV0bRDRfzNDyXrExHVQGAdIGwu39w6XacWwYwW32sjVlOxZHOrYleGjhck2OJQhA1t2Lqshsn43hoMKHjuN6qAF4TJWcQoi4dOrzGK*Gpibmq7kRMWkVtgjAQYzB!vhdeEKtO*JpExWrImb6Zii2b8*EIg!QBhMc!UkzIZa4uyw!p4IdSoFMRn6aFpMI90fMPhqP9KLPX9CfEgUOFKHWUe2SiCtQqpiL0mCa4Ewpo2xgFoEPUN0y9YHeTgRxbcOycn4SDyVmFE0Lu!NtTU6Q9eJipgLiemcwktz1pY3x*S3I0a*bpJE1G5XZrvJAfRBI6*KFlybZo!DpVwXMOlsNCrVCf5CwOqtfgDKwwe29oA2RLrz*L9jEVlwlW7HcWPuNJloZ9pf9oPa8SxMh5!R8Z8iq7RUhad6!B1bYLbRNL26wsffbDov8Ki4nrNWO7j6mkYR8WI54nJKSON*kLxzDZBpzUO*XvY8WYkgVlR8lXmqJDgtZvMtUeQOiauqPqBfDGvVHRdvPYyW3fYbhhBDzYLINbe4dwpu0gij5GHjj0i9HCfaZsID0M2ABDcN7ksQaTY!DkD4Se3Jjn!GNPqUArrw9hwxfhCzRLeLHr!7JhNoi3fPgQLOMuosjurX2dwdJNxDSLzYQymc9iJw7wI; wlidperf=FR=L&amp;ST=1670534712073; __Host-MSAAUTH=-CSueVasH!NFHGxLQDfQqtOd4BNI48gJnEOy7bK7*ZNMQtNv!tpVhY8ZGiG7pB!mUNUT8v*NwbItrnh80!hwNKPcJBhnc4ygv!KLiN8xmZcFgXphsTCF6sXLBTMkiP3vwKGLbx!MYMInqtKsRCXNL1Yg8HnDAdmCSziEwhJxmUZpG3iT0oFJWpZlwtTFhccK*Xq*oe!ZEgCwkX6U4FpWDNO7p9ShrSS3r9rB6t!zgECNPF0dLbK7q!HeA!CdUrcgMhA$$; PPLState=1; MSPOK=$uuid-0c33745c-67cc-40e9-ab37-10b84afcd788; MSPPre=nw.jazz.net%40gmail.com%7c1298a2f45945d7e6%7c%7c; MSPCID=1298a2f45945d7e6; MSPAuth=Disabled; MSPProf=Disabled; NAP=V=1.9&amp;E=1b5e&amp;C=lECddnEGKU4wB7rW1EDRU378ZQGtlJFM2vvsxDs6LWxLYWr73kIoPQ&amp;W=1; ANON=A=63F743D7F6222526E7CC10EFFFFFFFFF&amp;E=1bb8&amp;W=1; WLSSC=EgApAgMAAAAMgAAADQABFt/nN7vxZrcjMp/A/X63AAt2IOxJjBb+POhE7MsvB8WhvXk+uHdIfQWm/qZs1pJ1+CyIZyoQZJHQ4wqEnBNQl3FuQ659fUk+Zj49NnWrM9h6ES01dYrfuvsP0kc8zQ4tB+PVACEhNkZhKbcyCBHmRs/PL4PBU2SeVb1cWqSpQAlLB6MRM26VcEga9xmeYJdGMYnFy5/FGnjAv0L0jiV3tD3Sr4xmE7sMPoPhx4d/2/0owaRyxt8AX56682UGNzFeGHivAHnQFfyJ481u1Cn5xAoDhjsKhTK9mD9S3yBnT2eXwSPtM32kxba/AEZBXOLez+quCrv1CVGFrzD82VaDuhgBfgAYAQFAAwAVLNJQQFaSYzhWkmMQJwAAChCggAAWAG53LmphenoubmV0QGdtYWlsLmNvbQBbAAAibncuamF6ei5uZXQlZ21haWwuY29tQHBhc3Nwb3J0LmNvbQAAAAJVSwAAAAAAAAgJAgAAjZtVQAAGQQADTmVkAAhXaGF0ZXZlcgAAAAAAAAAAAAAAAAAAAAEAAFlF1+YSmKL0AABAVpJjOP0IZAAAAAAAAAAAAAAAAA8AMTguMTMyLjIxMS4yNTIABAEAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAAPolR5cXcwgTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAA==; SDIDC=Ce1mkoReObUW9cW5vPl!zx2TLSHSIqdgHcwSEWgOncMnea7E8zgJUR1BdmmKDyCtO0J6wvAgFjUtT6lcHOqtL6fB*SAXwvUQDsvvXr1FWInQM4RgVztbcAqutSJJz0ZaSM6Z3WwfKnDea8Bg5m!TykU$; JSH=3$nw.jazz.net%40gmail.com$Ned$Whatever$$2$0$0$10900723179064947479; MSPBack=0"/>
+    <header name="Host" value="login.live.com"/>
+    <header name="Referer" value="https://login.live.com/ppsecure/post.srf?username=nw.jazz.net%40gmail.com&amp;client_id=51483342-085c-4d86-bf88-cf50c7252078&amp;cobrandid=82834d41-5e42-4877-820c-9ef4f8bd3687&amp;uaid=43943f4dca4041d483277924564f26c2&amp;pid=15216&amp;opid=B49986107BC4EADA&amp;route=R3_BL2"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 404 Not Found&#xd;
+PPServer: PPV: 30 H: BL02EPF0000669D V: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+Date: Thu, 08 Dec 2022 21:25:19 GMT&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

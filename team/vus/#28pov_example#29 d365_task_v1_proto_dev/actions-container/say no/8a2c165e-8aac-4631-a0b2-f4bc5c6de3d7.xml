@@ -1,0 +1,59 @@
+<http-soap-action actionType="1" contentType="text/xml; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="Execute"
+    path="/XRMServices/2011/Organization.svc/web" postType="4"
+    recordedResponseCode="200" responseSize="11664"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    soap-mode="0" uid="8a2c165e-8aac-4631-a0b2-f4bc5c6de3d7" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-responses/res_f97fc20f-c676-422d-8dd2-b7dafad19d4c.xml</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-requests/req_f97fc20f-c676-422d-8dd2-b7dafad19d4c.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/main.aspx?appid=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;pagetype=dashboard&amp;id=eaa6e6bb-4712-ec11-b6e7-00224820f09b&amp;type=system&amp;_canOverride=true"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5; MicrosoftApplicationsTelemetryDeviceId=527002c5-ad2c-4e29-b183-8c77e1167008; MicrosoftApplicationsTelemetryFirstLaunchTime=2022-12-08T21:25:22.711Z"/>
+    <header name="soapaction" value="http://schemas.microsoft.com/xrm/2011/Contracts/Services/IOrganizationService/Execute"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="x-ms-app-name" value="msdynce_salestrialhub"/>
+    <header name="clienthost" value="Browser"/>
+    <header name="clientappname" value="UCIClient"/>
+    <header name="x-ms-client-session-id" value="3525fbdd-4b54-46bb-b7b4-12c91deb9dfb"/>
+    <header name="client-name" value="UCI"/>
+    <header name="accept" value="application/xml, text/xml, */*; q=0.01"/>
+    <header name="te" value="trailers"/>
+    <header name="clientappversion" value="9.1.0000.0000"/>
+    <header name="x-ms-correlation-id" value="99684f96-bf87-4187-8a72-455a2c40e38d"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="x-ms-app-id" value="b8ce14bc-5a73-ed11-81ad-0022481b59d5"/>
+    <header name="content-type" value="text/xml; charset=utf-8"/>
+    <header name="cache-control" value="no-cache"/>
+    <header name="x-ms-client-request-id" value="a5c6c181-aeb6-4449-83c5-97ec4e12945f"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: private&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: text/xml; charset=utf-8&#xd;
+content-encoding: gzip&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: 0443f5a2-83dd-41b5-b915-50bf2d0653a2&#xd;
+x-ms-service-request-id: 61e79804-8081-4e19-a3ac-481a3eebef50&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+req_id: 61e79804-8081-4e19-a3ac-481a3eebef50&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: Preference-Applied,OData-EntityId,Location,ETag,OData-Version,Content-Encoding,Transfer-Encoding,Content-Length,Retry-After,REQ_ID&#xd;
+authactivityid: 9a25e106-ee7a-493b-a002-34151c562f2b&#xd;
+x-ms-dop-hint: 4&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+date: Thu, 08 Dec 2022 21:25:29 GMT&#xd;
+content-length: 902</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Header><SdkClientVersion xmlns="http://schemas.microsoft.com/xrm/2011/Contracts">9.1.0000.0000</SdkClientVersion></s:Header><s:Body><Execute xmlns="http://schemas.microsoft.com/xrm/2011/Contracts/Services" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><request i:type="b:RetrieveEntitiesForAggregateQueryRequest" xmlns:a="http://schemas.microsoft.com/xrm/2011/Contracts" xmlns:b="http://schemas.microsoft.com/crm/2011/Contracts"><a:Parameters xmlns:b="http://schemas.datacontract.org/2004/07/System.Collections.Generic"><a:KeyValuePairOfstringanyType><b:key>OuterQuery</b:key><b:value i:type="a:FetchExpression"><a:Query>&#60;fetch mapping&#61;&#34;logical&#34; aggregate&#61;&#34;true&#34; returntotalrecordcount&#61;&#34;true&#34; page&#61;&#34;1&#34; count&#61;&#34;5000&#34; no-lock&#61;&#34;true&#34;&#62;&#60;entity name&#61;&#34;lead&#34;&#62;&#60;attribute groupby&#61;&#34;true&#34; alias&#61;&#34;groupby_column&#34; name&#61;&#34;leadsourcecode&#34;&#47;&#62;&#60;attribute alias&#61;&#34;aggregate_column&#34; name&#61;&#34;fullname&#34; aggregate&#61;&#34;count&#34;&#47;&#62;&#60;&#47;entity&#62;&#60;&#47;fetch&#62;</a:Query></b:value></a:KeyValuePairOfstringanyType><a:KeyValuePairOfstringanyType><b:key>SubQueries</b:key><b:value i:type="c:QueryByEntityNameDictionary" xmlns:c="http://schemas.microsoft.com/crm/2011/Contracts"><c:KeyValuePairOfstringQueryBasegUGIFE1S><b:key></b:key><b:value i:type="a:FetchExpression"><a:Query>&#60;fetch version&#61;&#34;1.0&#34; output-format&#61;&#34;xml-platform&#34; mapping&#61;&#34;logical&#34; returntotalrecordcount&#61;&#34;true&#34; page&#61;&#34;1&#34; count&#61;&#34;0&#34; no-lock&#61;&#34;true&#34;&#62;&#60;entity name&#61;&#34;lead&#34;&#62;&#60;attribute name&#61;&#34;fullname&#34;&#47;&#62;&#60;order attribute&#61;&#34;createdon&#34; descending&#61;&#34;true&#34;&#47;&#62;&#60;attribute name&#61;&#34;createdon&#34;&#47;&#62;&#60;attribute name&#61;&#34;statuscode&#34;&#47;&#62;&#60;attribute name&#61;&#34;subject&#34;&#47;&#62;&#60;attribute name&#61;&#34;leadid&#34;&#47;&#62;&#60;attribute name&#61;&#34;ownerid&#34;&#47;&#62;&#60;filter type&#61;&#34;and&#34;&#62;&#60;condition attribute&#61;&#34;statecode&#34; operator&#61;&#34;eq&#34; value&#61;&#34;0&#34;&#47;&#62;&#60;&#47;filter&#62;&#60;&#47;entity&#62;&#60;&#47;fetch&#62;</a:Query></b:value></c:KeyValuePairOfstringQueryBasegUGIFE1S></b:value></a:KeyValuePairOfstringanyType></a:Parameters><a:RequestId i:nil="true" /><a:RequestName>RetrieveEntitiesForAggregateQuery</a:RequestName></request></Execute></s:Body></s:Envelope>]]></textPostContent>
+</http-soap-action>

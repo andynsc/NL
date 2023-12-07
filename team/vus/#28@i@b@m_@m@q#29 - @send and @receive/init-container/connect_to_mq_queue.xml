@@ -1,0 +1,38 @@
+<custom-action actionType="Connect To MQ Queue" isHit="true"
+    name="connect_to_mq_queue" uid="29712050-4161-41ae-8648-caee9f2cdc70">
+    <description>Argument                    : Description&#xd;
+&#xd;
+QueueManager                : (required) Sets the name of the queue manager.&#xd;
+HostName                    : (required) Sets the name of the host.&#xd;
+Port                        : (required) Sets the port for a client connection.&#xd;
+Channel                     : (required) Sets the name of the channel - applies to client transport mode only.&#xd;
+QueueName                   : (required) The name of the Queue.&#xd;
+QueueSessionTransacted      : (optional) A boolean to indicate whether the session is transacted&#xd;
+QueueSessionAcknowledgeMode : (optional) An integer to indicate whether the consumer or the client will acknowledge any messages it receives; ignored if the session is transacted. Legal values are 1 for AUTO_ACKNOWLEDGE, 2 for CLIENT_ACKNOWLEDGE or 3 for DUPS_OK_ACKNOWLEDGE.&#xd;
+Username                    : (optional) The username used to create the connection.&#xd;
+Password                    : (optional) The password used to create the connection.&#xd;
+CCSID                       : (optional) Choosing client or server coded character set identifier.&#xd;
+TransportProperty           : (optional) Tansport property. For example 'MQSeries', 'MQSeries Client', 'MQSeries Bindings', or 'MQJD'.&#xd;
+Debug                       : (optional) Debug: true/false&#xd;
+SslFipsRequired             : (optional) Specify that an SSL or TLS channel must use only FIPS-certified CipherSpecs. true/false&#xd;
+UseIBMCipherMappings        : (optional) UseIBMCipherMappingss. true/false&#xd;
+PreferTLS                   : (optional) PreferTLS. true/false&#xd;
+SslCipherSuite              : (optional) SSL Cipher Suite&#xd;
+SslPeerName                 : (optional) SSL Peer Name&#xd;
+SslProtocol                 : (optional) SSL protocol to use, e.g. TLSv1, TLSv1.2 or keep value empty for default SSL protocol.&#xd;
+TrustStorePath              : (optional) Location of the Java keystore file containing the collection of CA certificates trusted by this application process (trust store) (Default value: &lt;path-to-truststore.jks&gt;)&#xd;
+TrustStorePassword          : (optional) Password to unlock the truststore file.&#xd;
+KeyStorePath                : (optional) Location of the Java keystore file containing an application process's own certificate and private key. (Default value: &lt;path-to-keystore.jks&gt;)&#xd;
+KeyStorePassword            : (optional) Password to unlock the keystore file.&#xd;
+QueueOperation              : (optional) CREATE: Create queue session then create queue / ACCESS: Access existing queue MQQueueManager. (Default value: CREATE)&#xd;
+OpenOptions                 : (optional) Integer for open option as specified here: https://docs.oracle.com/cd/E19509-01/820-4407/ggjyo/index.html. By default, MQC.MQOO_OUTPUT (16) | MQC.MQOO_INQUIRE (32) | MQC.MQOO_FAIL_IF_QUIESCING (8192) = 8240. (Default value: 8240)</description>
+    <custom-action-parameter name="QueueManager" type="TEXT" value="QM1"/>
+    <custom-action-parameter name="HostName" type="TEXT" value="mq-demo-env"/>
+    <custom-action-parameter name="Port" type="TEXT" value="1414"/>
+    <custom-action-parameter name="Channel" type="TEXT" value="DEV.APP.SVRCONN"/>
+    <custom-action-parameter name="QueueName" type="TEXT" value="DEV.QUEUE.1"/>
+    <custom-action-parameter name="Debug" type="TEXT" value="true"/>
+    <custom-action-parameter name="Username" type="TEXT" value="mqm"/>
+    <encrypted-custom-action-parameter name="Password" type="PASSWORD" value="rAMyA0wmzcI7dEIrFmzuRA=="/>
+    <responsePageFileDescription>recorded-responses/res_e4f1375e-4e10-4d36-9ca6-1cb3d80a28ab</responsePageFileDescription>
+</custom-action>

@@ -1,0 +1,4 @@
+<http-server hostname="sapdemo21.tricentis.com" port="44301" ssl="true"
+    uid="sapdemo21.tricentis.com" urlrewriting-argument-name="~service"
+    urlrewriting-enabled="true" urlrewriting-path-extension="true"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

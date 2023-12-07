@@ -1,0 +1,14 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="enter and save" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="99fcba73-9838-430c-9391-5e7ac7fd4bf7" weightsEnabled="false">
+    <weighted-embedded-action uid="69f25d3a-991f-4d5b-9927-b06adff5c2bf"/>
+    <weighted-embedded-action uid="9ede2949-11fb-4264-bc4c-e8a436f1d1df"/>
+    <weighted-embedded-action uid="8f7152b7-7efd-4abb-9138-5528b81d877d"/>
+    <weighted-embedded-action uid="5a2f9399-7f57-46ef-84d2-3fdb45e8a151"/>
+    <weighted-embedded-action uid="e9a48501-ee87-4004-9ec9-c5aad0096cdb"/>
+    <weighted-embedded-action uid="1a38e8ca-8b87-4411-ab5d-6d8bda558011"/>
+    <weighted-embedded-action uid="da61c2bc-6210-442b-8db9-91bc893f9cd4"/>
+    <weighted-embedded-action uid="1e6af794-7886-4ef5-9eed-a356633881e2"/>
+    <weighted-embedded-action uid="291e219b-fa3c-49d6-ae90-7248ddfe153d"/>
+</basic-logical-action-container>

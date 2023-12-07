@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Files" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="74eaec84-befc-4585-8824-f131e9afcbd8" weightsEnabled="false">
+    <weighted-embedded-action uid="6b3aa851-691c-4881-b76b-37237983a74a"/>
+    <weighted-embedded-action uid="2e730f17-eee6-4534-81f7-495e4027d0dc"/>
+    <weighted-embedded-action uid="5bcb0fa6-a690-4524-8a7d-32866ff7d34c"/>
+    <weighted-embedded-action uid="683c4070-1466-4509-9aa2-e97ea96f697d"/>
+    <weighted-embedded-action uid="a8dc8e28-0c67-468b-8481-649cb63aef71"/>
+</basic-logical-action-container>

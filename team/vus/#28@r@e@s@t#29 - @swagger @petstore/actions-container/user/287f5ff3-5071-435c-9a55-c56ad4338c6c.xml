@@ -1,0 +1,12 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="${swagger_petstore_base_path}/user/logout"
+    path="${swagger_petstore_base_path}/user/logout" postType="1"
+    serverUid="swagger_petstore_server" slaProfileEnabled="false"
+    uid="287f5ff3-5071-435c-9a55-c56ad4338c6c" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @petstore/%resources%/recorded-responses/res_287f5ff3-5071-435c-9a55-c56ad4338c6c</responsePageFileDescription>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

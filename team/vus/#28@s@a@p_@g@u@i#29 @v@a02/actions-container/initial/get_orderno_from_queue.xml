@@ -1,0 +1,5 @@
+<variable-modifier-action definedMode="1"
+    dest-variable-name="consumeOrder" name="get_orderno_from_queue"
+    shared-variable-name="order_queue" sharedMode="4"
+    src-variable-name="" uid="2415ddd8-1756-46cb-aa52-f9071b6a36e1"
+    variable-category="SHARED" variable-name=""/>

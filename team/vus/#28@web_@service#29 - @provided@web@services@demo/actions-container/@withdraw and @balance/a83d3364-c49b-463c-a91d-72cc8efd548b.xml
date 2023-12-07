@@ -1,0 +1,58 @@
+<http-soap-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="getBalance"
+    path="/BlueBankFrontOffice/services/BlueBankFrontOffice"
+    postType="4" serverUid="ws-demo-env" slaProfileEnabled="false"
+    soap-mode="1"
+    soap-wsdl="https://ws-demo-env:9443/BlueBankFrontOffice/services/BlueBankFrontOffice/wsdl/BlueBankFrontOffice.wsdl"
+    uid="a83d3364-c49b-463c-a91d-72cc8efd548b" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@web_@service#29 - @provided@web@services@demo/%resources%/recorded-responses/res_a83d3364-c49b-463c-a91d-72cc8efd548b</responsePageFileDescription>
+    <assertions>
+        <assertion-content name="withdraw_625_remains" notType="false" pattern="625.0"/>
+    </assertions>
+    <header name="SOAPAction" value="&quot;&quot;"/>
+    <header name="Content-Type" value="text/xml; charset=utf-8"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <soap-method attachmentEncapsulationFormat="mime"
+        location="https://ws-demo-env:9443/BlueBankFrontOffice/services/BlueBankFrontOffice"
+        name="{http://bluebank}getBalance" operationStyle="document"
+        port="{http://bluebank}BlueBankFrontOffice" soapActionURI=""
+        use="literal" useWrappedStyle="true" version="SOAP11">
+        <soap-headers/>
+        <soap-parameters>
+            <soap-paramValue digesterKind="parameter" kind="sequence"
+                maxOccurs="1" maxOccursUnbounded="false" minOccurs="1"
+                name="getBalance" namespace="http://bluebank">
+                <soap-children>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="value" empty="false" encode="true"
+                        kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="accountID" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="${TheGeneratedAccountNumber}">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                </soap-children>
+                <soap-possibleChildren>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="possible" empty="false"
+                        encode="true" kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="accountID" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                </soap-possibleChildren>
+            </soap-paramValue>
+        </soap-parameters>
+    </soap-method>
+</http-soap-action>

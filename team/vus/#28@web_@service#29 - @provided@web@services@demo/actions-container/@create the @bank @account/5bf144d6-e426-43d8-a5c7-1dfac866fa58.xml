@@ -1,0 +1,210 @@
+<http-soap-action actionType="1" contentType="text/xml; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="createAccount"
+    path="/BlueBankFrontOffice/services/BlueBankFrontOffice"
+    postCharset="" postType="4" recordedResponseCode="200"
+    recordedResponseTime="1371" responseSize="443"
+    serverUid="ws-demo-env" slaProfileEnabled="false" soap-mode="1"
+    soap-wsdl="https://ws-demo-env:9443/BlueBankFrontOffice/services/BlueBankFrontOffice/wsdl/BlueBankFrontOffice.wsdl"
+    uid="5bf144d6-e426-43d8-a5c7-1dfac866fa58" useKeepAlive="false">
+    <description>Method BlueBankFrontOfficeSoapBinding.createAccount shortened for readability (see above name)</description>
+    <responsePageFileDescription>team/vus/#28@web_@service#29 - @provided@web@services@demo/%resources%/recorded-responses/res_bcafb974-bafa-41a0-9a61-543472a86be2.0</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/#28@web_@service#29 - @provided@web@services@demo/%resources%/recorded-requests/req_cust_1dd0912c-ce50-4a91-b71c-ad893995e439.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&lt;/p408:createAccountReturn>"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="TheGeneratedAccountNumber"
+        refererUid="1dd0912c-ce50-4a91-b71c-ad893995e439"
+        regExp="&lt;p408:createAccountReturn>(.*?)&lt;/p408:createAccountReturn>"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="&lt;p408:createAccountReturn>" template="$1$"
+        templateAdv="$1$" uid="3efb4ba8-1c24-457e-a726-56a18d8501c6" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="SOAPAction" value="&quot;&quot;"/>
+    <header name="Content-Type" value="text/xml; charset=utf-8"/>
+    <responseHeaders>HTTP/1.1 200 OK
+X-Powered-By: Servlet/3.1
+Content-Type: text/xml; charset=utf-8
+Content-Language: en-US
+Content-Length: 443
+Date: Mon, 16 Mar 2020 12:49:48 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <soap-method attachmentEncapsulationFormat="mime"
+        location="https://ws-demo-env:9443/BlueBankFrontOffice/services/BlueBankFrontOffice"
+        name="{http://bluebank}createAccount" operationStyle="document"
+        port="{http://bluebank}BlueBankFrontOffice" soapActionURI=""
+        use="literal" useWrappedStyle="true" version="SOAP11">
+        <soap-headers/>
+        <soap-parameters>
+            <soap-paramValue digesterKind="parameter" kind="sequence"
+                maxOccurs="1" maxOccursUnbounded="false" minOccurs="1"
+                name="createAccount" namespace="http://bluebank">
+                <soap-children>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="value" empty="false" encode="true"
+                        kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="FirstName" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="Neo">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="value" empty="false" encode="true"
+                        kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="LastName" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="Load">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="value" empty="false" encode="true"
+                        kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="StreetAddress" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="Here and There">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="value" empty="false" encode="true"
+                        kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="ZipCode" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="12345">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="value" empty="false" encode="true"
+                        kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="City" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="Gemenos">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="value" empty="false" encode="true"
+                        kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="State" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="Positive">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="value" empty="false" encode="true"
+                        kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="Country" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="France">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                </soap-children>
+                <soap-possibleChildren>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="possible" empty="false"
+                        encode="true" kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="FirstName" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="possible" empty="false"
+                        encode="true" kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="LastName" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="possible" empty="false"
+                        encode="true" kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="StreetAddress" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="possible" empty="false"
+                        encode="true" kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="ZipCode" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="possible" empty="false"
+                        encode="true" kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="City" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="possible" empty="false"
+                        encode="true" kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="State" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeString"
+                        digesterKind="possible" empty="false"
+                        encode="true" kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="Country" namespace="http://bluebank"
+                        type="{http://www.w3.org/2001/XMLSchema}string" value="">
+                        <facets>
+                            <restriction-facet name="whiteSpace" value="preserve"/>
+                        </facets>
+                    </soap-paramValue>
+                </soap-possibleChildren>
+            </soap-paramValue>
+        </soap-parameters>
+    </soap-method>
+</http-soap-action>

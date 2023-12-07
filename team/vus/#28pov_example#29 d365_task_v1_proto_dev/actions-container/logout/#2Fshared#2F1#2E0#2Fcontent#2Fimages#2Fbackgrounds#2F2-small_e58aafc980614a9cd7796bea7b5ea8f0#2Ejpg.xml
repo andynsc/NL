@@ -1,0 +1,347 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/shared/1.0/content/images/backgrounds/2-small_e58aafc980614a9cd7796bea7b5ea8f0.jpg"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/53ff58c3-9802-4c35-9f96-a6c5088d5712.zip"
+    slaProfileEnabled="false" thinkTime="4126"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="53ff58c3-9802-4c35-9f96-a6c5088d5712">
+    <embedded-action>5f0b3db7-bcd4-42ee-8978-f83996b3fb1e</embedded-action>
+    <embedded-action>208d78e4-684f-4e29-b40b-409b38dac6ba</embedded-action>
+    <embedded-action>f47e5ea6-2273-4d50-971b-6ec2c917cd24</embedded-action>
+    <embedded-action>ff6f4324-cf64-49a0-9d0d-e3b6b514dc29</embedded-action>
+    <embedded-action>bb104fa7-612c-4f7c-8d0f-e9c05970b3b8</embedded-action>
+    <embedded-action>d01813df-10a5-4218-b2b1-09400564b54d</embedded-action>
+    <embedded-action>a9b9d2fb-41c9-4c24-a645-5024d1df66e5</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="image/jpeg"
+    eTag="0x8D7B007295267C8" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 12 Feb 2020 22:01:50 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/shared/1.0/content/images/backgrounds/2-small_e58aafc980614a9cd7796bea7b5ea8f0.jpg"
+    path="/shared/1.0/content/images/backgrounds/2-small_e58aafc980614a9cd7796bea7b5ea8f0.jpg"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/53ff58c3-9802-4c35-9f96-a6c5088d5712.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="aadcdn.msftauth.net" slaProfileEnabled="false"
+    uid="5f0b3db7-bcd4-42ee-8978-f83996b3fb1e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_149d665a-4516-4c43-a5e0-e4c1fce2ea3f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2e10b25f-8185-4aa3-a83c-86c9db2389d7.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://login.microsoftonline.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://login.microsoftonline.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding&#xd;
+age: 18221616&#xd;
+cache-control: public, max-age=31536000&#xd;
+content-md5: 5YqvyYBhSpzXeWvqe16o8A==&#xd;
+content-type: image/jpeg&#xd;
+date: Thu, 08 Dec 2022 21:27:39 GMT&#xd;
+etag: 0x8D7B007295267C8&#xd;
+last-modified: Wed, 12 Feb 2020 22:01:50 GMT&#xd;
+server: ECAcc (lhd/3728)&#xd;
+x-cache: HIT&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 44698312-801e-006a-3392-657634000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-length: 987</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    eTag="0x8D7B007294E20F8" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 12 Feb 2020 22:01:50 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/shared/1.0/content/images/backgrounds/2_7916a894ebde7d29c2cc29b267f1299f.jpg"
+    path="/shared/1.0/content/images/backgrounds/2_7916a894ebde7d29c2cc29b267f1299f.jpg"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/53ff58c3-9802-4c35-9f96-a6c5088d5712.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="aadcdn.msftauth.net" slaProfileEnabled="false"
+    uid="208d78e4-684f-4e29-b40b-409b38dac6ba" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_306a3d03-6a27-4e48-b2bd-3fe0538a5498</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fca80506-836a-4062-a46d-a8f5d43a1d99.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://login.microsoftonline.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://login.microsoftonline.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding&#xd;
+age: 18221615&#xd;
+cache-control: public, max-age=31536000&#xd;
+content-md5: eRaolOvefSnCzCmyZ/Epnw==&#xd;
+content-type: image/jpeg&#xd;
+date: Thu, 08 Dec 2022 21:27:39 GMT&#xd;
+etag: 0x8D7B007294E20F8&#xd;
+last-modified: Wed, 12 Feb 2020 22:01:50 GMT&#xd;
+server: ECAcc (lhd/35D8)&#xd;
+x-cache: HIT&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 2e84c234-f01e-0076-5f92-65059f000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-length: 17453</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="0x8D641014F7D2A46" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 02 Nov 2018 20:25:20 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/ests/2.1/content/images/microsoft_logo.png"
+    path="/ests/2.1/content/images/microsoft_logo.png" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/53ff58c3-9802-4c35-9f96-a6c5088d5712.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="aadcdn.msftauth.net" slaProfileEnabled="false"
+    uid="f47e5ea6-2273-4d50-971b-6ec2c917cd24" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_02c5d140-a898-49e1-b07d-d37e73308552.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_386eb630-3c6d-4a14-a6b0-699e00ac4923.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://login.microsoftonline.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://login.microsoftonline.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Length,Date,Transfer-Encoding&#xd;
+age: 77571&#xd;
+cache-control: public, max-age=604800&#xd;
+content-md5: 7ZyesNzhfXUr7eprWs2m2Q==&#xd;
+content-type: image/png&#xd;
+date: Thu, 08 Dec 2022 21:27:39 GMT&#xd;
+etag: 0x8D641014F7D2A46&#xd;
+last-modified: Fri, 02 Nov 2018 20:25:20 GMT&#xd;
+server: ECAcc (lhd/35FD)&#xd;
+x-cache: HIT&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 18f7b3e2-e01e-007c-5e97-0a2fdd000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-length: 1057</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="0x8D79A1BA1ED720E" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 16 Jan 2020 00:32:56 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/shared/1.0/content/images/work_account_1963c6b1926b773986f53f844ce4c32e.png"
+    path="/shared/1.0/content/images/work_account_1963c6b1926b773986f53f844ce4c32e.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/53ff58c3-9802-4c35-9f96-a6c5088d5712.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="aadcdn.msftauth.net" slaProfileEnabled="false"
+    uid="ff6f4324-cf64-49a0-9d0d-e3b6b514dc29" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f5fbd3f4-efba-4e49-827f-5049e62edb24.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_08335f0e-6c80-4ce7-abf7-47d2d827b168.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://login.microsoftonline.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://login.microsoftonline.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding&#xd;
+age: 18221637&#xd;
+cache-control: public, max-age=31536000&#xd;
+content-md5: GWPGsZJrdzmG9T+ETOTDLg==&#xd;
+content-type: image/png&#xd;
+date: Thu, 08 Dec 2022 21:27:39 GMT&#xd;
+etag: 0x8D79A1BA1ED720E&#xd;
+last-modified: Thu, 16 Jan 2020 00:32:56 GMT&#xd;
+server: ECAcc (lhd/35B6)&#xd;
+x-cache: HIT&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 81230449-801e-0029-7f92-6579f6000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-length: 1487</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="0x8D79A1B9F5B2B36" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 16 Jan 2020 00:32:52 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/shared/1.0/content/images/personal_account_0f72b5950600f24e7f9a604b186f3945.png"
+    path="/shared/1.0/content/images/personal_account_0f72b5950600f24e7f9a604b186f3945.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/53ff58c3-9802-4c35-9f96-a6c5088d5712.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="aadcdn.msftauth.net" slaProfileEnabled="false"
+    uid="bb104fa7-612c-4f7c-8d0f-e9c05970b3b8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_09e1c0a4-fb30-4f66-b199-96174997a13a.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_631bfc76-56eb-497c-8bd2-809f9002a707.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://login.microsoftonline.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://login.microsoftonline.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding&#xd;
+age: 18221637&#xd;
+cache-control: public, max-age=31536000&#xd;
+content-md5: D3K1lQYA8k5/mmBLGG85RQ==&#xd;
+content-type: image/png&#xd;
+date: Thu, 08 Dec 2022 21:27:39 GMT&#xd;
+etag: 0x8D79A1B9F5B2B36&#xd;
+last-modified: Thu, 16 Jan 2020 00:32:52 GMT&#xd;
+server: ECAcc (lhd/3585)&#xd;
+x-cache: HIT&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 4fe32618-801e-000e-2592-651f6b000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-length: 1335</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    eTag="0x8D8DA1D9D23143A" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 26 Feb 2021 06:13:19 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/ests/2.1/content/cdnbundles/jquery.3.5.min_dc940oomzau4rsu8qesnvg2.js"
+    path="/ests/2.1/content/cdnbundles/jquery.3.5.min_dc940oomzau4rsu8qesnvg2.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/53ff58c3-9802-4c35-9f96-a6c5088d5712.zip"
+    recordedResponseCode="200" responseSize="119648"
+    serverUid="aadcdn.msftauth.net" slaProfileEnabled="false"
+    uid="d01813df-10a5-4218-b2b1-09400564b54d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a3985852-ddfa-4411-a98b-a4266deef498</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a3985852-ddfa-4411-a98b-a4266deef498.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://login.microsoftonline.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://login.microsoftonline.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-encoding: gzip&#xd;
+accept-ranges: bytes&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding&#xd;
+age: 18194979&#xd;
+cache-control: public, max-age=31536000&#xd;
+content-md5: HWW92uTq7vx3y5z+zFZbXQ==&#xd;
+content-type: application/x-javascript&#xd;
+date: Thu, 08 Dec 2022 21:27:39 GMT&#xd;
+etag: 0x8D8DA1D9D23143A&#xd;
+last-modified: Fri, 26 Feb 2021 06:13:19 GMT&#xd;
+server: ECAcc (lhd/35C5)&#xd;
+vary: Accept-Encoding&#xd;
+x-cache: HIT&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 7a279854-301e-009f-7bd0-65a60b000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-length: 40454</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    eTag="0x8DA2286D5C4F576" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 20 Apr 2022 04:32:53 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/ests/2.1/content/cdnbundles/aad.login.min_kx1da7l2dz6nhe9kugk19a2.js"
+    path="/ests/2.1/content/cdnbundles/aad.login.min_kx1da7l2dz6nhe9kugk19a2.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/53ff58c3-9802-4c35-9f96-a6c5088d5712.zip"
+    recordedResponseCode="200" responseSize="182667"
+    serverUid="aadcdn.msftauth.net" slaProfileEnabled="false"
+    uid="a9b9d2fb-41c9-4c24-a645-5024d1df66e5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b9ddc89f-5d7b-4e68-8eef-54ad24c2fc69</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b9ddc89f-5d7b-4e68-8eef-54ad24c2fc69.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://login.microsoftonline.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://login.microsoftonline.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-encoding: gzip&#xd;
+accept-ranges: bytes&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding&#xd;
+age: 18200571&#xd;
+cache-control: public, max-age=31536000&#xd;
+content-md5: upI7aPOzsdXSeL+Vv8o5ww==&#xd;
+content-type: application/x-javascript&#xd;
+date: Thu, 08 Dec 2022 21:27:39 GMT&#xd;
+etag: 0x8DA2286D5C4F576&#xd;
+last-modified: Wed, 20 Apr 2022 04:32:53 GMT&#xd;
+server: ECAcc (lhd/35CB)&#xd;
+vary: Accept-Encoding&#xd;
+x-cache: HIT&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 3ce30bd6-e01e-007c-71c3-652fdd000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-length: 44785</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

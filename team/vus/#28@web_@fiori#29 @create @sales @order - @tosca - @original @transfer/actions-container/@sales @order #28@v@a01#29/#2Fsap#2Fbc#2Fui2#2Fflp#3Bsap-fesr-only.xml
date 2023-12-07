@@ -1,0 +1,59 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/bc/ui2/flp;sap-fesr-only"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28@web_@fiori#29 @create @sales @order - @tosca - @original @transfer/%resources%/recorded-artifacts/a438c1e0-82f3-4e6b-8320-dc269a4a0873.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a438c1e0-82f3-4e6b-8320-dc269a4a0873">
+    <embedded-action>8c106773-6c1b-487c-8adf-724d9e75b25b</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/sap/bc/ui2/flp;sap-fesr-only"
+    path="/sap/bc/ui2/flp;sap-fesr-only" postCharset="UTF-8"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/#28@web_@fiori#29 @create @sales @order - @tosca - @original @transfer/%resources%/recorded-artifacts/a438c1e0-82f3-4e6b-8320-dc269a4a0873.zip"
+    recordedResponseCode="204" responseSize="0"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="8c106773-6c1b-487c-8adf-724d9e75b25b" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[c2FwLWZlc3Itb25seT0xJlNBUC1QZXJmLUZFU1JlYz04QjQ1OUFGNkJDOUI0RTA5QkFGMjYwRDRFQ0Q1NDRGRSw3N0VCRDEyMTgxQjc0ODc3QTdEM0VFM0RFRkY4MTAxOSw1MTYsMTM4NSw1MjU1LDExLHVuZGV0ZXJtaW5lZF9zdGFydHVwXzAsMTQ5LDIwNTcsd2luXzEwLFNBUF9VSTVTQVAtUGVyZi1GRVNSZWMtb3B0LEZMUEBMT0FELCxjcl8xMDQsMTU4MzEsMzIyMzQ3LCwsNzEzMiwsLCwsLDAsLDIsLDIwMjIwODI1MTMyMjM0MDc1LHNhcC51c2hlbGwuY29tcG9uZW50cy5ob21lcGFnZSZTQVAtUGVyZi1GRVNSZWM9OEI0NTlBRjZCQzlCNEUwOUJBRjI2MEQ0RUNENTQ0RkUsNjJGQ0REREIyOTgzNDVDRUIyQURGQTQ5Q0Y4NzExNTQsMzAsNDA5LDI2NjIsMyxzYXBVc2hlbGxEYXNoYm9hcmRQYWdlX2tleWRvd25fMCwxMTQsNDA5LHdpbl8xMCxTQVBfVUk1U0FQLVBlcmYtRkVTUmVjLW9wdGVsbC5yZW5kZXJlcnMuZmlvcmkyLGFzaGJvYXJkUGFnZV9rZXlkb3duLCxjcl8xMDQsMTQ3NSwxNDQzLCwsMCwsLCwsLDAsLDIsLDIwMjIwODI1MTMyMjQ2MTg4LHNhcC51c2hlbGwucmVuZGVyZXJzLmZpb3JpMg==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_1e383494-2017-400d-8241-e6fa46c4b7b4.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1e383494-2017-400d-8241-e6fa46c4b7b4.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="sap-fesr-only"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="SAP-Perf-FESRec"
+        recordRawValue="8B459AF6BC9B4E09BAF260D4ECD544FE,77EBD12181B74877A7D3EE3DEFF81019,516,1385,5255,11,undetermined_startup_0,149,2057,win_10,SAP_UI5SAP-Perf-FESRec-opt,FLP@LOAD,,cr_104,15831,322347,,,7132,,,,,,0,,2,,20220825132234075,sap.ushell.components.homepage"
+        separator="="
+        value="8B459AF6BC9B4E09BAF260D4ECD544FE,77EBD12181B74877A7D3EE3DEFF81019,516,1385,5255,11,undetermined_startup_0,149,2057,win_10,SAP_UI5SAP-Perf-FESRec-opt,FLP@LOAD,,cr_104,15831,322347,,,7132,,,,,,0,,2,,20220825132234075,sap.ushell.components.homepage" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="SAP-Perf-FESRec"
+        recordRawValue="8B459AF6BC9B4E09BAF260D4ECD544FE,62FCDDDB298345CEB2ADFA49CF871154,30,409,2662,3,sapUshellDashboardPage_keydown_0,114,409,win_10,SAP_UI5SAP-Perf-FESRec-optell.renderers.fiori2,ashboardPage_keydown,,cr_104,1475,1443,,,0,,,,,,0,,2,,20220825132246188,sap.ushell.renderers.fiori2"
+        separator="="
+        value="8B459AF6BC9B4E09BAF260D4ECD544FE,62FCDDDB298345CEB2ADFA49CF871154,30,409,2662,3,sapUshellDashboardPage_keydown_0,114,409,win_10,SAP_UI5SAP-Perf-FESRec-optell.renderers.fiori2,ashboardPage_keydown,,cr_104,1475,1443,,,0,,,,,,0,,2,,20220825132246188,sap.ushell.renderers.fiori2" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="_gcl_au=1.1.922398253.1654687505; _biz_uid=e719776114b14d0b90b5ae063e544d90; mf_user=38d4992a44423b07d664d78fc6704cac|; _mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1654687507495-83570; _fbp=fb.1.1654687507534.1321684310; _biz_flagsA=%7B%22Version%22%3A1%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Mkto%22%3A%221%22%7D; _ga=GA1.2.287317646.1647268020; _biz_nA=4; _biz_pendingA=%5B%5D; _ga_489D1QT6C1=GS1.1.1654697648.2.0.1654697648.0; _gid=GA1.2.58883836.1661421542; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=AjQxMDMBABhNAEEAWABQAEEAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMgAwADgAMgA1ADEAMwAyADIABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjIwODI1MTMyMjM0WjAjBgkqhkiG9w0BCQQxFgQURjHTPZ9rcK1ZPUmrUPM9D3r2VIEwCQYHKoZIzjgEAwQuMCwCFE45bm8CDwZGkkK5ToX1g3MlTF%2fLAhROE7RNhQFM5xAJzKIGBagUkW6zRw%3d%3d; SAP_SESSIONID_S4H_100=fctHGG3JAaguqHgRlhwYIfrB-w0keBHtnbUADTpE36E%3d"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://sapdemo21.tricentis.com:44301"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/x-www-form-urlencoded;charset=utf-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 204&#xd;
+content-type: text/html&#xd;
+Content-Length: 0&#xd;
+cache-control: no-store, no-cache, must-revalidate&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 8600.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

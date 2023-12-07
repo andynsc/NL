@@ -1,0 +1,187 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="JPetStore Demo"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28@web#29 @j@petsore @buyers/%resources%/recorded-artifacts/7feef6e5-fe94-43aa-9a88-b0c00a951545.zip"
+    slaProfileEnabled="false" thinkTime="${rndThinkime}"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd="10000"
+    thinkTimeRangeStart="5000" uid="7feef6e5-fe94-43aa-9a88-b0c00a951545">
+    <embedded-action>f503cd49-b190-4fd2-8c5a-696c10e95d51</embedded-action>
+    <embedded-action>1762d1cb-db1d-48fb-ac73-0180cbd6e545</embedded-action>
+    <embedded-action>f4e27a33-0382-400e-b114-62fb7c8ac313</embedded-action>
+    <embedded-action>2c6392bb-e247-4dc7-ac7d-5c13a4dd2bd9</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_dd84bd49-9e49-4d14-8229-53c2a5531a94.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="mememe/jpetstore/shop/signon.shtml"
+    path="/jpetstore/shop/signon.shtml" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/#28@web#29 @j@petsore @buyers/%resources%/recorded-artifacts/7feef6e5-fe94-43aa-9a88-b0c00a951545.zip"
+    recordedResponseCode="200" responseSize="6530"
+    serverUid="System Under Test" slaProfileEnabled="false"
+    uid="f503cd49-b190-4fd2-8c5a-696c10e95d51" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[dXNlcm5hbWU9ajJlZSZwYXNzd29yZD0ke0F1dG9QYXNzd29yZF8xfSZ4PTMzJnk9Ng==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_44fb2b69-c062-47f3-83ff-48d2b9c9c47c.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_44fb2b69-c062-47f3-83ff-48d2b9c9c47c.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="id" regExp="&amp;id=(.*?)&quot;>"
+        regExpAdv="&amp;id=(.*?)&quot;>" setDefaultValue="true"
+        startsWithSimple="" template="$1$" templateAdv="$1$"
+        uid="057ee114-47bb-4567-a65a-a712bbedcf55" xpath=""/>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;>&lt;img bor" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="0" matchNumberAdv="1"
+        matchNumberSimple="0" name="all the types"
+        refererUid="607054d3-a26e-4246-9c6b-d316f52a9711"
+        regExp="categoryId=(.*?)&quot;>&lt;img bor" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="categoryId="
+        template="$1$" templateAdv="$1$"
+        uid="ba3d49e6-e346-41c5-8254-f2702da55bda" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <assertions>
+        <assertion-duration duration="2000"/>
+        <assertion-size operator="3" size="6000"/>
+        <assertion-size operator="4" size="8000"/>
+        <assertion-response containsType="true" matchType="false"
+            name="name check" notType="false">
+            <testString>Welcome ([A-Za-z]{2,15})!</testString>
+        </assertion-response>
+    </assertions>
+    <parameter encodeName="false" encodeValue="false" name="username"
+        recordRawValue="j2ee" separator="=" value="j2ee" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="false" name="password"
+        recordRawValue="${AutoPassword_1}" separator="=" value="j2ee" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="x"
+        recordRawValue="33" separator="=" value="33" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="y"
+        recordRawValue="6" separator="=" value="6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html, application/xhtml+xml, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-GB"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="JSESSIONID=C3CC2FF31E124B96126D4E5A11C954BB"/>
+    <header name="Host" value="54.211.92.60"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="Referer" value="http://54.211.92.60/jpetstore/shop/signonForm.shtml;jsessionid=C3CC2FF31E124B96126D4E5A11C954BB"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 22 Oct 2018 12:40:02 GMT&#xd;
+Server: Apache/2.2.34 (Amazon)&#xd;
+Content-Length: 6530&#xd;
+Connection: close&#xd;
+Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorName="accountBean"
+        extractorOccurence="2" extractorRegExp="false" htmlType="2"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;290-1088130660000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="mememe/jpetstore/images/sign-out.gif"
+    path="/jpetstore/images/sign-out.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/#28@web#29 @j@petsore @buyers/%resources%/recorded-artifacts/7feef6e5-fe94-43aa-9a88-b0c00a951545.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="System Under Test" slaProfileEnabled="false"
+    uid="1762d1cb-db1d-48fb-ac73-0180cbd6e545" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_998681f2-963b-4c5e-9e4e-a73b1c7857b4.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_96d77cbb-3abf-48dd-aca5-e36c1d8c89bd.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-GB"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="JSESSIONID=C3CC2FF31E124B96126D4E5A11C954BB"/>
+    <header name="Host" value="54.211.92.60"/>
+    <header name="Referer" value="http://54.211.92.60/jpetstore/shop/signon.shtml"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 22 Oct 2018 12:40:04 GMT&#xd;
+Server: Apache/2.2.34 (Amazon)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"290-1088130660000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT&#xd;
+Content-Length: 290&#xd;
+Connection: close&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;455-1088130660000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="mememe/jpetstore/images/my_account.gif"
+    path="/jpetstore/images/my_account.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/#28@web#29 @j@petsore @buyers/%resources%/recorded-artifacts/7feef6e5-fe94-43aa-9a88-b0c00a951545.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="System Under Test" slaProfileEnabled="false"
+    uid="f4e27a33-0382-400e-b114-62fb7c8ac313" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_02cafc5a-2cc4-4cc0-b697-12a7ed1de33e.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fc0f21de-8dae-4f21-93d2-e6e28b247100.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-GB"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="JSESSIONID=C3CC2FF31E124B96126D4E5A11C954BB"/>
+    <header name="Host" value="54.211.92.60"/>
+    <header name="Referer" value="http://54.211.92.60/jpetstore/shop/signon.shtml"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 22 Oct 2018 12:40:03 GMT&#xd;
+Server: Apache/2.2.34 (Amazon)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"455-1088130660000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT&#xd;
+Content-Length: 455&#xd;
+Connection: close&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;6161-1088130660000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 25 Jun 2004 02:31:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="mememe/jpetstore/images/banner_dogs.gif"
+    path="/jpetstore/images/banner_dogs.gif" postType="1"
+    recordedArtifactZipFileName="team/vus/#28@web#29 @j@petsore @buyers/%resources%/recorded-artifacts/7feef6e5-fe94-43aa-9a88-b0c00a951545.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="System Under Test" slaProfileEnabled="false"
+    uid="2c6392bb-e247-4dc7-ac7d-5c13a4dd2bd9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9ba41aa1-4f03-4bf1-a701-f78aeec37360.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9471e5bc-b981-45a8-83e5-73cf41488027.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-GB"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="JSESSIONID=C3CC2FF31E124B96126D4E5A11C954BB"/>
+    <header name="Host" value="54.211.92.60"/>
+    <header name="Referer" value="http://54.211.92.60/jpetstore/shop/signon.shtml"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 22 Oct 2018 12:40:03 GMT&#xd;
+Server: Apache/2.2.34 (Amazon)&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: W/"6161-1088130660000"&#xd;
+Last-Modified: Fri, 25 Jun 2004 02:31:00 GMT&#xd;
+Content-Length: 6161&#xd;
+Connection: close&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

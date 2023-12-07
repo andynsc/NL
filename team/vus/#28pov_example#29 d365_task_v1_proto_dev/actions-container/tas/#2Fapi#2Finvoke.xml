@@ -1,0 +1,101 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/api/invoke"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/97a83449-ab94-45b8-b3d7-2042175ec6da.zip"
+    slaProfileEnabled="false" thinkTime="1121"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="97a83449-ab94-45b8-b3d7-2042175ec6da">
+    <embedded-action>80a01ac0-8929-4ed9-9d5c-e83d78e1e7d5</embedded-action>
+    <embedded-action>5ae8aa15-bbcb-41c2-a4cb-3264751c3b97</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="OPTIONS" name="/api/invoke" path="/api/invoke" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/97a83449-ab94-45b8-b3d7-2042175ec6da.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.powerapps.com" slaProfileEnabled="false"
+    uid="80a01ac0-8929-4ed9-9d5c-e83d78e1e7d5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c1a4ee7f-301f-407d-907f-e5293bfd3d2e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0a4ba1a4-a5a7-46ed-b782-73c589a32157.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://apps.powerapps.com/"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://apps.powerapps.com"/>
+    <header name="access-control-request-headers" value="authorization,cache-control,x-ms-client-request-id,x-ms-client-session-id,x-ms-path-query,x-ms-user-agent"/>
+    <header name="access-control-request-method" value="POST"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 08 Dec 2022 21:25:40 GMT&#xd;
+access-control-allow-headers: authorization,cache-control,x-ms-client-request-id,x-ms-client-session-id,x-ms-path-query,x-ms-user-agent&#xd;
+access-control-allow-methods: GET,POST,PUT,DELETE,PATCH,OPTIONS,HEAD&#xd;
+access-control-allow-origin: *&#xd;
+access-control-max-age: 3600&#xd;
+Content-Length: 0&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains&#xd;
+x-ms-islandgateway: GA0000001&#xd;
+timing-allow-origin: *&#xd;
+x-servicefabric: NoRetry&#xd;
+x-ms-service-request-id: 50729580-59be-4d9e-a7d0-c6b8f1e425ea&#xd;
+x-ms-correlation-id: d13291cd-3611-4b03-8b84-3d6b22c057eb&#xd;
+x-ms-activity-vector: 00.00.00&#xd;
+server-timing: x-ms-igw-upstream-headers;dur=1.6,x-ms-igw-req-overhead;dur=0.1&#xd;
+x-content-type-options: nosniff</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/invoke" path="/api/invoke" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/97a83449-ab94-45b8-b3d7-2042175ec6da.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.powerapps.com" slaProfileEnabled="false"
+    uid="5ae8aa15-bbcb-41c2-a4cb-3264751c3b97" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0ae42db1-90ab-4e18-9197-e14e7488d355</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c292b2be-2d27-4e79-a884-134c43ea9e58.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://apps.powerapps.com/"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://apps.powerapps.com"/>
+    <header name="x-ms-user-agent" value="PowerApps (Web; Player)"/>
+    <header name="x-ms-path-query" value="/healthcheck/compute"/>
+    <header name="x-ms-client-session-id" value="webplayer-1670534739872"/>
+    <header name="accept" value="*/*"/>
+    <header name="authorization" value="bearer"/>
+    <header name="te" value="trailers"/>
+    <header name="cache-control" value="no-cache, no-store"/>
+    <header name="x-ms-client-request-id" value="webplayer-preload-1670534739872"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 08 Dec 2022 21:25:40 GMT&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: Vary,x-ms-build-version,x-ms-ratelimit-remaining-unauthenticated-requests,x-ms-request-id,Date,Content-Length&#xd;
+cache-control: no-store, no-cache&#xd;
+vary: Authorization&#xd;
+vary: Accept-Language&#xd;
+vary: Accept-Encoding&#xd;
+Content-Length: 0&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains&#xd;
+x-ms-islandgateway: GA0000001&#xd;
+x-ms-build-version: 1.0.2.4181.7fda71b945a8091b550ae306121c734c29a12e99 PowerApps-PowerApps-RP.release_2022w48 (A47BEF75B4E7.221205-1746)&#xd;
+x-ms-ratelimit-remaining-unauthenticated-requests: 31997&#xd;
+x-ms-request-id: uksouth:00000000-0000-0000-0000-000000000000&#xd;
+timing-allow-origin: *&#xd;
+x-servicefabric: NoRetry&#xd;
+x-ms-service-request-id: f3a926fd-e323-459e-950b-3d0d9502bee0&#xd;
+x-ms-correlation-id: 969a9a9b-2927-42fe-9a67-dc8d02e65c7f&#xd;
+x-ms-activity-vector: 00.00.00&#xd;
+server-timing: x-ms-igw-upstream-headers;dur=1.8,x-ms-igw-req-overhead;dur=0.1&#xd;
+x-content-type-options: nosniff</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

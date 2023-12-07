@@ -1,0 +1,198 @@
+<scenario postMonitoringTime="-1" preMonitoringTime="-1"
+    slaProfileEnabled="false" traceVariables="true" uid="SAP Demo" virtualUsersStates="true">
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="VA01">
+        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
+        <volume-policy-entry>
+            <constant-volume-policy iterationNumber="5" userNumber="2"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts>
+            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
+        </lg-hosts>
+    </population-policy>
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="VA02">
+        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
+        <volume-policy-entry>
+            <constant-volume-policy iterationNumber="5" userNumber="2"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="30000" start-type="1"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts>
+            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
+        </lg-hosts>
+    </population-policy>
+    <dashboards defaultDashboardUid="Graph board_2"/>
+    <!--****** DASHBOARDS  ******-->
+    <charts-model-description name="Graph board_1">
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="VA01 - &lt;all transactions> - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="7ed8daca-007e-3d9e-b273-7a92d22bf638"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.average.duration"
+                virtualUserUid="VA01" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="VA02 - &lt;all transactions> - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="7ed8daca-007e-3d9e-b273-7a92d22bf638"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.average.duration"
+                virtualUserUid="VA02" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="VA01 + VA02 - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="aae85c0e-af2f-46ab-98a1-690c2d16eb77"
+                color="20,210,210" dashed="false" populationName=""
+                scale="10.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="VA02" zoneName=""/>
+            <action-curve-description
+                actionUid="56280dfe-2bab-4b8b-b428-2c12fd4cf406"
+                color="223,143,143" dashed="false" populationName=""
+                scale="10.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="VA02" zoneName=""/>
+            <action-curve-description
+                actionUid="a943cc54-e683-4d46-85a1-71c039a53bed"
+                color="236,153,22" dashed="false" populationName=""
+                scale="10.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="VA02" zoneName=""/>
+            <action-curve-description
+                actionUid="b9b6709e-e3c9-480b-bdac-ca2e79b47123"
+                color="128,128,128" dashed="false" populationName=""
+                scale="10.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="VA02" zoneName=""/>
+            <action-curve-description
+                actionUid="b0b87f5f-723e-4ce1-bafa-8c7454179c38"
+                color="244,239,0" dashed="false" populationName=""
+                scale="10.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="VA02" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="&lt;all transactions> - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="7ed8daca-007e-3d9e-b273-7a92d22bf638"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.average.duration"
+                virtualUserUid="VA01" zoneName=""/>
+        </chart-description>
+    </charts-model-description>
+    <charts-model-description name="Graph board">
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="&lt;all transactions> - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="7ed8daca-007e-3d9e-b273-7a92d22bf638"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.average.duration" zoneName=""/>
+        </chart-description>
+    </charts-model-description>
+    <charts-model-description name="Graph board_2">
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="&lt;all transactions> - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="7ed8daca-007e-3d9e-b273-7a92d22bf638"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.average.duration" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="save - Average duration" typeName="CLASSIC">
+            <action-curve-description
+                actionUid="43b215bf-c2d2-44ec-a248-987bdce7d744"
+                color="153,153,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.average.duration"
+                virtualUserUid="VA01" zoneName=""/>
+            <action-curve-description
+                actionUid="43b215bf-c2d2-44ec-a248-987bdce7d744"
+                color="107,107,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.maximum.duration"
+                virtualUserUid="VA01" zoneName=""/>
+            <action-curve-description
+                actionUid="43b215bf-c2d2-44ec-a248-987bdce7d744"
+                color="218,218,0" dashed="false" populationName=""
+                scale="1.0" selected="true"
+                statisticName="result.minimum.duration"
+                virtualUserUid="VA01" zoneName=""/>
+        </chart-description>
+    </charts-model-description>
+    <!--****** END DASHBOARDS  ******-->
+    <!--****** START DATA FILTERS  ******-->
+    <!--****** END DATA FILTERS  ******-->
+    <!--****** START RENDEZ-VOUS POLICIES  ******-->
+    <!--****** END RENDEZ-VOUS POLICIES  ******-->
+    <!--****** START DEBUG POLICY ******-->
+    <debug-policy mode="1"/>
+    <!--****** END DEBUG POLICY ******-->
+    <!--****** START VU STATES ******-->
+    <!--****** END VU STATES ******-->
+    <!--****** START EXCLUSION FILTER ******-->
+    <request-path-exclusion-filter isEnabled="false">
+        <regexps>
+            <regexp>.*\.jpg</regexp>
+            <regexp>.*\.jpeg</regexp>
+            <regexp>.*\.gif</regexp>
+            <regexp>.*\.png</regexp>
+            <regexp>.*\.bmp</regexp>
+            <regexp>.*\.css</regexp>
+            <regexp>.*\.js</regexp>
+            <regexp>.*\.swf</regexp>
+            <regexp>.*\.ico</regexp>
+            <regexp>.*\.jar</regexp>
+            <regexp>.*\.class</regexp>
+            <regexp>.*\.properties</regexp>
+        </regexps>
+    </request-path-exclusion-filter>
+    <!--****** END  EXCLUSION FILTER ******-->
+    <!--****** START DYNATRACE MONITORING ******-->
+    <dynatrace-monitoring/>
+    <!--****** END  DYNATRACE MONITORING ******-->
+    <!--****** START TRACE VARIABLES ******-->
+    <!--****** END TRACE VARIABLES ******-->
+</scenario>

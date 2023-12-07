@@ -1,0 +1,26 @@
+<http-action actionType="1" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="${swagger_petstore_base_path}/pet/${petId}/uploadImage"
+    path="${swagger_petstore_base_path}/pet/${petId}/uploadImage"
+    postCharset="" postType="3" recordedResponseCode="200"
+    serverUid="swagger_petstore_server" slaProfileEnabled="false"
+    uid="6188ac0d-d32f-4194-bf7f-e018b14586e5" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @petstore/%resources%/recorded-responses/res_309ddfb3-fcef-4e09-85f5-4b1de13dc604</responsePageFileDescription>
+    <header name="Content-Type" value="multipart/form-data"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 64</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <multiparts>
+        <multipart-string charSet="" contentType=""
+            name="additionalMetadata" recordRawValue=""
+            transferEncoding=""
+            value=">>> disabled so Neoload sanity check doesn't complain about missing file.  See &quot;Chain of APIs&quot; for completed example &lt;&lt;&lt;" valueMode="USE_VALUE"/>
+        <multipart-file attachedFilename="" charSet="" contentType=""
+            filename="" name="file" transferEncoding=""/>
+    </multiparts>
+</http-action>

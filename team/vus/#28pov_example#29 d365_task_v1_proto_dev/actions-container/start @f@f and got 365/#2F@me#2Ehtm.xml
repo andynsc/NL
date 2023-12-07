@@ -1,0 +1,54 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/Me.htm"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/6f7e8929-ffe7-437e-a78b-9f60b11ff4de.zip"
+    slaProfileEnabled="false" thinkTime="63"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6f7e8929-ffe7-437e-a78b-9f60b11ff4de">
+    <embedded-action>73589987-728b-44e5-8c66-4d1ab6655d2c</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/Me.htm" path="/Me.htm" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/6f7e8929-ffe7-437e-a78b-9f60b11ff4de.zip"
+    recordedResponseCode="200" responseSize="2347"
+    serverUid="login.live.com" slaProfileEnabled="false"
+    uid="73589987-728b-44e5-8c66-4d1ab6655d2c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d5e2c0d9-fe09-4821-9e81-bfed14d2be8f.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d5e2c0d9-fe09-4821-9e81-bfed14d2be8f.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="login.live.com"/>
+    <header name="Referer" value="https://login.microsoftonline.com/"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <header name="X-Moz" value="prefetch"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: max-age=315360000&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+Expires: Sun, 05 Dec 2032 21:24:34 GMT&#xd;
+Vary: Accept-Encoding&#xd;
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"&#xd;
+Referrer-Policy: strict-origin-when-cross-origin&#xd;
+x-ms-route-info: R3_BL2&#xd;
+x-ms-request-id: aa27374c-063b-49fc-8f5f-d44df6d994c7&#xd;
+PPServer: PPV: 30 H: BL02EPF000066A2 V: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+Set-Cookie: uaid=937b4cb33d064497a40251bd04ef877b; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Set-Cookie: MSPRequ=id=N&amp;lt=1670534674&amp;co=1; domain=login.live.com; Secure; path=/; SameSite=None; HttpOnly&#xd;
+Date: Thu, 08 Dec 2022 21:24:33 GMT&#xd;
+Content-Length: 1132</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

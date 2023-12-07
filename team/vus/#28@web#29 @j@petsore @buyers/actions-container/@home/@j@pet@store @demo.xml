@@ -1,0 +1,38 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="JPetStore Demo"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28@web#29 @j@petsore @buyers/%resources%/recorded-artifacts/028ae95e-7e12-4225-9b7d-f5c1e6e73743.zip"
+    slaProfileEnabled="false" thinkTime="9100"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="028ae95e-7e12-4225-9b7d-f5c1e6e73743">
+    <embedded-action>a1f5268c-2720-4582-9fb7-b4d3a5e46864</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_863ad803-06c8-4cdd-8cb4-410c8a26c23c.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="mememe/jpetstore/shop/index.shtml"
+    path="/jpetstore/shop/index.shtml" postType="1"
+    recordedArtifactZipFileName="team/vus/#28@web#29 @j@petsore @buyers/%resources%/recorded-artifacts/028ae95e-7e12-4225-9b7d-f5c1e6e73743.zip"
+    recordedResponseCode="200" responseSize="6530"
+    serverUid="System Under Test" slaProfileEnabled="false"
+    uid="a1f5268c-2720-4582-9fb7-b4d3a5e46864" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_37040d74-797f-4c48-87b8-caabe48af847.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_37040d74-797f-4c48-87b8-caabe48af847.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-GB"/>
+    <header name="Cookie" value="JSESSIONID=C3CC2FF31E124B96126D4E5A11C954BB"/>
+    <header name="Host" value="54.211.92.60"/>
+    <header name="Referer" value="http://54.211.92.60/jpetstore/shop/newOrder.shtml?confirmed=true"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 22 Oct 2018 12:41:28 GMT&#xd;
+Server: Apache/2.2.34 (Amazon)&#xd;
+Content-Length: 6530&#xd;
+Connection: close&#xd;
+Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

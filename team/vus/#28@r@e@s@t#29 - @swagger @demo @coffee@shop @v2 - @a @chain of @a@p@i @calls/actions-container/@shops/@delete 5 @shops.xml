@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Delete 5 Shops" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="8a1739f7-43a9-4e95-a4f6-f73b1b209684" weightsEnabled="false">
+    <weighted-embedded-action uid="9130d38c-6176-4530-b1c1-5d50e9c4d435"/>
+</basic-logical-action-container>

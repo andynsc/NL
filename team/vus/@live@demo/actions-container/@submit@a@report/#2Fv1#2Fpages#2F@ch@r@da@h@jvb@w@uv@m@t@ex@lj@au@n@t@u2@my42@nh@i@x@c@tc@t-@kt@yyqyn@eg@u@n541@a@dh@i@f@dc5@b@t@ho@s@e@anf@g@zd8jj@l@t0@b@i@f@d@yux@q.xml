@@ -1,0 +1,51 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/v1/pages/ChRDaHJvbWUvMTExLjAuNTU2My42NhIXCTcT-KtYyqynEgUN541ADhIFDc5BTHoSEAnfGZd8jjLT0BIFDYuxQ"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@live@demo/%resources%/recorded-artifacts/95a7bf74-093a-4588-b231-d5ed2d7ac513.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="95a7bf74-093a-4588-b231-d5ed2d7ac513">
+    <embedded-action>5fd62e62-d211-46ed-a88e-a0fbf824388a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_95a7bf74-093a-4588-b231-d5ed2d7ac513.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/scheduler" path="/scheduler" postType="6"
+    recordedArtifactZipFileName="team/vus/@live@demo/%resources%/recorded-artifacts/95a7bf74-093a-4588-b231-d5ed2d7ac513.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="5fd62e62-d211-46ed-a88e-a0fbf824388a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5fd62e62-d211-46ed-a88e-a0fbf824388a.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5fd62e62-d211-46ed-a88e-a0fbf824388a.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9,vi;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="rxVisitor=1673386999266TMK1J9EU3FS70K91IITLI0OT0159BV8P; lng=en; _ga=GA1.2.100322195.1674161284; ushahidi=pi5vmuvv4l36lreothqeavkt37; dtCookie=v_4_srv_2_sn_E76652538C97762BA77AD3C9BCEF0202_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; dtLatC=16; dtSa=-; rxvt=1679500368502|1679498216450; dtPC=2$98568120_372h-vOFGMPSMTOFPFQAQUHHHQJHVPAFOKDQRT-0e0"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/reports/submit"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;111&quot;, &quot;Not(A:Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;111&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 22 Mar 2023 15:23:17 GMT&#xd;
+Server: Apache&#xd;
+Expires: Wed, 11 Nov 1998 11:11:11 GMT&#xd;
+Cache-Control: must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=pi5vmuvv4l36lreothqeavkt37; expires=Wed, 22-Mar-2023 17:23:17 GMT; Max-Age=7200; path=/; httponly&#xd;
+Content-Length: 49&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="-1751249517"&#xd;
+Keep-Alive: timeout=5, max=96&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

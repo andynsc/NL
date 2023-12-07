@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="send email" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="d3ea4a81-9e90-4250-8c95-67de7dfc7030" weightsEnabled="false">
+    <weighted-embedded-action uid="8876c927-4702-400a-b8a3-319180f5ba7d"/>
+    <weighted-embedded-action uid="c986fdf2-d1fe-470e-993a-b826c697bb02"/>
+</basic-logical-action-container>

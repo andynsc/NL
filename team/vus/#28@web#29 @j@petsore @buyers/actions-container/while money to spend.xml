@@ -1,0 +1,11 @@
+<while-action name="while money to spend" uid="55e7fd54-77ff-4432-b92d-b0839f843103">
+    <embedded-action>310e58e5-e358-4164-833d-3fed3021ee82</embedded-action>
+    <embedded-action>c0889ae6-fd99-4bd2-bea6-3a8739ecad17</embedded-action>
+    <embedded-action>2cdcef12-0fe4-4838-9b8f-4d1a7638550a</embedded-action>
+    <embedded-action>a6823660-2762-4d25-9d54-86e7c921f595</embedded-action>
+    <embedded-action>05709fa5-5ecf-4a3b-82a8-7287ad92088e</embedded-action>
+    <conditions match-type="0">
+        <condition operand1="${RunningTotal}" operand2="150" operator="LESSER_EQUAL"/>
+        <condition operand1="${poor}" operand2="true" operator="NOT_EQUALS"/>
+    </conditions>
+</while-action>

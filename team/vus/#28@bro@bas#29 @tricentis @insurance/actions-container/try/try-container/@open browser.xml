@@ -1,0 +1,27 @@
+<browser-action actionType="BrowserOpen" isHit="true"
+    name="Open browser" uid="9b02c0e7-f16b-461d-8d7e-8fa7bca3c3e1">
+    <description>Open a new browser.
+
+Possible parameters are:&#xd;
+- browser (required): Open a new browser, possible values are: [chromium, firefox, webkit] Default value is "chromium".&#xd;
+- channel (optional): Browser distribution channel, possible values are: chrome, chrome-beta, chrome-dev, chrome-canary, msedge, msedge-beta, msedge-dev, msedge-canary&#xd;
+- executablePath (optional): Path to a browser executable to run instead of the bundled one. Note that Playwright only works with the bundled Chromium, Firefox or WebKit, use at your own risk.&#xd;
+- headless (optional): Whether to run browser in headless mode.&#xd;
+- defaultTimeout (optional): Sets the default timeout for every action in ms.&#xd;
+- defaultNavigationTimeout (optional): Sets the default timeout for every navigation in ms.&#xd;
+- dataExchangeApiKey (optional): Identification key specified in NeoLoad.&#xd;
+- resolution (optional): Resolution (width x height) of browser. Example: 1920x1080&#xd;
+- locale (optional): Locale of the browser. Example: en-GB&#xd;
+- timezone (optional): Changes the timezone of the context&#xd;
+- dataExchangeApiActivation (optional): DataExchangeApi activation. Example: false Default value is "true".&#xd;
+- blockRoute (optional): Block all resources related to the given route. Example: 
+	`https:\/\/neoload-api\.saas\.neotys\.com\/v3\/.*` to block all v3 api requests from https://neoload-api.saas.neotys.com/v3. 
+	`.*\.(png|jpg|jpeg)` to block all images resources. Note: images embedded in html (SVG, base64 etc...) won't be blocked&#xd;
+- userAgent (optional): Changes the user agent of the browser&#xd;
+- header (optional): Adds the specified header to each requests sent by the browser. You can add as many "header" parameter as you need. This parameter expected format is "HeaderName=HeaderValue".</description>
+    <custom-action-parameter name="browser" type="TEXT" value="chromium"/>
+    <custom-action-parameter name="resolution" type="TEXT" value="1460x920"/>
+    <custom-action-parameter name="locale" type="TEXT" value="en-US"/>
+    <custom-action-parameter name="timezone" type="TEXT" value="UTC"/>
+    <responsePageFileDescription>recorded-responses/res_9b02c0e7-f16b-461d-8d7e-8fa7bca3c3e1</responsePageFileDescription>
+</browser-action>

@@ -1,0 +1,11 @@
+<browser-action actionType="BrowserCaptureRequests" isHit="false"
+    name="Capture requests" uid="de0f5c8f-87a6-413a-8c3b-720a304c2245">
+    <description>Configure the capture of HTTP requests metrics for analysis purpose. 
+It allows to capture the metrics (duration, ttfb, success...) of the requests sent and responses received between the browser and the server.
+
+Possible parameters are:&#xd;
+- regexp (optional): The regular expression to group the requests. The matching check for the regular expression is applied on the full request URL: scheme, host name, port number, path and URL parameters. By default when no regexp parameter is specified, then all the HTTP request metrics are aggregated in a single group. When a regular expression is specified, the metrics of all HTTP requests URL matching it are aggregated in a group, and the non-matching one in a different group (for example with regexp (.*)\.html then requests will be split in two different groups: one for all HTML pages and another one for all other resources). When multiple regexp parameters are specified, they are applied in order they are defined.
+ Default value is ".*".&#xd;
+- includeCache (optional): By default, only the requests sent over the network are captured (including the requests with 304 'Not Modified' response status since it includes network exchange). Set the value to true to capture also the requests locally loaded from the browser memory or disk cache (no network interaction). Default value is "false".</description>
+    <responsePageFileDescription>recorded-responses/res_de0f5c8f-87a6-413a-8c3b-720a304c2245</responsePageFileDescription>
+</browser-action>

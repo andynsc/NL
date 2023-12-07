@@ -1,0 +1,43 @@
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="${swagger_demo_coffeeshop_v2_base_path}/api/Shops_V2"
+    path="${swagger_demo_coffeeshop_v2_base_path}/api/Shops_V2"
+    postCharset="" postType="1" recordedResponseCode="200"
+    recordedResponseTime="14" responseSize="2875"
+    serverUid="swagger_demo_coffeeshop_v2_server"
+    slaProfileEnabled="false" uid="318ef6a7-f674-4172-b2d6-036437b34447" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @demo @coffee@shop @v2 - @a @chain of @a@p@i @calls/%resources%/recorded-responses/res_cust_13acf742-6397-4163-8629-0a8d1119924b.0.0</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/#28@r@e@s@t#29 - @swagger @demo @coffee@shop @v2 - @a @chain of @a@p@i @calls/%resources%/recorded-requests/req_cust_3fc857cb-96a3-4268-bd02-8737edd1c622.0.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple=",&quot;Name&quot;:&quot;Neoload_Shop"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="-1" matchNumberAdv="1" matchNumberSimple="-1"
+        name="List of NL Shops"
+        refererUid="3fc857cb-96a3-4268-bd02-8737edd1c622"
+        regExp="\{&quot;City&quot;:&quot;Here&quot;,&quot;Country&quot;:&quot;There&quot;,&quot;Id&quot;:(.*?),&quot;Name&quot;:&quot;Neoload_Shop"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="{&quot;City&quot;:&quot;Here&quot;,&quot;Country&quot;:&quot;There&quot;,&quot;Id&quot;:"
+        template="$1$" templateAdv="$1$"
+        uid="d0e3ef76-a1d9-4978-b96a-ca0724841cc8" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Authorization" value=""/>
+    <responseHeaders>HTTP/1.1 200 OK
+Content-Length: 2875
+Content-Type: application/json; charset=utf-8
+Date: Wed, 30 Nov 2022 14:10:08 GMT
+Server: Microsoft-IIS/10.0
+Cache-Control: no-cache
+Expires: -1
+Pragma: no-cache
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

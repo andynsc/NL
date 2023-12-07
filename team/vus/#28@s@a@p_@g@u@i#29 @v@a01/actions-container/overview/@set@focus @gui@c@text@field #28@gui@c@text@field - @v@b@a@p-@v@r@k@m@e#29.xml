@@ -1,0 +1,16 @@
+<custom-action actionType="SapFocus" isHit="false"
+    name="SetFocus GuiCTextField (GuiCTextField - VBAP-VRKME)" uid="a8821747-23da-48f5-93de-b217c95fe40b">
+    <description>This action simulates a set focus action on an SAP GUI object.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG/ctxtVBAP-VRKME[3,0]"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="VBAP-VRKME"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiCTextField"/>
+    <responsePageFileDescription>recorded-responses/res_2a5c8c62-66ef-4562-9dc0-381a9d7ab6f9</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/#28@s@a@p_@g@u@i#29 @v@a01/%resources%/recorded-screenshots/sc_2a5c8c62-66ef-4562-9dc0-381a9d7ab6f9.jpg</screenshotFileDescription>
+</custom-action>

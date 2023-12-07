@@ -1,0 +1,12 @@
+<custom-action actionType="Executable Test Script Action" isHit="false"
+    name="Tosca Commander Shell Execution" uid="70394fc7-4bd9-45f9-9370-efd2884c7650">
+    <description>Launches an executable test script on the Load Generator machine.  Executables and resources copied under the 'custom-resources' folder of the project are automatically copied to all Load Generators.
+Use the variable '${NL-CustomResources}' to access the synchronized folder on the Load Generator.
+
+Possible parameters are:
+- command: The program executable file.
+- argX: Test argument number X (eg: arg1, arg2, ...)
+- charset: The charset used by the console. Default platform charset is used if not set.</description>
+    <custom-action-parameter name="command" type="TEXT" value="C:\PROGRA~2\TRICEN~1\TOSCAT~1\ToscaCommander\TCShell.exe -executionmode -workspace &quot;C:\Tosca_Projects\Tosca_Workspaces\Neoload_Migration_WS\Neoload_Migration_WS.tws&quot; &quot;${NL-CustomResources}\RunToscaExecutionSAP.tcs&quot;"/>
+    <responsePageFileDescription>recorded-responses/res_bc2f3268-8288-4bec-83f6-2cfe631b4723</responsePageFileDescription>
+</custom-action>

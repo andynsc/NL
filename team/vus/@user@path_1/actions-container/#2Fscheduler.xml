@@ -1,0 +1,50 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/scheduler"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path_1/%resources%/recorded-artifacts/f5ce3899-3281-4774-a4af-bebb274f6035.zip"
+    slaProfileEnabled="false" thinkTime="171"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f5ce3899-3281-4774-a4af-bebb274f6035">
+    <embedded-action>6832a3c2-9dbf-4664-ae9a-cfc692bfc0e7</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f5ce3899-3281-4774-a4af-bebb274f6035.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/scheduler" path="/scheduler" postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path_1/%resources%/recorded-artifacts/f5ce3899-3281-4774-a4af-bebb274f6035.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="6832a3c2-9dbf-4664-ae9a-cfc692bfc0e7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6832a3c2-9dbf-4664-ae9a-cfc692bfc0e7.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6832a3c2-9dbf-4664-ae9a-cfc692bfc0e7.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9,vi;q=0.8,es;q=0.7"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="rxVisitor=1673386999266TMK1J9EU3FS70K91IITLI0OT0159BV8P; lng=en; _ga=GA1.1.811428363.1697214002; apt.uid=AP-OLHBIWKH7BEB-2-1697219216438-55551183.0.2.2340814b-caf4-4586-b77b-5e379b135c4e; _ga_D79KVG1K3W=GS1.1.1697223258.3.1.1697223261.57.0.0; Authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhY2MiOlsiNThhNDEyY2Y1YTdlZjMwMDAxYmM3MDdiIl0sImlhdCI6MTcwMTI5NjQwNiwiZXhwIjoxNzAxMzgyODA2LCJpc3MiOiJodHRwczovL2F1dGguc2Fhcy5uZW90eXMuY29tIiwic3ViIjoiNjM1MDU2ODkyNjRhM2Q3YzIxMTBkNTA2In0.IcHtXD9mrNdkrQ_IddVM3KifVZmqeObTzXECsEvweN22kbw47m7xRnarf8A7vcjuNXKbArV5KpzLxzaw1Vfxq_yDlRL1RFs8FXSj45oOoUkNY_uPTFdc0NId1FksV8QvjMkFZxd4wNihbZrmKQTRuW4NtgHmqY_5zeYzoqXjIJhRPE4Woqbh0r6ZkWrz47_Y0OapQCwyr2uMz0OsUNV46Eh4IQxCThyvaY1btnCNqf_J7668l9whDSz1wkd95kB1BCRltM-CZMMw4fe7hkUjgafPWb6prJM3RR-DWp8rkxO1Tnb2QDHL1edyzoW2xEvR_4TPXVI_H8VWAYmw7id_Vw; ushahidi=bqejco0naa5co50tcluuhobmh0; dtCookie=v_4_srv_4_sn_4D0256EFD11E5E6CC36E5161A84E45F7_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; dtSa=-; rxvt=1701379319754|1701377494619; dtPC=4$377519698_729h-vJMGBHTAKREGPWMHPMGDUWKQMCPCJMRAS-0e0"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/reports/thanks"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;119&quot;, &quot;Chromium&quot;;v=&quot;119&quot;, &quot;Not?A_Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 30 Nov 2023 20:51:59 GMT&#xd;
+Server: Apache&#xd;
+Expires: Wed, 11 Nov 1998 11:11:11 GMT&#xd;
+Cache-Control: must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=bqejco0naa5co50tcluuhobmh0; expires=Thu, 30-Nov-2023 22:51:59 GMT; Max-Age=7200; path=/; httponly&#xd;
+Content-Length: 49&#xd;
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="709607310"&#xd;
+Keep-Alive: timeout=5, max=80&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

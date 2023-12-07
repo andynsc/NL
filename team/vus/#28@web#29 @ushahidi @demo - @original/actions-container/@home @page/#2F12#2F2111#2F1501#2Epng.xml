@@ -1,0 +1,41 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/12/2111/1501.png"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28@web#29 @ushahidi @demo - @original/%resources%/recorded-artifacts/bcb284e8-c876-4dc9-9a96-48e6bc75d06d.zip"
+    slaProfileEnabled="false" thinkTime="1419"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="bcb284e8-c876-4dc9-9a96-48e6bc75d06d">
+    <embedded-action>6c1c0a78-8518-4c0d-8056-fb0115c4697e</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="image/vnd.microsoft.icon"
+    eTag="&quot;47e-57b3a92287d80&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Nov 2018 05:59:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="2"
+    recordedArtifactZipFileName="team/vus/#28@web#29 @ushahidi @demo - @original/%resources%/recorded-artifacts/bcb284e8-c876-4dc9-9a96-48e6bc75d06d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="6c1c0a78-8518-4c0d-8056-fb0115c4697e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6c1c0a78-8518-4c0d-8056-fb0115c4697e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_26544b74-edcc-41bf-a579-3919bea4aaaa.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Cookie" value="ushahidi=88redg4pkea6onesdb6kqonmm1"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Tue, 20 Apr 2021 10:50:37 GMT&#xd;
+Server: Apache&#xd;
+Last-Modified: Thu, 22 Nov 2018 05:59:34 GMT&#xd;
+ETag: "47e-57b3a92287d80"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1150&#xd;
+Keep-Alive: timeout=5, max=98&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/vnd.microsoft.icon</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

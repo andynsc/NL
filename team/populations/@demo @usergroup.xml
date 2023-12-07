@@ -1,0 +1,70 @@
+<population uid="Demo Usergroup">
+    <description>Whoever they are, whatever they do, wherever they are, however they conenct</description>
+    <split cache="1" factor="50.0" virtualUserUid="(Web) Ushahidi Demo - Original">
+        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
+            connections="6" cookies="true" http2="true" name="browser.recorded"/>
+        <wan-emulation-profile
+            averageDownloadBandwidth="bandwidth.unlimited"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="bandwidth.unlimited"
+            averageUploadLatency="0ms" averageUploadPacketLoss="0%"
+            downloadBandwidth="bandwidth.unlimited"
+            downloadLatency="0ms" downloadPacketLoss="0%"
+            isRadio="false" name="bandwidth.unlimited"
+            poorDownloadBandwidth="bandwidth.unlimited"
+            poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
+            poorUploadBandwidth="bandwidth.unlimited"
+            poorUploadLatency="0ms" poorUploadPacketLoss="0%"
+            signalStrength="GOOD" uploadBandwidth="bandwidth.unlimited"
+            uploadLatency="0ms" uploadPacketLoss="0%"/>
+    </split>
+    <split cache="1" factor="5.0" virtualUserUid="(REST) - Swagger Petstore - A Chain of API Calls">
+        <browser-profile acceptEncoding="GZIP,DEFLATE" connections="4"
+            cookies="true" http2="false" icon-name="ipad"
+            name="iPad Air" userAgent="Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53"/>
+        <wan-emulation-profile averageDownloadBandwidth="12Mbps"
+            averageDownloadLatency="30ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="5Mbps" averageUploadLatency="30ms"
+            averageUploadPacketLoss="0%" downloadBandwidth="16Mbps"
+            downloadLatency="20ms" downloadPacketLoss="0%"
+            isRadio="true" name="4G LTE" poorDownloadBandwidth="5Mbps"
+            poorDownloadLatency="40ms" poorDownloadPacketLoss="1%"
+            poorUploadBandwidth="2Mbps" poorUploadLatency="40ms"
+            poorUploadPacketLoss="0%" signalStrength="GOOD"
+            uploadBandwidth="8Mbps" uploadLatency="20ms" uploadPacketLoss="0%"/>
+    </split>
+    <split cache="1" factor="30.0" virtualUserUid="(Web) JPetsore Buyers">
+        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
+            connections="6" cookies="true" http2="false"
+            icon-name="safari" name="Safari 13.0" userAgent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Safari/605.1.15"/>
+        <wan-emulation-profile averageDownloadBandwidth="66Mbps"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="33Mbps" averageUploadLatency="0ms"
+            averageUploadPacketLoss="0%" downloadBandwidth="100Mbps"
+            downloadLatency="0ms" downloadPacketLoss="0%"
+            isRadio="false" name="Fiber 100M"
+            poorDownloadBandwidth="33Mbps" poorDownloadLatency="0ms"
+            poorDownloadPacketLoss="0%" poorUploadBandwidth="16Mbps"
+            poorUploadLatency="0ms" poorUploadPacketLoss="0%"
+            signalStrength="GOOD" uploadBandwidth="50Mbps"
+            uploadLatency="0ms" uploadPacketLoss="0%"/>
+    </split>
+    <split cache="1" factor="15.0" virtualUserUid="(REST) - Swagger Demo CoffeeShop V2 - A Chain of API Calls">
+        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
+            connections="6" cookies="true" http2="true" name="browser.recorded"/>
+        <wan-emulation-profile
+            averageDownloadBandwidth="bandwidth.unlimited"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="bandwidth.unlimited"
+            averageUploadLatency="0ms" averageUploadPacketLoss="0%"
+            downloadBandwidth="bandwidth.unlimited"
+            downloadLatency="0ms" downloadPacketLoss="0%"
+            isRadio="false" name="bandwidth.unlimited"
+            poorDownloadBandwidth="bandwidth.unlimited"
+            poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
+            poorUploadBandwidth="bandwidth.unlimited"
+            poorUploadLatency="0ms" poorUploadPacketLoss="0%"
+            signalStrength="GOOD" uploadBandwidth="bandwidth.unlimited"
+            uploadLatency="0ms" uploadPacketLoss="0%"/>
+    </split>
+</population>

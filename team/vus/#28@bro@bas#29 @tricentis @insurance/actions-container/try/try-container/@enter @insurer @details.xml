@@ -1,0 +1,37 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Enter Insurer Details" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="e66987b1-cd81-4394-aa74-48e803ee5c44" weightsEnabled="false">
+    <weighted-embedded-action uid="70ddd4e0-c33a-4b7a-9700-52b749ac67cf"/>
+    <weighted-embedded-action uid="08006eda-b257-410b-97b6-6de5c368c76f"/>
+    <weighted-embedded-action uid="68ad93dd-e9dc-49f8-8132-b3cec25279ec"/>
+    <weighted-embedded-action uid="187ebacf-f7c7-43f5-b2de-c9e24a60724d"/>
+    <weighted-embedded-action uid="c63e6a9f-044c-46a0-b873-4b9fe5c4b4c3"/>
+    <weighted-embedded-action uid="8f9cc450-770c-417b-87fd-5ba8dbd5d03a"/>
+    <weighted-embedded-action uid="912fcf9a-c961-425f-9c06-cf8a82697c8d"/>
+    <weighted-embedded-action uid="ad23cd58-51eb-41de-876f-cba22b04a472"/>
+    <weighted-embedded-action uid="0380731f-cea5-4cff-830b-d618048af482"/>
+    <weighted-embedded-action uid="865cb46e-6e4c-4d25-914e-9400fa89e4fb"/>
+    <weighted-embedded-action uid="7511348e-108e-4ca2-810d-1a257ac633ff"/>
+    <weighted-embedded-action uid="72d49ab0-4673-42fa-8fb9-67df944fa858"/>
+    <weighted-embedded-action uid="52a1b8a6-33f4-4bfd-84b2-96aebe435ca1"/>
+    <weighted-embedded-action uid="91b494f6-0b43-4a5f-b24d-a598c37d3212"/>
+    <weighted-embedded-action uid="5fe69a4b-c553-435c-bc55-eac5617b100f"/>
+    <weighted-embedded-action uid="a1fe3e06-bcc4-4e3a-9148-891ed2d0e644"/>
+    <weighted-embedded-action uid="d0df096b-36c9-4c19-8a4f-d95bb4c071b0"/>
+    <weighted-embedded-action uid="ef47a019-8a28-4a96-9c46-7eb05046b41e"/>
+    <weighted-embedded-action uid="fac9cc38-461a-4455-99bf-b049e72901a3"/>
+    <weighted-embedded-action uid="a7250457-f87f-4738-b2b1-9149d57b1a97"/>
+    <weighted-embedded-action uid="7f4e44c3-7747-4e1e-ae11-b772ce76d180"/>
+    <weighted-embedded-action uid="1bfe9463-c73e-4ac0-8174-f6fde77e24ec"/>
+    <weighted-embedded-action uid="5a777aa7-d963-4f5d-ac6e-c2aba594d1d6"/>
+    <weighted-embedded-action uid="5af623df-f702-42ec-8e58-9133d6fe0a4e"/>
+    <weighted-embedded-action uid="b8f33898-9561-46f7-ae9d-4e3db343b7d9"/>
+    <weighted-embedded-action uid="5afebb90-98cd-4ff3-9244-8c77504f361e"/>
+    <weighted-embedded-action uid="98091e33-8dcb-491e-8d2e-d8e8eb5398cd"/>
+    <weighted-embedded-action uid="b9222b89-be0d-4dba-bfed-f1315bab2631"/>
+    <weighted-embedded-action uid="01ec2cf3-95d0-4791-938c-a86c8be27309"/>
+    <weighted-embedded-action uid="98622984-96d4-4fb8-89c1-179abf7bfdd6"/>
+    <weighted-embedded-action uid="121ff71a-d640-4bf0-9bf2-31821e6e0188"/>
+    <weighted-embedded-action uid="f8dfc5ec-17e8-40be-8173-a1808d615018"/>
+</basic-logical-action-container>

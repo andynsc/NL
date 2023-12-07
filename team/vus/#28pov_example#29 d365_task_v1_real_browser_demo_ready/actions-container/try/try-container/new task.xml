@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="new task" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="6a774f1d-b687-4e0e-947b-1745f8d19ad8" weightsEnabled="false">
+    <weighted-embedded-action uid="17658ddc-d53f-4218-be46-5c5a11b32525"/>
+    <weighted-embedded-action uid="40b6ce23-aa62-4e65-ace3-83310a858a66"/>
+    <weighted-embedded-action uid="57229933-9313-497c-9612-44c063aa6774"/>
+    <weighted-embedded-action uid="1c0cedf4-a959-41f7-adca-3c1aa9722924"/>
+    <weighted-embedded-action uid="991c1ced-5adb-4295-8bd8-eb67e703df00"/>
+    <weighted-embedded-action uid="07b48eb6-fe1b-49fd-b6e3-4426fb146d21"/>
+    <weighted-embedded-action uid="73f147bf-3d82-4403-ad39-086175e0b92f"/>
+    <weighted-embedded-action uid="4afb453a-cd86-47b9-ac8e-8aee1124fa45"/>
+    <weighted-embedded-action uid="48f2858e-03e8-4f7c-9dc2-f6d4e54cfd93"/>
+    <weighted-embedded-action uid="9e46783d-c81b-47c0-8c1f-85b0a0814955"/>
+</basic-logical-action-container>

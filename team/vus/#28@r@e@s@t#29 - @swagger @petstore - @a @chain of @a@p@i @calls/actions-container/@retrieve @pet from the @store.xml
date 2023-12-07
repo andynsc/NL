@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Retrieve Pet from the Store" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="8622b397-8277-43dd-b0ab-7475463f8070" weightsEnabled="false">
+    <weighted-embedded-action uid="0ef8a82a-6509-4d91-aaa3-05ca02901428"/>
+</basic-logical-action-container>

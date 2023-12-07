@@ -1,0 +1,4 @@
+<monitored-host-on-controller host-name="" proxy-id="" uid="Dynatrace APM">
+    <embedded-action>62576b8e-4fee-4229-a4f8-23a453a86f97</embedded-action>
+    <embedded-action>8d17f5ea-6d31-4db9-a9a7-f25bcc8b2801</embedded-action>
+</monitored-host-on-controller>

@@ -1,0 +1,75 @@
+<connection-datadog
+    app-key="/zuqm8yhRjsFgTryd2MlclMNcSqr3DA74sAHFnjFpzyTBuIVnooueKGSASHPMRPA$2"
+    interval="30000" name="Ushahidi Demonstration App"
+    push-monitors="USER_LOAD,DOWNLOADED_BYTES,REQUESTS_PER_SECOND,TRANSACTIONS_PER_SECOND,ERRORS"
+    send-events="true" server-address="https://api.datadoghq.com/"
+    server-port="0"
+    token="gZRicx0n5vJ7fibTBElhn/TZ8D9X6/JR/muqGJiW887y9qiMqC/EXvwah1plQKKu$2" uid="544a4609-7dd6-47e7-bd13-0392ff20a6bc">
+    <monitor-category name="Queries" short-display-name="Queries">
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name="sum:system.net.bytes_sent{host:ushahidi.apps.neotys.com}"
+            query="sum:system.net.bytes_sent{host:ushahidi.apps.neotys.com}"
+            sampling="0"
+            short-display-name="sum:system.net.bytes_sent{host:ushahidi.apps.neotys.com}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name="system.cpu.idle{host:ushahidi.apps.neotys.com}"
+            query="system.cpu.idle{host:ushahidi.apps.neotys.com}"
+            sampling="0"
+            short-display-name="system.cpu.idle{host:ushahidi.apps.neotys.com}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name="system.cpu.user{host:ushahidi.apps.neotys.com}"
+            query="system.cpu.user{host:ushahidi.apps.neotys.com}"
+            sampling="0"
+            short-display-name="system.cpu.user{host:ushahidi.apps.neotys.com}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name="system.cpu.system{host:ushahidi.apps.neotys.com}"
+            query="system.cpu.system{host:ushahidi.apps.neotys.com}"
+            sampling="0"
+            short-display-name="system.cpu.system{host:ushahidi.apps.neotys.com}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by=""
+            legend-format="{{container_name}}"
+            name="avg:docker.cpu.user{host:ushahidi.apps.neotys.com} by {container_name}"
+            query="avg:docker.cpu.user{host:ushahidi.apps.neotys.com} by {container_name}"
+            sampling="0"
+            short-display-name="avg:docker.cpu.user{host:ushahidi.apps.neotys.com} by {co..." unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by=""
+            legend-format="{{container_name}}"
+            name="avg:docker.cpu.system{host:ushahidi.apps.neotys.com} by {container_name}"
+            query="avg:docker.cpu.system{host:ushahidi.apps.neotys.com} by {container_name}"
+            sampling="0"
+            short-display-name="avg:docker.cpu.system{host:ushahidi.apps.neotys.com} by {..." unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by=""
+            legend-format="{{container_name}}"
+            name="sum:container.memory.usage{host:ushahidi.apps.neotys.com} by {container_name}"
+            query="sum:container.memory.usage{host:ushahidi.apps.neotys.com} by {container_name}"
+            sampling="0"
+            short-display-name="sum:container.memory.usage{host:ushahidi.apps.neotys.com}..." unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="Network traffic (bytes per sec)"
+            legend-format=""
+            name="sum:system.net.bytes_rcvd{host:ushahidi.apps.neotys.com}"
+            query="sum:system.net.bytes_rcvd{host:ushahidi.apps.neotys.com}"
+            sampling="0"
+            short-display-name="sum:system.net.bytes_rcvd{host:ushahidi.apps.neotys.com}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="Disk usage by device (%)"
+            legend-format=""
+            name="max:system.disk.in_use{host:ushahidi.apps.neotys.com}by{device} * 100"
+            query="max:system.disk.in_use{host:ushahidi.apps.neotys.com}by{device} * 100"
+            sampling="0"
+            short-display-name="max:system.disk.in_use{host:ushahidi.apps.neotys.com}by{d..." unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="CPU usage (%)" legend-format=""
+            name="system.cpu.idle{host:ushahidi.apps.neotys.com}, system.cpu.system{host:ushahidi.apps.neotys.com}, system.cpu.iowait{host:ushahidi.apps.neotys.com}, system.cpu.user{host:ushahidi.apps.neotys.com}, system.cpu.stolen{host:ushahidi.apps.neotys.com}"
+            query="system.cpu.idle{host:ushahidi.apps.neotys.com}, system.cpu.system{host:ushahidi.apps.neotys.com}, system.cpu.iowait{host:ushahidi.apps.neotys.com}, system.cpu.user{host:ushahidi.apps.neotys.com}, system.cpu.stolen{host:ushahidi.apps.neotys.com}"
+            sampling="0"
+            short-display-name="system.cpu.idle{host:ushahidi.apps.neotys.com}, system.cp..." unit=""/>
+    </monitor-category>
+</connection-datadog>

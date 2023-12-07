@@ -1,0 +1,5 @@
+<http-server hostname="${swagger_demo_coffeeshop_v2_server_host}"
+    port="80" ssl="false" uid="swagger_demo_coffeeshop_v2_server"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

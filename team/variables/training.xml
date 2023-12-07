@@ -1,0 +1,5 @@
+<variable-list name="training" offset="1" order="3" policy="5" range="1" uid="2ea189fd-f407-4a32-b557-87eba2410d9d" whenOutOfValues="CYCLE_VALUES">
+<column name="host" number="0"/>
+<column name="port" number="1"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAABdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQADDM0LjIyOS4yMjIuMHQAAjgw]]></values>
+</variable-list>

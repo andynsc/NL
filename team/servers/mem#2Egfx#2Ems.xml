@@ -1,0 +1,7 @@
+<http-server hostname="mem.gfx.ms" port="443" ssl="true"
+    uid="mem.gfx.ms" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";">
+    <authorization password="+DGHLcVD42UxGcJhckNR0w==$2" realm=""
+        scheme="Basic" userName="nw.jazz.net@gmail.com"/>
+</http-server>

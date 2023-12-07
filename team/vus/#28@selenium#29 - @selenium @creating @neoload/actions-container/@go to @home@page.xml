@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Go to HomePage" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="d780c207-df8e-4bff-a19c-a43197f14f44" weightsEnabled="false">
+    <weighted-embedded-action uid="ff81318e-5adf-444a-a78c-7cf5ac8c988d"/>
+    <weighted-embedded-action uid="2ed97454-907b-4b83-89b6-e253908d70b6"/>
+    <weighted-embedded-action uid="7a53638b-37f7-43ea-b797-62aad6414e46"/>
+</basic-logical-action-container>

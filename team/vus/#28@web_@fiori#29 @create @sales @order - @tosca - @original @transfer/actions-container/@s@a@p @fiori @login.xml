@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SAP Fiori Login" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="c1b95afe-53c0-434e-a3d8-90a07c659a62" weightsEnabled="false">
+    <weighted-embedded-action uid="757dd087-8e8f-497d-8fd3-19eb30c8b6c6"/>
+</basic-logical-action-container>

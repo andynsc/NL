@@ -1,0 +1,11 @@
+{
+  "Address" : {
+    "City" : "City",
+    "Country" : "Country",
+    "Street" : "Street",
+    "ZipCode" : 2
+  },
+  "FirstName" : "FirstName",
+  "Id" : 6,
+  "LastName" : "LastName"
+}

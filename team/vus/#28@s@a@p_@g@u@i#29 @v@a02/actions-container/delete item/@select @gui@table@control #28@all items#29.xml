@@ -1,0 +1,30 @@
+<custom-action actionType="SapSelect" isHit="false"
+    name="Select GuiTableControl (All items)" uid="b5083648-fe99-4d35-b809-59d121057eb6">
+    <description>This action simulates a select action on an SAP radio button, check box, combo box, tree or grid.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- optionValue (optional): The value of a comboBox.&#xd;
+- value (optional): The value of a grid or a table.&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- rows (optional): The row indexes of a grid separated by ",". Ex: 1,2.&#xd;
+- absoluteRow (optional): The absolute row index of a table.&#xd;
+- currentCellRow (optional): The index of the current cell of a grid.&#xd;
+- currentCellColumn (optional): The name of the current column of a grid.&#xd;
+- pressColumnHeader (optional): The column name of a grid.&#xd;
+- selectionChanged (optional): If "true", perform a selectionChanged on the grid.&#xd;
+- start (optional): The start index when selecting lines of a text edit.&#xd;
+- end (optional): The end index  when selecting lines of a text edit.&#xd;
+- all (optional): If "true", selects the entire grid. Default value is "false".&#xd;
+- topNode (optional): If "true", perform a setTopNode on the tree.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="SAPMV45ATCTRL_U_ERF_AUFTRAG"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiTableControl"/>
+    <custom-action-parameter name="absoluteRow" type="TEXT" value="0"/>
+    <responsePageFileDescription>recorded-responses/res_6c6ced4e-814a-400f-b7a1-9b04b6dc8dbc</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/#28@s@a@p_@g@u@i#29 @v@a02/%resources%/recorded-screenshots/sc_a056ffe0-5eb9-4071-a368-b9ae1fc79fdb.jpg</screenshotFileDescription>
+</custom-action>

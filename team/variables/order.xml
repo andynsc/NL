@@ -1,0 +1,10 @@
+<variable-list name="order" offset="1" order="3" policy="4" range="1" uid="0fd9e7da-2a41-4b56-b52f-f1cab11f8fe8" whenOutOfValues="CYCLE_VALUES">
+<column name="DistributionChannel" number="2"/>
+<column name="Material" number="5"/>
+<column name="OrderType" number="0"/>
+<column name="Quantity" number="6"/>
+<column name="SalesOrganisation" number="1"/>
+<column name="ShipToParty" number="4"/>
+<column name="SoldToParty" number="3"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAABdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAB3QAAk9SdAAEMTAwMHQAAjEydAAEMjAwNHQABDIwMDR0AAgxNDAwLTEwMHQAATE=]]></values>
+</variable-list>

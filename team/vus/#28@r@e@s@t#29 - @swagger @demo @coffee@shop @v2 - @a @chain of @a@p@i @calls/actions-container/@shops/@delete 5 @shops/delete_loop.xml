@@ -1,0 +1,4 @@
+<loop-action loop="5" name="delete_loop" uid="9130d38c-6176-4530-b1c1-5d50e9c4d435">
+    <embedded-action>e8824692-bb05-459e-a48b-863cc9f655f7</embedded-action>
+    <embedded-action>f77e9a58-2b39-4fbb-b0d3-2367a8d8a69d</embedded-action>
+</loop-action>

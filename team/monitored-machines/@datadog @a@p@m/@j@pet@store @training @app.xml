@@ -1,0 +1,64 @@
+<connection-datadog
+    app-key="/zuqm8yhRjsFgTryd2MlclMNcSqr3DA74sAHFnjFpzyTBuIVnooueKGSASHPMRPA$2"
+    interval="30000" name="JPetStore Training App"
+    push-monitors="USER_LOAD,DOWNLOADED_BYTES,REQUESTS_PER_SECOND,TRANSACTIONS_PER_SECOND,ERRORS"
+    send-events="true" server-address="https://api.datadoghq.com/"
+    server-port="0"
+    token="gZRicx0n5vJ7fibTBElhn/TZ8D9X6/JR/muqGJiW887y9qiMqC/EXvwah1plQKKu$2" uid="27c8ff29-ddf9-47fd-abb4-bf8222bc02d4">
+    <monitor-category name="Queries" short-display-name="Queries">
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name=" sum:system.net.bytes_rcvd{host:shared.jps.training}"
+            query=" sum:system.net.bytes_rcvd{host:shared.jps.training}"
+            sampling="0"
+            short-display-name=" sum:system.net.bytes_rcvd{host:shared.jps.training}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name=" sum:system.net.bytes_sent{host:shared.jps.training}"
+            query=" sum:system.net.bytes_sent{host:shared.jps.training}"
+            sampling="0"
+            short-display-name=" sum:system.net.bytes_sent{host:shared.jps.training}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name="system.cpu.idle{host:shared.jps.training}"
+            query="system.cpu.idle{host:shared.jps.training}"
+            sampling="0"
+            short-display-name="system.cpu.idle{host:shared.jps.training}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name="system.cpu.user{host:shared.jps.training}"
+            query="system.cpu.user{host:shared.jps.training}"
+            sampling="0"
+            short-display-name="system.cpu.user{host:shared.jps.training}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name="system.cpu.system{host:shared.jps.training}"
+            query="system.cpu.system{host:shared.jps.training}"
+            sampling="0"
+            short-display-name="system.cpu.system{host:shared.jps.training}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name="mysql.performance.user_time{host:shared.jps.training}"
+            query="mysql.performance.user_time{host:shared.jps.training}"
+            sampling="0"
+            short-display-name="mysql.performance.user_time{host:shared.jps.training}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name="sum:mysql.net.connections{host:shared.jps.training}"
+            query="sum:mysql.net.connections{host:shared.jps.training}"
+            sampling="0"
+            short-display-name="sum:mysql.net.connections{host:shared.jps.training}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name="sum:mysql.innodb.data_reads{host:shared.jps.training}"
+            query="sum:mysql.innodb.data_reads{host:shared.jps.training}"
+            sampling="0"
+            short-display-name="sum:mysql.innodb.data_reads{host:shared.jps.training}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format=""
+            name="sum:mysql.innodb.data_writes{host:shared.jps.training}"
+            query="sum:mysql.innodb.data_writes{host:shared.jps.training}"
+            sampling="0"
+            short-display-name="sum:mysql.innodb.data_writes{host:shared.jps.training}" unit=""/>
+    </monitor-category>
+</connection-datadog>

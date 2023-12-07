@@ -1,0 +1,190 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/main.aspx"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/91eeb6f1-e5f5-420b-a139-e5a318a2d197.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="91eeb6f1-e5f5-420b-a139-e5a318a2d197">
+    <embedded-action>ba0d6a5c-0083-49f0-b105-afcec5631803</embedded-action>
+    <embedded-action>3b2c842b-4880-46ed-bfb4-d9abbe38554e</embedded-action>
+    <embedded-action>58421efb-e990-44fa-ae0b-498cc71f3d39</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/main.aspx" path="/main.aspx" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/91eeb6f1-e5f5-420b-a139-e5a318a2d197.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="ba0d6a5c-0083-49f0-b105-afcec5631803" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_601f0f62-7bab-400e-a3ce-c5a105baaa54</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c3084b4b-8f03-4d93-a459-fd568b93af86.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="appid"
+        recordRawValue="b8ce14bc-5a73-ed11-81ad-0022481b59d5"
+        separator="=" value="b8ce14bc-5a73-ed11-81ad-0022481b59d5" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pagetype"
+        recordRawValue="dashboard" separator="=" value="dashboard" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="id"
+        recordRawValue="eaa6e6bb-4712-ec11-b6e7-00224820f09b"
+        separator="=" value="eaa6e6bb-4712-ec11-b6e7-00224820f09b" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="system" separator="=" value="system" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="_canOverride"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="te" value="trailers"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+location: https://login.microsoftonline.com/47e57ec4-08fb-4c75-b3a2-8e410c1f1020/oauth2/authorize?client_id=00000007-0000-0000-c000-000000000000&amp;response_mode=form_post&amp;response_type=code+id_token&amp;scope=openid+profile&amp;state=OpenIdConnect.AuthenticationProperties%3dMAAAADDi-nJueBHtmYUAIkhDSRqUeMaOMnHGJd19ErMY6d3CD5hbsllRmTXAfIvYArl8NAEAAAABAAAACS5yZWRpcmVjdLQBaHR0cHM6Ly9vcmcwMmI0Mjc4NC5jcm0xMS5keW5hbWljcy5jb20vbWFpbi5hc3B4P2FwcGlkPWI4Y2UxNGJjLTVhNzMtZWQxMS04MWFkLTAwMjI0ODFiNTlkNSZwYWdldHlwZT1kYXNoYm9hcmQmaWQ9ZWFhNmU2YmItNDcxMi1lYzExLWI2ZTctMDAyMjQ4MjBmMDliJnR5cGU9c3lzdGVtJl9jYW5PdmVycmlkZT10cnVl%26RedirectTo%3dMAAAADDi%252bnJueBHtmYUAIkhDSRrO%252fqHWbO1O4p6b3ySW4Ye6SSbDVQWmXVCJs8fpYTUCN2h0dHBzOi8vb3JnMDJiNDI3ODQuY3JtMTEuZHluYW1pY3MuY29tLw%253d%253d%26RedirectToForMcas%3dhttps%253a%252f%252forg02b42784.crm11.dynamics.com%252fmain.aspx%253fappid%253db8ce14bc-5a73-ed11-81ad-0022481b59d5%2526pagetype%253ddashboard%2526id%253deaa6e6bb-4712-ec11-b6e7-00224820f09b%2526type%253dsystem%2526_canOverride%253dtrue&amp;nonce=638061314684597706.ODMwNjlhZDAtYmM3ZC00OThiLTk4NDQtZDUzYTc0ZWVlMGJkNGI5MzM2YWQtZjRkZi00MGM5LTljZTAtNGU3MjgyZGZiYTlm&amp;redirect_uri=https%3a%2f%2flon--gbrcrmlivesg721.crm11.dynamics.com%2f&amp;max_age=86400&#xd;
+x-ms-service-request-id: bab7d8e3-683f-4408-89db-61cdf986eb64&#xd;
+set-cookie: ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; domain=org02b42784.crm11.dynamics.com; path=/; secure; HttpOnly&#xd;
+set-cookie: ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; expires=Thu, 08-Dec-2072 21:24:28 GMT; path=/; secure; HttpOnly&#xd;
+set-cookie: OpenIdConnect.nonce.9fHRcNUIsIbK813pIzn8DHmL0%2FYRigJj7r9TpqFzx2E%3D=TUFBQUFERGktbkp1ZUJIdG1ZVUFJa2hEU1JvRjhGcHQ4bmNtVzBNcm96UExJZEhoNG1ZNW1PTjJZOGdmNko4QUxmTko0Z0VBQUFBQkFBQUFBVTV6TmpNNE1EWXhNekUwTmpnME5UazNOekEyTGs5RVRYZE9hbXhvV2tSQmRGbHRUVE5hUXpBd1QxUm9hVXhVYXpST1JGRjBXa1JWZWxsVVl6QmFWMVpzVFVkS2EwNUhTVFZOZWsweVdWZFJkRnBxVW10YWFUQXdUVWROTlV4VWJHcGFWRUYwVGtkVk0wMXFaM2xhUjFwcFdWUnNiUQ%3D%3D; domain=crm11.dynamics.com; expires=Thu, 08-Dec-2022 21:39:28 GMT; path=/; secure; HttpOnly; SameSite=None&#xd;
+x-ms-service-request-id: 4d320676-7555-4a10-8b80-67d90426f99c&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+req_id: 4d320676-7555-4a10-8b80-67d90426f99c&#xd;
+authactivityid: 95d4a72a-95b5-4c81-9bd0-942525230fcf&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+set-cookie: ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; domain=org02b42784.crm11.dynamics.com; path=/; secure; HttpOnly&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+date: Thu, 08 Dec 2022 21:24:27 GMT&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/47e57ec4-08fb-4c75-b3a2-8e410c1f1020/oauth2/authorize"
+    path="/47e57ec4-08fb-4c75-b3a2-8e410c1f1020/oauth2/authorize"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/91eeb6f1-e5f5-420b-a139-e5a318a2d197.zip"
+    recordedResponseCode="200"
+    refererUid="ba0d6a5c-0083-49f0-b105-afcec5631803"
+    responseSize="210254" serverUid="login.microsoftonline.com"
+    slaProfileEnabled="false" uid="3b2c842b-4880-46ed-bfb4-d9abbe38554e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_71a9925a-9f31-4c59-84a5-70a143500f25.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_71a9925a-9f31-4c59-84a5-70a143500f25.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="client_id"
+        recordRawValue="00000007-0000-0000-c000-000000000000"
+        separator="=" value="00000007-0000-0000-c000-000000000000" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="response_mode"
+        recordRawValue="form_post" separator="=" value="form_post" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="response_type"
+        recordRawValue="code+id_token" separator="="
+        value="code id_token" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="scope"
+        recordRawValue="openid+profile" separator="="
+        value="openid profile" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="state"
+        recordRawValue="OpenIdConnect.AuthenticationProperties%3dMAAAADDi-nJueBHtmYUAIkhDSRqUeMaOMnHGJd19ErMY6d3CD5hbsllRmTXAfIvYArl8NAEAAAABAAAACS5yZWRpcmVjdLQBaHR0cHM6Ly9vcmcwMmI0Mjc4NC5jcm0xMS5keW5hbWljcy5jb20vbWFpbi5hc3B4P2FwcGlkPWI4Y2UxNGJjLTVhNzMtZWQxMS04MWFkLTAwMjI0ODFiNTlkNSZwYWdldHlwZT1kYXNoYm9hcmQmaWQ9ZWFhNmU2YmItNDcxMi1lYzExLWI2ZTctMDAyMjQ4MjBmMDliJnR5cGU9c3lzdGVtJl9jYW5PdmVycmlkZT10cnVl%26RedirectTo%3dMAAAADDi%252bnJueBHtmYUAIkhDSRrO%252fqHWbO1O4p6b3ySW4Ye6SSbDVQWmXVCJs8fpYTUCN2h0dHBzOi8vb3JnMDJiNDI3ODQuY3JtMTEuZHluYW1pY3MuY29tLw%253d%253d%26RedirectToForMcas%3dhttps%253a%252f%252forg02b42784.crm11.dynamics.com%252fmain.aspx%253fappid%253db8ce14bc-5a73-ed11-81ad-0022481b59d5%2526pagetype%253ddashboard%2526id%253deaa6e6bb-4712-ec11-b6e7-00224820f09b%2526type%253dsystem%2526_canOverride%253dtrue"
+        separator="="
+        value="OpenIdConnect.AuthenticationProperties=MAAAADDi-nJueBHtmYUAIkhDSRqUeMaOMnHGJd19ErMY6d3CD5hbsllRmTXAfIvYArl8NAEAAAABAAAACS5yZWRpcmVjdLQBaHR0cHM6Ly9vcmcwMmI0Mjc4NC5jcm0xMS5keW5hbWljcy5jb20vbWFpbi5hc3B4P2FwcGlkPWI4Y2UxNGJjLTVhNzMtZWQxMS04MWFkLTAwMjI0ODFiNTlkNSZwYWdldHlwZT1kYXNoYm9hcmQmaWQ9ZWFhNmU2YmItNDcxMi1lYzExLWI2ZTctMDAyMjQ4MjBmMDliJnR5cGU9c3lzdGVtJl9jYW5PdmVycmlkZT10cnVl&amp;RedirectTo=MAAAADDi%2bnJueBHtmYUAIkhDSRrO%2fqHWbO1O4p6b3ySW4Ye6SSbDVQWmXVCJs8fpYTUCN2h0dHBzOi8vb3JnMDJiNDI3ODQuY3JtMTEuZHluYW1pY3MuY29tLw%3d%3d&amp;RedirectToForMcas=https%3a%2f%2forg02b42784.crm11.dynamics.com%2fmain.aspx%3fappid%3db8ce14bc-5a73-ed11-81ad-0022481b59d5%26pagetype%3ddashboard%26id%3deaa6e6bb-4712-ec11-b6e7-00224820f09b%26type%3dsystem%26_canOverride%3dtrue" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="nonce"
+        recordRawValue="638061314684597706.ODMwNjlhZDAtYmM3ZC00OThiLTk4NDQtZDUzYTc0ZWVlMGJkNGI5MzM2YWQtZjRkZi00MGM5LTljZTAtNGU3MjgyZGZiYTlm"
+        separator="="
+        value="638061314684597706.ODMwNjlhZDAtYmM3ZC00OThiLTk4NDQtZDUzYTc0ZWVlMGJkNGI5MzM2YWQtZjRkZi00MGM5LTljZTAtNGU3MjgyZGZiYTlm" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="redirect_uri"
+        recordRawValue="https%3a%2f%2flon--gbrcrmlivesg721.crm11.dynamics.com%2f"
+        separator="="
+        value="https://lon--gbrcrmlivesg721.crm11.dynamics.com/" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="max_age"
+        recordRawValue="86400" separator="=" value="86400" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="login.microsoftonline.com"/>
+    <header name="Sec-Fetch-Dest" value="document"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+Expires: -1&#xd;
+Vary: Accept-Encoding&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-Frame-Options: DENY&#xd;
+Link: &lt;https://aadcdn.msftauth.net&gt;; rel=preconnect; crossorigin&#xd;
+Link: &lt;https://aadcdn.msftauth.net&gt;; rel=dns-prefetch&#xd;
+Link: &lt;https://aadcdn.msauth.net&gt;; rel=dns-prefetch&#xd;
+X-DNS-Prefetch-Control: on&#xd;
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"&#xd;
+x-ms-request-id: 80f41cef-b5c0-4fdf-89e0-0df9a08c0300&#xd;
+x-ms-ests-server: 2.1.14167.14 - NEULR2 ProdSlices&#xd;
+Referrer-Policy: strict-origin-when-cross-origin&#xd;
+X-XSS-Protection: 0&#xd;
+Set-Cookie: buid=0.AUsAxH7lR_sIdUyzoo5BDB8QIAcAAAAAAAAAwAAAAAAAAABLAAA.AQABAAEAAAD--DLA3VO7QrddgJg7Wevr_ATL75KBfezviyjOfZg6PUI6yXeZJsJhFdouW4FzSB-Hg6dWCZ1MotC0OEGWkgcBpJe7xO8BS0Hl7XfAxy9-B6X1HN7r8bX7-4cbI5gJWDsgAA; expires=Sat, 07-Jan-2023 21:24:30 GMT; path=/; secure; HttpOnly; SameSite=None&#xd;
+Set-Cookie: fpc=Av0qMwX3FOZNn8KIxl7YHUcOrn5RAQAAAA1NJNsOAAAA; expires=Sat, 07-Jan-2023 21:24:30 GMT; path=/; secure; HttpOnly; SameSite=None&#xd;
+Set-Cookie: esctx=AQABAAAAAAD--DLA3VO7QrddgJg7Wevr-O6jvhyUkcAbkcyJsmdYpyE6LeXZBTxGEhPEsotgA5dzctbaMW2qtxi7PlFiYdWReV0YOIdL_Ln9eZmtW8D4TrBj0_efACYmdSt9MPqKbX1s9APaHFEpe1w2pTACp-2aqCDYal1-Q9M9iTd2ynjpt7IRbdF8HWS1E2NyJz_iOTUnsM27txH51xYWdebZ6-EcMrnr971qesYJCQwh0qXIIY76w9HFY8uZv2fnvFxuCPogAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None&#xd;
+Set-Cookie: x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly&#xd;
+Set-Cookie: stsservicecookie=estsfd; path=/; secure; samesite=none; httponly&#xd;
+Date: Thu, 08 Dec 2022 21:24:30 GMT&#xd;
+Content-Length: 52308</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/x-javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/shared/1.0/content/js/ConvergedLogin_PCore_EmlqNhFd4o9dNZnCs3B4hA2.js"
+    path="/shared/1.0/content/js/ConvergedLogin_PCore_EmlqNhFd4o9dNZnCs3B4hA2.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/91eeb6f1-e5f5-420b-a139-e5a318a2d197.zip"
+    recordedResponseCode="200"
+    refererUid="3b2c842b-4880-46ed-bfb4-d9abbe38554e"
+    responseSize="396874" serverUid="aadcdn.msftauth.net"
+    slaProfileEnabled="false" uid="58421efb-e990-44fa-ae0b-498cc71f3d39" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_46155a7b-1de8-4c10-b4b7-fe656ace0698</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_46155a7b-1de8-4c10-b4b7-fe656ace0698.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://login.microsoftonline.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://login.microsoftonline.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-encoding: gzip&#xd;
+accept-ranges: bytes&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding&#xd;
+age: 3819904&#xd;
+cache-control: public, max-age=31536000&#xd;
+content-md5: +5bQBhtTNpy0BtTIipcZHA==&#xd;
+content-type: application/x-javascript&#xd;
+date: Thu, 08 Dec 2022 21:24:31 GMT&#xd;
+etag: 0x8DAB3057C32C9F7&#xd;
+last-modified: Fri, 21 Oct 2022 01:42:16 GMT&#xd;
+server: ECAcc (lhd/3715)&#xd;
+vary: Accept-Encoding&#xd;
+x-cache: HIT&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-request-id: 3e19c798-801e-006c-258d-e890f5000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+content-length: 112063</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="4"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

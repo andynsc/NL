@@ -1,0 +1,157 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/rb_bf42640bbz_9"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path_1/%resources%/recorded-artifacts/fb0dced7-7afe-4cb2-896a-87f9c9fe4959.zip"
+    slaProfileEnabled="false" thinkTime="825"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fb0dced7-7afe-4cb2-896a-87f9c9fe4959">
+    <embedded-action>da579a4f-3c39-4ad9-8a0c-a45870243cdb</embedded-action>
+    <embedded-action>004079b1-ad61-4d0b-a05c-aade5facb1d8</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_fb0dced7-7afe-4cb2-896a-87f9c9fe4959.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/rb_bf42640bbz" path="/rb_bf42640bbz"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@user@path_1/%resources%/recorded-artifacts/fb0dced7-7afe-4cb2-896a-87f9c9fe4959.zip"
+    recordedResponseCode="200" responseSize="122"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="da579a4f-3c39-4ad9-8a0c-a45870243cdb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_da579a4f-3c39-4ad9-8a0c-a45870243cdb</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_da579a4f-3c39-4ad9-8a0c-a45870243cdb.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sn"
+        recordRawValue="v_4_srv_4_sn_4D0256EFD11E5E6CC36E5161A84E45F7_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0"
+        separator="="
+        value="v_4_srv_4_sn_4D0256EFD11E5E6CC36E5161A84E45F7_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="svrid"
+        recordRawValue="4" separator="=" value="4" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="JMGBHTAKREGPWMHPMGDUWKQMCPCJMRAS-0"
+        separator="=" value="JMGBHTAKREGPWMHPMGDUWKQMCPCJMRAS-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1701198377083"
+        separator="=" value="1701198377083" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Fushahidi.apps.neotys.com%2Freports%2Fthanks"
+        separator="="
+        value="https://ushahidi.apps.neotys.com/reports/thanks" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="ea7c4b59f27d43eb" separator="="
+        value="ea7c4b59f27d43eb" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="3133746726" separator="=" value="3133746726" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="cnyf1t4q" separator="=" value="cnyf1t4q" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9,vi;q=0.8,es;q=0.7"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Cookie" value="rxVisitor=1673386999266TMK1J9EU3FS70K91IITLI0OT0159BV8P; lng=en; _ga=GA1.1.811428363.1697214002; apt.uid=AP-OLHBIWKH7BEB-2-1697219216438-55551183.0.2.2340814b-caf4-4586-b77b-5e379b135c4e; _ga_D79KVG1K3W=GS1.1.1697223258.3.1.1697223261.57.0.0; Authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhY2MiOlsiNThhNDEyY2Y1YTdlZjMwMDAxYmM3MDdiIl0sImlhdCI6MTcwMTI5NjQwNiwiZXhwIjoxNzAxMzgyODA2LCJpc3MiOiJodHRwczovL2F1dGguc2Fhcy5uZW90eXMuY29tIiwic3ViIjoiNjM1MDU2ODkyNjRhM2Q3YzIxMTBkNTA2In0.IcHtXD9mrNdkrQ_IddVM3KifVZmqeObTzXECsEvweN22kbw47m7xRnarf8A7vcjuNXKbArV5KpzLxzaw1Vfxq_yDlRL1RFs8FXSj45oOoUkNY_uPTFdc0NId1FksV8QvjMkFZxd4wNihbZrmKQTRuW4NtgHmqY_5zeYzoqXjIJhRPE4Woqbh0r6ZkWrz47_Y0OapQCwyr2uMz0OsUNV46Eh4IQxCThyvaY1btnCNqf_J7668l9whDSz1wkd95kB1BCRltM-CZMMw4fe7hkUjgafPWb6prJM3RR-DWp8rkxO1Tnb2QDHL1edyzoW2xEvR_4TPXVI_H8VWAYmw7id_Vw; ushahidi=bqejco0naa5co50tcluuhobmh0; dtCookie=v_4_srv_4_sn_4D0256EFD11E5E6CC36E5161A84E45F7_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; dtSa=-; dtPC=4$377519698_729h-vJMGBHTAKREGPWMHPMGDUWKQMCPCJMRAS-0e0; rxvt=1701379322068|1701377494619"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Origin" value="https://ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/reports/thanks"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;119&quot;, &quot;Chromium&quot;;v=&quot;119&quot;, &quot;Not?A_Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 30 Nov 2023 20:52:02 GMT&#xd;
+Server: Apache&#xd;
+Content-Length: 122&#xd;
+Keep-Alive: timeout=5, max=76&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: text/plain; charset=utf-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[$tvn=%2Freports%2Fthanks$tvt=1701377519229$tvm=i1%3Bk0%3Bh0$tvtrg=1$w=2025$h=904$sw=2560$sh=1440$ni=4g|10$rt=1-1701377519229%3Bhttps%3A%2F%2Fushahidi.apps.neotys.com%2Fmedia%2Fcss%2Fjquery-ui-themeroller.css%3Fm%3D1542866374%26%7Cb479e0f0g0h0i0j0k4l4m5v27581w27581X200K1I11M1415196696V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fmedia%2Fcss%2Fglobal.css%3Fm%3D1542866374%26%7Cb479e0f0g0h0i0j0k4l4m5v2890w2890X200K1I11M-1313124847V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fthemes%2Fdefault%2Fcss%2Fbase.css%3Fm%3D1542866374%26%7Cb479e0f0g0h0i0j0k4l4m5v5711w5711X200K1I11M-1925648081V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fthemes%2Fdefault%2Fcss%2Faccordion.css%3Fm%3D1542866374%26%7Cb479e0f0g0h0i0j0k4l4m5v1065w1065X200K1I11M220078678V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fthemes%2Fdefault%2Fcss%2Fslider.css%3Fm%3D1542866374%26%7Cb479e0f0g0h0i0j0k4l4m5v2725w2725X200K1I11M505740607V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fthemes%2Fdefault%2Fcss%2Fstyle.css%3Fm%3D1542866374%26%7Cb479e0f0g0h0i0j0k4l4m5v49303w49303X200K1I11M1402043435V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fmedia%2Fjs%2Fjquery.js%3Fm%3D1542866374%26%7Cb480e0f0g0h0i0j0k0l0m0v94839w94839X200K1I12M424730727V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fmedia%2Fjs%2Fjquery.ui.min.js%3Fm%3D1542866374%26%7Cb480e0f0g0h0i0j0k0l0m0v79484w79484X200K1I12M1538676002V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fmedia%2Fjs%2Fjquery.pngFix.pack.js%3Fm%3D1542866374%26%7Cb480e0f0g0h0i0j0k0l0m0v2495w2495X200K1I12M465601634V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fmedia%2Fjs%2Fjquery.timeago.js%3Fm%3D1542866374%26%7Cb480e0f0g0h0i0j0k0l0m0v4543w4543X200K1I12M1162626325V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fmedia%2Fjs%2Fglobal.js%3Fm%3D1542866374%26%7Cb480e0f0g0h0i0j0k0l0m0v1243w1243X200K1I12M-1805920660V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fmedia%2Fimg%2Ficon-feed.png%7Cb480e0f0g0h0i0j0k0l0m0v764w764X200E1F256O16P16I7M1191338620V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fmedia%2Fimg%2Ffooter-logo.png%7Cb481e0f0g0h0i0j0k0l0m0v1488w1488X200E1F2112O88P24I7M-1898334790V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fthemes%2Fdefault%2Fimages%2Fpage-bg.jpg%7Cb503e0f0g0h0i0j0k0l0m0v708w708X200E1F1469783O2008P735Q5R206I9M1697167856V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fthemes%2Fdefault%2Fimages%2Fsearch-button.jpg%7Cb503e0f0g0h0i0j0k0l0m0v462w462X200E1F528O22P20Q11R11I9M1454076677V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fthemes%2Fdefault%2Fimages%2Fsubmit-incident.png%7Cb504e0f0g0h0i0j0k0l0m0v350w350X200E2F5568O174P32Q16R16I9M-33153382V0%7Chttps%3A%2F%2Fushahidi.apps.neotys.com%2Fscheduler%7Cb710e0f0g0h0i0j0k3l124m125u349v49w49X200F1N2O1P1I7M709607310V0$sr=1$url=https%3A%2F%2Fushahidi.apps.neotys.com%2Freports%2Fthanks$title=Neotys%20Ushahidi$latC=0$app=ea7c4b59f27d43eb$vi=JMGBHTAKREGPWMHPMGDUWKQMCPCJMRAS-0$fId=377519698_729$v=10277231024135831$vID=1673386999266TMK1J9EU3FS70K91IITLI0OT0159BV8P$time=1701377523021]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/rb_bf42640bbz" path="/rb_bf42640bbz"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@user@path_1/%resources%/recorded-artifacts/fb0dced7-7afe-4cb2-896a-87f9c9fe4959.zip"
+    recordedResponseCode="200" responseSize="122"
+    serverUid="ushahidi.apps.neotys.com" slaProfileEnabled="false"
+    uid="004079b1-ad61-4d0b-a05c-aade5facb1d8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_004079b1-ad61-4d0b-a05c-aade5facb1d8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_004079b1-ad61-4d0b-a05c-aade5facb1d8.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="type"
+        recordRawValue="js3" separator="=" value="js3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="sn"
+        recordRawValue="v_4_srv_4_sn_4D0256EFD11E5E6CC36E5161A84E45F7_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0"
+        separator="="
+        value="v_4_srv_4_sn_4D0256EFD11E5E6CC36E5161A84E45F7_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="svrid"
+        recordRawValue="4" separator="=" value="4" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="flavor"
+        recordRawValue="post" separator="=" value="post" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="vi"
+        recordRawValue="JMGBHTAKREGPWMHPMGDUWKQMCPCJMRAS-0"
+        separator="=" value="JMGBHTAKREGPWMHPMGDUWKQMCPCJMRAS-0" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="contentType" recordRawValue="srTe" separator="="
+        value="srTe" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="modifiedSince" recordRawValue="1701198377083"
+        separator="=" value="1701198377083" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="rf"
+        recordRawValue="https%3A%2F%2Fushahidi.apps.neotys.com%2Freports%2Fthanks"
+        separator="="
+        value="https://ushahidi.apps.neotys.com/reports/thanks" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="bp"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="app"
+        recordRawValue="ea7c4b59f27d43eb" separator="="
+        value="ea7c4b59f27d43eb" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="10277231024135832" separator="="
+        value="10277231024135832" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="crc"
+        recordRawValue="2924795163" separator="=" value="2924795163" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="en"
+        recordRawValue="cnyf1t4q" separator="=" value="cnyf1t4q" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="end"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9,vi;q=0.8,es;q=0.7"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Cookie" value="rxVisitor=1673386999266TMK1J9EU3FS70K91IITLI0OT0159BV8P; lng=en; _ga=GA1.1.811428363.1697214002; apt.uid=AP-OLHBIWKH7BEB-2-1697219216438-55551183.0.2.2340814b-caf4-4586-b77b-5e379b135c4e; _ga_D79KVG1K3W=GS1.1.1697223258.3.1.1697223261.57.0.0; Authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhY2MiOlsiNThhNDEyY2Y1YTdlZjMwMDAxYmM3MDdiIl0sImlhdCI6MTcwMTI5NjQwNiwiZXhwIjoxNzAxMzgyODA2LCJpc3MiOiJodHRwczovL2F1dGguc2Fhcy5uZW90eXMuY29tIiwic3ViIjoiNjM1MDU2ODkyNjRhM2Q3YzIxMTBkNTA2In0.IcHtXD9mrNdkrQ_IddVM3KifVZmqeObTzXECsEvweN22kbw47m7xRnarf8A7vcjuNXKbArV5KpzLxzaw1Vfxq_yDlRL1RFs8FXSj45oOoUkNY_uPTFdc0NId1FksV8QvjMkFZxd4wNihbZrmKQTRuW4NtgHmqY_5zeYzoqXjIJhRPE4Woqbh0r6ZkWrz47_Y0OapQCwyr2uMz0OsUNV46Eh4IQxCThyvaY1btnCNqf_J7668l9whDSz1wkd95kB1BCRltM-CZMMw4fe7hkUjgafPWb6prJM3RR-DWp8rkxO1Tnb2QDHL1edyzoW2xEvR_4TPXVI_H8VWAYmw7id_Vw; ushahidi=bqejco0naa5co50tcluuhobmh0; dtCookie=v_4_srv_4_sn_4D0256EFD11E5E6CC36E5161A84E45F7_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; dtSa=-; dtPC=4$377519698_729h-vJMGBHTAKREGPWMHPMGDUWKQMCPCJMRAS-0e0; rxvt=1701379323058|1701377494619"/>
+    <header name="Host" value="ushahidi.apps.neotys.com"/>
+    <header name="Origin" value="https://ushahidi.apps.neotys.com"/>
+    <header name="Referer" value="https://ushahidi.apps.neotys.com/reports/thanks"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;119&quot;, &quot;Chromium&quot;;v=&quot;119&quot;, &quot;Not?A_Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 30 Nov 2023 20:52:02 GMT&#xd;
+Server: Apache&#xd;
+Content-Length: 122&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: text/plain; charset=utf-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[3,1701377523060,1701377522069,1701377523058,2,1701377521042^m 8 261 1230 225>16 242 1235 214>34 ~ 1239 207>49 ~ 1242 206>66 ~ 1244 ~>83 ~ 1245 209>99 ~ ~ 213>116 ~ ~ 217>133 ~ ~ 218>248 ~ 1244 ~>267 ~ 1238 219>285 ~ 1237 ~>300 ~ 1238 217>316 ~ 1242 212>332 ~ 1247 206>349 ~ 1250 200>366 ~ 1253 193>383 ~ 1256 189>399 ~ 1258 185>416 ~ 1260 182>433 ~ ~ 180>449 ~ ~ 177>466 ~ 1261 175>482 57 ~ 174>499 ~ ~ 173>516 ~ ~ 172>558 ~ ~ 171>616 ~ 1260 ~>633 ~ 1258 ~>649 ~ 1253 169>666 ~ 1247 168>682 ~ 1240 ~>699 ~ 1232 ~>716 ~ 1215 ~>733 ~ 1191 ~>749 ~ 1149 ~>766 ~ 1090 169>783 ~ 1036 171>799 ~ 983 173>816 ~ 921 174>832 242 858 176>849 251 794 185>866 ~ 769 194>899 ~ ~ 195>916 ~ 768 ~]]></textPostContent>
+</http-action>

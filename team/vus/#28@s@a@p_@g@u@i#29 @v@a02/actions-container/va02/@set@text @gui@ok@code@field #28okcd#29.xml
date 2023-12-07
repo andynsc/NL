@@ -1,0 +1,20 @@
+<custom-action actionType="SapSetText" isHit="false"
+    name="SetText GuiOkCodeField (okcd)" uid="0ab0d8c5-81c6-4f81-acdd-2a45f331ff61">
+    <description>This action simulates a set text action in an SAP text field.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- value (optional): The text value&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/tbar[0]/okcd"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="okcd"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiOkCodeField"/>
+    <custom-action-parameter name="value" type="TEXT" value="va02"/>
+    <responsePageFileDescription>recorded-responses/res_77a364dc-bca9-4e92-972f-24ed65386aa3</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/#28@s@a@p_@g@u@i#29 @v@a02/%resources%/recorded-screenshots/sc_77a364dc-bca9-4e92-972f-24ed65386aa3.jpg</screenshotFileDescription>
+</custom-action>

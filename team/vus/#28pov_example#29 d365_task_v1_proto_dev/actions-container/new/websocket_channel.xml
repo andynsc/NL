@@ -1,0 +1,47 @@
+<websocket-channel-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="websocket_channel" path="/stikkontakt.ws/"
+    postType="6" pushType="WEBSOCKET" recordedResponseCode="101"
+    responseSize="0" serverUid="gbr.loki.delve.office.com"
+    slaProfileEnabled="false" uid="8c39dec0-48ff-4a82-9248-ece255b694e4" useKeepAlive="false">
+    <response-matching extractionMethod="REGEXP_ONLY" regexp="" template="$1$"/>
+    <responsePageFileDescription>team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-responses/res_d2119e19-12a3-4f80-9486-2a19343de585</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-requests/req_6f35c82d-3c14-4f62-91cb-cd05e579f0c3.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="clientType"
+        recordRawValue="Dynamics365UCI" separator="="
+        value="Dynamics365UCI" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="keep-alive, Upgrade"/>
+    <header name="Host" value="gbr.loki.delve.office.com"/>
+    <header name="Origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="Sec-Fetch-Dest" value="websocket"/>
+    <header name="Sec-Fetch-Mode" value="websocket"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="Sec-WebSocket-Extensions" value="permessage-deflate"/>
+    <header name="Sec-WebSocket-Key" value="uV4PyO2doh6HrzRDdCzE3g=="/>
+    <header name="Sec-WebSocket-Version" value="13"/>
+    <header name="Upgrade" value="websocket"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 101 Switching Protocols&#xd;
+Connection: Upgrade&#xd;
+Date: Thu, 08 Dec 2022 21:26:00 GMT&#xd;
+Access-Control-Allow-Credentials: true&#xd;
+Access-Control-Allow-Origin: https://org02b42784.crm11.dynamics.com&#xd;
+Access-Control-Expose-Headers: X-ServerVersion,X-InboundDuration,X-BEServer,X-TokenTtl,X-SocialDistance,X-CorrelationId,X-DataCenter,X-FD-Ref,Retry-After,WWW-Authenticate,X-ClientFlighting-Etag,X-ClientFlighting-Updated&#xd;
+Upgrade: websocket&#xd;
+Vary: Origin&#xd;
+Sec-WebSocket-Accept: j6oSlXuQ9n+4mF7oWgD4FiVhHko=&#xd;
+X-InboundDuration: 0&#xd;
+X-CorrelationId: 4f3039b1-cebe-45bb-9a7d-cba69460b29c</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <push-handler filecount="10"
+        filename="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-responses/websocket_b0fdd253-c1c5-4251-9db8-d052ce445f77_1670534977771.dat" pushType="WEBSOCKET">
+        <result-handler responseSource="MESSAGE" type="REGEXP"/>
+    </push-handler>
+</websocket-channel-action>

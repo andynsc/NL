@@ -1,0 +1,7 @@
+GET http://webservice.toscacloud.com/rest/api/Shops_V2 HTTP/1.1
+User-Agent: Jetty/1.0.0
+Authorization: 
+X-Dynatrace-Test: SI=NeoLoad;VU=0;SN=(REST) - Swagger Demo CoffeeShop V2 - A Chain of API Calls;PC=;ID=11;NA=Actions.Shops.List+Shops.;GR=Default zone;TE=CPVWeatherCrisis-Check-(REST) - Swagger Demo CoffeeShop V2 - A Chain of API Calls-98251-bf11f7c9-5af1-475c-9ccb-5786eea41899
+Host: webservice.toscacloud.com
+Cookie: ARRAffinity=1fa9158750fcf7cee1728ac683a12594fe016bf3b1c0544237f51a4ffe2ef5ea
+

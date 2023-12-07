@@ -1,0 +1,1450 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/47e57ec4-08fb-4c75-b3a2-8e410c1f1020/oauth2/v2.0/authorize_2"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d8cc7baf-c889-4aa0-9903-856400155761">
+    <embedded-action>227dde07-ef46-4647-bf3d-d2e6c30b1bcd</embedded-action>
+    <embedded-action>4b04f4e6-2ddc-4a7e-9d05-d8619bd8ae55</embedded-action>
+    <embedded-action>546e5240-cabe-4b76-819f-d2290db955f4</embedded-action>
+    <embedded-action>9ec024d6-b404-4f85-96bb-ff39e061709c</embedded-action>
+    <embedded-action>dab05e5b-8501-4a0c-94a9-80767a72c7ba</embedded-action>
+    <embedded-action>3b0d89cd-8d90-4a16-8748-c58cd45b3cf7</embedded-action>
+    <embedded-action>8e617626-a37f-4684-9923-4a2c44997c0a</embedded-action>
+    <embedded-action>d4dd001a-453d-4701-b095-e383cd99312c</embedded-action>
+    <embedded-action>ee587803-6c62-44bc-aa54-a5eea44e844b</embedded-action>
+    <embedded-action>bb8eab09-4dc8-46ae-be8c-f96f16cdb934</embedded-action>
+    <embedded-action>faad1ddf-9ba1-495b-a069-0409ed139741</embedded-action>
+    <embedded-action>9c248293-3ef5-4a44-acc1-00c9789b09eb</embedded-action>
+    <embedded-action>032d8144-f28a-4196-b853-d65e0a270eaa</embedded-action>
+    <embedded-action>881a2592-bd8c-4167-8f8b-f1d26061396e</embedded-action>
+    <embedded-action>fba3aa4f-be20-491c-b907-661285db6cf4</embedded-action>
+    <embedded-action>72b3be14-4133-4af5-b432-9db3ed57a152</embedded-action>
+    <embedded-action>95a1d639-3903-4208-9310-a1a5704f80d0</embedded-action>
+    <embedded-action>2693cfae-4be1-496c-9e87-52eac7239781</embedded-action>
+    <embedded-action>b653bc8a-0581-4411-b1ed-1d2e01915eb0</embedded-action>
+    <embedded-action>aec87861-9fd2-435a-ab8a-0c4786e14b05</embedded-action>
+    <embedded-action>a71a95b8-fc5d-4c5c-afa9-e03b8fee4aef</embedded-action>
+    <embedded-action>14286d0c-00ca-426f-8ce5-a8b58cf7a925</embedded-action>
+    <embedded-action>a5f06481-263a-4596-9dc1-b234c2a279b9</embedded-action>
+    <embedded-action>b05d7149-a9ea-4eab-b87a-fe6549c1e579</embedded-action>
+    <embedded-action>5911a4ab-4483-4cc5-bd44-f1f834621e9f</embedded-action>
+    <embedded-action>3e8bd707-bef3-4ad0-ac6a-39b63ab495c7</embedded-action>
+    <embedded-action>513443b7-2b2c-41f2-a6c5-4500982309af</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/47e57ec4-08fb-4c75-b3a2-8e410c1f1020/oauth2/v2.0/authorize"
+    path="/${aadTenantId_param_whole_path_header_text_part}/oauth2/v2.0/authorize"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="302" responseSize="1890"
+    serverUid="login.microsoftonline.com" slaProfileEnabled="false"
+    uid="227dde07-ef46-4647-bf3d-d2e6c30b1bcd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d7d90004-a9c5-476c-ba4b-a52e71538cef.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d7d90004-a9c5-476c-ba4b-a52e71538cef.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="1" extractTypeAdv="1" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="fw_code_param_whole_2"
+        regExp="Location: https://apps\.powerapps\.com/auth-redirect\.html#code=(.*?)&amp;"
+        regExpAdv="Location: https://apps\.powerapps\.com/auth-redirect\.html#code=(.*?)&amp;"
+        setDefaultValue="true" startsWithSimple="" template="$1$"
+        templateAdv="$1$" uid="486ae0a9-b8ab-4c04-a8e4-9f16313abae1" xpath=""/>
+    <parameter encodeName="true" encodeValue="true" name="client_id"
+        recordRawValue="3e62f81e-590b-425b-9531-cad6683656cf"
+        separator="=" value="3e62f81e-590b-425b-9531-cad6683656cf" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="scope"
+        recordRawValue="https%3A%2F%2Fapihub.azure.com%2F.default%20openid%20profile%20offline_access"
+        separator="="
+        value="https://apihub.azure.com/.default openid profile offline_access" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="redirect_uri"
+        recordRawValue="https%3A%2F%2Fapps.powerapps.com%2Fauth-redirect.html"
+        separator="="
+        value="https://apps.powerapps.com/auth-redirect.html" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="client-request-id"
+        recordRawValue="e29f12ef-5c21-43f9-bdb2-de92beb89985"
+        separator="=" value="e29f12ef-5c21-43f9-bdb2-de92beb89985" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="response_mode"
+        recordRawValue="fragment" separator="=" value="fragment" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="response_type"
+        recordRawValue="code" separator="=" value="code" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="x-client-SKU"
+        recordRawValue="msal.js.browser" separator="="
+        value="msal.js.browser" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="x-client-VER"
+        recordRawValue="2.18.0" separator="=" value="2.18.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="x-client-OS"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="x-client-CPU"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="client_info"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="code_challenge"
+        recordRawValue="sv-nznn_F-LZ0LU-ySLaAipUK5Pf8KHpupLMOURJwMA"
+        separator="="
+        value="sv-nznn_F-LZ0LU-ySLaAipUK5Pf8KHpupLMOURJwMA" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="code_challenge_method" recordRawValue="S256" separator="="
+        value="S256" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="prompt"
+        recordRawValue="none" separator="=" value="none" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="login_hint"
+        recordRawValue="nw.jazz.net%40gmail.com" separator="="
+        value="nw.jazz.net@gmail.com" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="X-AnchorMailbox"
+        recordRawValue="UPN%3Anw.jazz.net%40gmail.com" separator="="
+        value="UPN:nw.jazz.net@gmail.com" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="nonce"
+        recordRawValue="350edb4b-4c85-40be-a485-fe5626b1a0db"
+        separator="=" value="350edb4b-4c85-40be-a485-fe5626b1a0db" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="state"
+        recordRawValue="eyJpZCI6ImY3OTNiMWY3LTYzNzAtNDQ5NS05ZTNjLWE2NDk1YTM5MDZjNSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoic2lsZW50In19"
+        separator="="
+        value="eyJpZCI6ImY3OTNiMWY3LTYzNzAtNDQ5NS05ZTNjLWE2NDk1YTM5MDZjNSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoic2lsZW50In19" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="claims"
+        recordRawValue="%7B%22access_token%22%3A%7B%22xms_cc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D"
+        separator="="
+        value="{&quot;access_token&quot;:{&quot;xms_cc&quot;:{&quot;values&quot;:[&quot;CP1&quot;]}}}" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="buid=0.AUsAxH7lR_sIdUyzoo5BDB8QIAcAAAAAAAAAwAAAAAAAAABLAIc.AQABAAEAAAD--DLA3VO7QrddgJg7WevrE3ATIS1ZBvWN3RHx_zr3hcL3IgXuWxy3IBOLgIPsikEQJRSQBhkforrX8rpmCeOkVx5-K1uSjEntQy6gjmMm7pIxF4APz-DpFHxpAS9SRDrZ9lwAaoas6rO2sjlpjfHFlbauixl8-lKI4gCSNR5ZRCAA; fpc=Av0qMwX3FOZNn8KIxl7YHUcOrn5RAQAAAA1NJNsOAAAACokzCAEAAAA_TSTbDgAAAA; esctx=AQABAAAAAAD--DLA3VO7QrddgJg7Wevr-O6jvhyUkcAbkcyJsmdYpyE6LeXZBTxGEhPEsotgA5dzctbaMW2qtxi7PlFiYdWReV0YOIdL_Ln9eZmtW8D4TrBj0_efACYmdSt9MPqKbX1s9APaHFEpe1w2pTACp-2aqCDYal1-Q9M9iTd2ynjpt7IRbdF8HWS1E2NyJz_iOTUnsM27txH51xYWdebZ6-EcMrnr971qesYJCQwh0qXIIY76w9HFY8uZv2fnvFxuCPogAA; x-ms-gateway-slice=estsfd; stsservicecookie=estsfd; brcap=0; clrc={%2219335%22%3a[%22+SjF/0ga%22%2c%22GVi4Gr9C%22]}; ESTSAUTHPERSISTENT=0.AUsAxH7lR_sIdUyzoo5BDB8QIAcAAAAAAAAAwAAAAAAAAABLAIc.AgABAAQAAAD--DLA3VO7QrddgJg7WevrAgDs_wQA9P_FfWOtvT2GrNnJfPCfYVVIukKoma86O-UHha1rouwxgeK9WYJLiXqvZZazevxvb4qqjEQqAQGEcgiRH9T8ZicWaWoUFnZLUq67uVoXEY4Indaz2GrxUR5hif3IIX_-DAixSfV1oVHQWYZWsN1mlEowrwprLKUnSNX2JgTeyYZHJ0sw0it-Jfp9BHSF4JWqes91B3Cecvc0Et6MnS7G9l0KyEhAoENQcUxfhs44HH_h4yZrQc3hFprdCwfmGN5dK8jdAgpWZGkVaUNQJFFrNJSCZ03HblpAecP31FQU1-R8b6si2tGiTtycpR539fAhAVVt0-vKArf3udkTFbrDieQ8nawMhkXOzJhrrLqJfjSeH1DZ29iE2YYT9zyqbw128Q; ESTSAUTH=0.AUsAxH7lR_sIdUyzoo5BDB8QIAcAAAAAAAAAwAAAAAAAAABLAIc.AgABAAQAAAD--DLA3VO7QrddgJg7WevrAgDs_wQA9P8Lu7hv7UObOoz38PwnBjhKNn7XJdcCmfMAKkBZEQgGnWYdZvtI86VAeFBxZyI8HkNBY0LBp04n08E1_I7XRtn0IyvxX-fbGlQrt4B0Kd2BeFFoPTR_ynEc7x5S8j8Hsd6hsEGswC7g9F7aoZL0mFbVr_iK0-f5zpO1srC85mFSMgLjd7fHsgZR-kPE0uIQGVZyNFvJteWDWsdTXki_upXi7BOVRUxYbVkSGTlBTEZzMMGwuFecAOBbeJogQlNJJVBhZyRkm8mwrMjdiZxDH8Dzdcgv6_PhB3Ixy2trsFqIAnfzSoRWtxkiknNCSSzwSlzxp0OknsEORtXi0ijO8382-Zbx8YUkbCSugs0b24p7MaMgiLmYBKdjvlCUXJx_5UVnvTVa_jQHx9ZMWpjy_pfmpI_aDY9qhwBBerV5xKvcQdNTZ4Eom0HFvJAnnHbBEW582F_One-02nHuL6JD2Sedl1CpgPTjqRVYzCZDYmHKyQry8PvDyjE7nQ7bY2H62iadutbZhxBC0ptlJO_VX-2phiruKDwmT5ubeMUSvqsZgTGF_bzx-K7L5WB7tNUHxo1nZVk77osAK3lxT4f83UO9cjVn7DSG-R3LoBNzEb8wkTtS95vJ84GyJ1DSRMBEfxkZPnbG5UKuREZpXzr1aPG9_QxAgmcOSNrHFHX8bD4w2Tn_UtMwkyGK8b_3csso6IbCpLsMwalIuN9CMmf_ouHLYIG_4cWN9i7NJ0D4kQ1K-bkN1NoiUL28ruG2oqRzc_POMzH9fuQT0nfYk6yTBHQ83zr6ScHjiQuJP7tzeo1vykdsxZzlEgrs1nNw8hjwSqs1Bon4cPHwB2phRFqUjtbRZvxJ1KW1Zg37pwD6oRsnOg3bebXfouIFpCwyu3yPH7J0PAmfBu1sJSfiBpyQ6xdhGBnCPPYDf_4ipIs_XeQzRB07_HHFT5CM1StFcBksk-rGcSx9JYirRCtUf68K4kPlailRytBjbLtLTkcg7Q; ESTSAUTHLIGHT=+${fw_session_state_param_whole_header_text_part}; ch=A-cwSSD1Wy259TazKPZh1jxOKW0d3WmWgyYyfHQvS9Q; ESTSSC=00; SignInStateCookie=CAgABAAIAAAD--DLA3VO7QrddgJg7WevrAgDs_wQA9P-MC3wBDJznn8rimneT_UvVrWVpM6cMdPzDxm8NL7NdmLPLxwXr5ZR5p5OrS53MCMRwkuOJ5eAUOsf99g__Z2CA7lbw3QvA88kgaKp8CL3MgSpt3laG5GU8dlxnmhLmeAJ4si0uLRnRwzBZitCItsbM8DsXUE-Xe7la-Loxw4b_x4QwK5TYMImi1aOQn3wSGxcaXXjY8wjgVviTxCgrQljHqAa2-8msU6KyqtT7f49MUzOtYdxWhuSJuGi5c4yYT1FvUlBez9nasqS7t4Iuc98-BA"/>
+    <header name="Host" value="login.microsoftonline.com"/>
+    <header name="Referer" value="https://apps.powerapps.com/"/>
+    <header name="Sec-Fetch-Dest" value="iframe"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 302 Found&#xd;
+Cache-Control: no-store, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Content-Encoding: gzip&#xd;
+Expires: -1&#xd;
+Location: https://apps.powerapps.com/auth-redirect.html#code=0.AUsAxH7lR_sIdUyzoo5BDB8QIB74Yj4LWVtClTHK1mg2Vs9LAIc.AgABAAIAAAD--DLA3VO7QrddgJg7WevrAgDs_wQA9P8pbthzsT_y27KpUEcqOWqB_MJjIVYToujZ1YrRA9B2Yi_KDT8kkmh8HpMkp83xH-laxnPEVd5IICVNUlGyvX3RQ6vmsrKJfFRxVjKTzsN-tPqCXOY-xhfdMeG8jmr_SVo8RkoRpkbYKVlRs71aWHXjYAlw4_ZhU21XoA0oyB0daeqr-9wFl0fsvd-55GEpU4y7z3gVHAuDImnVRo9geN_uzLQsot7sGCeYUpgmNBz9QTIqn8LZClPerxEj72-i1CGqryuLiNgqwcspgT7bW6PrrfVG1KKm5kSVGgf7vTSwq6h3h4OYXLDwe0HJJyYOanWfihHQt_MO9K0tYffLlcBqwgYad9VGKZGYq6-4isiIMW917kPGhdXi-rC6TorSGzRcZen-MoFNaGna-yQ_BrWolh5KxH8Cyzf6ZVI3Rd-vSW15kYpwqxy-bF9MIXA8_ZHeS7O4E93aN8mfw-pk9tIbBooKjDnNtktRtkz16_DNNJSGMwKIPSnirQgHWz9wSkOfmXrgP08yVEJzLaefX-BS6coLS2Pm6DT7LmKOywcgU6HUt8uIloe68GAnwcRrjfrGY-BrQUht8TFtaX5_-vjye7K4kOGGoARN_BBK3hONJ6AHiC4Co-3dKMfD4VdstLkGyrcrKtS4C6__G5KaS0ozEJ3JOu5G77Wkb7glu-Szyaqnb52BJzZaarPOijj_6X3gtnsCnauJp9vDU8dUbxZeWVv1CaF_daggcODRWpKK191Y7mBkUy6H_-kILRCYf82ndHHov2QHuI9hgjw0THP_4FleKCnLNsUDz9w3GRjAePmj9nCEJIrYw1u3SwVfFg7-9mPcsuDgOiWUhK-6Uop8e9t4l9K0RDcCbd5p6HxuSo3VKmZKDLKsr8KDvT8U1PoRhu2Lk88ZSz0wUuHRKvbqfYUuxxODdPEkofa1hPJElKjyWjGr6Bt7r9zbKgHhCW82A_TN70o4t39vmP3eHuo_kaCNlfZB_6UHeE4pBL4x1sZfh_lRFY8jF0xg24JEzhJ__V198vC9YqKaQev8_J0MWyXwWnawSBYZCGM0F_tw4as0PiQUGXNtQz1PquCffQp6a84pfKy0Tb2XEnXH0ME4A_q2jypCbPn0GVK3e-zkaV9lVF-R5ILlF3-bvvqJXWtMJGdxJpr9vjn01xw0QR0Tq35S1aPV1lcISOBI8kOhI_k_aVTbB_0PkHRLv0d4etpkiC0qHKlel1bxTOptP0aY5LvICo5PGKfu-AO3re8mlJg3QTTI_ziC9GaYq-oaUC4pQTJv5TuAwxP5VCtIPRQomK4nWrz7HA&amp;client_info=eyJ1aWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMTI5OC1hMmY0NTk0NWQ3ZTYiLCJ1dGlkIjoiOTE4ODA0MGQtNmM2Ny00YzViLWIxMTItMzZhMzA0YjY2ZGFkIn0&amp;state=eyJpZCI6ImY3OTNiMWY3LTYzNzAtNDQ5NS05ZTNjLWE2NDk1YTM5MDZjNSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoic2lsZW50In19&amp;session_state=27ef24c2-66b6-4d12-baa3-31c65bf2c382&#xd;
+Vary: Accept-Encoding&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"&#xd;
+x-ms-request-id: 7437ef48-88b2-497a-834a-626379600a01&#xd;
+x-ms-ests-server: 2.1.14167.14 - NEULR1 ProdSlices&#xd;
+x-ms-clitelem: 1,0,0,,&#xd;
+Referrer-Policy: strict-origin-when-cross-origin&#xd;
+X-XSS-Protection: 0&#xd;
+Set-Cookie: ESTSAUTHPERSISTENT=0.AUsAxH7lR_sIdUyzoo5BDB8QIB74Yj4LWVtClTHK1mg2Vs9LAIc.AgABAAQAAAD--DLA3VO7QrddgJg7WevrAgDs_wQA9P8fpNb4GN9sucaWle0N96bLfMqHr20nO8XGyefWyFTDkAACUx3yi4mBHrYplZBBccH5H4l9XIrQ190q-NhFazD8S-j-L1_nDNXeDmRJbNvn-H1-fpORC4zuJQJ3k2vgdbdSBXViXrUfNyr1q5yi_1YKmC0V7-JyptFKdvYSEs1ui8U86jcnWDIC9PmcJw948e2g-YM0A0YA8--e1FxCiuxZuvHCYzYal_Ad7c4Xs9BLJCc-g6jhnrl79sHhP5pxAEgDnJL7pa5DRjpp9EVq7qS84_baQVZCxVi0gbkjv67fWRPPtA_75NbiA2MksJNjgJ8kRvDxfJnPTuD8iqA7sQvh2AvZAVdgfSxUH2gq1qQ_RrthnGk1LOcxSglxaNwXtt6E; domain=.login.microsoftonline.com; expires=Wed, 08-Mar-2023 21:25:48 GMT; path=/; secure; HttpOnly; SameSite=None&#xd;
+Set-Cookie: ESTSAUTH=0.AUsAxH7lR_sIdUyzoo5BDB8QIB74Yj4LWVtClTHK1mg2Vs9LAIc.AgABAAQAAAD--DLA3VO7QrddgJg7WevrAgDs_wQA9P9y3pW4dLO-3z6rQYZ26ABnHMpFulqsyoIKJuUgpqTujJtrIwocKjwM4fqh4Vw7IhBYeOpmkR6f_y8ATfVBJDE6UijxXRymJ5cA_JiFIhBNeNqRXM-R8WrH_8h8NQgyx4mW40iRxYZ3qPE4WmSHjmHtFIzJLRniqf0WYzM97kWXaae3aFXIgcdRtSJJeLTnjinUdfQHVjht-qX6IMzomQCHuT7Hs6Uc1LA5R_XUenQN2JhirBr6_o4qn5xTLXw4S3DeAshR3V6m9nCrg3TlxsDuU5bnH_3Zwe4Ms1hTqGh5ZZDBy1aCKhnJYaEveb9fipvDvBGhZrZ3zUNMNNxeaenySD3Whtzv1WrZwIRSJxwFDdWvowKNnr4Jx3qmSuKf0Q-pCSWuJdcHTmyincbgmPPv3jSb5-lQoO5S9suvPQfKLED83eTsoYjXxiQn87lGopR4SI0mefWdttvstrNWSuAK0j1iCNwVDDgXMByS2gzPLiDKKbxyafuhL1fUvNJXCCfvpGUaXFF6eHY43aJfJYFkX1-xrnnbJpR4cLnHAcNI5jezFxlJRJ_zKAiu4HBn-dVNC9BgSnxa_UcWoE6odnxxTVmj43Kut88kAjUoPPz1k3ZOiz8x1gyk_a7BPftk6GfDleyPnAiQkLpSuKA1ZcJlS8ljmwi7nY1OdNEBILoV9aj-p-fzV5es4zOzSD_rdzWNbIRimynF9sjHJ6vy3zxx5wV6ia0wCF16f99x8_FSJ00YSmstUGR-4i1EmlezlXe3QNqUWxo9gmZbuAzpeLMggXkqbupzMQ1XLPxmEAXChRlNLGzEQdmXnd_i6SeHaD5a4qNUQPf14Zm6f17Mo7ZKi-kGwZPLAZxLylcR9wRuZzFEmtO6oSLuULc9GMnp8nXKALAdlcDgWEQ9lkWs0dz5xorQ4edVMrmd0rvfos6G4j-wUtigUkk-DeEXxqHSa6L1zcvrtAxgTdbIEKrpk_CTX7P7kozE57kVvmiXZnLLisvsQOo; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None&#xd;
+Set-Cookie: ESTSAUTHLIGHT=+27ef24c2-66b6-4d12-baa3-31c65bf2c382; path=/; secure; SameSite=None&#xd;
+Set-Cookie: ch=9NDmcMQQ1mTlW7E0WVLDZmKto-m09fbjTtKLB-9tf2M; domain=.login.microsoftonline.com; expires=Wed, 08-Mar-2023 21:25:48 GMT; path=/; secure; SameSite=None&#xd;
+Set-Cookie: ESTSSC=00; path=/; secure; HttpOnly; SameSite=None&#xd;
+Set-Cookie: buid=0.AUsAxH7lR_sIdUyzoo5BDB8QIB74Yj4LWVtClTHK1mg2Vs9LAIc.AQABAAEAAAD--DLA3VO7QrddgJg7WevrsIKchqcrZqRgZP50GPeQxyeQL__ZIhEbWQvf_gzT6__pkn6jv-6vmXDcTON_hLZOaFmN2hwc-UXCZZ7HWVltl5_Zb4qAjCWcqJkU9RH5JaltV4xyXyBhrFmPeo_hI72LLYpf23wnr5QeZXIEQQY0OSAA; expires=Sat, 07-Jan-2023 21:25:48 GMT; path=/; secure; HttpOnly; SameSite=None&#xd;
+Set-Cookie: SignInStateCookie=CAgABAAIAAAD--DLA3VO7QrddgJg7WevrAgDs_wQA9P_DNePSMZtXRCk14oMWKTxbccyjzLm1E49SG0uqlVAvNg48rvdwdnj4jpGV-3Q1OYpzD92jhLhSSgBM7V462p3W4yLpoJCyc38fbNkYG9a4VVntptLuXsUuCID1VlRaGL3bGOyBwJCc4_nrY78cMluq6WFeNtd_P_gEjaGLbe3moWu2ttgfZBvDAG59wDS9BntSR48E2gNbQ1r9XRq71jyB8METPhydCAAHWRGYSJaa_zzI2VI9FIBuzn2CVXXC7pG-DQt81xvyUboFcZf-XCvTZBl1Q_r4PirxLpy3vvrZXI8HloLO3m67KJebk9qddirs9DhNJOpNDjBN-zkQOevwrBWbeB_JUOUSnklifxO8wuk; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None&#xd;
+Set-Cookie: fpc=Av0qMwX3FOZNn8KIxl7YHUcOrn5RAQAAAA1NJNsOAAAACokzCAEAAAA_TSTbDgAAAIPuwWIBAAAAXE0k2w4AAAA; expires=Sat, 07-Jan-2023 21:25:48 GMT; path=/; secure; HttpOnly; SameSite=None&#xd;
+Set-Cookie: x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly&#xd;
+Date: Thu, 08 Dec 2022 21:25:47 GMT&#xd;
+Content-Length: 1478</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html"
+    eTag="&quot;1d90b58f3d5241b&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 08 Dec 2022 23:01:06 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/auth-redirect.html" path="/auth-redirect.html"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200"
+    refererUid="227dde07-ef46-4647-bf3d-d2e6c30b1bcd" responseSize="283"
+    serverUid="apps.powerapps.com" slaProfileEnabled="false"
+    uid="4b04f4e6-2ddc-4a7e-9d05-d8619bd8ae55" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_eac939e1-57a2-4c23-8644-90f0f118ee43.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_eac939e1-57a2-4c23-8644-90f0f118ee43.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://apps.powerapps.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="cookie" value="PACookieRolloutBucketProd=NewAppVersionAvailability%3A59%26UseModernAppParamUrl%3A69%26EntryPointCaching%3A5%26CSPForCanvas%3A70%26HostServiceWorker%3A23%26RequestAccessDialog%3A18%26UpdateWebPlayerUrlInTeams%3A33%26ES6Enabled%3A15%26PreloadSdkInitCall%3A64%26PCFAuthMobileSecureSession%3A20%26HostServiceWorkerSharedAppHost%3A91%26TeamsSettingsRedirect%3A75%26EntryPointCachingStandalone%3A97%26OnePlayerTeamsWebPlayer%3A82%26EnvironmentUrlRedirect%3A16%26EnableCustomScopesForAuthFlowProxy%3A31%26TimeoutMetadataCalls%3A41%26PublishedAppServiceWorkerStandalone%3A62%26TrialPageUrlRedirect%3A49%26SharedAppHostStandAlone%3A71%26MSALTeamsV2%3A76%26IsAppFramePreloadKillSwitchEnabled%3A30%26PcfAuthExtraValidation%3A50%26SdkConsent%3A90%26ReloadSPForInteraction%3A34%26UseModernApp%3A92%26PCFAuthCAE%3A68%26EntryPointCachingSharedAppHost%3A58%26OfficeHeaderAddToTeams%3A24%26InvertedLoad%3A89%26UsePPUXConsentDialogService%3A65%26EnforceEUDB%3A98%26UsePowerPlatformAPI%3A84%26HostServiceWorkerStandalone%3A76%26OnePlayerStandaloneWebPlayer%3A32%26EnableMicrosoftGraphCustomScopes%3A43%26PublishedAppServiceWorker%3A42"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="iframe"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html&#xd;
+date: Thu, 08 Dec 2022 21:25:47 GMT&#xd;
+accept-ranges: bytes&#xd;
+content-encoding: br&#xd;
+etag: "1d909bafac6301b"&#xd;
+last-modified: Tue, 06 Dec 2022 21:37:46 GMT&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Headers&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Accept-Encoding&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains&#xd;
+x-ms-islandgateway: GA0000000&#xd;
+service-worker-allowed: /&#xd;
+x-servicefabric: NoRetry&#xd;
+x-ms-service-request-id: 7d325d99-95b9-46e2-85f1-7d6d3d2320f7&#xd;
+x-ms-correlation-id: f9076ad4-4425-46a1-a8b9-285f0ad5a6c5&#xd;
+x-ms-activity-vector: 00.00.00&#xd;
+server-timing: x-ms-igw-upstream-headers;dur=2.3,x-ms-igw-req-overhead;dur=4.3&#xd;
+x-content-type-options: nosniff</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;8059fd8b1c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:33:35 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/MailLink.svg"
+    path="/uclient/resources/images/MailLink.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="4094"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="546e5240-cabe-4b76-819f-d2290db955f4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4bb5e14d-32b2-4034-9567-773c9690d74b.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4bb5e14d-32b2-4034-9567-773c9690d74b.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:33:35 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "8059fd8b1c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: da7fa83e-2e8b-4b2e-89a8-a4f17b1805e0&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 1734</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;80862e8d1c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:33:37 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/Megaphone.svg"
+    path="/uclient/resources/images/Megaphone.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="1992"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="9ec024d6-b404-4f85-96bb-ff39e061709c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_17d395a7-7a03-46e4-80db-6a1778659ad8.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_17d395a7-7a03-46e4-80db-6a1778659ad8.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:33:37 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "80862e8d1c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: d74d161a-1f69-4698-8f9e-f62523bb5028&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 952</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;6562fe261c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:30:45 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/MergeCase.svg"
+    path="/uclient/resources/images/MergeCase.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="716"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="dab05e5b-8501-4a0c-94a9-80767a72c7ba" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d04df96e-1697-41ef-8de1-a736bb72ab99.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d04df96e-1697-41ef-8de1-a736bb72ab99.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:30:45 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "6562fe261c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: f7a6900b-607d-4f5a-b471-893e019d442f&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 383</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;0a691e91c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:36:12 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/More.svg"
+    path="/uclient/resources/images/More.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="2232"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="3b0d89cd-8d90-4a16-8748-c58cd45b3cf7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c29948c0-d2d0-459c-80aa-ff4c22c04ad3.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c29948c0-d2d0-459c-80aa-ff4c22c04ad3.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:36:12 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "0a691e91c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: 0a0a20bd-bff8-4043-badd-86a0935f9398&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 750</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;8076d02d1c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:30:57 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/OpenEnrollment.svg"
+    path="/uclient/resources/images/OpenEnrollment.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="1559"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="8e617626-a37f-4684-9923-4a2c44997c0a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ba16dd8b-c080-40f6-bf07-da4f1eed2b05.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ba16dd8b-c080-40f6-bf07-da4f1eed2b05.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:30:57 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "8076d02d1c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: c65cb2ac-a82c-4c5d-9c80-9363bc25e126&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 672</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;a79451a91c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:34:24 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/Org.svg"
+    path="/uclient/resources/images/Org.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="594"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="d4dd001a-453d-4701-b095-e383cd99312c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d9d03da0-dfd4-449c-b897-559ac323b3d8.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d9d03da0-dfd4-449c-b897-559ac323b3d8.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:34:24 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "a79451a91c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: 9b49034c-a2e4-4847-81f7-f418902fe035&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 298</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;8059fd8b1c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:33:35 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/PageBlock.svg"
+    path="/uclient/resources/images/PageBlock.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="2057"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="ee587803-6c62-44bc-aa54-a5eea44e844b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8fb81641-cc8e-4d04-9246-1387f0fe950f.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8fb81641-cc8e-4d04-9246-1387f0fe950f.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:33:35 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "8059fd8b1c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: b9e4c971-4daf-47d8-b87a-fe26c9ee7063&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 893</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;b3114ae41c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:36:03 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/PageCompleted.svg"
+    path="/uclient/resources/images/PageCompleted.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="574"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="bb8eab09-4dc8-46ae-be8c-f96f16cdb934" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d8bc84fe-d630-4087-bfe9-e2d3847e5275.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d8bc84fe-d630-4087-bfe9-e2d3847e5275.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:36:03 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "b3114ae41c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: 9ecf591d-616b-40a1-bd4f-6f0be0e20f35&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 316</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;072364c1c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:31:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/PageLeft.svg"
+    path="/uclient/resources/images/PageLeft.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="2588"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="faad1ddf-9ba1-495b-a069-0409ed139741" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a5b6be30-7691-4946-85f6-24986650df76.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a5b6be30-7691-4946-85f6-24986650df76.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:31:48 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "072364c1c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: 7b9e5509-775f-4e2e-a780-5011316870d0&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 1079</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;80db9d4b1c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/PageRight.svg"
+    path="/uclient/resources/images/PageRight.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="2588"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="9c248293-3ef5-4a44-acc1-00c9789b09eb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cd4336e7-cbbe-41aa-9eac-4d75d55bee36.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cd4336e7-cbbe-41aa-9eac-4d75d55bee36.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:31:47 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "80db9d4b1c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: a06e5972-6ffb-445d-9da0-32a20d6131bf&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 1077</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;8068a9261c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:30:45 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/Phone.svg"
+    path="/uclient/resources/images/Phone.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="6779"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="032d8144-f28a-4196-b853-d65e0a270eaa" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6ddc0e0b-f89c-4128-991b-573ceff5f794.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6ddc0e0b-f89c-4128-991b-573ceff5f794.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:30:45 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "8068a9261c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: aac19332-473b-46a4-9331-20ca62e88ccd&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 1988</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;8068a9261c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:30:45 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/Pin.svg"
+    path="/uclient/resources/images/Pin.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="2364"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="881a2592-bd8c-4167-8f8b-f1d26061396e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d83fade7-0029-45aa-9eec-470e6a725394.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d83fade7-0029-45aa-9eec-470e6a725394.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:30:45 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "8068a9261c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: e3489112-586a-4354-9319-954601b46692&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 1058</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;3480108d1c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:33:36 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/Preview.svg"
+    path="/uclient/resources/images/Preview.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="681"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="fba3aa4f-be20-491c-b907-661285db6cf4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e9bab355-2dd2-4532-8450-f857481d10c4.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e9bab355-2dd2-4532-8450-f857481d10c4.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:33:36 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "3480108d1c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: 4ac8810f-b9c0-40eb-9650-a7b4d0ac25e7&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 367</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;5b8826e01c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:35:56 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/Print.svg"
+    path="/uclient/resources/images/Print.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="1395"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="72b3be14-4133-4af5-b432-9db3ed57a152" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_475dd107-5dd3-41f9-8936-2be03bbbbc35.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_475dd107-5dd3-41f9-8936-2be03bbbbc35.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:35:56 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "5b8826e01c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: 21487c60-8f4b-4e3a-b668-defddd1b6899&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 531</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;cbaeb58c1c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:33:36 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/Publish.svg"
+    path="/uclient/resources/images/Publish.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="457"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="95a1d639-3903-4208-9310-a1a5704f80d0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ff85bad6-b372-451c-b00e-e551018a965b.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ff85bad6-b372-451c-b00e-e551018a965b.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:33:36 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "cbaeb58c1c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: 310231a0-10b7-4518-aa4b-c995386d9878&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 280</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;8059fd8b1c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:33:35 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/Puzzle.svg"
+    path="/uclient/resources/images/Puzzle.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="4551"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="2693cfae-4be1-496c-9e87-52eac7239781" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b6a78903-d86c-4c04-87d0-c0042942a5d9.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b6a78903-d86c-4c04-87d0-c0042942a5d9.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:33:35 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "8059fd8b1c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: 23e2aaf9-f16c-450a-82f0-1a3584fc5589&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 1261</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;80db9d4b1c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/uclient/resources/images/RelatedKnowledgeArticle.svg"
+    path="/uclient/resources/images/RelatedKnowledgeArticle.svg"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="4675"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="b653bc8a-0581-4411-b1ed-1d2e01915eb0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6ec975f7-3c4c-4595-8f6e-59f1ed9c9790.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6ec975f7-3c4c-4595-8f6e-59f1ed9c9790.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:31:47 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "80db9d4b1c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: 72822ba3-c768-42da-96bb-b189e1b0772e&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 2053</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;072364c1c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:31:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/RevertToDraft.svg"
+    path="/uclient/resources/images/RevertToDraft.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="3147"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="aec87861-9fd2-435a-ab8a-0c4786e14b05" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_77acf1d9-fe62-4908-bd67-ea01e4ea30b4.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_77acf1d9-fe62-4908-bd67-ea01e4ea30b4.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:31:48 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "072364c1c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: c8b2eee6-a5a0-4e23-a820-3ba13d21c43b&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 1296</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;cbaeb58c1c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:33:36 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/Ribbon.svg"
+    path="/uclient/resources/images/Ribbon.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="1001"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="a71a95b8-fc5d-4c5c-afa9-e03b8fee4aef" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ee6599cb-2cb7-4134-b585-e5d061ea9471.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ee6599cb-2cb7-4134-b585-e5d061ea9471.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:33:36 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "cbaeb58c1c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: 73074580-6bd9-4792-b251-6ca431c99ff6&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 509</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;b3114ae41c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:36:03 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/RoutingRule.svg"
+    path="/uclient/resources/images/RoutingRule.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="303"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="14286d0c-00ca-426f-8ce5-a8b58cf7a925" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e0d989a6-fb1f-4ded-bc42-20e2c3cdd4bd.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e0d989a6-fb1f-4ded-bc42-20e2c3cdd4bd.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:36:03 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "b3114ae41c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: cd430e08-4cb2-4540-9c07-850da3519a87&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 224</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;8068a9261c5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:30:45 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/uclient/resources/images/RunWorkflow.svg"
+    path="/uclient/resources/images/RunWorkflow.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="1761"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="a5f06481-263a-4596-9dc1-b234c2a279b9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7c964ce0-1c7a-4628-a448-79492c59c9c2.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7c964ce0-1c7a-4628-a448-79492c59c9c2.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.4.5018-2211.1" separator="="
+        value="1.4.5018-2211.1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/uclient/sw.js?cdn=false&amp;gcm=true&amp;uci=true&amp;customPage=true&amp;clientHost=1"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/svg+xml&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:30:45 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "8068a9261c5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: 1e4abea8-e501-45bc-b9e7-0758d55404ec&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-content-type-options: nosniff&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 864</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Collector/3.0/" path="/Collector/3.0/"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="browser.pipe.aria.microsoft.com"
+    slaProfileEnabled="false" uid="b05d7149-a9ea-4eab-b87a-fe6549c1e579" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_26464717-1c91-46b5-8271-1b90c89be07f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4e259b4a-9524-4146-b95c-036195170341.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="qsp"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="content-type"
+        recordRawValue="application%2Fbond-compact-binary" separator="="
+        value="application/bond-compact-binary" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-id" recordRawValue="NO_AUTH" separator="="
+        value="NO_AUTH" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="sdk-version" recordRawValue="AWT-Web-JS-1.8.9"
+        separator="=" value="AWT-Web-JS-1.8.9" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="content-encoding" recordRawValue="base64" separator="="
+        value="base64" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="x-apikey"
+        recordRawValue="0b14a44360bf4cae8e1e090ac91a04e5-3c17b97e-6b3a-4a9b-8407-6e450ff03cd2-7084"
+        separator="="
+        value="0b14a44360bf4cae8e1e090ac91a04e5-3c17b97e-6b3a-4a9b-8407-6e450ff03cd2-7084" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-time-epoch-millis" recordRawValue="1670534744650"
+        separator="=" value="1670534744650" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="time-delta-to-apply-millis"
+        recordRawValue="use-collector-delta" separator="="
+        value="use-collector-delta" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Host" value="browser.pipe.aria.microsoft.com"/>
+    <header name="Origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="Referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 0&#xd;
+Content-Type: application/json&#xd;
+Server: Microsoft-HTTPAPI/2.0&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+time-delta-millis: 3985&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: POST&#xd;
+Access-Control-Allow-Headers: Accept, Content-Type, Content-Encoding, Client-Id&#xd;
+Access-Control-Expose-Headers: kill-tokens, kill-duration-seconds, time-delta-millis&#xd;
+Date: Thu, 08 Dec 2022 21:25:48 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[bQkLAUowYjE0YTQ0MzYwYmY0Y2FlOGUxZTA5MGFjOTFhMDRlNS0zYzE3Yjk3ZS02YjNhLTRhOWItODQwNy02ZTQ1MGZmMDNjZDItNzA4NAoBSRJhY3RfZGVmYXVsdF9zb3VyY2WpJDgzMjkzNGVmLThiNmMtNGJkNy04YTAxLTY0OTFhNmQ0YmIzM9EGkqmKup5hywgKASkkYzg0N2ZlOWItNWI5ZS00MmYyLWFhZmEtODA3Nzg1NzVjNDdjcf6EirqeYakGY3VzdG9tyQYTdWNpX21vbml0b3Jfc3VjY2Vzc80NCQkTDUNvbXBvbmVudE5hbWUXU2VydmljZVdvcmtlci5MaWZlY3ljbGUJU2Vzc2lvbklkJDFlYjBhYmY5LTc1ZGEtNDFlMy1iYTBlLWUxMTFjYjJiOTYxNwpBY3Rpdml0eUlkJDY4ZmQwM2MwLWM0ZDUtNGZjNS1hNjA4LWIwNjFlYWE5NjhiOQdNZXNzYWdlvwF7ImlzR2NtU2VydmljZUVuYWJsZWQiOnRydWUsImlzVUNJQ2FjaGVFbmFibGVkIjp0cnVlLCJpc0N1c3RvbVBhZ2VDYWNoZUVuYWJsZWQiOnRydWUsImluc3RhbGxDdXN0b21QYWdlQ2FjaGVPbmx5IjpmYWxzZSwiaXNDZG5FbmFibGVkIjpmYWxzZSwiY2RuRW5kcG9pbnQiOiIiLCJ1Y2lWZXJzaW9uIjoiIiwiY2xpZW50SG9zdCI6IjEifQxFdmVudENvbnRleHQCe30JVXNlckFnZW50UE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQ7IHJ2OjEwNy4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzEwNy4wBk9yaWdpbh5vcmcwMmI0Mjc4NC5jcm0xMS5keW5hbWljcy5jb20NQ2xpZW50VmVyc2lvbg8xLjQuNTAxOC0yMjExLjERVXNlckluZm8uTGFuZ3VhZ2UFZW4tVVMRVXNlckluZm8uVGltZVpvbmUGKzAwOjAwFkRldmljZUluZm8uQnJvd3Nlck5hbWUHRmlyZWZveBlEZXZpY2VJbmZvLkJyb3dzZXJWZXJzaW9uBTEwNy4wEURldmljZUluZm8uT3NOYW1lB1dpbmRvd3MURGV2aWNlSW5mby5Pc1ZlcnNpb24CMTAQRXZlbnRJbmZvLkluaXRJZCQ3YWM5NDYzYS04MDJkLTQ5OTAtYjEzNy1lNDc1ODllNTA5OTQSRXZlbnRJbmZvLlNlcXVlbmNlATEURXZlbnRJbmZvLlNka1ZlcnNpb24QQVdULVdlYi1KUy0xLjguOQ5FdmVudEluZm8uTmFtZRN1Y2lfbW9uaXRvcl9zdWNjZXNzDkV2ZW50SW5mby5UaW1lGDIwMjItMTItMDhUMjE6MjU6NDIuMzM1WgAAAA==]]></textPostContent>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/47e57ec4-08fb-4c75-b3a2-8e410c1f1020/oauth2/v2.0/token"
+    path="/${aadTenantId_param_whole_path_header_text_part}/oauth2/v2.0/token"
+    postCharset="UTF-8" postType="1"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="5570"
+    serverUid="login.microsoftonline.com" slaProfileEnabled="false"
+    uid="5911a4ab-4483-4cc5-bd44-f1f834621e9f" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Y2xpZW50X2lkPSR7ZndfY2xpZW50aWRfcGFyYW1fcGFydF90ZXh0X3BhcnR9JnJlZGlyZWN0X3VyaT1odHRwcyUzQSUyRiUyRnVpLWdici5zYWxlcy5haS5keW5hbWljcy5jb20lMkZhdXRoZW50aWNhdGlvbiZzY29wZT0ke2Z3X2NsaWVudGlkX3BhcmFtX3BhcnRfdGV4dF9wYXJ0fSUyRi5kZWZhdWx0JTIwb3BlbmlkJTIwcHJvZmlsZSUyMG9mZmxpbmVfYWNjZXNzJmNvZGU9MC5BVXNBeEg3bFJfc0lkVXl6b281QkRCOFFJRG9ORGJLUTNGdElyUkZnTWVkcDRpRkxBSWMuQWdBQkFBSUFBQUQtLURMQTNWTzdRcmRkZ0pnN1dldnJBZ0RzX3dRQTlQOG1hTDdCeU03MUVhbWVld1RrSFlNVk5rbFFUczlKN3EwUVpUSFVhTVh4LUhoUXY5b011TXpMRThpYVFfSGJweF9Oc1hxam1GZ3RkYnR5bmJKTWVmdHZnMjREcVBFOVF2UTR6dUJSMFdRMkh0Ym84VW1MT3Z0dHY2TmVhckVLMkJxd3FldnVhaVBjRm9YZm90bFRBYmZrak1zdHRsWnBtLWdBR1U5UmxkOUE1Uk8wb3N5X3dtaW1hMEFSX1lvMF9JM2hPa3JXZ3RPR1BLbU80RVR3RW9icTJoekQtMmdod1RzZWJubWN2eWdWc1RDVXU4SHA4UDNxcVNYQXZ5M0VCN2FzQkxzaHVyaUg5TjB0Nk5CT3dOQ2g1UkszR1BGZjNGOEMxN2Y3U1pDLUNXNGxuWG9LTG1HbHFLTHhRNDlBZVdjY2xuUFF3N0tkOWI1TGw4WERxVGw5c1lnbmpzMnJsQmtxdFhXSC1NNUx5MEhEN3FWZ2tHS0lwTWcydU0ybjU1UWRHMEhSZ19lLVpsTjc0U08yUThRc1l5YzhUMHpSX2p2QnVUMTdnNW9kcGs1bWZkMy13TXJOZGFiWkhQQTViS2p4MEREbkNBZVd6WXlXYXBNN2s0YW9yNnF5WklGRHpZV0IwZ2trSHJveTl1d2xIM0o5LUVuTVdMajR0dl9uVDBCRHdBUUF2Ukw0VUhRLUE0TEU1cmVXdUNoakw3blh6aXhDVUlYMmlpNUJVTUlOS0hWb0JRSHUwSEZxc2k4TzFVcGRTSjBQNEVmMnVFTHB0Y2FzaEVmSFc2YzdlSVRMbU9nbTRITG5jUUVvX3R4Vmp2aGpQZldEZzJJQk93TXp6SkJqQ01pTUJnTC1RLWk3MWFPNkNvcC12Y18waDFkMzBZWExjZEdERk1RcGhEYnBMMzJXUEJNWm5NSUc5cF9WYTVLVTRsT24zMnVMbUVCdEV1NVBYTzVTa2VKclFBWU1ZYVROMFZtWUFjQ2o4NGl5RXZsUlU0aWlyWlpuYzN4YkxFNlBEaEozeDRkZExKaF95MjZ4TG5yZWdWekRvbDV3ejZPYmlteC1hbFZvNFUweUhuS0RteEp3UXljYjNrcEVnemt0Zi1NT0lQUmpUN29ZZjlHVHo5d2tWSVY1VS1QRG5FYmM0TFVxb2J2Tm44U0g1dmlPNHdlT1FtT0U4dWlUV2w1VjZWYnlQYzFiUjlTM0hrZ0NWZlBLS05DZzd6Zk5ZdmlySXdzVzZmM2FaQ040RUxiTXJ5QlBYajlmMHRlbjJvdVBIVWR6LU55d1BZTGFsWmhOdm1jbHduVEFlbWlwemdQekVEUng4RkV5TDZfVHpwY0p1MDl4c0NEMnVSRHlfNkhGd2ZtWk5EeS1PcG9DVThIWXdleEFHV05GUHhHZHgyMkstM0dFT0VJTWRISFpCcGxoZUVwVUh2Ql9KS0VYR1VHOUxqd3NZMm51MFhFaTNseHkxeDBTZUgyR0NFMFhwd0NjYlZ6U2J4ZWNBM29fWlYteUwzeXU5WGIwbUR1cEhxNmJ6SmtMaFNFdlZQOEpMclpTQkE3Q0ZQdW9yU2pQa2ZhLUM4OXNvQTlUaFVPZGhqb2RCYVg4SGdocnR4czE1YTc4ejRFU0tvN3EtWUdhN0RLZ0RlSW1IOEtkWG9Ia1RzZmxuc2gyclNWVFZ2NmY4WDloTEN1UjdiUDZlN1F5X1BIdlRXd280STAxRGd2RDNBJngtY2xpZW50LVNLVT1tc2FsLmpzLmJyb3dzZXImeC1jbGllbnQtVkVSPTIuMjUuMCZ4LW1zLWxpYi1jYXBhYmlsaXR5PXJldHJ5LWFmdGVyLCBoNDI5JngtY2xpZW50LWN1cnJlbnQtdGVsZW1ldHJ5PTV8ODYzLDAsLCx8LCZ4LWNsaWVudC1sYXN0LXRlbGVtZXRyeT01fDF8fHwwLDAmY29kZV92ZXJpZmllcj1iOVJVbTI5amZRUW1IQkdYZlFvX3pKc0VnWUNxNFVPVHJLZTZkOEhicEtvJmdyYW50X3R5cGU9YXV0aG9yaXphdGlvbl9jb2RlJmNsaWVudF9pbmZvPTEmY2xpZW50LXJlcXVlc3QtaWQ9NDI1ZTI4ZWMtYTJlNi00MzFjLWFkZmQtMDQwYTZmMjhjMmU1JlgtQW5jaG9yTWFpbGJveD1PaWQlM0EwMDAwMDAwMC0wMDAwLTAwMDAtMTI5OC1hMmY0NTk0NWQ3ZTYlNDA5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQ=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_ed24e50a-0786-43cc-b7f7-9ef5af0da3e0</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ed24e50a-0786-43cc-b7f7-9ef5af0da3e0.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="client_id"
+        recordRawValue="b20d0d3a-dc90-485b-ad11-6031e769e221"
+        separator="=" value="${fw_clientid_param_part_text_part}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="redirect_uri"
+        recordRawValue="https%3A%2F%2Fui-gbr.sales.ai.dynamics.com%2Fauthentication"
+        separator="="
+        value="https://ui-gbr.sales.ai.dynamics.com/authentication" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="scope"
+        recordRawValue="b20d0d3a-dc90-485b-ad11-6031e769e221%2F.default%20openid%20profile%20offline_access"
+        separator="="
+        value="${fw_clientid_param_part_text_part}/.default openid profile offline_access" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="code"
+        recordRawValue="0.AUsAxH7lR_sIdUyzoo5BDB8QIDoNDbKQ3FtIrRFgMedp4iFLAIc.AgABAAIAAAD--DLA3VO7QrddgJg7WevrAgDs_wQA9P8maL7ByM71EameewTkHYMVNklQTs9J7q0QZTHUaMXx-HhQv9oMuMzLE8iaQ_Hbpx_NsXqjmFgtdbtynbJMeftvg24DqPE9QvQ4zuBR0WQ2Htbo8UmLOvttv6NearEK2BqwqevuaiPcFoXfotlTAbfkjMsttlZpm-gAGU9Rld9A5RO0osy_wmima0AR_Yo0_I3hOkrWgtOGPKmO4ETwEobq2hzD-2ghwTsebnmcvygVsTCUu8Hp8P3qqSXAvy3EB7asBLshuriH9N0t6NBOwNCh5RK3GPFf3F8C17f7SZC-CW4lnXoKLmGlqKLxQ49AeWcclnPQw7Kd9b5Ll8XDqTl9sYgnjs2rlBkqtXWH-M5Ly0HD7qVgkGKIpMg2uM2n55QdG0HRg_e-ZlN74SO2Q8QsYyc8T0zR_jvBuT17g5odpk5mfd3-wMrNdabZHPA5bKjx0DDnCAeWzYyWapM7k4aor6qyZIFDzYWB0gkkHroy9uwlH3J9-EnMWLj4tv_nT0BDwAQAvRL4UHQ-A4LE5reWuChjL7nXzixCUIX2ii5BUMINKHVoBQHu0HFqsi8O1UpdSJ0P4Ef2uELptcashEfHW6c7eITLmOgm4HLncQEo_txVjvhjPfWDg2IBOwMzzJBjCMiMBgL-Q-i71aO6Cop-vc_0h1d30YXLcdGDFMQphDbpL32WPBMZnMIG9p_Va5KU4lOn32uLmEBtEu5PXO5SkeJrQAYMYaTN0VmYAcCj84iyEvlRU4iirZZnc3xbLE6PDhJ3x4ddLJh_y26xLnregVzDol5wz6Obimx-alVo4U0yHnKDmxJwQycb3kpEgzktf-MOIPRjT7oYf9GTz9wkVIV5U-PDnEbc4LUqobvNn8SH5viO4weOQmOE8uiTWl5V6VbyPc1bR9S3HkgCVfPKKNCg7zfNYvirIwsW6f3aZCN4ELbMryBPXj9f0ten2ouPHUdz-NywPYLalZhNvmclwnTAemipzgPzEDRx8FEyL6_TzpcJu09xsCD2uRDy_6HFwfmZNDy-OpoCU8HYwexAGWNFPxGdx22K-3GEOEIMdHHZBplheEpUHvB_JKEXGUG9LjwsY2nu0XEi3lxy1x0SeH2GCE0XpwCcbVzSbxecA3o_ZV-yL3yu9Xb0mDupHq6bzJkLhSEvVP8JLrZSBA7CFPuorSjPkfa-C89soA9ThUOdhjodBaX8Hghrtxs15a78z4ESKo7q-YGa7DKgDeImH8KdXoHkTsflnsh2rSVTVv6f8X9hLCuR7bP6e7Qy_PHvTWwo4I01DgvD3A"
+        separator="=" value="${fw_code_param_whole}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="x-client-SKU"
+        recordRawValue="msal.js.browser" separator="="
+        value="msal.js.browser" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="x-client-VER"
+        recordRawValue="2.25.0" separator="=" value="2.25.0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="x-ms-lib-capability" recordRawValue="retry-after, h429"
+        separator="=" value="retry-after, h429" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="x-client-current-telemetry" recordRawValue="5|863,0,,,|,"
+        separator="=" value="5|863,0,,,|," valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="x-client-last-telemetry" recordRawValue="5|1|||0,0"
+        separator="=" value="5|1|||0,0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="code_verifier"
+        recordRawValue="b9RUm29jfQQmHBGXfQo_zJsEgYCq4UOTrKe6d8HbpKo"
+        separator="="
+        value="b9RUm29jfQQmHBGXfQo_zJsEgYCq4UOTrKe6d8HbpKo" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="grant_type"
+        recordRawValue="authorization_code" separator="="
+        value="authorization_code" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="client_info"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="client-request-id"
+        recordRawValue="425e28ec-a2e6-431c-adfd-040a6f28c2e5"
+        separator="=" value="425e28ec-a2e6-431c-adfd-040a6f28c2e5" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="X-AnchorMailbox"
+        recordRawValue="Oid%3A00000000-0000-0000-1298-a2f45945d7e6%409188040d-6c67-4c5b-b112-36a304b66dad"
+        separator="="
+        value="Oid:00000000-0000-0000-1298-a2f45945d7e6@9188040d-6c67-4c5b-b112-36a304b66dad" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="content-type" value="application/x-www-form-urlencoded;charset=utf-8"/>
+    <header name="Host" value="login.microsoftonline.com"/>
+    <header name="Origin" value="https://ui-gbr.sales.ai.dynamics.com"/>
+    <header name="Referer" value="https://ui-gbr.sales.ai.dynamics.com/"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Cache-Control: no-store, no-cache&#xd;
+Pragma: no-cache&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Expires: -1&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Expose-Headers: Content-Length,Content-Encoding,x-ms-request-id&#xd;
+Access-Control-Allow-Methods: POST, OPTIONS&#xd;
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"&#xd;
+x-ms-request-id: a94f874a-960e-46e9-8af3-5173a6addd00&#xd;
+x-ms-ests-server: 2.1.14167.14 - NEULR2 ProdSlices&#xd;
+x-ms-clitelem: 1,0,0,,&#xd;
+Referrer-Policy: strict-origin-when-cross-origin&#xd;
+X-XSS-Protection: 0&#xd;
+Set-Cookie: fpc=Albkxm7DLVJAl-yRVGZKaCyzJ3mmAQAAAFxNJNsOAAAA; expires=Sat, 07-Jan-2023 21:25:48 GMT; path=/; secure; HttpOnly; SameSite=None&#xd;
+Set-Cookie: x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly&#xd;
+Set-Cookie: stsservicecookie=estsfd; path=/; secure; samesite=none; httponly&#xd;
+Date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+Content-Length: 5570</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;1d8ef44604cb8a1&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Wed, 02 Nov 2022 22:23:16 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/scripts/me/MeControl/10.22290.5/en-US/meBoot.min.js"
+    path="/scripts/me/MeControl/10.22290.5/en-US/meBoot.min.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="180897"
+    serverUid="mem.gfx.ms" slaProfileEnabled="false"
+    uid="3e8bd707-bef3-4ad0-ac6a-39b63ab495c7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_98da2ed1-af4b-4f6f-8a1e-8411d2d352c6</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_98da2ed1-af4b-4f6f-8a1e-8411d2d352c6.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/javascript&#xd;
+content-encoding: br&#xd;
+last-modified: Wed, 02 Nov 2022 22:23:16 GMT&#xd;
+etag: "1d8ef44604cb8a1"&#xd;
+x-cache: TCP_HIT&#xd;
+x-content-type-options: nosniff&#xd;
+access-control-allow-origin: *&#xd;
+x-ua-compatible: IE=edge&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+x-azure-ref-originshield: 0MwKRYwAAAACUDoM5qeS9Q5g13zkGPwSzTE9OMjFFREdFMTgxMABlYWM1ZjQ5Zi1lMDJkLTRmNDEtYjBhNi0yZDUwZjlmY2Y4NGE=&#xd;
+x-azure-ref: 0XFaSYwAAAACMPejV45beTKlCKvk1xBuoTFRTRURHRTEzMDcAZWFjNWY0OWYtZTAyZC00ZjQxLWIwYTYtMmQ1MGY5ZmNmODRh&#xd;
+date: Thu, 08 Dec 2022 21:25:47 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="&quot;dcd89e541d5d91:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 01 Dec 2022 00:39:11 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/apc/trans.gif" path="/apc/trans.gif"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_dev/%resources%/recorded-artifacts/d8cc7baf-c889-4aa0-9903-856400155761.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="org02b42784.crm11.dynamics.com" slaProfileEnabled="false"
+    uid="513443b7-2b2c-41f2-a6c5-4500982309af" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_76137ef5-ae9d-46d5-b96f-5d3b5f4129c9.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0d1e9774-9a0f-4f93-950a-c4541b2ad412.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="f09c21736dfa0a0fb81dd395c0312740" recordRawValue=""
+        separator="" value="" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="te" value="trailers"/>
+    <header name="referer" value="https://org02b42784.crm11.dynamics.com/main.aspx?appid=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;pagetype=entitylist&amp;etn=task&amp;viewid=6cf285aa-eb20-4277-925a-3e9735411ff0&amp;viewType=1039"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ARRAffinity=4c05aa20a8ae615ea2c19583279ec348164094731611434af960e9f6aae0d65e15134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DAD966C793E9CA1835201329; ReqClientId=74b02c6b-5666-4bc1-bf67-70a8b68a8ca4; CrmOwinAuth=MAAAADDi-nJueBHtmYUAIkhDSRoOt3iiE3nkWHjn7HhcnPe7EytexirpiM4bLxy7CksZ7R-LCAAAAAAABAC1WFmv28YVvu51EydIggJF81KkuEANv7TU5Qx3o0ZKidRGihS1UJReBC7DRVzFVeQ_6nt_YCnbN02Momis24FEUOSc7yxzzpxvdH93d_ed2gTJKE3DAPFV6b-4e3H30D--NyvnNf5hMNj1-uFiP909jRd37_yyzIq3j49FWQx6MCdtikGCykeSQRSDbBLDWdfCSJuhMIswIcYiEuA2cAEO8ccXd_dBUdyKcbsNZvk1oBmcIkgS4i_na1W5GTOx3GfHRJfsIyZLPBPmKzMqC2QHzh_B2yio0cBO47f9yhIkjgMKFyAcAer2EL-9yl_FbR_FZjGIAztPi9Qtr_oe7cgM4uLR7FMwiVHpp06RIxflKLFRcZ81zu0GLP6rAU3xCHGcfcTpx8BBSRmU7c-Nuj6xzTJIkyApSjP5KVuYZ1qFL-yjbxb-9zXan7CCnsgenVASiDAzaG3vdu-Hn3h_iaMiNbNBmnsfface-8-nvvdzg8h0nBwVxR-SZnAyu-6q9u_e9cU1creb9u7zTCuqPDFj9GrnmyWqUX67IT9-niFeXzTJ1ZR7BT1Dnn4ajl_m6afKn35neVr39_mrpxK-3ZAvguy68t8BdgAIOIAADCAFb8d9eY3VN32sHp5v6X5d0FLrhOzyw1M3QPlr2uUYRCMWo4CFMJJicYxDwMYczoWkTTscaz-H41kVOL8D_dbapxKkqCHEKfEZcH-T-zQ-4LcFf5ky0epYzJxt26UpNRSGrDbjbf5pND_dDWV-Zg9u1y18Xs1cU-Df8f8Lm54OTKacJ864igM1mrF4QZ2WnWONWJ6zeZsb6nAzd_lpc7vJ1K_KlRIl_XYfOK__F_TbjXtx96enCv7z_2m_va_K4PtQ9teVnGUkfmbG0Pa1kHV57RnA-3K-B4NniMTLJnCK1zREHE5wJEZzLoWRkGAwDnA9BwUQMAwgKQSeTZfFcK7lkg5GIJfDSJrlMBaQBMbQFuBIxFIUzt2u69UlLo5xZgdfQIrr6-NZ6MOXV9Ae8yVBPxPiezObIihfAvaZIL9Pe6GBnceDK6Uq07CvtDZD36oZSmbOKE2Sfle-lsCLu6967U6bHPPyH9983tbGe_yQ58X-t4BhgswTuspoueN4c4_ZoTrnPaH3T-O55TGSlrIZzTXQrLAp0bVWtRdPvl1LS1euAw917kwKgm0b2pNVTMMUSTgdjM3NdOg5_EQ_ini9mIinSNpF3dbQp6IlBmB9qc5EOW7jjSlGlrfdMmWywhMpWBjAmVkSO-LlNavacsYw551Pb7D2pGZxvWD3UbS5aJKFR524dXd440eeZHZrXIgBoI08ChKNmDaZq3ArDs0YIRUIbLOP0xNfeIZamVumTvq4c5Y4TCA-7BfFHU0ZyaHFjqtqndsfOsbtJ7pctdW4kT2GS0XYpbo5RA7RhZxP1DItYdVkTrXHltCBIktV4Hcik-GiRwvU7NQqwnY9c5kZN7b8cUEvL95uOiw8Zu7XeymgUi1nMslQeYU8yqNZjIY6xQpdPtMtdTtj8na0z0-GQ4csiTcbodG3RHvKDF3HUccf2PmRtIPlCJMOMQhNJZziXqho7iHKw8NZnPXikaDSnFo5fAbqC72w2iOOFEhT-njHHI5K2kzC_bxKD5QleefNSdoImlRVHtT1eFpsvInkjls1wchR5rjFstv60qLb2UCrefJsHfdWoEwJo1PgDDughT73R75ALwDI50XRmRY46hg4NOlpcTBH1qq9RCd1rKqi4e-DxmiJ83CMD23QuCqzn3HYVq0FKT2e8c1E8WetY24ccSmKjKBFNNbXw6WOxaZUTXmv1_s5DJbO8LLiO-NUwPlB2HlHegrVwoKkam1PoFqFeD5K7SOSRSHG8mAZnMtIMMbyxaplkHTxeZjLjJL5F4MdRu261SjiMrYBC4zx2YgP44krnvQ2Fcn9skuJI2c46SmNmU6dLM6TJp5rpTE2L-m8YeNZO5RLys4BINQ9l82bUA5pClwcsxNBphh0GIlV426t2TpMiJWWTzStykT3nGfUXGLLrtuJXR2NAlraLHm9wdHxslTayo8VzrMNSBy7PcHVQR3u1onGU1tXneaQdFtBPKej5UbJ9CneAF9NW1NJT0fg0GSejtujShIoEkacpszLkBCZyYk3nP24xZhKZUmTrWAJWskZSpg9RdWU0BoSW4jMpmjjekvlwzgcKeAstS7WQelASZSm14XXjJrQCDd-xATbglZP4VyTCVaoVAUmzErwCJk4rMcGLreUH_imzByH8z1dZhMsmROg2obQUrNVduDTVlCNPTN3Fhp-sVy8jTbHdTotlREQFxYVFiFi41QXRjUs55yKTefplFzY59XCxcdxt9oe2i2csAWUFpCVhPl0ucVDVIorqEaHRQRlc6MRESUcNr6N5zG58OnzabzkMn7FmkeE00SxRi424wvG7yReMjWrkmxD9otOicPNGZiTA1hR4kbX904wwnA_MLb8VI93l8A7TTB_nhGeouUmB8mYmJorwz2sDWnMSyMX38a4NJkrhJJ6S0bixWrJ5LEp7Ce0pEjUZR2weMVMnb0abGf8dKX5irw28JRY2kHstqkPNSnXzII8T8Kzca77XY4NpitPcPsEz-VaP4ubtULMa3Z8Koelusri4yycmTl7Mahd27iHoBDYhAyiReF7y4jSp_VIkIsPrePrj63Dy392SAe_fBf9h3fXcb3-tv9-NciRE-R9O_rni6em1zNaHFokZFjy2sP601CPZPbksXjPG3t-lgzMIrv8aGZZ4LyzWBsB0rIxymQIDDkA9GTCdLCe-UOSBRbFOdSbzPTQtQW-c_qzv5WaufOmF0WmSSPa6jspAyCG7F7UohHzURTiLs5Zb96LFW1RovjN0TYTtSdeeU9e35V5hb4dFP2BPUiTddmfsF5DBl3PMRCjaYvGSKdHtUyTwAhg05TlQptg4e8HPR22w_UHudk47xn63558j1Kv9-4nopwmfQ9CH_64SeM4TR7Ta0eHj-8hPqp-NUCXrI9h8cMOOX99wNkHAdkPsD_8PEDwFlJvIXiYLDZfDoKiqJDzw8avfjYL_nLWvwD41j7QqxQAAA; orgId=f5de068d-2758-4eae-93c5-6af8ff52607e; lastUsedApp=appId=b8ce14bc-5a73-ed11-81ad-0022481b59d5&amp;userId=bb7f6bbb-1973-ed11-81ad-0022481b59d5"/>
+    <header name="accept-language" value="en-US,en;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+cache-control: public,max-age=31536000&#xd;
+allow: OPTIONS,GET,HEAD,POST&#xd;
+content-type: image/gif&#xd;
+content-encoding: gzip&#xd;
+last-modified: Thu, 01 Dec 2022 00:39:11 GMT&#xd;
+accept-ranges: bytes&#xd;
+etag: "dcd89e541d5d91:0"&#xd;
+vary: Accept-Encoding&#xd;
+x-ms-service-request-id: a79e06b5-fee0-42e3-bec7-fc178b59680d&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+public: OPTIONS,GET,HEAD,POST&#xd;
+x-source: 15472451891041501119001459421825416398884419529163162710121925275502049013110162&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+date: Thu, 08 Dec 2022 21:25:48 GMT&#xd;
+content-length: 66</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

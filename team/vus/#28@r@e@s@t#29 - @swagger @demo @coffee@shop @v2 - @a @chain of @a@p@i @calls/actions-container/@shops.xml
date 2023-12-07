@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Shops" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="36eb4e18-5312-42ff-8aac-b4188e36eddc" weightsEnabled="false">
+    <weighted-embedded-action uid="346fb2b3-5516-4900-8df4-b5c432f45956"/>
+    <weighted-embedded-action uid="9bf944d4-3b82-40c5-a4f9-32af84899c6b"/>
+    <weighted-embedded-action uid="f291e4d6-06d3-4425-b797-a6735c082183"/>
+    <weighted-embedded-action uid="0f66741a-8b3d-4542-b258-e4353ba50192"/>
+    <weighted-embedded-action uid="8a1739f7-43a9-4e95-a4f6-f73b1b209684"/>
+</basic-logical-action-container>

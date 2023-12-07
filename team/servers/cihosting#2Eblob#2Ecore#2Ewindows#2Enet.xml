@@ -1,0 +1,5 @@
+<http-server hostname="cihosting.blob.core.windows.net" port="443"
+    ssl="true" uid="cihosting.blob.core.windows.net"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

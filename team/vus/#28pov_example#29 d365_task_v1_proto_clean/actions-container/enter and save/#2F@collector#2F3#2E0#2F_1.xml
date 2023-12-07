@@ -1,0 +1,74 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/Collector/3.0/_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/ced07707-7028-4e73-91fb-008960928275.zip"
+    slaProfileEnabled="false" thinkTime="2429"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ced07707-7028-4e73-91fb-008960928275">
+    <embedded-action>0ca7e2a3-2b2f-442a-8bb8-0f15682c670b</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/Collector/3.0/" path="/Collector/3.0/"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/#28pov_example#29 d365_task_v1_proto_clean/%resources%/recorded-artifacts/ced07707-7028-4e73-91fb-008960928275.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="browser.pipe.aria.microsoft.com"
+    slaProfileEnabled="false" uid="0ca7e2a3-2b2f-442a-8bb8-0f15682c670b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0adb82e4-cc18-49f8-9ab7-abd08da76b67</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5524a601-cb0c-4ff0-a9ac-99fa9d4f4ed7.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="qsp"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="content-type"
+        recordRawValue="application%2Fbond-compact-binary" separator="="
+        value="application/bond-compact-binary" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-id" recordRawValue="NO_AUTH" separator="="
+        value="NO_AUTH" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="sdk-version" recordRawValue="AWT-Web-JS-1.8.9"
+        separator="=" value="AWT-Web-JS-1.8.9" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="content-encoding" recordRawValue="base64" separator="="
+        value="base64" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="x-apikey"
+        recordRawValue="c6c190a1b73c4a63bba89835d546cf28-f2a0482f-a00d-48d9-822e-e89cc89eb64d-7688"
+        separator="="
+        value="c6c190a1b73c4a63bba89835d546cf28-f2a0482f-a00d-48d9-822e-e89cc89eb64d-7688" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client-time-epoch-millis" recordRawValue="1670534786345"
+        separator="=" value="1670534786345" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="time-delta-to-apply-millis" recordRawValue="3146"
+        separator="=" value="3146" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Host" value="browser.pipe.aria.microsoft.com"/>
+    <header name="Origin" value="https://org02b42784.crm11.dynamics.com"/>
+    <header name="Referer" value="https://org02b42784.crm11.dynamics.com/"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 0&#xd;
+Content-Type: application/json&#xd;
+Server: Microsoft-HTTPAPI/2.0&#xd;
+Strict-Transport-Security: max-age=31536000&#xd;
+time-delta-millis: 27&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: POST&#xd;
+Access-Control-Allow-Headers: Accept, Content-Type, Content-Encoding, Client-Id&#xd;
+Access-Control-Expose-Headers: kill-tokens, kill-duration-seconds, time-delta-millis&#xd;
+Date: Thu, 08 Dec 2022 21:26:25 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[bQkLAUpjNmMxOTBhMWI3M2M0YTYzYmJhODk4MzVkNTQ2Y2YyOC1mMmEwNDgyZi1hMDBkLTQ4ZDktODIyZS1lODljYzg5ZWI2NGQtNzY4OAoBSRJhY3RfZGVmYXVsdF9zb3VyY2WpJDNmYjk3ODgxLWQ2ZmEtNDgzNS1hNjc1LTA4N2E1ZmU0OWNjNdEGzrSPup5hywgKASkkYWMxNWJkZmMtN2IyZC00ZTRkLThhNGMtMzM3YTZhMTQzYTc1cayVj7qeYakLcGVyZm9ybWFuY2XJBgtwZXJmb3JtYW5jZc0NCQkVCkFwcEluZm8uSWQIT25lU2hlbGwPQXBwSW5mby5WZXJzaW9uCjIwMjExMDIwLjMLQ29udGV4dF9FbnYHdW5rbm93bgxDb250ZXh0X1NpdGUORHluYW1pY3MzNjVDUk0RQ29udGV4dF9TaXRlU3ViSWQJU2hlbGxOb25lFUNvbnRleHRfV29ya2xvYWRBcHBJZA5EeW5hbWljczM2NUNSTQtDb250ZXh0X1BJRCAxNjcwNTM0NzQyNzQyXzAuNDAxNTU5MDg1NDgzNjI0MxJDb250ZXh0X0lzQ29uc3VtZXIFZmFsc2UPVXNlckluZm8uSWRUeXBlCU9yZ0lkUFVJRBBBcHBJbmZvLkxhbmd1YWdlAmVuEVVzZXJJbmZvLkxhbmd1YWdlBWVuLVVTEVVzZXJJbmZvLlRpbWVab25lBiswMDowMBZEZXZpY2VJbmZvLkJyb3dzZXJOYW1lB0ZpcmVmb3gZRGV2aWNlSW5mby5Ccm93c2VyVmVyc2lvbgUxMDcuMBFEZXZpY2VJbmZvLk9zTmFtZQdXaW5kb3dzFERldmljZUluZm8uT3NWZXJzaW9uAjEwEEV2ZW50SW5mby5Jbml0SWQkOTcyOWI3M2UtZDQ1Ny00NTE1LTk4MTAtZGMzZDQ3ZGQ3NWY1EkV2ZW50SW5mby5TZXF1ZW5jZQEyFEV2ZW50SW5mby5TZGtWZXJzaW9uEEFXVC1XZWItSlMtMS44LjkORXZlbnRJbmZvLk5hbWULcGVyZm9ybWFuY2UORXZlbnRJbmZvLlRpbWUYMjAyMi0xMi0wOFQyMToyNjoyNC4zNDJazSIJCCQLUmVuZGVyQXN5bmMAAAAAAAnVQA9CZWdpbm5pbmdPZlRpbWUAAAAAAADwvxlSZW5kZXJJbXBsZW1lbnRhdGlvblN0YXJ0AAAAAIAl1UAURmlyc3RDb250ZW50ZnVsUGFpbnQAAAAAgCXVQB1zaGVsbF9zdHJpbmdfZG93bmxvYWRfc3RhcnRlZAAAAABA+NpAG3NoZWxsX3N0cmluZ19kb3dubG9hZF9lbmRlZAAAAABAXNtAB1RpbWVvdXQAAAAAANXuQBpCb290U3RyYXBwZXJMb2FkaW5nU3RhcnRlZAAAAAAAAPC/G0Jvb3RTdHJhcHBlckxvYWRpbmdDb21wbGV0ZQAAAAAAAPC/FEhlYWRlckxvYWRpbmdTdGFydGVkAAAAAAAA8L8VSGVhZGVyTG9hZGluZ0NvbXBsZXRlAAAAAAAA8L8aTGVnYWN5SGVhZGVyTG9hZGluZ1N0YXJ0ZWQAAAAAAADwvxtMZWdhY3lIZWFkZXJMb2FkaW5nQ29tcGxldGUAAAAAAADwvxhSZXNwb25zaXZlTG9hZGluZ1N0YXJ0ZWQAAAAAAADwvxlSZXNwb25zaXZlTG9hZGluZ0NvbXBsZXRlAAAAAAAA8L8UU2VhcmNoTG9hZGluZ1N0YXJ0ZWQAAAAAAADwvxVTZWFyY2hMb2FkaW5nQ29tcGxldGUAAAAAAADwvxJDb3JlTG9hZGluZ1N0YXJ0ZWQAAAAAAADwvxNDb3JlTG9hZGluZ0NvbXBsZXRlAAAAAAAA8L8SUGx1c0xvYWRpbmdTdGFydGVkAAAAAAAA8L8TUGx1c0xvYWRpbmdDb21wbGV0ZQAAAAAAAPC/HHNoZWxsX2Jvb3RpbmZvX3JlcXVlc3Rfc3RhcnQAAAAAwArVQBpzaGVsbF9ib290aW5mb19yZXF1ZXN0X2VuZAAAAABA+NpAElBsdXNSZW5kZXJDb21wbGV0ZQAAAAAAAPC/JHNoZWxsX3JlbmRlcl9oZWFkZXJyZXNpemVncm91cF9zdGFydAAAAAAAAPC/InNoZWxsX3JlbmRlcl9oZWFkZXJyZXNpemVncm91cF9lbmQAAAAAAADwvxRTZWFyY2hSZW5kZXJDb21wbGV0ZQAAAAAAAPC/F1NlYXJjaEZhc3RQYXRoVHJpZ2dlcmVkAAAAAAAA8L8Xc2hlbGxfYXBwbGF1bmNoZXJfc3RhcnQAAAAAAADwvxVzaGVsbF9hcHBsYXVuY2hlcl9lbmQAAAAAAADwvyRzaGVsbF9ib290c3RyYXBwZXJfZXhlY3V0aW9uY29tcGxldGUAAAAAAG6oQCRzaGVsbF9sZWdhY3loZWFkZXJfZXhlY3V0aW9uY29tcGxldGUAAAAAAADwvyJzaGVsbF9yZXNwb25zaXZlX2V4ZWN1dGlvbmNvbXBsZXRlAAAAAAAA8L8cc2hlbGxfY29yZV9leGVjdXRpb25jb21wbGV0ZQAAAAAAAPC/HHNoZWxsX3BsdXNfZXhlY3V0aW9uY29tcGxldGUAAAAAAADwvxFUaW1lVG9JbnRlcmFjdGl2ZQAAAAAAAAAAAAAA]]></textPostContent>
+</http-action>

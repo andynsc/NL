@@ -1,0 +1,1 @@
+<variable-currentdate inc-type="5" inc-value="-3" name="now_minus_3_years" order="1" pattern="MM/dd/yyyy" policy="1" range="2" uid="92debbd8-84e8-429d-a683-eefdb572496c" whenOutOfValues="CYCLE_VALUES"/>

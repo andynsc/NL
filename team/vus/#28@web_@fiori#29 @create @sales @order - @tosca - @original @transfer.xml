@@ -1,0 +1,29 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="(Web_Fiori) Create Sales Order - Tosca - Original Transfer">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="bc7a4568-6e7e-48d1-b4be-b0e38d71848c"/>
+        <weighted-embedded-action uid="c1b95afe-53c0-434e-a3d8-90a07c659a62"/>
+        <weighted-embedded-action uid="296e2a6b-16f1-45cb-bdf0-69d2593971cf"/>
+        <weighted-embedded-action uid="f79b8141-4ca8-49f2-9013-1ac25e9b6829"/>
+        <weighted-embedded-action uid="d3c99f62-f1df-459b-85f8-b8ce3bd63656"/>
+        <weighted-embedded-action uid="e68a634a-db78-478b-bf44-c1f8e34843bd"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>
